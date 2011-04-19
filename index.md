@@ -1,6 +1,6 @@
 ---
 layout: default
-title: captn3m0.github.com
+title: captnemo.in
 ---
 {% for post in site.posts %}
   * [{{ post.title }}]({{ post.url }})
