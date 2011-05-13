@@ -15,3 +15,7 @@ Episode :
 
 1. Chapters 1-8
 2. Chapters 9-17
+3. Chapters 18-24*
+4. Chapters 25-29
+
+* Only half of the chapter is present in the respective episode.
