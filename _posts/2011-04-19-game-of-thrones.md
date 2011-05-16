@@ -18,4 +18,4 @@ Episode :
 3. Chapters 18-24*
 4. Chapters 25-29
 
-* Only half of the chapter is present in the respective episode.
+\* Only half of the chapter is present in the respective episode.
