@@ -3,6 +3,17 @@ layout: default
 ---
 <h3>{{post.tite}}</h3>
 <div id="post">{{content}}</div>
+<div id="comment">
+	<!-- START: Livefyre Embed -->
+	<script type='text/javascript' src='http://livefyre.com/wjs/javascripts/livefyre.js'></script>
+	<script type='text/javascript'>
+		var fyre = LF({
+			site_id: 285287,
+			version: '1.0'
+		});
+	</script>
+	<!-- END: Livefyre Embed -->
+</div>
 <!--From https://github.com/mojombo/mojombo.github.com/blob/master/_layouts/post.html -->
 <div id="related">
   <h2>Related Posts</h2>
