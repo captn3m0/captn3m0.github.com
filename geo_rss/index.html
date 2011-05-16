@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/> 
+<title>Google Maps JavaScript API v3 Example: KmlLayer GeoRSS</title> 
+<style>
+html { height: auto;}
+body {  height: auto;  margin: 0;  padding: 0;}
+#map_canvas {  min-height:100%;  min-width:70%;  height:auto;  width:auto;  position:absolute;}
+#controls{  min-width:30%;  float:right;  min-height:100%;  clear:both;}
+ul{	list-style: none;}li{	cursor: pointer;}
+h2{font-size:16px;}
+</style>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://github.com/pioz/jquery-tree/raw/master/jquery.cookie.js"></script> 
+<script type="text/javascript" src="https://github.com/pioz/jquery-tree/raw/master/jquery.tree.js"></script> 
+
+<script type="text/javascript"> 
+  $(document).ready(function() {
+	georss = Object();
+	$('.ucontrol').tree({default_expanded_paths_string : '0/0/0,0/0/2,0/2/4'});
+	 $('li').click(function(){
+		 if(this.getAttribute('rel')){
+			 var prefix = "http://captnemo.in/geo_rss/";
+			 var position = this.getAttribute('rel');
+			 var xml = prefix +  position + '.xml';
+			 if(! georss.hasOwnProperty(position))
+				georss[position] = new google.maps.KmlLayer(xml);
+			 if(georss[position].visible != true){
+				this.style.fontWeight = "bold";
+				georss[position].visible = true;
+				georss[position].setMap(map);
+			}
+			else{
+				this.style.fontWeight = "normal";
+				georss[position].visible = false;
+				georss[position].setMap(null)
+			}
+		}
+	});
+  });
+ 
+</script> 
+<script type="text/javascript"> 
+function initialize() {
+  var myLatlng = new google.maps.LatLng(28.62171907,77.356);
+  var myOptions = {
+    zoom: 14,
+    center: myLatlng,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  } 
+  map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);//Global Variable
+}
+</script> 
+</head> 
+<body onload="initialize()"> 
+	<div id = "controls">
+		<h2>Noida Development Authority<span style="float:right;"><button>Login</button></span></h2>
+		<hr>
+		<ul class="ucontrol">
+			<!-- Group 1 -->
+			<li>
+				Buildings
+				<ul>
+					<li rel="Noida_Banks">Banks</li>
+					<li rel="Noida_Educational_instituation">Educational Institutes</li>
+					<li rel="Noida_Offices">Offices</li>
+					<li rel="Noida_Religious_buildings">Religious Places</li>
+					<li rel="Noida_Resedential_building">Residential Buildings</li>
+					<li rel="Noida_Restaurants">Restaurants</li>
+					<li rel="Noida_Tourist_places">Tourist Places</li>
+				</ul>
+			</li>
+			<!-- Group 2 -->
+			<li>Roads
+				<ul>
+					<li rel="Noida_Road">Roads</li>
+					<li rel="Noida_Road_Buffer">Road Buffer Zone</li>
+				</ul>
+			</li>
+			<!-- Group 3  -->
+			<li>Services
+				<ul>
+					<li rel="Noida_Atms">ATMs</li>
+					<li rel="Noida_Bus_stands">Bus Stands</li>
+					<!--<li rel="Noida_Garage">Garages</li>-->
+					<li rel="Noida_Hospitals">Hospitals</li>
+					<li rel="Noida_Parking_lots">Parking Lots</li>
+					<li rel="Noida_Parks">Parks</li>
+					<li rel="Noida_Petrol_pumps">Petrol Pumps</li>
+					<li rel="Noida_Police_chowki">Police Chowki</li>
+					<li rel="Noida_Police_station">Police Station</li>
+					<li rel="Noida_Power_sub_stations">Power Substation</li>
+					<li rel="Noida_Public_convenience">Public Convenience</li>
+					<li rel="Noida_Shops">Shops</li>
+					<li rel="Noida_Stations">Metro Stations</li>
+					<li rel="Noida_Watertanks">Watertank</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div id="map_canvas"></div> 
+</body> 
+</html> 
