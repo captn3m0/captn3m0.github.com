@@ -17,5 +17,8 @@ Episode :
 2. Chapters 9-17
 3. Chapters 18-24\*
 4. Chapters 25-29
+5. Chapters 30-35
 
 \* Only half of the chapter is present in the respective episode.
+
+Let us know what you think of Game Of Thrones in the comments...
