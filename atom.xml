@@ -7,7 +7,7 @@ layout: nil
  <link href="http://captnemo.in/atom.xml" rel="self"/>
  <link href="http://captnemo.in/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://tom.preston-werner.com/</id>
+ <id>http://captnemo.in</id>
  <author>
    <name>Abhay Rana</name>
    <email>capt.n3m0@gmail.com</email>
@@ -18,7 +18,7 @@ layout: nil
    <title>{{ post.title }}</title>
    <link href="http://captnemo.in{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://tom.preston-werner.com{{ post.id }}</id>
+   <id>http://capt.nemo{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %} 
