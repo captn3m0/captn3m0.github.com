@@ -23,7 +23,7 @@ h2{font-size:16px;}
 	$('.ucontrol').tree({default_expanded_paths_string : '0/0/0,0/0/2,0/2/4'});
 	 $('li').click(function(){
 		 if(this.getAttribute('rel')){
-			 var prefix = "http://captnemo.in/geo_rss/";
+			 var prefix = "http://captnemo.in/projects/geo_rss/";
 			 var position = this.getAttribute('rel');
 			 var xml = prefix +  position + '.xml';
 			 if(! georss.hasOwnProperty(position))
