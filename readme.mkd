@@ -1,0 +1,5 @@
+This is my new blog(running using Jekyll) and hosted on Github. I'll be migrating my wp blog posts over here as soon as I can find a stable enough plugin to do that. Till then you can visit my old blog at <piratecoders.co.cc>. 
+
+You are free to fork this and use this as your own base for your jekyll site.
+
+
