@@ -24,7 +24,7 @@ Username: <your username>
 Domain: chat.facebook.com
 Password: <your password>
 Connection Security: Require Encryption
-Connect Port: 5222
+Connect Port: 443
 Connect Server: talk.google.com
 {% endhighlight }
 
