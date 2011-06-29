@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: gallery
 title: Music Players for Ubuntu
 ---
 I've been working on Ubuntu as my default OS for quite some time, event going ahead and installing [BackTrack][], [Mint][], [Fedora][], and even [Fuduntu][]. As of now I'm working on the latest and greatest version of Ubuntu, Natty Narwhal (11.04). Whenever people come to Ubuntu, the first thing they complain about is the fact that it lacks codec support. Since 10.04, Ubuntu offers to automatically install properietry codecs on first install, so it is lesser of a complaint now. But if you feel that you are missing out on some non-free utils, just install `ubuntu-restricted-extras` to install Flash, Java, Codecs and several other things. 
@@ -25,4 +25,21 @@ Info View is one of the most amazing Now Playing screens I've ever seen (after [
 
 * Other options that I'm aware of, but have not yet tried out include [Clementine][cl], [Boxee][], [Songbird][], [Bluemindo][], [Amarok][] and [various][1] [others][2].
 
-
+<link rel="stylesheet" href="/css/nivo-slider.css" type="text/css" media="screen" />
+<div id="slider-wrapper">
+	<div id="slider" class="nivoSlider">
+		<img src="/img/toystory.jpg" alt="" />
+		<a href="http://dev7studios.com"><img src="/img/up.jpg" alt="" title="This is an example of a caption" /></a>
+		<img src="/img/nemo.jpg" alt="" title="#htmlcaption" />
+	</div>
+	<div id="htmlcaption" class="nivo-html-caption">
+		<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+	</div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+	$('#slider').nivoSlider();
+});
+</script>
