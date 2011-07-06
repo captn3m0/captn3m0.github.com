@@ -56,3 +56,4 @@ And what is the right way?
 
 ![Peace, Love, Linux](/img/peace-love-linux.jpg)
 
+**Update** :According to an article in the [Economic Times](http://economictimes.indiatimes.com/news/international-business/all-new-e-governance-projects-must-work-on-open-source-operating-systems-draft/articleshow/9119827.cms), there is a working draft for bringing Open-Source in e-governence systems under work.
