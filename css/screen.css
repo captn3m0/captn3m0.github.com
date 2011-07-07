@@ -134,7 +134,7 @@ cite
 }
 
 #navigation li { float: left; margin: 0 0 0 5px; padding: 0; }
-
+#navigation li.plus{padding-top:8px;}
 #navigation a:link,
 #navigation a:visited
 {
@@ -269,4 +269,4 @@ a.nivo-prevNav {
 
 
 /** My additional styles */
-#footer img {vertical-align:middle;}
+#footer img {vertical-align:middle;height:24px;}
