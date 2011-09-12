@@ -1,55 +1,107 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" style="height: auto; ">
-	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>{{ page.title }}</title>
-	<meta name="author" content="Abhay Rana">
-	<meta name="design" content="SimplyGold [Sadhana Ganapathiraju]">
-	<meta name="keywords" content="captnemo, abhay rana, sdslabs, github pages, piratecoders, iit roorkee, abhayumt">	
-	<link rel="stylesheet" type="text/css" media="screen" href="/css/screen.css">
-	<link rel="stylesheet" type="text/css" media="handheld" href="/css/mobile.css"/>
-	<link rel="stylesheet" type="text/css" href="/css/syntax.css" />
-	<link href="/atom.xml" rel="alternate" title="CaptNemo.in Atom Feed" type="application/atom+xml" /> 
-	<!-- Google Analytics -->
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-5922129-9']);
-		_gaq.push(['_trackPageview']);
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>{{ page.title }}</title>
+		<meta name="author" content="Abhay Rana">
+		<meta name="keywords" content="captnemo, abhay rana, sdslabs, github pages, piratecoders, iit roorkee, abhayumt">
+		<link rel="stylesheet" href="/css/bootstrap-1.2.0.min.css">
+		<link rel="stylesheet" href="/css/syntax.css" />
+		<link href="/atom.xml" rel="alternate" title="CaptNemo.in Atom Feed" type="application/atom+xml" /> 
+		<style>
+		.forkme {
+		position: absolute;
+		width: 149px;
+		height: 149px;
+		top: 0;
+		right: 0;
+		z-index: 999;
+		opacity: 0.7;
+		-webkit-transition-duration: 500ms;
+		-moz-transition-duration: 500ms;
+		-o-transition-duration: 500ms;
+		}
+		.imagedropshadow {
+			padding: 5px;
+			border: solid 1px #EFEFEF;
+		}
+		a:hover img.imagedropshadow {
+			border: solid 1px #CCC;
+			-moz-box-shadow: 1px 1px 5px #999;
+			-webkit-box-shadow: 1px 1px 5px #999;
+				box-shadow: 1px 1px 5px #999;
+		}
+		</style>
+		<!-- Google Analytics -->
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-5922129-9']);
+			_gaq.push(['_trackPageview']);
 
-		(function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
-	<!-- Mixpanel -->
-	<script type="text/javascript">var mpq=[];mpq.push(["init","f7260bb73231c252f844029edb219d5c"]);(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=(document.location.protocol==="https:"?"https:":"http:")+"//api.mixpanel.com/site_media/js/api/mixpanel.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script>
-</head>
-<body id="bhome">
-	<div id="container">
-		<div id="header">
-			<h1><a href="/" title="Home"><span>captnemo.in</span></a></h1>
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+	</head>
+<body style="padding-top: 40px;" >
+    <a href="https://github.com/parisjs/parisjs-website" class="forkme">
+        <img src="https://a248.e.akamai.net/assets.github.com/img/7afbc8b248c68eb468279e8c17986ad46549fb71/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub">
+    </a>
+    <header>
+		<div class="topbar">
+		  <div class="topbar-inner">
+		    <div class="container">
+		      <h3><a href="/">CaptNemo.in</a></h3>
+		      <ul class="nav">
+		        <li class="active"><a href="/">Home</a></li>
+		        <li><a href="/projects/" title="Projects">Projects</a></li>
+		        <li><a href="/contact/" title="Contact">Contact</a></li>
+		      </ul>
+		    </div>
+		  </div><!-- /topbar-inner -->
 		</div>
-		<div id="navigation">
-			<ul>
-				<li id="lhome"><a href="/" title="Home">Home</a></li>
-				<li ><a href="http://piratecoders.co.cc" title="Blog">Blog</a></li>
-				<li ><a href="/projects/" title="Projects">Projects</a></li>
-				<li ><a href="/contact/" title="Contact">Contact</a></li>
-				<li><a href="/atom.xml" title="Atom RSS Feed">RSS</a></li>
-				<li class="plus"><g:plusone href="http://captnemo.in"></g:plusone></li>
-				<li class="plus"><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=244768545535841&amp;xfbml=1"></script><fb:like href="http://captnemo.in" send="false" layout="button_count" width="50" show_faces="false" font=""></fb:like></li>
-			</ul>
+	</header>
+	<div class="row container">
+		<div class="span10 columns">
+			<div class="page-header">
+				<h1>{{ page.title }}</h1>
+			</div>
+		   	{{content}}
 		</div>
-		<div id="wrapper">		
-			<div id="content-wrapper">			
-				<div id="content">
-				{{content}}			
-			</div>		
-		</div>  
-		<div id="footer">
-			<a href="http://github.com/captn3m0/">Abhay Rana</a> | Some rights reserved | Design by <a href="http://www.nikhedonia.com/" title="SimplyGold">Sadhana Ganapathiraju</a> | 		
-			Analytics using <a href="http://mixpanel.com/f/streams"><img src="http://mixpanel.com/site_media/images/partner/badge_light.png" alt="Web Analytics" /></a> | 
-			Made on <a href="http://www.ubuntu.com"><img src="/img/ubuntu.png"></a>
+		<div class="span5 columns">
+			<!--From https://github.com/mojombo/mojombo.github.com/blob/master/_layouts/post.html -->
+			<div id="related">
+			  <h2>about the author</h2>
+			  <a href="https://plus.google.com/u/0/116290713924645527187/posts""><img src="https://lh5.googleusercontent.com/-Xpo3Ns8gF50/AAAAAAAAAAI/AAAAAAAABa0/VdgJtzvFoF4/photo.jpg?sz=200" class="headshot imagedropshadow"></a>
+			  </a>
+			  <dl>
+			  	<dt>Name:</dt>
+			  	<dd>Abhay Rana</dd>
+		  	  </dl>
+		  	  <dl>
+		  	  	<dt>Github:</dt>
+		  	  	<dd><a href="http://github.com/captn3m0">captn3m0</a></dd>
+		  	  </dl>
+		  	  <dl>
+		  	    <dt>Social</dt>
+		  	    <dd><a href="https://www.facebook.com/capt.n3m0">Facebook</a> <a href="https://plus.google.com/u/0/116290713924645527187/posts">Google+</a>
+		  	  </dl>
+			  </div>
+			  {% if site.related_posts.length > 0 %}
+			  <h2>Related Posts</h2>
+			  <ul class="posts">
+				{% for post in site.related_posts limit:3 %}
+				  <li><span>{{ post.date | date_to_string }}</span>
+				  <a href="{{ post.url }}">{{ post.title }}</a></li>
+				{% endfor %}
+			  </ul>
+			  {% endif %}
+			  <hr>
+			  This post was published on {{page.date | date_to_string}}
+			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+</body>
+</html>
