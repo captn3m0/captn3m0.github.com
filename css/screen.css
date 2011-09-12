@@ -49,7 +49,7 @@ blockquote
 	margin: 10px 20px;
 }
 
-code { font-family: Consolas, Verdana, Arial, "Courier New"; }
+code { background:white;font-family: monospace,Consolas, Verdana, Arial, "Courier New"; }
 
 abbr, acronym { font-style: normal; border-bottom: 1px dotted #333333; cursor: help; }
 
