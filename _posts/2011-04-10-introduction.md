@@ -10,9 +10,9 @@ Here is my current setup :
 
 * Dell Inspiron 1545
 * T-6400 Intel Core 2 Duo
-* Ubuntu Natty Narwhal 11.04 (Default OS)
+* Ubuntu Oneric Ocelot 11.10 (Default Primary OS)
 * <del>[Elementary OS][eos] (Under Testing)</del> Will be moving to Gnome Shell soon
-* [Samurai WTF][samurai], [Backtrack 5][bt5] for pen-tests
+* <del>[Samurai WTF][samurai], [Backtrack 5][bt5]</del> for pen-tests
 * Moved from Windows after remaining a staunch supporter for 5 years
 
 

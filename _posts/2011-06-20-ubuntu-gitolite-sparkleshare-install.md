@@ -23,11 +23,11 @@ Sparkleshare asks you to setup a git-server somewhere and use it as a remote sto
 ###Setup Gitolite
 ####Assumptions :
 1. You are running a stable Linux OS (Fedore/Debian/Ubuntu etc)
-2. user@host1 is your own computer
-3. user2@host2 is the primary computer where you intend to start the server
-4. The gitolite username is sparkle
+2. `user@host1` is your own computer
+3. `user2@host2` is the primary computer where you intend to start the server
+4. The gitolite username is `sparkle`
 
-{% highlight bash linenos %}
+<pre class="prettyprint lang-sh">
 #On your host machine (which will be remote admin to the git share)
 ssh-copy-id user2@host2:/tmp/user.tmp
 #should not ask for password:
@@ -40,19 +40,18 @@ git clone sparkle@host2:gitolite-admin
 #Should work, or else you did something wrong. Go read the [gitolite docs](http://sitaramc.github.com/gitolite/doc/)
 cd gitolite-admin
 nano conf/gitolite.conf
-{% endhighlight %}
+</pre>
 
 ###Setup WildRepos
 Edit the file and add the following lines at the bottom :
-
-{% highlight perl %}
+<pre class="prettyprint lang-pl">
 repo	share/[a-z0-9]{6}
 	C	=   @all
 	RW+	=   CREATOR
-{% endhighlight %}
+</pre>
 
 Now we need a method to allow anyone to create git repositories on the server. This is accomplished via Gitolite's very powerful Wildcard Repositories feature. 
-{% highlight linenos bash %}
+<pre class="prettyprint lang-sh">
 #Login back to server
 ssh user2@host2
 #Since we are using package install method, sparkle's password needs to be set
@@ -64,11 +63,11 @@ logout
 #Now we push our admin repo to add the wildrepo settings
 #you're still inside the gitolite-admin directory, right
 git push
-{% endhighlight %}
+</pre>
 
 ###Setup Client
 Now, your server is all setup, but there is still stuff to be done :
-{% highlight bash linenos %}
+<pre class="prettyprint lang-sh">
 #On user1@host1
 mkdir -p ~/.ssh
 sudo add-apt-repository ppa:warp10/sparkleshare
@@ -76,22 +75,26 @@ sudo apt-get update
 sudo apt-get install sparkleshare libwebkit1.1-cil git-core
 sparkleshare start &
 sparkleshare stop
-{% endhighlight %}
+</pre>
 When you run sparkleshare for the first time, it asks you for a few things, including your email-id. Fill in those details, but do not setup your repository yet. You need to first allow your sparkleshare account access to gitolite.
-{% highlight bash %}
+
+<pre class="prettyprint lang-sh">
 cd ~/.config/sparkleshare
 ls #Should reveal files called sparkleshare.email.key and sparkleshare.email.key.pub
 cp sparkleshare.email.key.pub /path/to/gitolite-admin/keydir/
 cd /path/to/gitolite-admin/
 git commit -am "Added sparkleshare client1"
 git push
-{% endhighlight %}
+</pre>
+
 Now if all goes well, you'd have allowed acess to gitolite for this user. We now need to re-run the sparkeshare setup again. Find it in your Applications. Now when it asks you to fill a repository path, type in the following details :
 
-{% highlight yaml %}
+
+<pre class="prettyprint lang-yaml">
 Server: ssh://sparkle@host2
 Path: /share/fh73ah
-{% endhighlight %}
+</pre>
+
 
 Please take care of the slashes, otherwise sparkleshare fails to recognize it as a valid ssh address. Instead of fh73ah, you can type any alphanumeric string of 6 characters. You can change this in your gitolite-admin conf.
 

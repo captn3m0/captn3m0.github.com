@@ -13,20 +13,20 @@ Soon, V8 was developed as a backend to an evented IO library, that is now known 
 Basically node allows you bring home the same good anonymous functions from [JQuery](http://jquery.org) on your server. In advanced terms, node allows evented input/output, meaning all the IO calls are non-blocking and evented, or scheduled in parallel. 
 
 ###Traditional I/O:
-{% highlight javascript %}
+<pre class="prettyprint">
 data = file.read("/foo/bar");
   // wait...
   doSomething(data);
-{% endhighlight %}
+</pre>
 
 ###Evented I/O:
-{% highlight javascript %}
+<pre class="prettyprint">
 file.read("/foo/bar", function(data) {
   // called after data is read
   doSomething(data);
 });
 otherThing(); // execute immediately;
-{% endhighlight %}
+</pre>
 
 ##How To Install
 
@@ -93,16 +93,14 @@ node.js comes with "batteries included", and part of that battery is node's abil
 
 This is a very simple HTTP server, written using the http module(included) in node :
 
-{%  highlight javascript  %}
-var http=require('http');
+<pre class="prettyprint">var http=require('http');
 http.createServer(function(request, response) {
   var headers = { "Content-Type": "text/plain" };
   response.sendHeader(200, headers);
   response.sendBody("Hello, World!\n");
   response.finish();
 }).listen(8000);
-{%  endhighlight %}
-
+</pre>
 As you can see, the createServer function takes a callback function as its argument. The callback function is called for each of the requests. All events are handled easily and instead of a server handling threads, memory etc, node just handles requests. In essence, a request generates an *event*, which is then handled by the callback function provided. 
 
 This is quite similar to the way we program event loops in javascript on the browser.
@@ -111,8 +109,6 @@ This is quite similar to the way we program event loops in javascript on the bro
 There are loads of interesting projects using node. Visit the [modules section](https://github.com/joyent/node/wiki/modules) on the node wiki for a list of interesting node modules available. These include node clients for various libraries such as [Databases](https://github.com/joyent/node/wiki/modules#wiki-database)(mysql, postgre, sqlite, Cassandra etc), Microframeworks (lik Sinatra), Frameworks, wikis, CMS, parsers and what not.
 
 I'd recommend starting out with [Connect](https://github.com/senchalabs/Connect) which is a middleware for node, and allows you to wrap your application easily around it. For databases, you can either go with the standard Relational ones(like mysql) or be brave, and take a spin with the noSQL ones like CouchDB, Cassandra, or MongoDB. All of them have native bindings available for node.js.
-
-#Links
 
 ##References
 * [Node On GitHub](https://github.com/joyent/node/), including the wiki, documentation & code
@@ -127,7 +123,7 @@ I'd recommend starting out with [Connect](https://github.com/senchalabs/Connect)
 * [The node Beginner book](http://nodebeginner.org/)
 * [NodeCasts](http://nodecasts.org/)
 
-##Some Introductory [StackOverflow](http://stackoverflow.com) Questions on node
+##[StackOverflow](http://stackoverflow.com) Questions on node
 * [How to store Node.js deployment settings/configuration files?](http://stackoverflow.com/questions/5869216)
 * [How do I get started with NodeJS](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-nodejs)
 * [What is node.js](http://stackoverflow.com/questions/1884724/what-is-node-js)
