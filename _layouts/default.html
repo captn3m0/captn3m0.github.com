@@ -15,7 +15,7 @@
 		height: 149px;
 		top: 0;
 		right: 0;
-		z-index: 999;
+		z-index: 99999;
 		opacity: 0.7;
 		-webkit-transition-duration: 500ms;
 		-moz-transition-duration: 500ms;
@@ -45,9 +45,9 @@
 			})();
 		</script>
 	</head>
-<body style="padding-top: 40px;" >
-    <a href="https://github.com/parisjs/parisjs-website" class="forkme">
-        <img src="https://a248.e.akamai.net/assets.github.com/img/7afbc8b248c68eb468279e8c17986ad46549fb71/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub">
+<body style="padding-top: 50px;" >
+    <a href="https://github.com/captn3m0/captn3m0.github.com" class="forkme">
+        <img src="https://a248.e.akamai.net/assets.github.com/img/4c7dc970b89fd04b81c8e221ba88ff99a06c6b61/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub">
     </a>
     <header>
 		<div class="topbar">
@@ -89,7 +89,6 @@
 		  	    <dd><a href="https://www.facebook.com/capt.n3m0">Facebook</a> <a href="https://plus.google.com/u/0/116290713924645527187/posts">Google+</a>
 		  	  </dl>
 			  </div>
-			  {% if site.related_posts.length > 0 %}
 			  <h2>Related Posts</h2>
 			  <ul class="posts">
 				{% for post in site.related_posts limit:3 %}
@@ -97,7 +96,6 @@
 				  <a href="{{ post.url }}">{{ post.title }}</a></li>
 				{% endfor %}
 			  </ul>
-			  {% endif %}
 			  <hr>
 			  This post was published on {{page.date | date_to_string}}
 			</div>
