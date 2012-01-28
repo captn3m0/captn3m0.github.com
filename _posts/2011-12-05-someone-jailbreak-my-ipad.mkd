@@ -1,0 +1,45 @@
+---
+layout: post
+title: Someone jailbreak my iPad
+---
+
+>This is a rant, mainly targeted at Apple. If you are a Apple fanboi, just [go](daringfireball.net) [elsewhere](https://www.eff.org/)
+
+Please, and quickly. I can't take another minute of this iTunes. It refuses to properly sync songs, does not update my songs tag info, unless I play them individually, and to top it all, my iPad gives out incorrect usage information about my apps. I tried adding them up, and it seems the total is way off. And since everything in thr Apple land lives happily inside the propertiery Apple File System, I cannot even check it realiabily. And don't even get me started on the the application transfers. The file sharing system is so bad in iOS that almost evey other app comes built in with a wi-fi or ftp server. When alomst mevery app that deals with files starts ro do that, there is something definately wrong with your file system approach.
+
+And why doesn't my itunes recognize any video files at all. I was given a warning about needing QuickTime, and I installed it, but it still refuses to play them in iTunes, and doesn't even give me an error string to hold on to. 
+
+Seriously, iTunes go back to the bloatware land that you came from. I'll try my luck with something else from now on. And only if someone could give me the specs for the arcane plist format, I might write a PC version of the iBooks app. And calibre needs to fix up its pdf to epub approach. Inline styles are not used anymore, doesn't it know already.
+
+###A few days later...
+
+After spending a few more days with my iPad, I have developed a love/hate relationship wit it. I hate the ugly sync process, which still refuses to sync videos, telling me I have to delete everything to start sync. I love it for its ease of use, awesome touch, and aesthetics. I hate it for its lack of support, oepn sync protocols, and most of all Apple's close mindedness regarding unsigned binaries. 
+
+Seriously Apple, if tablets are the computer of the future, treat them as auch. Let me treat it as a fully functional comouter, which lets me run whatever I want, with whatever privileges I want. 
+
+If Microsoft had tried to create such a walled garden of apps in Windows, would it have been so successful? Granted, people would love running apps from Windows 8 Marketplace, if only because it would keep their software updated. But Windows at least has a choice,to allow me to download a tiny binary from a small Windows Developer who does not want to pay MS just to let people use his/her apps.
+
+An appstore is an excellent idea, executed brilliantly by Apple, but please follow MS and give us an official way to do whatever the hell I want to do with my iPad.
+
+###A few weeks later...
+
+I really hate my iPad now, especially once I realise that my cheap Nokia cell phone has tether support, while my iPad does not.  To do any task that may require you access to a normal file system, such as cloning a repository from github, or editing an document anywhere is impossible in the device. I love playing games on it, though, but it seems like a really costly device to play games and read books on. Get the Fire at less than half the price, and root it to install cyanogen mod (which will soon be available for the Fire). 
+
+Sometimes, I wonder if Indian carriers would have installed Carrier IQ on an iPad (which comes without a SIM card). I'll find out as soon as I can root it.
+
+One of my friends gave a very serious comment on the iPad : "It seems as if you have rented the device from Apple, rather than bought it". And I've come to realise that its a reflection of the sad state that the electronics manufacturing industry is in today.
+
+
+###A few more weeks later :
+
+**I jailbroke my iPad :)**
+
+
+##Further links : 
+
+- [Jailbreaking Is Not A Crime](Jailbreakingisnotacrime.org) - Sign the petition
+- [Kindle fire unroots itself](http://gizmodo.com/5863640)
+- [Fire doesnt allow you to visit android marketplace](http://www.theverge.com/2011/12/16/2642039/)
+- [Carrier IQ controversy](http://lifehacker.com/5863895/)
+- [Nokia dumb phone features](http://www.gsmarena.com/nokia_x2_01-3610.php) - X2-01
+- How [I Jailbroke my iPad](http://cydiablog.com/category/jailbreak/)
