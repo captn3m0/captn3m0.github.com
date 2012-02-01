@@ -1,0 +1,18 @@
+---
+layout: post
+title: Things I love about Github
+---
+
+A slide from GitHub's famous "How Github uses Github to build Github talk":
+
+<script src="http://speakerdeck.com/embed/4e79b461c9bdcb003f00331d.js?slide=10"></script>
+
+In their recent version of the talk at RubyConf 2011, they changed the slide slightly:
+
+![No pings](http://dl.dropbox.com/u/1766113/vlcsnap-2012-02-01-16h24m32s103.png)
+
+It now reads, "No Pings" instead of "No Managers".
+
+Not nitpicking, just paying attention.
+
+If you haven't seen the talk (or just saw the slideshow), you should go and watch the talk (31 mins) [Right Now](http://confreaks.com/videos/706-rubyconf2011-how-github-uses-github-to-build-github)
