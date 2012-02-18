@@ -6,5 +6,7 @@ Dear Google,
 
 Please release the Google+ write API as well. In case you've forgotten, its been 6 months since you launched. I've got stuff I wanna post, stuff I wanna develop. Please keep to your promises, and don't make me quote Steve Yegge. 
 
+Also, while you are at it, please fix [this issue](http://code.google.com/p/google-plus-platform/issues/detail?id=83) and make the list of +1d url's available.
+
 Thanks,
 A frustrated developer and Google+ user.
