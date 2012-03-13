@@ -1,7 +1,7 @@
---
+---
 layout: post
 title: Planet IITR Update
---
+---
 
 So, I was just going through my old blog posts, and saw the [Planet IITR Update](http://captnemo.in/blog/2011/07/09/announcing-planet-iitr/), which I craeted out of a need for people to be able to find blogs from other people in IITR.
 
