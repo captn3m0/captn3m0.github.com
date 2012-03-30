@@ -1,272 +1,105 @@
-body 
-{
-	margin: 0;
-	padding: 0;
-	background-color: #f9f9f9;
-	font: normal 16px "Ubuntu","Segoe UI",  Verdana, Georgia, Sans-Serif;
+.body{
+	margin-top:20px;
 }
-
-/* Links */
-
-a:link { color: #335577; text-decoration: none; }
-
-a:visited { color: #557799; text-decoration: none; }
-
-a:hover, a:active { color: #ffffff; background-color: #335577; }
-
-/* Html Elements */
-
-h1, h2, h3, h4, h5, h6 { font-weight: normal; margin: 10px 0; padding: 0; }
-
-h1 { font-size: 32px; }
-
-h2 { font-size: 28px; }
-
-h3 { font-size: 24px; }
-
-h4 { font-size: 20px; }
-
-h5 { font-size: 16px; }
-
-h6 
-{ 
-	font-size: 13px; 
-	text-transform: uppercase; 
-	margin: 5px 0; 
-	font-weight: bold; 
+.nav{
+	margin:20px 0 0 90px;
 }
-
-ul { line-height: 1.8em; list-style-type: square; color: #333333; }
-
-ol { line-height: 1.8em; color: #333333; }
-
-blockquote
-{
-	color: #555555;
-	background-color: #eeeeee;
-	border: 1px solid #cfcfcf;
-	padding: 5px 10px; 
-	margin: 10px 20px;
+	.nav li{
+		font-size:30px;
+		line-height:40px;
+		width:120px;
+		text-align:right;
+	}
+.blog-title{
+	font-family:"Ubuntu", "Segoe-UI", Segoe;
+	width:210px;
+	text-align:right;
 }
-
-code { background:white;font-family: monospace,Consolas, Verdana, Arial, "Courier New"; }
-
-abbr, acronym { font-style: normal; border-bottom: 1px dotted #333333; cursor: help; }
-
-em { font-style: italic; }
-
-strong { font-weight: bold; }
-
-del { text-decoration: line-through; color: #555555; font-size: 11px; }
-
-ins { text-decoration: none; color: #679b3c; }
-
-p em, 
-cite
-{
-	font-family: Consolas, Verdana, Serif;
+	.blog-title a:hover{
+		text-decoration:none;
+	}
+.content{
+	max-width:700px;
 }
-
-/* Structure */
-
-#container
-{
-	width: 960px;
-	margin: 0 auto;
+	#post{
+		margin-top:10px;
+	}
+	#post p{
+		font-size:15px;
+		line-height:20px;
+	}
+	#fbcomments, .fb_iframe_widget, .fb_iframe_widget[style], .fb_iframe_widget iframe[style], #fbcomments iframe[style] {width: 100% !important;}
+.content blockquote{
+	border-left: 5px solid #0E53A7;
+	padding-left:5px;
 }
-
-#header
-{
-	padding: 15px 0;	
+.content h1{
+	font-size:40px;
+	line-height:60px;
 }
-
-#navigation
-{
-	float: left; 
-	width: 100%;
-	background-color: #333333;
+.image img{
+	width:201px;
+	height:201px;
 }
-
-#wrapper
-{
-	margin: 0;
-	padding: 0;
-	clear: both;
-	float: left;
-	width: 100%;
+/** Hide sidebar by default **/
+.sidebar{
+	display:none !important;
 }
-
-#content-wrapper
-{
-	width: 100%;
-	float: left;
+@media only screen and (min-width: 1100px) {
+	.sidebar{
+		display:block !important;
+	}
+		.sharebox{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			border: 1px solid #CCC;
+			width: 55px;
+			background: white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			-moz-background-clip: padding;
+			-webkit-background-clip: padding-box;
+			background-clip: padding-box;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			-moz-background-clip: padding;
+			-webkit-background-clip: padding-box;
+			background-clip: padding-box;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			-moz-background-clip: padding;
+			-webkit-background-clip: padding-box;
+			background-clip: padding-box;
+			-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.05);
+			-moz-box-shadow: 0 0 10px rgba(0,0,0,0.05);
+			box-shadow: 0 0 10px rgba(0,0,0,0.05);
+			-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.05);
+			-moz-box-shadow: 0 0 10px rgba(0,0,0,0.05);
+			box-shadow: 0 0 10px rgba(0,0,0,0.05);
+			-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.05);
+			-moz-box-shadow: 0 0 10px rgba(0,0,0,0.05);
+			box-shadow: 0 0 10px rgba(0,0,0,0.05);
+			padding: 5px;
+			min-height: 274px;
+			position:fixed;
+			top:50px;
+		}
+			.sharebox li{
+				padding-bottom: 2px;
+			}
+	.icon-rss{
+		background-image: url("/img/rss.png");
+		background-position: 0px 0px;
+	}
+	.icon-gh{
+		background-image: url("/img/github.png");
+		background-position: 0px 0px;
+	}
+	.share-btn{
+		font-size:9px;
+	}
 }
-
-#content
-{
-	float: left;
-	padding: 20px;
-	line-height: 1.6em;
-}
-
-
-#footer
-{
-	clear: both;
-	float: left;
-	width: 100%;
-	margin: 20px 0;
-	color: #555555;
-	text-align: center;
-	padding: 10px 0;
-	background-color: #cfcfcf;
-}
-
-/* Navigation */
-
-#navigation ul
-{
-	margin: 0 5px;
-	float: left;
-	width: 95%;
-	padding: 10px 0;
-	list-style-type: none;
-}
-
-#navigation li { float: left; margin: 0 0 0 5px; padding: 0; }
-#navigation li.plus{padding-top:8px;}
-#navigation a:link,
-#navigation a:visited
-{
-	float: left;
-	display: block;
-	color: #99bbdd;
-	padding: 5px 10px;
-	border: 1px solid #333333;
-}
-
-#navigation a:hover,
-#navigation a:active
-{
-	color: #ffffff;
-	background-color: #557799;
-	border-color: #99bbdd;
-}
-
-#bhome li#lhome a,
-#bproducts li#lproducts a,
-#bsupport li#lsupport a,
-#bblog li#lblog a,
-#babout li#labout a,
-#bcontact li#lcontact a
-{
-	color: #f9f9f9;
-	background-color: #557799;
-	border-color: #7799bb;
-}
-
-/* Header */
-
-#header h1 { margin-bottom: 0; }
-
-#header h1 a:link,
-#header h1 a:visited
-{
-	color: #333333;
-}
-
-#header h1 a:hover,
-#header h1 a:active
-{
-	color: #000000;
-	background-color: transparent;
-}
-
-#header h1 span { font-weight:bold; }
-
-
-/* Footer */
-
-#footer a:hover,
-#footer a:active
-{
-	color: #003355;
-	background-color:transparent;
-}
-#page{
-width:auto;
-}
-
-/** This is for the Slider */
-#slider-wrapper {
-    width:960px;
-    height:400px;
-    margin:0 auto;
-    margin-top:10px;
-}
-
-#slider {
-	position:relative;
-    width:600px;
-    height:300px;
-    margin-left:200px;
-	background:url(/img/loading.gif) no-repeat 50% 50%;
-}
-#slider img {
-	position:absolute;
-	top:0px;
-	left:0px;
-	display:none;
-}
-#slider a {
-	border:0;
-	display:block;
-}
-
-.nivo-controlNav {
-	position:absolute;
-	left:260px;
-	bottom:-42px;
-}
-.nivo-controlNav a {
-	display:block;
-	width:22px;
-	height:22px;
-	background:url(/img/bullets.png) no-repeat;
-	text-indent:-9999px;
-	border:0;
-	margin-right:3px;
-	float:left;
-}
-.nivo-controlNav a.active {
-	background-position:0 -22px;
-}
-
-.nivo-directionNav a {
-	display:block;
-	width:30px;
-	height:30px;
-	background:url(/img/arrows.png) no-repeat;
-	text-indent:-9999px;
-	border:0;
-}
-a.nivo-nextNav {
-	background-position:-30px 0;
-	right:15px;
-}
-a.nivo-prevNav {
-	left:15px;
-}
-
-.nivo-caption {
-    text-shadow:none;
-    font-family: Helvetica, Arial, sans-serif;
-}
-.nivo-caption a { 
-    color:#efe9d1;
-    text-decoration:underline;
-}
-
-
-/** My additional styles */
-#footer img {vertical-align:middle;height:24px;}
