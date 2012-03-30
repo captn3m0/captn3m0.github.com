@@ -30,9 +30,9 @@
 	<body>
 		<div class="body container-fluid">
 			<div class="row-fluid">
-				<div class="sidebar span3">
+				<div class="left-sidebar span3">
 					<div class="image">
-						<img class="thumbnail" src="https://lh5.googleusercontent.com/-Xpo3Ns8gF50/AAAAAAAAAAI/AAAAAAAABa0/VdgJtzvFoF4/s200-c-k/photo.jpg">
+						<img class="thumbnail" src="/img/profile.jpg">
 					</div>
 					<h2 class="blog-title"><a title="List of Posts" href="/">captnemo.in</a></h2>
 					<ul class="nav">
@@ -46,10 +46,32 @@
 					<h1>{{ page.title }}</h1>
 					{{content}}
 				</div>
-				<div class="sidebar span1">
-					Hello
-				</div>
-			</div>
-		</div>
+				<div class="span1 sidebar">
+					<ul class="sharebox">
+						<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="bufferapp" data-count="vertical">Tweet</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+						<li class="facebook"><div class="fb-like" data-href="http://captnemo.in/{{page.url}}" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false"></div></li>
+						<li class="googleplus"><g:plusone size="tall"></g:plusone><script type="text/javascript">
+						  (function() {
+							var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+							po.src = 'https://apis.google.com/js/plusone.js';
+							var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+						  })();
+						</script></li>
+						<li><a class="share-btn btn btn-default btn-small" href="https://github.com/captn3m0/captn3m0.github.com"><i class="icon-gh"></i> SRC</a></li>
+						<li><a class="share-btn btn btn-warning btn-small" href="/atom.xml"><i class="icon-rss"></i> RSS</a></li>
+					</ul>
+					<div id="fb-root"></div>
+					<script>(function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) return;
+					  js = d.createElement(s); js.id = id;
+					  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=103667826405103";
+					  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));
+					</script>
+				</div><!--sidebar-->
+			</div><!--row-fluid-->
+		</div><!--container-->
 	</body>
 </html>
