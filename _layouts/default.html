@@ -2,16 +2,30 @@
 <html>
 	<head>
 		<title>{{ page.title }}</title>
+		<!--Open Graph Related Stuff-->
 		<meta property="og:title" content="{{ page.title }}"></meta>
 		<meta property="og:url" content="http://captnemo.in{{ page.url }}"></meta>
 		{% if page.date %}
 		<meta property="article:published_time" content='{{ page.date | date:"%Y-%m-%d" }}'></meta>
+		<meta property="og:type" content="article">
 		{% endif %}
 		<meta property="og:site_name" content="captnemo.in"></meta>
+		<meta property="og:profile:first_name" content="Abhay">
+		<meta property="og:profile:last_name" content="Rana">
+		<meta property="og:profile:username" content="capt.n3m0">
+		<meta property="og:article:author" content="https://facebook.com/capt.n3m0">
 		<!--CSS-->
 		<link href="/css/bootstrap.css" rel="stylesheet">
 		<link href="/css/bootstrap-responsive.css" rel="stylesheet">
 		<link href="/css/screen.css" rel="stylesheet">
+		<!--Authorship-->
+		<link rel="me" href="https://plus.google.com/116290713924645527187/">
+		<link rel="me" href="https://facebook.com/capt.n3m0">
+		<!--Responsive Design-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--[if lt IE 9]>
+			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
 	</head>
 	<body>
 		<div class="body container-fluid">
