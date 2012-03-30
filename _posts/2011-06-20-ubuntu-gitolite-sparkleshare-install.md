@@ -33,7 +33,7 @@ ssh-copy-id user2@host2:/tmp/user.tmp
 #should not ask for password:
 ssh user2@host2
 sudo apt-get install gitolite 
-sudo dpkg-reconfigure /tmp/user.pub
+sudo dpkg-reconfigure sparkleshare
 #Configuration Options may vary, but remember the gitolite user name that you specified
 logout #Come back to your own computer
 git clone sparkle@host2:gitolite-admin 
@@ -91,7 +91,7 @@ Now if all goes well, you'd have allowed acess to gitolite for this user. We now
 
 
 <pre class="prettyprint lang-yaml">
-Server: ssh://sparkle@host2
+Server: sparkle@host2
 Path: /share/fh73ah
 </pre>
 
