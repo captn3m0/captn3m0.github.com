@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: captnemo.in
 ---
 {% for post in site.posts %}
