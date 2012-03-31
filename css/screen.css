@@ -53,46 +53,42 @@
 	}
 		.sharebox{
 			list-style: none;
-			margin: 0;
-			padding: 0;
+			margin: 0px;
+			padding: 5px 5px 0px 5px;
 			border: 1px solid #CCC;
 			width: 55px;
 			background: white;
-			-webkit-border-radius: 5px;
-			-moz-border-radius: 5px;
-			border-radius: 5px;
-			-moz-background-clip: padding;
-			-webkit-background-clip: padding-box;
-			background-clip: padding-box;
-			-webkit-border-radius: 5px;
-			-moz-border-radius: 5px;
-			border-radius: 5px;
-			-moz-background-clip: padding;
-			-webkit-background-clip: padding-box;
-			background-clip: padding-box;
-			-webkit-border-radius: 5px;
-			-moz-border-radius: 5px;
-			border-radius: 5px;
-			-moz-background-clip: padding;
-			-webkit-background-clip: padding-box;
-			background-clip: padding-box;
-			-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.05);
-			-moz-box-shadow: 0 0 10px rgba(0,0,0,0.05);
-			box-shadow: 0 0 10px rgba(0,0,0,0.05);
-			-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.05);
-			-moz-box-shadow: 0 0 10px rgba(0,0,0,0.05);
-			box-shadow: 0 0 10px rgba(0,0,0,0.05);
-			-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.05);
-			-moz-box-shadow: 0 0 10px rgba(0,0,0,0.05);
-			box-shadow: 0 0 10px rgba(0,0,0,0.05);
-			padding: 5px;
-			min-height: 274px;
+			height:261px;
 			position:fixed;
 			top:50px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			-moz-background-clip: padding;
+			-webkit-background-clip: padding-box;
+			background-clip: padding-box;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			-moz-background-clip: padding;
+			-webkit-background-clip: padding-box;
+			background-clip: padding-box;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			-moz-background-clip: padding;
+			-webkit-background-clip: padding-box;
+			background-clip: padding-box;
+			-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.05);
+			-moz-box-shadow: 0 0 10px rgba(0,0,0,0.05);
+			box-shadow: 0 0 10px rgba(0,0,0,0.05);
+			-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.05);
+			-moz-box-shadow: 0 0 10px rgba(0,0,0,0.05);
+			box-shadow: 0 0 10px rgba(0,0,0,0.05);
+			-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.05);
+			-moz-box-shadow: 0 0 10px rgba(0,0,0,0.05);
+			box-shadow: 0 0 10px rgba(0,0,0,0.05);			
 		}
-			.sharebox li{
-				padding-bottom: 2px;
-			}
 	.icon-rss{
 		background-image: url("/img/rss.png");
 		background-position: 0px 0px;
@@ -103,5 +99,6 @@
 	}
 	.share-btn{
 		font-size:9px;
+		padding:1px 9px;
 	}
 }
