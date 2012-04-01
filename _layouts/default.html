@@ -4,18 +4,21 @@
 		<title>{{ page.title }}</title>
 		<meta charset="utf-8">
 		<link rel="shortcut icon" href="/img/favicon.png">
-		<link rel="apple-touch-icon" href="/img/favicon.png"/>
+		<link rel="apple-touch-icon" href="/img/favicon.png">
 		<meta name="author" content="Abhay Rana">
 		<meta name="keywords" content="captnemo, abhay rana, sdslabs, github pages, piratecoders, iit roorkee, abhayumt">
 		<!--Open Graph Related Stuff-->
-		<meta property="og:title" content="{{ page.title }}"></meta>
-		<meta property="og:url" content="http://captnemo.in{{ page.url }}"></meta>
+		<meta property="og:title" content="{{ page.title }}" >
+		<meta property="og:url" content="http://captnemo.in{{ page.url }}" >
 		{% if page.date %}
-		<meta property="article:published_time" content='{{ page.date | date:"%Y-%m-%d" }}'></meta>
+		<meta property="article:published_time" content='{{ page.date | date:"%Y-%m-%d" }}' >
 		<meta property="og:type" content="article">
 		{% endif %}
-		<meta property="og:site_name" content="captnemo.in"></meta>
-		<meta property="og:image" content="http://captnemo.in/img/favicon.png"></meta>
+		<meta property="og:site_name" content="captnemo.in" >
+		<meta property="og:image" content="http://captnemo.in/img/favicon.png" >
+		<!--Facebook Comments-->
+		<meta property="fb:admins" content="capt.n3m0">
+		<meta property="fb:app_id" content="358126290896126">
 		<!--CSS-->
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu|Gentium+Book+Basic:700,700italic' rel='stylesheet' type='text/css'>
 		<link href="/css/bootstrap.css" rel="stylesheet">
@@ -30,7 +33,7 @@
 			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 		<![endif]-->
 		<!-- le google analytics -->
-		<script type="text/javascript">
+		<script>
 		  var _gaq = _gaq || [];
 		  _gaq.push(['_setAccount', 'UA-5922129-9']);
 		  _gaq.push(['_trackPageview']);
