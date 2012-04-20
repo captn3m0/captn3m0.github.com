@@ -1,0 +1,57 @@
+---
+title: My vision of a code editor
+layout: post
+---
+I've used more than a dozen of editors for mainly two purposes: coding, and writing text. The most liked and used among them would be [Notepad++][npp] and [Geany][]. I'm also a vim user, and primarily a web developer. I've always liked simple tools that do one thing well. 
+
+The era of WYSIWYG editors in web development is long past. I'm yet to hear someone suggest Dreamweaver as a serious editor. If you were to go out in the Rails world, you'd mostly be met by vim/emacs/textmate fans. As a linux user, I use geany for most of my editing work, including blog posts, like this one (Markdown is hands down, the best thing to happen to word-processing).
+
+#Browser meet Editor meet Terminal
+
+There were a few attempts at creating code editors (I don't like the term IDE) powered by the gecko engine some time back. None of them materialized to anything special. Today, a normal workflow for me involves 3 open applications - a browser (chromium), a terminal window, and a text-editor. 
+
+And I'd alt-tab all the way to hell on them.
+
+At this stage, almost everyone will tell me, there is _no problem_ with this workflow. This _is exactly how it is supposed to work_. But we are not in the 1990s when browsers were just another application. At any given time, I usually have multiple stackoverflow tabs open in the browser pertaining to the code I am writing. 
+
+On the other hand we have a terminal, which I usually use to run builds, compile, and do version control stuff. No amount of integrated IDE magic will make me move away from the beloved command line (as it should be). 
+
+The easiest solution is to get a second monitor. And yes, I love using dual monitors. But I'm still not satisfied. I want something more. I have 3 core applications, but using 3 monitors is an extremely costly venture. So I'm stuck to running a text editor, and alt tabbing my way between Chromium and Gnome Terminal.
+
+#Cloud IDEs
+One of the solutions that keeps popping up are the almighty cloud based IDEs (like c9.io), which I really like. But the experience is sub-par at best. 
+
+Another cool project called [sky-edit](https://github.com/Gozala/sky-edit) involves an extension in mozilla, which enables one to edit any text file in the browser itself, by pointing it to "edit:" urls. This is closer to what my ultimate aim is: "text editor in a browser, editing local files".
+
+#Workflow
+
+What I'd want my workflow to be is point my browser to a text file, edit it in place, change the tab to the live site, and then refresh. Once I realize I have to restart apache, I'd just change my tab to the terminal one, and do my cli stuff there itself.
+
+##Shortcuts:
+
+- Ctrl+T: New browser tab
+- Ctrl+E: New editor tab
+- Ctrl+Y: New Terminal tab
+- Ctrl+S: Save a file 
+
+All `file://` urls are browsable as usual, and all text files become editable. Just think of all the possibilities. As long as it uses plain old javascript/css, it could re-use most of the editing part from the excellent ace project. Even codemirror would work brilliantly.
+
+And the best part is that it is still a complete browser. Meaning you get to use all your bookmarks, bookmarklets, plugins, and fancy stuff that you expect in a browser.
+
+##Integration
+Just think of the possibilities! Since this is just another browser, you can build extensions that target edit windows. Meaning an extension could add support for auto-completion very easily. And repeat for inline documentation browsing.
+
+A build shortcut could probably be used to switch to a running version of the website in some way. What about other stuff? Like spell-checking? Browsers support that. Even dictation would probably work.
+
+And markdown editing! Hell yeah!. Edit it all in your browser itself, while keeping github open in another tab.
+
+#Start
+This is a simple propsal of sorts, to get a few recommendations about how this should proceed. I asked a similar question on the askubuntu forums, which made me realize what the real problems were. I'm trying to build chromium and get something off the ground. The project is tentatively titled `sympathy` and has zero code as of now. 
+
+I tried to earlier write something similar in python, but realized that I could not build an awesome feature complete text-editor by myself. Which made me shift to forking something like geany. I then realized that getting the webview in geany to be feature-complete as a browser would be again heavily demanding. 
+
+The easiest path out is to build the editor in the browser. Why? Because there has already been a lot of work done in this direction, including ace, bespin, codemirror and lots of other editors. Embedding the terminal is another problem, which will be harder to solve in the browser, but I'm willing to give it a try.
+
+As such, my plan is to fork chromium, and work on adding support for text-file editing in the browser. There are a few questions I'd like to answer over time, such as should the browser be stripped? Chromium is a heavy project, and includes some complex features baked right in, which are definately not needed in a text-editor. For instance "Cloud Print", "Chrome Sync" etc. But at the same time, there is a reason to keep it in as well. I'd like to use this as my primary browser, using all the extensions, bookmarks, and sync features it offers me.
+
+Sounds interesting? I've got no idea on how to approach this. Help me out. If you do not like facebook comments, please discuss this on Hacker News, or feel free to drop me a mail.
