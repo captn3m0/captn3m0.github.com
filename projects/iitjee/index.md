@@ -1,8 +1,15 @@
 ---
 layout: page
-title: IIT-JEE 2011 Results
+title: IIT-JEE  Results
 ---
-This page will contain the latest information and developments on the IIT-JEE 2011 Results. The entire resultset is available for download and is searchable as well.
+This page will contain the latest information and developments on the IIT-JEE Results. The entire resultset is available for download and is searchable as well.
+
+##2012
+
+  * IIT JEE 2012 results are now up.
+  * I have uploaded the list [here](http://jee.sdslabs.co). ([Alternate Link](http://goo.gl/S8b5A))
+
+##2011
 
   * View [Results Online](./2011.html)
   * Or Download it in [csv](./2011.csv) [ods](./2011.ods) [xlsx](2011.xlsx) formats. (Need something else, let me know)
