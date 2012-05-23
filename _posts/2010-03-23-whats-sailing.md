@@ -2,8 +2,9 @@
 layout: post
 title: What's Sailing
 tags:
-- blog
-- Nautilus
+- blogging
+- gaming
+- old-writings
 status: publish
 type: post
 published: true

@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Shift to bundler 1.1 (Ruby)
-tags: ruby, bundle
+tags: 
+- ruby
+- bundle
+- snippet
 ---
 
 In case someone out there is still stuck with bundler `1.0`, and hates seeing the `Fetching source index for http://rubygems.org/.` screen, please update to `bundler 1.1`.

@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Github +1 URLs
+tags:
+- information
+- github
+- google+
 ---
 
 I was working on the Google +1 Listing API (undocumented). So here's a list of my current +1 urls on github.com. Most of the projects pertain to web-designing. I'll update this list automatically every week or so, provided I remember to/set a cron job.

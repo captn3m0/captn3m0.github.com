@@ -1,6 +1,9 @@
 ---
 layout: post
 title: What can we learn from Hollywood
+tags:
+- thoughts
+- startups
 ---
 
 There is Lot of buzz in the startup industry regarding the killing of Hollywood. However, before we do that (Amen), there is something that I wish to learn from it.

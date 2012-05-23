@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Someone jailbreak my iPad
+tags:
+- jailbreak
+- ipad
 ---
 
 >This is a rant, mainly targeted at Apple. If you are a Apple fanboi, just [go](daringfireball.net) [elsewhere](https://www.eff.org/)

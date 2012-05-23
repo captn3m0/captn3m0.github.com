@@ -1,6 +1,9 @@
 ---
 title: Learning Ruby on Rails
 layout: post
+tags:
+- learning
+- ruby
 ---
 Continuing my quest on Web Designing, I've started learning [Ruby On Rails][ror], which is like *the* most-hyped web framefork of the moment. After all, [Github][gh] runs on Ruby On Rails, [Redmine][red] uses Rails, and so do [Basecamp](http://basecamphq.com),[Hulu](http://hulu.com),[Scribd](http://scribd.com), and even [Twitter](http://twitter.com). Even though RoR has Ruby in its name, its just a namesake. 
 

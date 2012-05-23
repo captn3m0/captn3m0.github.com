@@ -1,6 +1,9 @@
 ---
 title: Why Indian Government Sucks at Technology
 layout: post
+tags:
+- thoughts
+- india
 ---
 
 ###Why The Indian Government sucks at technology

@@ -2,9 +2,8 @@
 layout: post
 title: ! 'Nautilus : Behind The Curtains'
 tags:
-- Nautilus
-- software
-- windows
+- tools
+- productivity
 status: publish
 type: post
 published: true

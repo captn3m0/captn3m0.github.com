@@ -1,7 +1,9 @@
 ---
 title: Six Months of Ubuntu
 layout: post
-tags: ubuntu, operating systems, weblog-ifest
+tags: 
+- ubuntu
+- weblog-ifest
 ---
 
 I installed Ubuntu as my primary OS back sometime in February. Not that I'd not tried it earlier. In fact, I'd used a copy of Ubuntu 3 back in day. But this time around, Windows (from my dual boot) just gave up and died. The partition with Windows got heavily corrupted, lost lots of data, and ultimately I had to format it. And Ubuntu dragged through all that. And here I'm today, a veteran of 3 Ubuntu versions, starting with 10.10, and right now on the 11.10 beta. 

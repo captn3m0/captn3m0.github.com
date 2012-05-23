@@ -2,7 +2,7 @@
 layout: post
 title: Gamers Saga - Games to play and not to play
 tags:
-- Nautilus
+- gaming
 status: publish
 type: post
 published: true

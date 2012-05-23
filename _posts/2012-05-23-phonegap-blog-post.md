@@ -3,8 +3,7 @@ layout: post
 title: Akira - Winning entry to the Adobe Express Apps Contest
 tags:
 - programming
-- cognizance
-- mobile-dev
+- mobile
 ---
 
 This is the obligatory blog post that comes along with winning the Adobe Express Apps Contest. 

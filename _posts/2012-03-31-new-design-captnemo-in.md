@@ -3,7 +3,6 @@ layout: post
 title: New Design of CaptNemo.in
 tags:
 - design
-- responsive
 - captnemo.in
 ---
 

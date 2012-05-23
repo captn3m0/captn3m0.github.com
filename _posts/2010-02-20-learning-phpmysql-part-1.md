@@ -2,11 +2,8 @@
 layout: post
 title: Learning PHP/mySQL Part 1
 tags:
-- mysql
-- Nautilus
+- learning
 - php
-- Programming
-- tutorial
 status: publish
 type: post
 published: true

@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Planet IITR Update
+tags:
+- iitr
+- planetiitr
 ---
 
 So, I was just going through my old blog posts, and saw the [Planet IITR Update](http://captnemo.in/blog/2011/07/09/announcing-planet-iitr/), which I created out of a need for people to be able to find blogs from other people in IITR.

@@ -1,6 +1,8 @@
 ---
 title: "Choose Between Facebook Groups and Pages"
 layout: page
+tags:
+- facebook
 ---
 I don't know how many times I've said this, but the best way of creating a multi-user discussion platform is to create a facebook page. A little guidelines on what you should use:
 

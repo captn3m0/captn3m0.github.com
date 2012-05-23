@@ -2,7 +2,8 @@
 layout: post
 title: Random Stray Thoughts
 tags:
-- Nautilus
+- thoughts
+- old-writings
 status: publish
 type: post
 published: true

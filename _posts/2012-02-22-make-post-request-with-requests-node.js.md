@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Making post requests with 'request' module in node.js
+tags:
+- snippet
+- nodejs
+- request
 ---
 
 Was stuck at this for quite some time:

@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Must Use Web Applications
+tags:
+- tools
+- webapps
 ---
 
 Here are a few of the applications that I would heavily recommend. 

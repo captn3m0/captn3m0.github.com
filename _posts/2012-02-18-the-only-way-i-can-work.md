@@ -1,6 +1,9 @@
 ---
 layout: post
 title: The only way I can work any longer
+tags:
+- productivity
+- tools
 ---
 
 >Being a good programmer is 3% talent and 97% not getting distracted by the Internet.

@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Announcing Planet IITR
+tags: 
+- iitr
+- planetiitr
 ---
 [Planet IIT-R](http://www.planetaki.com/iitr/) is a blog collection similar to the [Planet Ubuntu](http://planet.ubuntu.com), [Wordpress](http://planet.wordpress.com), and the likes. The basic idea is to create a single address where all blogs of IIT-R are aggregated. This way, people can easily follow happenings and blogs at IIT-Roorkee without individually following various blogs. I've added a few blogs to it already, including those of [Divye Kapoor](http://divye.in), Sanath Rath, [Wona](http://wona.co.in), Arasu and the likes.
 

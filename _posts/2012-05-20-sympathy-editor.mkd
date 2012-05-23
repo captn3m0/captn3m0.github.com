@@ -2,7 +2,9 @@
 layout: post
 title: "Sympathy: My vision of a code editor"
 type: post
-
+tags:
+- sympathy
+- editors
 ---
 
 <div class="alert alert-info">

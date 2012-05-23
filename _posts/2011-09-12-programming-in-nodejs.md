@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Programming in Node.JS
-
+tags:
+- learning
+- nodejs
 ---
 
 After my attempts at [python](http://captnemo.in/blog/2011/05/16/learning-python), [Ruby on Rails](https://rubyonrails.org), this was the time for node.js. You ask me what is node.js ? Remember when Google Chrome came out and went [blazing past the rest of the browsers](http://stackoverflow.com/questions/40994/is-google-chromes-v8-engine-really-that-good) in Javascript benchmarks. That was because of its internal Javascript Engine, called [V8](http://code.google.com/p/v8/). 

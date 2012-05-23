@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Why you should learn HTTP? 
+tags:
+- http
+- learning
 ---
 
 I see people learning RoR, PHP, Django, with a single intent: getting their own website. Of course, it is the million dollar idea that will blow everyone away, as always. But what I find fascinating is that too many upcoming web developers are testing the waters with opinionated coding frameworks. The entry barrier for software development has been lowered exponentially in the last decade, leading to a slew of web frameworks, tutorials, and screencasts. Today is arguably the best time to be involved in software development. Lots of people are learning to code their first web-site with rails, or django. There are lots of benifits with this approach: as a beginner, you are kept isolate from all the complexities, and can focus more easily on your application.

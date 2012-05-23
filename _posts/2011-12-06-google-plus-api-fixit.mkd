@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Google, Fix your Google+ API
+tags:
+- "google+"
+- api
 ---
 Dear Google, 
 
