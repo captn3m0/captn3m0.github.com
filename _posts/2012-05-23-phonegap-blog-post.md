@@ -1,3 +1,12 @@
+---
+layout: post
+title: Akira - Winning entry to the Adobe Express Apps Contest
+tags:
+- programming
+- cognizance
+- mobile-dev
+---
+
 This is the obligatory blog post that comes along with winning the Adobe Express Apps Contest. 
 
 #Contest Rules
@@ -19,15 +28,16 @@ We tried to start with JQ.Mobi, which is an alternative to Jquery Mobile, but co
 
 The basic application layout was done using a mix of JQuery Mobile and some custom css. I came across a very good service called Build Phonegap, that allows you to compile your Phonegap application online to different platforms. We started with basing our application on the [Phonegap Starter App on GitHub](https://github.com/phonegap/phonegap-start) which was quite good. The examples directory in the phonegap download is what we ended up using, though.
 
+*Edit*: After working a lot more in mobile development, I have come to see a lot more frameworks, and find JQTouch to be quite the minimalist do-one-thing-well plugin.
+
 The most difficult part was to get the application to compile for iOS, without paying the Apple Developer Licence. Since, I could not see myself selling iOS apps anytime soon in the Apple App Store, I was stuck with a jailbroken iPad + iPod Touch, and had to figure out out to compile.
 
 The steps, which took me a lot of time to find on the internet, include :
 
 1. Download and install the XCode and the Adobe Phonegap toolkit. I downloaded the latest version, 4.2 for xcode, which makes the process a bit easier.
-2. Follow the instructions on this youtube video to allow xcode to compile your application without Code Signing.
-3. Create a corvora application in xcode and follow these instructions to add the www folder to the application. 
+2. Follow the instructions on [this youtube video](http://www.youtube.com/watch?v=n1ZDMmwYHdE) to allow xcode to compile your application without Code Signing.
+3. Create a corvora application in xcode and follow [these instructions](http://wiki.phonegap.com/w/page/52010495/Getting%20Started%20with%20PhoneGap-Cordova%20and%20Xcode%204) to add the www folder to the application. 
 4. Compile. If you have an iDevice connected, you should be able to compile and install your application in a single step.
-
 
 You may need to change your application configuration to "Do not code sign" for this to work.
 
@@ -44,7 +54,8 @@ Our winning strategy from the start had been to dazzle the judges with an applic
 I wrote the application backend in PHP limonade, a framework that i am quite used to. The concept was to give out a rest api to the application to use to Authenticate users and carry out backend tasks.
 
 #Code
-The code is obviously messy, as a result of being hacked in on a single 18 hour marathon. You may be able to get a few good ideas from the implementations, though.
+The code is obviously messy, as a result of being hacked in on a single 18 hour marathon. You may be able to get a few good ideas from the implementations, though. The entire code is available at my [akira](https://github.com/captn3m0/akira) and [akira-backend](https://github.com/captn3m0/akira-backend) repositories.
+
 
 #Thoughts on Phonegap
 My second slide in the presentation I did for the contest(made on Keynote on the Ipad, while walking to the contest room) says proudly "Phonegap is awesome". And i seriously mean that. I've got started in the world of mobile development, while not having to worry about cross browser compatibility issues, and the like. I can do stuff easily using the already existing technologies that I know and love. There are a ton of excellent Phonegap plugins out there, and many more being written right now.
@@ -57,9 +68,11 @@ What I'd really love, though is a Phonegap simulator. Instead of having to insta
 This is all just theory, as you'd have to install the complete Android and ios sdk to compile it for your device, anyway. But it would be a welcome step.
 
 #Presentation
-The presentation was made as a string of screenshots developing the application, so its not really much help. But here it is anyway.
+The presentation was made as a string of screenshots developing the application, so its not really much help. But here it is anyway. [View Original](https://speakerdeck.com/u/captn3m0/p/akira-presentation).
 
- #Pics
+<script async class="speakerdeck-embed" data-id="4f6effee933f08002201ea60" data-ratio="1.3333333333333333" src="//speakerdeck.com/assets/embed.js"></script>
  
- #Prize
- I won a PS3. Yay!
+#Prize
+I won a PS3. Yay!
+
+If you have any problems with the code, or the process, you can contact me at my [about page](/about)

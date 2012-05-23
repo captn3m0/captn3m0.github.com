@@ -1,5 +1,5 @@
 ---
-title: My vision of a code editor
+title: Sympathy: My vision of a code editor
 layout: post
 ---
 I've used more than a dozen of editors for mainly two purposes: coding, and writing text. The most liked and used among them would be [Notepad++][npp] and [Geany][]. I'm also a vim user, and primarily a web developer. I've always liked simple tools that do one thing well. 
@@ -55,3 +55,6 @@ The easiest path out is to build the editor in the browser. Why? Because there h
 As such, my plan is to fork chromium, and work on adding support for text-file editing in the browser. There are a few questions I'd like to answer over time, such as should the browser be stripped? Chromium is a heavy project, and includes some complex features baked right in, which are definately not needed in a text-editor. For instance "Cloud Print", "Chrome Sync" etc. But at the same time, there is a reason to keep it in as well. I'd like to use this as my primary browser, using all the extensions, bookmarks, and sync features it offers me.
 
 Sounds interesting? I've got no idea on how to approach this. Help me out. If you do not like facebook comments, please discuss this on Hacker News, or feel free to drop me a mail.
+
+#Update
+I did try my best on developing such a thing, and the end result (still far from finished) is [Sympathy Editor](/sympathy/). Try out the beta. Hopefully you will like it.
