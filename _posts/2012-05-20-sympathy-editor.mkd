@@ -4,7 +4,11 @@ title: "Sympathy: My vision of a code editor"
 type: post
 
 ---
-I've used more than a dozen of editors for mainly two purposes: coding, and writing text. The most liked and used among them would be [Notepad++][npp] and [Geany][]. I'm also a vim user, and primarily a web developer. I've always liked simple tools that do one thing well. 
+
+<div class="alert alert-info">
+<strong>Update</strong>: I have worked on an editor protype along the lines of this blog post. The result is called <a href="/sympathy/">Sympathy Editor</a>. Please check it out.
+</div>
+I've used more than a dozen of editors for mainly two purposes: coding, and writing text. The most liked and used among them would be [Notepad++][http://notepadplusplus.org/] and [Geany][http://geany.org/]. I'm also a vim user, and primarily a web developer. I've always liked simple tools that do one thing well, as per the unix philosophy.
 
 The era of WYSIWYG editors in web development is long past. I'm yet to hear someone suggest Dreamweaver as a serious editor. If you were to go out in the Rails world, you'd mostly be met by vim/emacs/textmate fans. As a linux user, I use geany for most of my editing work, including blog posts, like this one (Markdown is hands down, the best thing to happen to word-processing).
 
@@ -58,5 +62,5 @@ As such, my plan is to fork chromium, and work on adding support for text-file e
 
 Sounds interesting? I've got no idea on how to approach this. Help me out. If you do not like facebook comments, please discuss this on Hacker News, or feel free to drop me a mail.
 
-#Update
+##Update
 I did try my best on developing such a thing, and the end result (still far from finished) is [Sympathy Editor](/sympathy/). Try out the beta. Hopefully you will like it.
