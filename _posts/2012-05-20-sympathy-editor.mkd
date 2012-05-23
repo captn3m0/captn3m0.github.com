@@ -1,6 +1,8 @@
 ---
-title: Sympathy: My vision of a code editor
 layout: post
+title: "Sympathy: My vision of a code editor"
+type: post
+
 ---
 I've used more than a dozen of editors for mainly two purposes: coding, and writing text. The most liked and used among them would be [Notepad++][npp] and [Geany][]. I'm also a vim user, and primarily a web developer. I've always liked simple tools that do one thing well. 
 
