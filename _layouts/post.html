@@ -2,7 +2,7 @@
 layout:  default
 ---
 
-<blockquote>Published on <a href="http://captnemo.in/{{page.url}}">{{page.date | date: "%B %d,  %Y"}}</a>
+<blockquote>Published on <a href="http://captnemo.in/{{page.url}}">{{page.date | date: "%B %d,  %Y"}}</a> in {{page.tags| join:','}}
 </blockquote>
 <hr>
 <div id="post">{{content}}</div>

