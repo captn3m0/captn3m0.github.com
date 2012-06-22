@@ -7,6 +7,8 @@ This page will contain the latest information and developments on the IIT-JEE Re
 
 I do not like the concept of "search by name", or such listings. I am more of an archival person, and feel that large datasets such as these should be made freely available. If you want to search these lists by name, and lack the capability to do so (because of slow internet, or whatever), you can try out <http://ciitm.info> or <http://jeeranksbyname.co.cc>, which host some datasets searchable by name online. 
 
+Most of the source code used to gather these datasets is available [on github](https://github.com/captn3m0/iitjee/). It is released under MIT Licence. Feel free to use it for further work.
+
 ##2012
 
   * I have uploaded the list [here](http://jee.sdslabs.co/). Some statistics and pretty graphs are available [here](http://jee.sdslabs.co/graph/)
