@@ -3,11 +3,13 @@ layout: page
 title: IIT-JEE  Results
 ---
 
-This page will contain the latest information and developments on the IIT-JEE Results. The entire resultset is available for download and is searchable as well. I do not like the concept of "search by name", or such listings. I am more of an archival person, and feel that large datasets such as these should be made freely available. If you want to search these lists by name, and lack the capability to do so (because of slow internet, or whatever), you can try out <http://ciitm.info> or <http://jeeranksbyname.co.cc>, which hosts some resultsets searchable by name online. 
+This page will contain the latest information and developments on the IIT-JEE Results. The entire resultset is available for download and is searchable as well. 
+
+I do not like the concept of "search by name", or such listings. I am more of an archival person, and feel that large datasets such as these should be made freely available. If you want to search these lists by name, and lack the capability to do so (because of slow internet, or whatever), you can try out <http://ciitm.info> or <http://jeeranksbyname.co.cc>, which host some datasets searchable by name online. 
 
 ##2012
 
-  * I have uploaded the list [here](http://jee.sdslabs.co). ([Alternate Link](http://goo.gl/S8b5A)). Some statistics and pretty graphs are available [here](http://jee.sdslabs.co/graph/)
+  * I have uploaded the list [here](http://jee.sdslabs.co/). Some statistics and pretty graphs are available [here](http://jee.sdslabs.co/graph/)
   * For sake of backups, and archival, I'm also keeping a copy of the list [here](2012.html). However, please forward all issues regarding this to the SDSLabs site, I will be able to better handle it there.
   * I also have lots of complementary data to this dataset (such as that on Application Form Numbers). I am not uploading this data right now (at least till the allotments are over). Someone please remind me to do so after they are done with. I'm sure people would find it interesting.
 
@@ -23,7 +25,6 @@ This page will contain the latest information and developments on the IIT-JEE Re
   * View [Results Online](./2010.html) (2.3 MB, might take some time to load)
   * Or Download it in [csv](./2010.csv) and [sql](./2010.sql) formats
   * A list of selection count is available [here](./2010.center.html). This count is based on the first three digits of the registration number, which I've since learned is not how it works. As such it is not-completely-correct.
-  * 
 
 #2009
 
