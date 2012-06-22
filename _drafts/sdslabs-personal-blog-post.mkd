@@ -1,12 +1,12 @@
 ##Introduction
-For the past two years, I have been involved in a student group in our campus called SDSLabs. It has been the most fun two years of my life. I have acted as programmer, developer, manager, monkey-coder, event-manager and all other roles one might expect in a startup in the group. However, I have never really blogged about any of this. Someone pointed it out recently to me, the truth is I have been meaning to write this since a very long time, but its kind of hard to put down in words. I'll try my best. This post is highly specific to iit roorkee, and you have been warned.
+For the past two years, I have been involved in a student group in our campus called SDSLabs. It has been the most fun two years of my life. I have acted as programmer, developer, manager, monkey-coder, event-manager and all other roles one might expect in a startup. However, I have never really blogged about any of this. Someone pointed it out recently to me, the truth is I have been meaning to write this since a very long time, but its kind of hard to put down in words. I'll try my best. This post is highly specific to iit roorkee, and you have been warned.
 
 ##Chronology Of Events / Timeline
-Back in my first year, after joining something called SDS as a proficiency in the campus, I was learning PHP (I know). With no-one to guide me, I had only attednded a single talk by [Shobhit Singh][ss] where he talked about dynamic websites. I was instantaneously hooked. I did something called lion, a twitter clone and it won 3rd prize in Srishti, if I remember correctly. It had follow, unfollow, messages, tweets, and groups (one feature which set it apart from twitter).
+Back in my first year, after joining something called SDS as a proficiency in the campus, I was learning PHP (I know). With no-one to guide me, I had only attended a single talk by Shobhit Singh where he talked about dynamic websites. I was instantaneously hooked. I did something called lion, a twitter clone and it won 3rd prize in Srishti. It had follow, unfollow, messages, tweets, and groups (one feature which set it apart from twitter).
 
-The code must have been a mess of php and inline html, and I have never looked upon it since. I did a couple more projects by myself, learning the in and outs of php (I was still to hear about ruby/python). At the end of my first year, I did a project management system under [Kumar Shashank][ks] who taught me about MVC and the need of architecture in a software application. 
+The code must have been a mess of php and inline html, and I have never looked upon it since. I did a couple more projects by myself, learning the in and outs of php (I was still to hear about ruby/python). At the end of my first year, I did a project management system under Kumar Shashank who taught me about MVC and the need of architecture in a software application. 
 
-At the very end of the project, a group called [SDSLabs][s] was formed. And somehow, magically, I was in it. And there began the most beautiful chapter of my life.. 
+At the very end of the project, a group called [SDSLabs](http://sdslabs.co/) was formed. And somehow, magically, I was in it. And there began the most beautiful chapter of my life.. 
 
 ###Coding & Learning (2-1)
 After completing the PMS, I moved on to work on Filepanda, and then the entire framework application for SDSLabs. All our applications are powered by a single API, which I wrote. Meanwhile, Harshil was working on DC++, and other awesome things. I met pranav sir, and was introduced to the thousand-quirks-of-css. 
@@ -18,7 +18,7 @@ After a single semester of work, we held our first recruitments. I wrote my firs
 
 It is difficult to distil into words the awesome learning experience I had with all these people. Going to chapos, thinking about how we could expand. What else awesome stuff we could do? One night hackathons, where we coded awesome stuff.
 
-And I started to work on muzi, which was to be my application. It stands at 711 commits today. I went into the development knowing PHP and bits of AJAX, and came out a JQuery fanboy. Muzi has been my primary music player for almost an year now. 
+And I started to work on [muzi](https://sdslabs.co.in/muzi/), which was to be my application. It stands at 711 commits today. I went into the development knowing PHP and bits of AJAX, and came out a JQuery fanboy. Muzi has been my primary music player for almost an year now. It feels awesome to listen to music on a music player you coded.
 
 ###Launch (3-1)
 
@@ -31,19 +31,20 @@ This was the semester where our group actually expanded. Our count is almost 42 
 I donned lots of hats teaching, guiding, coding, and managing people. Linux became one of my top skills, and I learnt a lot. 
 
 ##Where, now?
-Our group is still nascent, and although I have not mentioned every project that the group (or even I) have done for fear of making this post too long. That itself speaks volumes about what we've done in a short span of two years. Our tagline speaks "iDream. iCode. iInnovate". I wish for the group to continue on that path. Develop things that make life easier. For everyone around the world.
+Our group is still nascent, and although I have not mentioned every project that the group (or even I) have done for fear of making this post too long. That itself speaks volumes about what we've done in a short span of two years. Our tagline speaks "iDream. iCode. iInnovate". I wish for the group to continue on that path. Develop things that make life easier. For everyone around the world. 
 
-#People
+##People
 Throughout this journey, there have been lots of people, without whom this blog post would never have been written. You all know who you are. Keep being awesome. 
 
-#Anecdotes & Stories
+##Anecdotes & Stories
 This post already reads more like a things-i-did-at-sdslabs, which is something I was hoping to avoid, instead of why-i-love-sdslabs, which is what i wanted. So I'm gonna stick a few moments and events that stand out to me...
 
 - We have a board with three defining people on it: Steve Jobs, Dennis Ritchie, and Linus Torvalds. 
 - We have had mind-blowing pizza chapos. So many pizzas that they were brought in 2 rickshaws from dominos. Yup.
 - I am known as the bot in lab. Mostly because of my highly rational unemotional responses, and other things. There is another person, who is trying to get that title, though.
-- I am famously known for turning down "writing a letter that could have fetched us lots of funding" for coding.
+- I am famously known for turning down "writing a letter that could have fetched us lots of funding" for coding instead. (In my defense, there were other people who could have handled it better than me, and we didn't need it badly at the time)
 - Almost every group in the campus describes their group as a second home. But in our case it is partially true. We spend almost all our free time in lab. I spent close to 500 hours in the lab in this semester alone. Where does this all this time go? Talking, discussions, development, teaching, lectures among other things.
 - SDSLabs feels more of a startup than an actual student group to me (and Shashank as well). We have to fight for our funding, manage people, and develop products.
+- I have done way too much copy-editing to be called "just a developer" anymore. I have spent hundreds of hours fighting Pinta and its numerous bugs.
 
 I'll do a how-we-work-at-sdslabs post later (will cross-post to our group blog as well).
