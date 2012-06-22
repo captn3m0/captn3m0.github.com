@@ -1,5 +1,6 @@
-This is my new blog(running using Jekyll) and hosted on Github. I'll be migrating my wp blog posts over here as soon as I can find a stable enough plugin to do that. Till then you can visit my old blog at <piratecoders.co.cc>. 
+This is my new blog(running using Jekyll) and hosted on Github. ~~I'll be migrating my wp blog posts over here as soon as I can find a stable enough plugin to do that. ~~. 
 
 You are free to fork this and use this as your own base for your jekyll site.
+The theme is based on Twitter Bootstrap 2.0. 
 
-
+URL: <http://captnemo.in>
