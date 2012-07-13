@@ -4,6 +4,7 @@ title: Things I love about Github
 tags:
 - github
 - presentation
+published: true
 ---
 
 A slide from GitHub's famous "How Github uses Github to build Github talk":
