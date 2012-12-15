@@ -36,7 +36,7 @@ Chrome is already my primary browser on my primary machine, and after it came ou
 - **Better history** support. Seeing just the last 6 closed tabs kind of sucks. Give me some real history browser (and improve the one in desktop chrome while you're at it).
 - Mailto support (for gmail etc). Don't know if possible, but would be nice to have.
 - Selection Mailing. Just let me select and mail some html.
-- **Handle pdfs** better. By default chrome redirects to Safari for pdfs. After changing Chrome to default, it does handle pdfs fine, but I miss the "Open In iBooks" link. Don't see this happening though.
+- **Handle pdfs** better. By default chrome redirects to Safari for pdfs. After changing Chrome to default, it does handle pdfs fine, but I miss the "Open In iBooks" link. Don't see this happening though. (Update: This was fixed in a Chrome Update)
 - **Webintents** support would be nice to have (via something other than chrome Webstore, I Guess)
 - **CloudPrint** support. I don't use this, but I am assuming there are people who do.
 - **FullScreen** support of some sort. Safari in iOS 6 is bringing this much asked for feature, so there are people who would love to have this. Chrome's faster tab switching should help it out with some of the Full Screen issues. (**Edit**: This is available via a three finger tap if you install [Chromizer](http://www.idownloadblog.com/2012/07/01/chromizer/) from Cydia's ModMyi repo). Chromizer also forces the iPhone style tab switching on the iPad as a side-effect.
