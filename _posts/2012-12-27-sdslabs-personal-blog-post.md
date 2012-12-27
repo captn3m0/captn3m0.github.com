@@ -114,4 +114,4 @@ This post already reads more like a things-i-did-at-sdslabs, which is something 
 
 It has been a great experience working with all these people. I can just hope that the group keeps moving to better
 innovation, and grander ideas in the future. We are recruiting from first year in upcoming January. If SDSLabs feels like a place you'd
-enjoy, just come over and give our test. It changed my life, maybe it will change yours too.
+enjoy, just come over and take our test. It changed my life, maybe it will change yours too.
