@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: "SDSLabs - My experiences"
 tags: 
   - personal
@@ -9,11 +9,11 @@ tags:
 
 ##Introduction
 For the past two years, I have been involved in a student group in our campus called SDSLabs.
- It has been the most fun two years of my life. I have acted as programmer, developer, manager,
-  monkey-coder, event-manager and all other roles one might expect in a startup. However, I have
-   never really blogged about any of this. Someone pointed it out recently to me, the truth is I
-    have been meaning to write this since a very long time, but its kind of hard to put down in 
-    words. I'll try my best. This post is highly specific to iit roorkee (you have been warned).
+It has been the most fun two years of my life. I have acted as programmer, developer, manager,
+monkey-coder, event-manager and all other roles one might expect in a startup. However, I have
+never really blogged about any of this. Someone pointed it out recently to me, the truth is I
+have been meaning to write this since a very long time, but its kind of hard to put down in 
+words. I'll try my best. This post is highly specific to iit roorkee (you have been warned).
 
 ##Chronology Of Events / Timeline
 Back in my first year, after joining something called SDS as a proficiency in the campus, I was learning PHP.
@@ -42,21 +42,26 @@ their lives, but I still have them with me, as memento of the past and what was 
 Everything I could ever ask, and he'd hand over a resource. Some of my most productive learning days were spent with him.
 
 ###Recruitments
-After a single semester of work, we held our first recruitments. I wrote my [first blog post for the lab](http://blog.sdslabs.co/2011/09/recruitment-experience/) at the time noting 
+After a single semester of work, we held our first recruitments. I wrote my
+ [first blog post for the lab](http://blog.sdslabs.co/2011/09/recruitment-experience/) at the time noting 
 down my amazing reaction to the awesome people that had joined the lab.
 
 It is difficult to distil into words the awesome learning experience I had with all these people. Going to chapos, thinking 
 about how we could expand. What else awesome stuff we could do? One night hackathons, where we coded awesome stuff.
 
-And I started to work on [muzi](https://sdslabs.co.in/muzi/), which was to be my application. It stands at 811 commits today.
+And I started to work on [muzi](https://sdslabs.co.in/muzi/), which was to be _my application_. It stands at 811 commits today, with over
+200 issues in our project management system.
  I went into the development knowing PHP and bits of AJAX, and came out a JQuery fanboy. Muzi has been my primary music player
-  for almost an year now. It feels awesome to listen to music on a music player you coded. I developed the initial version
+  for almost an year now. It feels awesome to listen to music on a music player you coded. The initial version was
   based on Zune's design on Windows. We kept on improving it till it was exactly what we wanted. Today, people have listened to
   almost 1 lac songs on Muzi, and it feels awesome to have been behind something that is so widely used (within the campus).
 
 ###Launch
 
-The next semester involved our [actual launch (11-11-11)](http://blog.sdslabs.co/2011/11/launch-and-beyond) of all our applications. We had all converted into semi-breathing coding machines cum zombies by that time though. Sleepless and exhausted, we did prevail, and launched a few hours early. The Launch was appreciably recieved in the campus, although I had to leave for the [Deloitte CCTC Contest](http://captnemo.in/blog/2011/11/20/cctc-blog/) the very same day(which we won!).
+The next semester involved our [actual launch (11-11-11)](http://blog.sdslabs.co/2011/11/launch-and-beyond) of all our applications. 
+We had all converted into semi-breathing coding machines cum zombies by that time though. Sleepless and exhausted, we did prevail, 
+and launched a few hours early. The Launch was appreciably recieved in the campus, although I had to leave for the
+ [Deloitte CCTC Contest](http://captnemo.in/blog/2011/11/20/cctc-blog/) the very same day(which we won!).
 
 I ended up doing a rewrite of Codematics (codename CodeBot) in node for the launch. It has a geeky, command line interface
 which was inspired by [goosh](http://goosh.org/) and [xkcd's unix interface](http://unix.xkcd.com). Along with that, Muzi was
@@ -87,7 +92,14 @@ Our group is still nascent, and although I have not mentioned every project that
   path. Develop things that make life easier; for everyone around the world. 
 
 ##People
-Throughout this journey, there have been lots of people, without whom this blog post would never have been written. You all know who you are. Keep being awesome. 
+Throughout this journey, there have been lots of people, without whom this blog post would never have been written.
+ You all know who you are. Keep being awesome. 
+
+##Skills
+I used to call myself a programmer, but now I'm in a more management-esque role in SDSLabs. Its my share of the work to manage projects,
+and track progress. That does not mean that I've given up coding, and I still do code a lot for our internal projects. I have also become
+somewhat of a UX enthusiast, taking care of most ux work done in lab. I have also found myself becoming an avid learner, and have Ishan
+Sir to thank for that. 
 
 ##Anecdotes & Stories
 This post already reads more like a things-i-did-at-sdslabs, which is something I was hoping to avoid, instead of why-i-love-sdslabs, which is what i wanted. So I'm gonna stick a few moments and events that stand out to me...
@@ -101,4 +113,5 @@ This post already reads more like a things-i-did-at-sdslabs, which is something 
 - I have done way too much copy-editing to be called "just a developer" anymore. I have spent hundreds of hours fighting Pinta and its numerous bugs.
 
 It has been a great experience working with all these people. I can just hope that the group keeps moving to better
-innovation, and grander ideas in the future.
+innovation, and grander ideas in the future. We are recruiting from first year in upcoming January. If SDSLabs feels like a place you'd
+enjoy, just come over and give our test. It changed my life, maybe it will change yours too.
