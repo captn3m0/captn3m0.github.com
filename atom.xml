@@ -7,15 +7,15 @@ layout: nil
  <link href="http://captnemo.in/atom.xml" rel="self"/>
  <link href="http://captnemo.in/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://captnemo.in</id>
+ <id>http://captnemo.in/</id>
  <author>
    <name>Abhay Rana</name>
    <email>capt.n3m0@gmail.com</email>
  </author>
 
- {% for post in site.posts %}
+ {% for post in site.posts limit: 5 %}
  <entry>
-   <title>{{ post.title }}</title>
+   <title>{{ post.title |xml_escape}}</title>
    <link href="http://captnemo.in{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://capt.nemo{{ post.id }}</id>
