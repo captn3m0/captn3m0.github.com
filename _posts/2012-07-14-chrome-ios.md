@@ -47,7 +47,7 @@ Another one called [ChromeCustomizer](http://modmyi.com/content/8108-chromecusto
 
 - Add one bookmarklet to the settings menu. I'm using [Readable](http://readable.tastefulwords.com/) at present.
 - Adds a [broken](https://github.com/rpetrich/ChromeCustomizer/issues/1) fullscreen implementation (maybe it is clashing with Chromizer) via the Menu. I prefer Chromizer's 3 finger tap for fullscreen.
-- Adds a Find in Page feature.
+- Adds a Find in Page feature. **Update**: This is now available
 - Adds some filtering for ads/tracking websites.
 - Adds an option to change Chrome tab switching mode (iPhone vs iPad).
 
