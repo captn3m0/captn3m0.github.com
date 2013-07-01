@@ -8,7 +8,7 @@ is an update to that post.
 
 Since the last post, I've moved on to Linux, using
 Ubuntu as my primary OS. The desktop shell of my
-choice right now is Cinnamon, as it offers me
+choice right now is [Cinnamon][cinnamon], as it offers me
 a perfect balance of speed and control.
 
 For most of my browsing needs, I rely on a daily
@@ -17,7 +17,7 @@ of Google Chrome Stable as well. I switch between
 them all the time. I use Firefox (nightly) only to
 test out my projects from time to time.
 
-The current editor I use is Sublime Text. It is
+The current editor I use is [Sublime Text][st]. It is
 everything you need, and much more. I'm still to
 get started using its build system, and its
 plethora of packages; but its still an excellent
@@ -41,3 +41,6 @@ connect to it from other computers as well.
 I use [LinuxDC++](dcpp) for connecting to the 
 SDSLabs DC Server. [Imo.im](imo) on both the
 Desktop and my tablet to chat.
+
+##iPad Apps
+The must have iPad apps for me are [Chrome][chrome.ios], [imo][imo],  and [iBooks][ibooks]. I have installed Mailbox alongside GMail, but have found no specific benefit of using Mailbox. I sometimes write stuff using [Plaintext][pt], and sketch using [Paper][paper].
