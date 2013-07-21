@@ -7,7 +7,7 @@ tags:
 ---
 Even though I am a long time Linux user, and a big time fan of the many Linux distros that I've tried out over time, I still go around recommending Windows to people who ask me for advice. The only exception I make is when the person in question is a developer, in which case I try to convert them to the Church of Linux.
 
-The main reason I recommend windows to non-developers is because it is a far better operating system than most Linux distributions (for general public). Now, before you you bring out your pitchforks, hear me out.
+The main reason I recommend windows to non-developers is because it is a far better operating system than most Linux distributions (for general public). Now, before you bring out your pitchforks, hear me out.
 
 The first and foremost reason that I give is that Windows sports a far better integration across all its services. Nautilus/Nemo in the Linux world do not reach same level of integration that Windows Explorer does. For instance, just look at the way the "Send To" feature works in explorer. To add a folder to the send to entry, you just have to add a shortcut to that folder inside the special "Send To" folder. On nautilus, the equivalent would be going about installing an extension, and editing a configuration file by hand. 
 
