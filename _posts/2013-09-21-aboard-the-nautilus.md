@@ -11,15 +11,15 @@ what all softwares I use on a daily basis. This
 is an update to that post.
 
 Since the last post, I've moved on to using Linux, using
-Ubuntu as my primary OS. The desktop shell of my
-choice right now is OpenBox, as it offers me
-a perfect balance of speed and control. I'm thinking of switching
+Elementary OS as my primary OS. Over the time period this post was written,
+I've shifted from using Cinnamon to Openbox and finally
+to elementaryOS's pantheon as my Desktop Manager. I'm thinking of switching
 to Arch Linux, just to get a faster experience. I use 
 Synapse as my application launcher, because its much faster
 than anything else out there.
 
 For most of my web browsing needs, I rely on Google Chrome Stable
-and a daily build of Chromium (v30 as of now) for most of my work.
+and a daily build of Chromium (v31 as of now) for most of my work.
  I switch between them all the time. I use Firefox (stable) only to
 test out my projects from time to time.
 
@@ -42,7 +42,7 @@ really well.
 
 I use [Imo.im][imo] on both the
 Desktop and my tablet to chat. I occasionally use [ReText][retext]
-for editing markdown files. I also use [RedShift][rs] on my laptop and [f.lux][flux]
+for editing markdown files. I use [RedShift][rs] on my laptop and [f.lux][flux]
 on my iPad to help me sleep better. I recommend it to everyone who is
 suffering from eye-strain or wants to sleep better.
 
@@ -51,7 +51,7 @@ On the browser, my most visited sites would be
 my to-do list and GitHub on a daily basis for most of my projects.
 
 ##Hardware
-I own a old Nokia 7210, and will be upgrading to a [Firefox OS Phone][fos] soon enough. I use a Dell Inspiron 1545 as my personal machine. I also use an iPad 2 (with 3G) on a daily basis (mostly for reading). I also own a Dayan Zhanchi 3x3 and a 5x5 shengshou 
+I own a old Nokia X3-02, and will be upgrading to a [Firefox OS Phone][fos] soon enough. I use a Dell Inspiron 1545 as my personal machine. I also use an iPad 2 (with 3G) on a daily basis (mostly for reading). I also own a Dayan Zhanchi 3x3 and a 5x5 shengshou 
 speed cube.
 
 ##iPad Apps
@@ -60,8 +60,14 @@ I installed it. I sometimes write stuff using [Plaintext][pt], and sketch using 
 
 ##Extensions
 Chrome Extensions that I use on a daily basis include [Chime][chime] for 
-wonderful notifications, [Ghostery][ghostery] for getting a tracker-free internet
-, [HTTPS Everywhere][httpse] to keep me secure, [LastPass][lp] to manage passwords and [Stylish][stylish] for [customizing](http://userstyles.org/users/183835) the looks of various websites.
+wonderful notifications (highly recommended), [Ghostery][ghostery] for getting a tracker-free internet
+, [HTTPS Everywhere][httpse] to keep me secure, [LastPass][lp] to manage passwords and [Stylish][stylish]
+ for [customizing](http://userstyles.org/users/183835) the looks of various websites.
+
+##Dream Setup
+My dream setup would consist of a lightweight Ubuntu Laptop that I can carry around
+that still has lots of processing power and battery life. I'll prety much be satisfied
+by any high-end Android phone as long as it has a decent battery life. 
 
 [scm]: https://github.com/ndbroadbent/scm_breeze "Faster Git Shortcuts"
 [fasd]: https://github.com/clvv/fasd "Command Line Booster"
