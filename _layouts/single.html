@@ -1,76 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>{{ page.title }}</title>
 		<meta name="author" content="Abhay Rana">
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="/img/favicon.png">
+		<link rel="apple-touch-icon" href="/img/favicon.png">
 		<meta name="keywords" content="captnemo, abhay rana, sdslabs, github pages, piratecoders, iit roorkee, abhayumt">
-		<script type="text/javascript" src="/js/google-code-prettify/prettify.js"></script>
-		<link rel="stylesheet" href="/css/bootstrap-1.2.0.min.css">
-		<link rel="stylesheet" href="/js/google-code-prettify/prettify.css" />
-		<link href="/atom.xml" rel="alternate" title="CaptNemo.in Atom Feed" type="application/atom+xml" /> 
-		<style>
-		.forkme {
-		position: absolute;
-		width: 149px;
-		height: 149px;
-		top: 0;
-		right: 0;
-		z-index: 99999;
-		opacity: 0.7;
-		-webkit-transition-duration: 500ms;
-		-moz-transition-duration: 500ms;
-		-o-transition-duration: 500ms;
-		}
-		.imagedropshadow {
-			padding: 5px;
-			border: solid 1px #EFEFEF;
-		}
-		a:hover img.imagedropshadow {
-			border: solid 1px #CCC;
-			-moz-box-shadow: 1px 1px 5px #999;
-			-webkit-box-shadow: 1px 1px 5px #999;
-				box-shadow: 1px 1px 5px #999;
-		}
-		</style>
-		<!-- Google Analytics -->
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-5922129-9']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
+		<link href="http://captnemo.in/atom.xml" rel="alternate" title="Abhay Rana" type="application/atom+xml" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-<body style="padding-top: 50px;" onload="prettyPrint()">
-    <a href="https://github.com/captn3m0/captn3m0.github.com" class="forkme">
-        <img src="https://a248.e.akamai.net/assets.github.com/img/4c7dc970b89fd04b81c8e221ba88ff99a06c6b61/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub">
-    </a>
-    <header>
-		<div class="topbar">
-		  <div class="topbar-inner">
-		    <div class="container">
-		      <h3><a href="/">Abhay Rana</a></h3>
-		      <ul class="nav">
-		        <li class="active"><a href="/">Home</a></li>
-		        <li><a href="/projects/" title="Projects">Projects</a></li>
-		        <li><a href="/contact/" title="Contact">Contact</a></li>
-		      </ul>
-		    </div>
-		  </div><!-- /topbar-inner -->
-		</div>
-	</header>
-	<div class="row container">
-		<div class="span16 columns">
-			<div class="page-header">
-				<h1>{{ page.title }}</h1>
-			</div>
-		   	{{content}}
-		</div>
-	</div>
-</body>
+	<body>
+		{{content}}
+	</body>
 </html>
