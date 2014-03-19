@@ -50,7 +50,7 @@ looks something like this (`_data/members.yml`):
 Then, I iterate over this data using the following syntax:
 
 {% highlight html%}
-{%raw%}{% for member in site.data.team %}{%endraw%}
+{%raw%}{% for member in site.data.members %}{%endraw%}
 <img src="pics/{%raw%}{{member.pic}}{%endraw%}" alt="{%raw%}{{member.name}}{%endraw%}">
 <div class="img-bar">
   <span class="img-title">{%raw%}{{member.name}}{%endraw%}</span>
