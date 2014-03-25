@@ -44,6 +44,24 @@ by a large margin (30 points), I managed to get my own tribute question wrong un
 However, it was a great experience involving some really nice questions. I'll
 link the slides here once they are up.
 
+##Colors & Typefaces
+
+<div class="colophon">
+    <div class="color" style="border-top: 20px solid #cbe86b">#cbe86b</div>
+    <div class="color" style="border-top: 20px solid #1c140d">#1c140d</div>
+    <div class="typeface"><b>Typeface</b>Oswald</div>
+    <div class="typeface"><b>Typeface</b>Lato</div>
+  <div class="clear"></div>
+</div>
+
+<div class="colophon">
+    <div class="color" style="border-top: 20px solid #2e2633">#2e2633</div>
+    <div class="color" style="border-top: 20px solid #99173c">#99173c</div>
+    <div class="typeface"><b>Typeface</b>Oswald</div>
+    <div class="typeface"><b>Typeface</b>Lato</div>
+  <div class="clear"></div>
+</div>
+
 [sdslabs]: http://fb.me/SDSLabs
 [giri]: https://www.facebook.com/giridaran
 [ctftime]: https://ctftime.org/event/141/tasks/

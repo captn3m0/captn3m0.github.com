@@ -11,10 +11,10 @@
 		text-align:right;
 	}
 .blog-title{
-	
+
 	width:210px;
 	text-align:right;
-	
+
 }
 	.blog-title a:hover{
 		text-decoration:none;
@@ -27,7 +27,7 @@
 		word-spacing:4px;
 	}
 	#post p{
-		
+
 	}
 	#fbcomments, .fb_iframe_widget, .fb_iframe_widget[style], .fb_iframe_widget iframe[style], #fbcomments iframe[style] {width: 100% !important;}
 .content blockquote{
@@ -87,7 +87,7 @@
 			box-shadow: 0 0 10px rgba(0,0,0,0.05);
 			-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.05);
 			-moz-box-shadow: 0 0 10px rgba(0,0,0,0.05);
-			box-shadow: 0 0 10px rgba(0,0,0,0.05);			
+			box-shadow: 0 0 10px rgba(0,0,0,0.05);
 		}
 	.icon-rss{
 		background-image: url("/img/rss.png");
@@ -101,4 +101,28 @@
 		font-size:9px;
 		padding:1px 9px;
 	}
+}
+.colophon {
+  margin: 5px -30px -45px -30px;
+  text-align: center;
+}
+.colophon .color, .colophon .typeface {
+  width: 100px;
+  display: inline-block;
+  margin: 5px;
+  font-size: 12px;
+  box-shadow: 0 0 3px #ccc;
+  border-radius: 3px;
+}
+.colophon .typeface b {
+  background-color: #fbfbfb;
+  display: block;
+  width: 100px;
+  height: 19px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #eee;
+  color: #ccc;
+}
+.clear {
+  height: 50px;
 }
