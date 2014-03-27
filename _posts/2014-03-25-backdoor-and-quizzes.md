@@ -41,10 +41,10 @@ After that I teamed up with Giri again (along with Sukun) for the Cogni Geek Qui
 hosted by the winner of my quiz, [Vikram Rathore][vikram]. While we won the quiz
 by a large margin (30 points), I managed to get my own tribute question wrong unfortunately.
 
-However, it was a great experience involving some really nice questions. I'll
-link the slides here once they are up.
+However, it was a great experience involving some really nice questions. _Update_: The slides
+are up at [mega](https://mega.co.nz/#F!nso0VaiK!IUBob8dqOM0UAD_Eti6DfA).
 
-##Colors & Typefaces
+##Colors &amp; Typefaces
 
 <div class="colophon">
     <div class="color" style="border-top: 20px solid #cbe86b">#cbe86b</div>
