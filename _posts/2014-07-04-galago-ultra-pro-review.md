@@ -44,7 +44,7 @@ Despite being built for Linux, I've still faced a few software issues on Linux. 
 ##Overall
 Despite its few quirks, I'm liking my new laptop. I'm enjoying gaming on it (on both Linux and Windows), and it has more than enough power to run whatever combination of VMs I want to. 
 
-#Gaming
+##Gaming
 All the Linux games from my various Humble Bundle purchases are finally being put to good use. The only game that I haven't been able to run is Oilrush, which doesn't support Intel Graphic cards on Linux for some reason. Some of the games that I've tried and enjoy on Linux include:
 
 - Mark of the ninja
