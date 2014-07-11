@@ -59,6 +59,7 @@ I haven't tried gaming much on Windows, but I do play Blur (admittedly a 3 year 
 ##Specs
 The only thing I upgraded in my laptop was an increase in RAM from the default of 4GB to 8GB, primarily because I intend to run lots of VMs on this machine. The rest is same as the specs [on the official site](https://system76.com/laptops/model/galu1) (scroll to bottom):
 
+```
 Processor: Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz
 RAM: Samsung, SODIMM DDR3 Synchronous 1600 MHz (0.6 ns), M471B5173QH0-YK0 (4GiB) x2
 Graphic Card: Intel Iris Pro Graphics 5200 with 128 MB eDRAM, Crystal Well Integrated Graphics Controller
@@ -66,5 +67,5 @@ Hard Disk:  Western Digital, WDC WD5000LPVX-2, 500GB (465GiB)
 Operating System: Ubuntu 14.04 (Pre-installed)
 Desktop Environment: Pantheon, using the elementary-os-daily PPA
 Memory: 8GB 204 pin Dual Channel DDR3 @ 1600 MHz
-
+```
 If you're interested in getting any further details about the laptop, feel free to [contact](/contact/) me.
