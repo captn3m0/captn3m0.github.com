@@ -39,7 +39,7 @@ looks something like this (`_data/members.yml`):
   pic: "abhay.jpg"
   links:
     Facebook: "https://facebook.com/capt.n3m0"
-    Twitter: "https://twitter.com/capt_n3m0"
+    Twitter: "https://twitter.com/captn3m0"
 - name: "Team SDSLabs"
   pic: "sdslabs.jpg"
   links:

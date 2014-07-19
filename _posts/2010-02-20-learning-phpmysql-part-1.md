@@ -75,6 +75,6 @@ Now we will create our basic home page using this template. Press Ctrl+N to crea
 
 Now open <http://127.0.0.1/artemis/> in your computer, and be greeted with your newest creation. It' is still, as of now, a static site, with links that don’t work and no dynamism, but we will make it better in the next part.
 
-If you had trouble following this tutorial anywhere feel free to post comments, or tweet me @capt_n3m0. I will be happy to reply. Further if you feel that you missed something, here is my work for you to compare with:
+If you had trouble following this tutorial anywhere feel free to post comments, or tweet me @captn3m0. I will be happy to reply. Further if you feel that you missed something, here is my work for you to compare with:
 
 //#todo add link to zip file here
