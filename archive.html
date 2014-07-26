@@ -8,5 +8,5 @@ title: Archive
     <h1>{{ currentyear }}</h1>
     {% capture year %}{{currentyear}}{% endcapture %} 
   {% endif %}
-    <a href="{{ post.url }}">{{ post.title }}</a><small>{{post.date | date_to_string}}</small><br>
+    <a href="{{ post.url }}">{{ post.title }}</a> <small>{{post.date | date_to_string}}</small><br>
 {% endfor %}
