@@ -1,3 +1,16 @@
 highlighter: pygments
 permalink: /blog/:year/:month/:day/:title/
 markdown: rdiscount
+author:
+  name: Abhay Rana
+  url: https://about.me/n3m0
+title: Abhay Rana
+tagline: aka Capt. Nemo
+description: |
+  <div class="image">
+    <img class="thumbnail" src="/img/profile.jpg">
+  </div>
+url: http://captnemo.in
+baseurl: /
+paginate: 3
+paginate_path: "/page/:num/"

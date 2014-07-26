@@ -1,25 +1,28 @@
 ---
 layout: nil
 ---
+
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"> 
- <title>CaptNemo.in</title>
- <link href="http://captnemo.in/atom.xml" rel="self"/>
- <link href="http://captnemo.in/"/>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>{{ site.title }}</title>
+ <link href="{{ site.url }}/atom.xml" rel="self"/>
+ <link href="{{ site.url }}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://captnemo.in/</id>
+ <id>{{ site.url }}</id>
  <author>
-   <name>Abhay Rana</name>
-   <email>capt.n3m0@gmail.com</email>
+   <name>{{ site.author.name }}</name>
+   <email>{{ site.author.email }}</email>
  </author>
 
- {% for post in site.posts limit: 5 %}
+ {% for post in site.posts %}
  <entry>
-   <title>{{ post.title |xml_escape}}</title>
-   <link href="http://captnemo.in{{ post.url }}"/>
+   <title>{{ post.title }}</title>
+   <link href="{{ site.url }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://capt.nemo{{ post.id }}</id>
+   <id>{{ site.url }}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
- {% endfor %} 
+ {% endfor %}
+
 </feed>
