@@ -22,3 +22,7 @@
 .clear {
   height: 50px;
 }
+
+.sidebar-item .thumbnail{
+  border: 3px white solid;
+}
