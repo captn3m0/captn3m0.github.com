@@ -31,7 +31,7 @@ The IPS screen (1920x1080) is a real gem, and I've gotten used to watching every
 
 As an aside, I really like the keyboard layout (I don't like numeric keypads much) and the placement of Del-End keys, which is incidentally same as my previous laptop. I really dislike those layouts where you have to press a combination of Fn+Some key just to trigger Page Up/Down. A note to laptop manufacturers : [Please stop messing with the keyboards](http://arstechnica.com/staff/2014/01/stop-trying-to-innovate-keyboards-youre-just-making-them-worse/).
 
-Having a branded Ubuntu key is also a good show-off at some places :)
+Having a branded Ubuntu key is also a good show-off at some places :) I also have to mention that the laptop is very silent. The fans rarely kick in, and I have faced no heating issues so far.
 
 ##Software Side
 Despite being built for Linux, I've still faced a few software issues on Linux. None of these are a deal-breaker though for me. The first time I realized that it wasn't really built for Linux was when I booted using my external to Ubuntu 12.04 and the WiFi didn't work. Apparently you need a combination of System 76 custom (though open-source) drivers and 14.04 on this machine to get the drivers to work. This is one of the reasons I haven't downgraded to Elementary Luna (which is based on Ubuntu 12.04). The issues I've faced (along with my workarounds) include:
