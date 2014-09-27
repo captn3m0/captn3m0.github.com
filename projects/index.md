@@ -15,7 +15,7 @@ projects:
   muzi:
     desc: Browser-based music player by SDSLabs
     color: "#001F3F"
-    url: https://sdslabs.co/
+    url: http://sdslabs.co/
   ifttt-webhook: 
     desc: Webhook middleware for the ifttt.com service
     color: "#3D9970"
