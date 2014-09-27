@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<h1>Active Projects</h1>
+<div class="projects">
+<ul>
+{% for project in page.projects %}
+{% if project[1].url %}
+  {% assign url = project[1].url %}
+{% else %}
+  {% assign url = "/" | append: project[0] | append: "/" %}
+{% endif %}
+  <li style="background-color: {{project[1].color}}">
+    <a href="{{url}}">{{project[0]|upcase}}</a>
+    <ul class="innerdetail">
+      <li>{{project[1].desc}}</li>
+    </ul>
+  </li>
+{% endfor %}
+</ul>
+</div>
+
+{{ content }}

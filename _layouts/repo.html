@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div id="readme">
+  <div style="width:500px; margin: 0 auto; text-align: center">
+    Please wait
+    <br>
+    Loading content directly from GitHub. If this does not load, 
+    try opening the <a href="https://github.com/{{page.repo}}">repository</a> directly.
+
+    <br>
+    <img style="margin: 0px auto;" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif"
+      height="128" width="128">
+  </div>
+</div>
+
+<div class="sourcelink" style="display:none">You can view the source code for this project <a href="https://github.com/{{page.repo}}">here</a>.</div>
+<script>
+  var GITHUB_README_URL = "https://api.github.com/repos/{{page.repo}}/readme"
+</script>
+
+<script src="/js/github.js"></script>

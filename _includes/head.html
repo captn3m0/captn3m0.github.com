@@ -38,6 +38,11 @@
   <meta property="og:site_name" content="Abhay Rana" >
   <meta property="og:image" content="http://captnemo.in/img/favicon.png" >
   
+  {% if page.repo %}
+  <!-- This might hurt my SEO, but is ultimately a better landing page -->
+  <meta rel="canonical" content="https://github.com/{{page.repo}}">
+  {% endif %}
+
   <!--Facebook Comments-->
   <meta property="fb:admins" content="capt.n3m0">
   <meta property="fb:app_id" content="358126290896126">
