@@ -62,3 +62,16 @@
   color: #ededed;
   font-family: 'PT Serif', Georgia, 'Times New Roman', serif;
 }
+.repo-buttons{
+  border: none !important;
+}
+.repo-buttons td{
+  text-align: center;
+  border:none !important;
+  background-color: transparent !important;
+  border-collapse: collapse;
+}
+
+#readme img{
+  display: inline-block;
+}
