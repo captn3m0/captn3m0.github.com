@@ -28,6 +28,14 @@ projects:
   hackview: 
     desc: A WebRTC based P2P collaborative document editor with live a/v chat
     color: "#85144B"
+  jinora:
+    desc: Slack webhook app to create anonymous public channels
+    color: "#A89907"
+  filepanda:
+    desc: Self updating software repository for IIT-R intranet
+    color: "#EE923F"
+    url: http://sdslabs.co/
+
 ---
 
 ## Older Projects
