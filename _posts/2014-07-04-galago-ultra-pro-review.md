@@ -49,10 +49,17 @@ All the Linux games from my various Humble Bundle purchases are finally being pu
 
 - Mark of the ninja
 - The Swapper
-- Counter Strike Source
 - Don't Starve
 - Fez
 - Bit Trip Runner 2
+- Counter Strike: Source
+- Portal
+- Half-Life 2
+- Civilization 5
+- Trine 2
+- Minecraft
+
+Trine 2 does show some noticable lag on full settings, but its not supported on Intel drivers anyway. Rest of the games run wonderfully on full settings.
 
 I haven't tried gaming much on Windows, but I do play Blur (admittedly a 3 year old game) sometimes on it at the highest settings.
 
