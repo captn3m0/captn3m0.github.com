@@ -31,10 +31,9 @@ projects:
   jinora:
     desc: Slack webhook app to create anonymous public channels
     color: "#A89907"
-  filepanda:
-    desc: Self updating software repository for IIT-R intranet
+  phreak:
+    desc: Product Hunt in your system tray (linux)
     color: "#EE923F"
-    url: http://sdslabs.co/
 
 ---
 
