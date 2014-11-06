@@ -1,5 +1,5 @@
 ---
-repo: captn3m0/jinora
+repo: sdslabs/jinora
 layout: repo
 permalink: /jinora/
 title: jinora
