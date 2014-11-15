@@ -11,7 +11,7 @@ layout: default
 {% else %}
   {% assign url = "/" | append: project[0] | append: "/" %}
 {% endif %}
-  <li style="background-color: {{project[1].color}}">
+  <li class="project" data-title="{{project[0]}}" data-color="{{project[1].color}}">
     <a href="{{url}}">{{project[0]|upcase}}</a>
     <ul class="innerdetail">
       <li>{{project[1].desc}}</li>
@@ -22,3 +22,16 @@ layout: default
 </div>
 
 {{ content }}
+<script src="/js/geopattern.min.js"></script>
+<script>
+  var patterns = ['octogons', 'plusSigns', 'xes', 'squares', 'nestedSquares', 'concentricCircles']
+  projects = document.getElementsByClassName('project');
+  for(var i in projects){
+    var project = projects[i];
+    var pattern = GeoPattern.generate(project.getAttribute('data-title'), {
+      color: project.getAttribute('data-color'),
+      generator: patterns[Math.floor(Math.random() * patterns.length)]
+    });
+    project.style.backgroundImage = pattern.toDataUrl();
+  }
+</script>
