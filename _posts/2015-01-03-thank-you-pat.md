@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Thank You Pat"
+tags:
+    - reading
+    - books
+    - reviews
+---
 I'm a lazy reader. I'll often start books and leave them halfway, often juggling 3-4 books at the same time. I read in sprints, often spending a few days just finishing lots of books followed by reading nothing for the next few weeks, perhaps. But that doesn't mean I don't appreciate good books. This is the story of how I found my favorite writer, and how I discovered the wonderful books that I enjoy so deeply.
 
 I don't write a journal regularly, but if I did, one of my favorite things to do with it is to figure out the little things that matter; to separate out the strands and understand the connections and the motivations behind where I am today
