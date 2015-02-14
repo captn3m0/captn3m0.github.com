@@ -5,6 +5,10 @@ projects:
   hackertray: 
     desc: A system-tray Hacker News app for Linux
     color: "#FF851B"
+  joy of software development:
+    desc: A book on Software Development
+    color: "#DB8D17"
+    url: https://josd.captnemo.in/
   amon: 
     desc: An oauth based hacking tool for pentesters
     color: "#B10DC9"
@@ -31,9 +35,6 @@ projects:
   jinora:
     desc: Slack webhook app to create anonymous public channels
     color: "#A89907"
-  phreak:
-    desc: Product Hunt in your system tray (linux)
-    color: "#EE923F"
 
 ---
 
