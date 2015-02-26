@@ -11,9 +11,9 @@ However, if you'll go through my blog posts and emails, I write a lot about _tri
 
 Should I still go ahead and write about it?
 
-This question has been bugging me for a while, especially as a blogger. I mostly write on technical topics these days. For instance, I gave talks on [Software Development], [UX Design], and even [Bitcoin]. I am nowhere close to being an authority on any of these things. Even, in my specialized field of Web Development, there are so many things that I'm only barely aware about. So many things I am yet to even form my own opinions about. Topics I don't even know exist.
+This question has been bugging me for a while, especially as a blogger. I mostly write on technical topics these days. For instance, I have given talks on [Software Development], [UX Design], and even [Bitcoin]. I am nowhere close to being an authority on any of these things. Even in my specialized field of Web Development, there are so many things that I'm only barely aware about. So many things I am yet to even form my own opinions about. Topics I don't even know exist.
 
-When I go and read an article about Software Development from Joel Spolsky, or an article on Security by Bruce Schnieder, or something on Startups by Paul Graham, or tptacek on Hacker News; I instantly sit back and take notice: I know their credentials and the fact that they are speaking authoritatively on the topic. However, what can I, a meager undergrad with almost zero experience, write on such topics. Why should I even try, when there are people hundreds of time who understand these things a thousand times better than me.
+When I go and read an article about Software Development from Joel Spolsky, or an article on Security by Bruce Schnieder, or something on Startups by Paul Graham, or tptacek on Hacker News; I instantly sit back and take notice: I know their credentials and the fact that they are speaking authoritatively on the topic. However, what can I, a meager undergrad with almost zero experience, write on such topics. Why should I even try, when there are people hundreds of time better who understand these things a thousand times better than me.
 
 In retrospect, this sounds quite similar to the Imposter Syndrome; and I'm not sure if this is exactly the same thing. I don't get a feeling that I'm a fraud. I totally understand my own capabilities and successes, but the mere fact that there are people far better at what I'm doing is enough to dis-hearten me.
 
@@ -27,14 +27,14 @@ I write, despite all these doubts, for the following reasons:
 
 1. Self-learning. A blog is an excellent way to keep track of your self-learning. Its amazing to come back a few years later and see the things you were struggling with before. Its equally amazing to do a trivial google search for an issue you face and find your own blog post or stackoverflow answer on the same.
 2. Sharing Knowledge. Yes, there are people who might know it better, but that shouldn't mean I should keep my knowledge to myself. That would go against all the values that I stand for.
-3. Network Effect: Not in the strictest sense of the word, but my friend [Shashank] recently bought this up. I have a circle of people who know me and would vouch for my credentials. For the same reason, they are more likely to trust me as source, instead of a third person who they have no knowledge of.
+3. Network Effect: Not in the strictest sense of the word, but my friend [Shashank] recently brought this up. I have a circle of people who know me and would vouch for my credentials. For the same reason, they are more likely to trust me as source, instead of a third person who they have no knowledge of.
 4. I love writing. The mere process of putting words down is enchanting for me.
 
-The next question that rises is: "What should I write about?". Ruling out things I have no clue about, that still leaves a large number of topics I can cover. I am interested in UX Design, Hackers, Computer Security, Software Development, Rationalism, Skeptipism, Free and Open Source movements, Political activism, Technocracy with a passing interest in several other fields such as cosmology and geek culture.
+The next question that rises is: "What should I write about?". Ruling out things I have no clue about, that still leaves a large number of topics I can cover. I am interested in UX Design, Hackers, Computer Security, Software Development, rationalism, skepticism, Free and Open Source movements, Political activism, Technocracy with a passing interest in several other fields such as cosmology and geek culture.
 
 I am not going to pick one every day and write about something new. I don't want to write something rubbish just for the sake of writing it. I ultimately want to write because I have something to say. It doesn't have to be unique or ground-breaking. What matters is that I _want to write about it_.
 
-A few days someone contacted me on facebook asking me advice on getting started with web development. I get a lot of these queries, mostly over facebook, email, and quora. Our conversation went back and forth with me suggesting resources, and he getting exceedingly confused over whether he should use codecademy or udacity, or coursera or something else.
+A few days back someone contacted me on facebook asking me advice on getting started with web development. I get a lot of these queries, mostly over facebook, email, and quora. Our conversation went back and forth with me suggesting resources, and he getting exceedingly confused over whether he should use codecademy or udacity, or coursera or something else.
 
 I have devoted a lot of time in my life to teaching people the nuances of these things. I have mentored many people, and acutely know the issues a beginner faces. In turn, I had an amazing mentor who taught me the importance of always learning things.
 
