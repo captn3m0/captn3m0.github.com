@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Buxton's Law
+title: Buxton's Rule
 tags:
   - ux
   - design
@@ -9,7 +9,7 @@ I consider myself a UX enthusiast. I consider that term to aptly describe my int
 
 >Goes to show what it takes to achieve excellence: lots of trial and error. Produce at least 3 alternatives for every design decision (Bill Buxton agrees).
 >
->[mstuherl](https://news.ycombinator.com/item?id=4312953)
+> &mdash; [mstuherl](https://news.ycombinator.com/item?id=4312953)
 
 It sounded so basic, yet often I see designers trying to defend their first design, because it seems good enough to them. No good design is ever born at the first step. Just like any other process, it takes multiple iterations to perfect it.
 
@@ -19,8 +19,14 @@ I recently got in touch with Morgan ([mstuherl on HN][ms]), and thanked him for 
 
 So thats what I'm calling it:
 
-**Buxton's Rule**: Produce at least 3 alternatives for every design decision.
-
+<div>
+<center>
+<h3>
+  BUXTON'S RULE
+  <br>
+  Produce at least 3 alternatives for every design decision.
+</center>
+</div>
 
 ##Further Reading
 
