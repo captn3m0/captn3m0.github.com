@@ -7,7 +7,7 @@ title: Medium abuses nofollow
 layout: post
 ---
 
-I call <a href="https://medium.com" rel="nofollow" title="This is a nofollow link">medium</a> a "_mostly good_" platform for lazy writers. A lot of people have written about its excellent typography, or it being the next "big publishing platform". I've used medium in the past, and while it does have it benefits, I have stopped using it.
+I call <a href="https://medium.com" rel="nofollow" title="This is a nofollow link">medium</a> a "_mostly good_" platform for lazy writers. A lot of people have written about its excellent typography, or it being the next "big publishing platform". I've used medium in the past, and while it does have its benefits, I have stopped using it.
 
 My primary reason was that I already have a blog, where I can control the entire experience. This is the same reason why New York Times does not start publishing articles on Medium.
 
@@ -33,6 +33,6 @@ If you publish content on medium, and provide relevant links for your readers, r
 
 Medium has said that this is [not a top priority](https://twitter.com/lenkendall/status/432203084270292992) at the moment for them.
 
-I totally agree. Handling spam would be a far more harder problem to solve than just blacklisting all outbound links. But we cannot go this way, if we want an open web. We need publishing platforms that cite content, and not blacklist it. This is why I write content on my own blog, and not on medium.
+I understand completely. Handling spam would be a far more harder problem to solve than just blacklisting all outbound links. But we cannot go this way, if we want an open web. We need publishing platforms that cite content, and not blacklist it. This is why I write content on my own blog, and not on medium.
 
 And just so you know, the top link to medium has a `rel=nofollow`.
