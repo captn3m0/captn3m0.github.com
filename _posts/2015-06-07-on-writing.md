@@ -63,6 +63,7 @@ If you wanna support its development, you can do one of the following:
 - [Subscribe][josd] to the mailing list (I'll send out updates there)
 - Watch or Star the repo on [GitHub][josd-gh].
 - [Donate on Gratipay][gratipay]
+- See the [CONTRIBUTING][contributing] file on github for contributing to the text.
 
 Asking for Donations might sound weird to some. I don't really need the money, but I think I'd get an additional sense of responsibility towards finishing it if people start giving me money. I will be donating the entire proceedings to [EFF][eff].
 
@@ -86,3 +87,4 @@ Asking for Donations might sound weird to some. I don't really need the money, b
 [eff]: https://www.eff.org/ "Electronic Frontier Foundation"
 [jos]: http://www.joelonsoftware.com/ "Joel on Software"
 [pg]: http://paulgraham.com/articles.html "Essays by Paul Graham"
+[contributing]: https://github.com/captn3m0/the-joy-of-software-development/blob/master/CONTRIBUTING.md "Contributing Guide on GitHub"
