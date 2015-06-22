@@ -11,7 +11,7 @@ I'm Abhay Rana (aka Nemo).
 
 ![Note: Not my setup](/img/desktop-stock.jpg)
 
-Most of my work is done on my System 76 Galago UltraPro. It has a clear 14" IPS display which runs at full HD powered by the Intel i7-4750HQ processor and Intel HD 5200 Iris Pro graphic card. I work on VMs sometimes, so I had its RAM upgraded to 8GB.
+Most of my work is done on my System 76 Galago UltraPro. It has a clear 14" IPS display which runs at full HD powered by the Intel i7-4750HQ processor and Intel HD 5200 Iris Pro graphic card. I work on VMs sometimes, so I had its RAM upgraded to 8GB. I also shifted to a Samsung EVO SSD.
 
 My phone these days is a Yu Yureka. I backup all of my media to a 1TB Seagate Expansion Portable HDD. Other than this, I own an iPad 2 (16GB 3G+WiFi), which I mostly use for reading books. I have Sennheiser HD 202, which I consider an excellent pair of headphones considering the price.
 
@@ -21,9 +21,9 @@ I am an ocassional gamer and use the Logitech G300 for both gaming and productiv
 
 ![This is my desktop](/img/wallpaper.jpg)
 
-After a lot of distro-hopping, I've settled on Ubuntu 14.04 + Cinnamon Nightly as my operating system of choice. I'll probably switch over to Elementary Freya when its released. My most used tools include: Vim, Sublime Text 2, Google Chrome Canary, Git. I use byobu on the terminal (Gnome Terminal) for managing multiple sessions and tabs.
+My current distro is Arch with i3 as the window manager. My most used tools include: Vim, Sublime Text 3, Google Chrome Canary, Git. I use byobu on the terminal for managing multiple sessions and tabs. I game using Steam, and purchase DRM free games via Humble Bundle whenever possible.
 
-My phone comes with official Cyanogen OS 11 (based on Android 4.4/KitKat), and supports rooting (it doesn't void the warranty). My most used apps are: Slack, Mantano, WhatsApp, Inbox.
+My phone comes with official Cyanogen OS 12 (based on Android 5/Lollipop), and supports rooting (it doesn't void the warranty). My most used apps are: Slack, Mantano, Google Inbox. After rooting, the two most important apps for me are AdAway and AFWall. Cyanogen's built-in PrivacyGuard feature is also really good.
 
 Most of my work is done in editors, command line, and the browser. I've switched over to Inbox as my default email client. I few essential extensions on my browser include: dotjs (with apache support), Ghostery, uBlock, HTTPS Everywhere, LastPass, Markdown Here, Pushbullet and Streamus.
 
