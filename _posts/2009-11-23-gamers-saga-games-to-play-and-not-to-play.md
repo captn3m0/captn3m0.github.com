@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gamers Saga - Games to play and not to play
+title: Games to play and not to play
 tags:
 - gaming
 status: publish
@@ -31,5 +31,3 @@ Then what is the reason that they are so hyped, and most played MMORPGs? The rea
 >I knew that i wanted to control my destiny, so I knew I needed revenues, right, fucking, now. Like I needed revenues now. So I funded the company myself but I did every horrible thing in the book to, just to get revenues right away. I mean we gave our users poker chips if they downloaded this zwinky toolbar which was like, I dont know, I downloaded it once and couldn’t get rid of it. *laughs* We did anything possible just to just get revenues so that we could grow and be a real business…So control your destiny. So that was a big lesson, controlling your business. So by the time we raised money we were profitable.
 
 Read the entire story on facebook gaming scams [here](http://consumerist.com/5400720/mafia-wars-ceo-brags-about-scamming-users-from-day-one). And if you’re with me, try picking up some better titles instead of playing these nonsense games on FB
-
-
