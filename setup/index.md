@@ -18,7 +18,10 @@ My phone these days is a Yu Yureka. I backup all of my media to a 1TB Seagate Ex
 I am an ocassional gamer and use the Logitech G300 for both gaming and productivity (its heavily customizable). Since my laptop speakers aren't exactly top-notch, I rely on my Logitech X100 bluetooth speakers for listening in closed spaces.
 
 I own a Cooler Master QuickFire Rapid-i mechanical keyboard (Cherry MX brown), and absolutely love it.
-It has crazy custom backlight support, and typing on it is a joy. 
+It has crazy custom backlight support, and typing on it is a joy.
+
+I am also a speedcuber; my primary cube is a DaYan GuHong v2. I also own several
+other cubes, including a Mirror and a Void cube.
 
 ##And what software?
 
