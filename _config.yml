@@ -10,7 +10,7 @@ description: |
   <div class="image">
     <img class="thumbnail" src="/img/profile.jpg">
   </div>
-url: http://captnemo.in
+url: https://captnemo.in
 baseurl: /
 paginate: 3
 paginate_path: "/page/:num/"
