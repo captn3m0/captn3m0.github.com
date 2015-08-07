@@ -3,10 +3,13 @@ title: The Setup
 layout: page
 ---
 
-##Who am I, and what do I do?
+## Who am I, and what do I do?
 
-I'm Abhay Rana, more popularly known as Nemo. 
-I do tech things at [Razorpay](https://razorpay.com).
+I'm Abhay Rana, more popularly known as Nemo. I am a hacker, web developer, writer,
+and a UX enthusiast. I am working on a book called [The Joy of Software Development][josd].
+
+I work at [Razorpay](https://razorpay.com) where we are working
+on improving the state of online payments in India.
 
 ##What hardware do I use?
 
@@ -22,9 +25,9 @@ I own a [Cooler Master QuickFire Rapid-i][quickfire] mechanical keyboard (Cherry
 It has crazy custom backlight support, and typing on it is a joy.
 
 I am also a speedcuber; my primary cube is a [DaYan GuHong v2][guhong] (stickerless). I also own several
-other cubes, including a Mirror and a Void cube.
+other twisty puzzles, including a Mirror Cube and a Megaminx.
 
-##And what software?
+## And what software?
 
 ![This is my desktop](/img/wallpaper.jpg)
 
@@ -32,11 +35,11 @@ My current distro is [Arch Linux][arch] with [i3][i3] as the window manager. My 
 
 My phone comes with official Cyanogen OS 12 (based on Android 5/Lollipop), and supports rooting (it doesn't void the warranty). My most used apps are: Slack, Google Inbox, [Hacker News][hnapp]. After rooting, the two most important apps for me are [AdAway][adaway] and [AFWall][afwall]. Cyanogen's built-in PrivacyGuard feature is also really good.
 
-Most of my work is done in editors, command line, and the browser. I've switched over to Google Inbox as my default email client. I few essential extensions on my browser include: dotjs (with apache support), [Privacy Badger][privacybadger], [uBlock Origin][ublock], HTTPS Everywhere, LastPass, and Markdown Here.
+Most of my work is done in editors, command line, and the browser. I've switched over to Google Inbox as my default email client. A few essential extensions on my browser include: dotjs (with apache support), [Privacy Badger][privacybadger], [uBlock Origin][ublock], HTTPS Everywhere, LastPass, and Markdown Here.
 
 I am a [Hacker News][hn] addict, and have even written an application for it. Most used webapps would be: Slack, GitHub, and WorkFlowy. I use Google Music for listening to music on the go, and cmus on the desktop.
 
-##What would be my dream setup?
+## What would be my dream setup?
 
 A lightweight laptop with tons of battery life, 13" display, and official Linux support (Dell Sputnik comes close). A Kindle with EPUB support would be a nice to have. I've always wanted to try a crazy multi-monitor setup.
 
