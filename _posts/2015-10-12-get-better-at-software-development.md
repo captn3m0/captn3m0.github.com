@@ -45,3 +45,7 @@ This is slightly harder to do, but far more rewarding. Make sure that your side-
 
 1. ### Read technical books
 As a start, I'd recommend everything that codinghorror has suggested [here](https://blog.codinghorror.com/recommended-reading-for-developers/) and [here](https://blog.codinghorror.com/programmers-dont-read-books-but-you-should/). There are a lot of good books listed on hackershelf.com as well. My personal favorite is [Don't Make Me Think](http://www.amazon.com/exec/obidos/ASIN/0321965515), which is a book on Web Usability and something I think every developer and designer should be forced to read.
+
+
+**Thanks** to [Shashank Mehta](https://shashankmehta.in) for discussing these ideas
+with me and helping me frame this post.
