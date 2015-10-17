@@ -42,7 +42,7 @@ Most of the source code used to gather these datasets is available [on github](h
 * Or Download it in [csv](./2010.csv) and [sql](./2010.sql) formats
 * A list of selection count is available [here](./2010.center.html). This count is based on the first three digits of the registration number, which I've since learned is not how it works. As such it is not-completely-correct. (The correct versioning scheme uses the first four digits of the registration number to denote the actual center (within a city)).
 
-# 2009
+## 2009
 
 I was the first person to do such a listing, and since my first such list was in 2010 (posted on the now defunct piratecoders.co.cc), after my second semester in college, I fear there are very few archives of such things before that date. However, a JEE panel had analysed the results of the year 2009, and they were made available on the [IIT JEE website](http://jee.iitr.ernet.in/images/jee2009.mdb) (38MB).
 
@@ -54,7 +54,10 @@ I was the first person to do such a listing, and since my first such list was in
 # Licence Information
 
 ## 2009
+
 The data is from the IIT-JEE website. I have only mirrored it, because the JEE website no longer hosts it.
+
+Since it was released under RTI, I do not hold any rights over the dataset.
 
 ## 2010,2011
 
