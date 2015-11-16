@@ -70,18 +70,19 @@ second to six billion people for 4 billion years to deliver a single molecule of
 
 ## Bounty Amount
 
-Current total: 5000 INR
+{% include homeopathy.html %}
 
-If you'd like to up the amount, I'll add your name to the list. Tweet to me [@captn3m0](https://twitter.com/captn3m0) or send me an [email](mailto:me@captnemo.in).
+If you'd like to up the amount, I'll add your name to the list. Tweet to me [@captn3m0](https://twitter.com/captn3m0) or send me an [email](mailto:me@captnemo.in). You can also file a Pull Request on GitHub by editing the [_data/homeopathy.yml][data] file.
 
-You can be anonymous if you'd like, but I'd need to verify your contact
-details.
+You can be anonymous if you'd like, but I'll need to verify your contact
+details. The bounty details are maintained on github in the
+[_data/homeopathy.yml][data] file.
 
 ### Suggestions
 
 This is a list of suggestions I got while delivering the talk at [hackbeach](https://hackbeach.in).
 
-* Convert to rupees
+* ~~Convert to rupees~~
 * Word count
 * References
   * Journalistic references
@@ -92,3 +93,5 @@ This is a list of suggestions I got while delivering the talk at [hackbeach](htt
 * A guide on the kind of references we want
   * What questions should it cover
 * homeopathybugbounty.com/in
+
+[data]: https://github.com/captn3m0/captn3m0.github.com/blob/master/_data/homeopathy.yml

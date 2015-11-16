@@ -1,0 +1,14 @@
+---
+{% assign total = 0 %}
+{% for person in site.data.homeopathy.money %}
+{% assign id = person[0] %}
+{% if site.data.homeopathy.links[id] %}
+- [{{person[0]}}]({{site.data.homeopathy.links[id]}}): {{person[1]}} INR
+{% else %}
+- {{person[0]}}: {{person[1]}} INR
+{% endif %}
+{% assign total = total |plus:person[1] %}
+
+{% endfor %}
+
+Curent Total: {{total}} INR
