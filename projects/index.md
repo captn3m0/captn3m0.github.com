@@ -9,9 +9,10 @@ projects:
     desc: A book on Software Development
     color: "#DB8D17"
     url: https://josd.captnemo.in/
-  amon: 
-    desc: An oauth based hacking tool for pentesters
+  hackercouch: 
+    desc: CouchSurfing for Hackers
     color: "#B10DC9"
+    url: https://hackercouch.com
   iitjee:
     desc: Scraped result listing of IITJEE 2010-2014
     color: #39CCCC
@@ -23,9 +24,10 @@ projects:
   ifttt-webhook: 
     desc: Webhook middleware for the ifttt.com service
     color: "#3D9970"
-  roy: 
-    desc: Task management for Slack teams
+  Homeopathy Bug Bounty: 
+    desc: A bug bounty project on Homeopathy in India
     color: "#e74c3c"
+    url: /homeopathy/
   play: 
     desc: Music Server to allow a team to play and queue songs
     color: "#3498db"

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: A Bug Bounty for Homeopathy
+title: A Bug Bounty on Homeopathy
 ---
 ## Introduction
 
 This is a public document offering a monetary bounty to writers who are willing to write a piece on Homeopathy in India.
+
 The bounty money is yours to keep. If you do not wish to keep it, I'll donate it to a charity of your choice.
 
 #### Why
@@ -69,9 +70,25 @@ second to six billion people for 4 billion years to deliver a single molecule of
 
 ## Bounty Amount
 
-Current total: 100 USD
+Current total: 5000 INR
 
-If you'd like to up the amount, I'll add your name to the list.
+If you'd like to up the amount, I'll add your name to the list. Tweet to me [@captn3m0](https://twitter.com/captn3m0) or send me an [email](mailto:me@captnemo.in).
 
 You can be anonymous if you'd like, but I'd need to verify your contact
 details.
+
+### Suggestions
+
+This is a list of suggestions I got while delivering the talk at [hackbeach](https://hackbeach.in).
+
+* Convert to rupees
+* Word count
+* References
+  * Journalistic references
+* Date? (1st Jan 2015)
+* Open License
+  * Not behind a paywall
+  * Newspapers should be allowed to republish
+* A guide on the kind of references we want
+  * What questions should it cover
+* homeopathybugbounty.com/in
