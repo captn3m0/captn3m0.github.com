@@ -22,9 +22,13 @@ on their website if you read the linked content) and fake testimonials from cele
 - Why invest in homeopathy?
 - Shouldn't the investors do some due diligence?
 - Why is the government still reluctant to derecognize Homeopathy
-- Why does the government spend $25M every year under AYUSH's homeopathy section without any checks?
+- Why does the government spend (at least) [$18.5M every year](http://indiabudget.nic.in/ub2014-15/eb/sbe48.pdf) under AYUSH's homeopathy section without any checks?
 - Why is homepathy still being taught in India?
 - What can we do to improve the present state?
+
+Lots of countries in the world (most recently UK) is having a public discourse
+on the topic of homeopathy being legal. We need to start a discussion on the topic
+and figure out some answers.
 
 ## Bounty Guidelines
 
@@ -83,7 +87,7 @@ details. The bounty details are maintained on github in the
 This is a list of suggestions I got while delivering the talk at [hackbeach](https://hackbeach.in).
 
 * ~~Convert to rupees~~
-* Word count
+* Minimum Word count
 * References
   * Journalistic references
 * Date? (1st Jan 2015)
