@@ -1,5 +1,6 @@
 ---
 title: The Setup
+permalink: /setup/
 layout: page
 ---
 
@@ -63,3 +64,4 @@ If we're talking super-crazy, I'd love to have a thought-dictation feature. That
 [ublock]: https://github.com/gorhill/uBlock/ "uBlock Origin"
 [privacybadger]: https://www.eff.org/privacybadger "Privacy Badger (by EFF) blocks spying ads and invisible trackers"
 [hn]: https://news.ycombinator.com "Hacker News"
+[josd]: https://josd.captnemo.in/

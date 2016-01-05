@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact Me
+permalink: /contact/
 ---		
 You can contact me via any of the following means :
 
