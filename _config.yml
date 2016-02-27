@@ -1,5 +1,7 @@
-highlighter: pygments
-permalink: /blog/:year/:month/:day/:title/
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
 markdown: rdiscount
 author:
   name: Abhay Rana
@@ -14,3 +16,5 @@ url: https://captnemo.in
 baseurl: /
 paginate: 3
 paginate_path: "/page/:num/"
+gems:
+  - jekyll-paginate
