@@ -2,7 +2,7 @@ collections:
   posts:
     output: true
     permalink: /blog/:year/:month/:day/:title/
-markdown: rdiscount
+markdown: kramdown
 author:
   name: Abhay Rana
   url: https://about.me/n3m0
