@@ -8,13 +8,12 @@ I am
 
 - Writing code at [Razorpay](https://razorpay.com)
 - Writing a book called [The Joy of Software Development][josd]
-- Playing around with my Raspberry Pi
 - Working on side projects, including:
     + [hackercouch][hc]
-- Playing boardgames and meeting interesting people
+    + /dev/mail (TBA)
+- Learning Haskell
 - Living in Bangalore
-- Reading Sandman Overture, Aether of Night, and Best Served Cold
-- Listening to Kraftwerk
+- Reading Bird by Bird
 
 Page inspired by [nownownow.com](http://nownownow.com/about).
 
