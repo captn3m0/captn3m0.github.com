@@ -12,7 +12,7 @@ and a UX enthusiast. I am working on a book called [The Joy of Software Developm
 I work at [Razorpay](https://razorpay.com) where we are working
 on improving the state of online payments in India.
 
-##What hardware do I use?
+## What hardware do I use?
 
 ![My temporary work-desk](/img/desktop.jpg)
 

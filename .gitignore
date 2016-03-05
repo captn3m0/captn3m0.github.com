@@ -1,1 +1,3 @@
 _site/
+.rvm-gemset
+.jekyll-metadata

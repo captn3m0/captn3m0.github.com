@@ -24,11 +24,12 @@ So thats what I'm calling it:
 <h3>
   BUXTON'S RULE
   <br>
-  Produce at least 3 alternatives for every design decision.
+  Produce at least 3 alternatives for every design decisions.
+</h3>
 </center>
 </div>
 
-##Further Reading
+## Further Reading
 
 - [Iteration in the Design of the Human-Computer Interface](http://www.billbuxton.com/iteration.html) - Bill Buxton
 - [Sketching User Experiences](http://www.amazon.com/Sketching-User-Experiences-Interactive-Technologies/dp/0123740371) by Bill Buxton

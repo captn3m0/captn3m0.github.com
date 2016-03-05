@@ -1,3 +1,11 @@
+encoding: utf-8
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+# Workaround for permalinks becoming global in jekyll 3
 collections:
   posts:
     output: true
@@ -7,7 +15,7 @@ author:
   name: Abhay Rana
   url: https://about.me/n3m0
 title: Abhay Rana
-tagline: aka Capt. Nemo
+tagline: aka Nemo
 description: |
   <div class="image">
     <img class="thumbnail" src="/img/profile.jpg">

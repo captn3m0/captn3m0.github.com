@@ -1,4 +1,4 @@
-#captnemo.in
+# captnemo.in
 
 - Source code for my blog and personal website. Uses [Jekyll][jekyll] extensively.
 - Uses the excellent [lanyon][lanyon] theme.
