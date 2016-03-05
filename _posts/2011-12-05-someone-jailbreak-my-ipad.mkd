@@ -14,7 +14,7 @@ And why doesn't my itunes recognize any video files at all. I was given a warnin
 
 Seriously, iTunes go back to the bloatware land that you came from. I'll try my luck with something else from now on. And only if someone could give me the specs for the arcane plist format, I might write a PC version of the iBooks app. And calibre needs to fix up its pdf to epub approach. Inline styles are not used anymore, doesn't it know already.
 
-###A few days later...
+### A few days later...
 
 After spending a few more days with my iPad, I have developed a love/hate relationship wit it. I hate the ugly sync process, which still refuses to sync videos, telling me I have to delete everything to start sync. I love it for its ease of use, awesome touch, and aesthetics. I hate it for its lack of support, oepn sync protocols, and most of all Apple's close mindedness regarding unsigned binaries. 
 
@@ -24,7 +24,7 @@ If Microsoft had tried to create such a walled garden of apps in Windows, would 
 
 An appstore is an excellent idea, executed brilliantly by Apple, but please follow MS and give us an official way to do whatever the hell I want to do with my iPad.
 
-###A few weeks later...
+### A few weeks later...
 
 I really hate my iPad now, especially once I realise that my cheap Nokia cell phone has tether support, while my iPad does not.  To do any task that may require you access to a normal file system, such as cloning a repository from github, or editing an document anywhere is impossible in the device. I love playing games on it, though, but it seems like a really costly device to play games and read books on. Get the Fire at less than half the price, and root it to install cyanogen mod (which will soon be available for the Fire). 
 
@@ -33,12 +33,12 @@ Sometimes, I wonder if Indian carriers would have installed Carrier IQ on an iPa
 One of my friends gave a very serious comment on the iPad : "It seems as if you have rented the device from Apple, rather than bought it". And I've come to realise that its a reflection of the sad state that the electronics manufacturing industry is in today.
 
 
-###A few more weeks later :
+### A few more weeks later :
 
 **I jailbroke my iPad :)**
 
 
-##Further links : 
+## Further links : 
 
 - [Jailbreaking Is Not A Crime](Jailbreakingisnotacrime.org) - Sign the petition
 - [Kindle fire unroots itself](http://gizmodo.com/5863640)

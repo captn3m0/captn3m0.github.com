@@ -10,7 +10,7 @@ I recently did something along this line, and this technique is really cool. (I 
 
 If the result of the first query is used as an input in the second query, and the first query is vulnerable, we can use the output as a "input variable" into the second query itself. This would be useful in places where the second query has a better display method than the first one (for instance length restrictions).
 
-##Query 1:
+## Query 1:
 
 {% highlight sql %}
 SELECT * FROM users WHERE email='$email' AND password = '$pass'
@@ -23,7 +23,7 @@ This query is usually accompanied with:
 $_SESSION['email'] = $row['username'];
 {% endhighlight php %}
 
-##Query 2:
+## Query 2:
 
 Assuming something like a profile page:
 {% highlight sql %}
@@ -74,7 +74,7 @@ UNION SELECT GROUP_CONCAT(email),GROUP_CONCAT(password),GROUP_CONCAT(salt) FROM 
 
 Change the OFFSET and you're ready to roll.
 
-##Inception Injection
+## Inception Injection
 
 This was all a theoritical attack on the second query. Granted you could do lots of stuff from here on the first query, but it is far less responsive (Doesn't give much output). The only thing you can modify is the email, which offers you a single field. 
 

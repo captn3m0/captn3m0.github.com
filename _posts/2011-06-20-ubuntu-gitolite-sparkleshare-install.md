@@ -2,10 +2,10 @@
 title: Setting Up Sparkleshare Server using Gitolite and Ubuntu
 layout: post
 ---
-##Introduction
+## Introduction
 Everybody seems to be all about open-source cloud-backup and sync solutions now-a-days. The hype is all around the cloud, they say. However cloud is just a stupid [concept for sales people][1], that I prefer to avoid. However people are coming up with all kinds of crazy ideas to create their own [dropbox][c1] [clones][c2]. A few similar services include [SpiderOak][so], [Ubuntu One][u1], [Sugar Sync][ss], and [Wuala][]. However, not all of them are compatible with Linux (unlike Dropbox, which is). 
 
-##Comparision
+## Comparision
 So here's a minor comparision of some famous clients :
 
 * **Dropbox** : Cuurent Leader, offers everything from sync, collaboration, sharing, public links, upgradable storage and is *the de-facto* client for synchonization tasks. However there have been a few issues regarding its privacy issues recently.
@@ -15,13 +15,13 @@ So here's a minor comparision of some famous clients :
 
 Take a look at <http://en.wikipedia.org/wiki/Comparison_of_file_synchronization_software> for a better comparision of several other services as well.
 
-#Installing SparkleShare using gitolite
+# Installing SparkleShare using gitolite
 This is a simple tutorial on running your own sparkleshare server as a hosting server. Note, that this implementation should ideally be built as a separate module for sparkleshare-admin, which is still under works as of writing. Sparkleshare's basic concept is to use git repositories as storage places. In case you don't know what git is, I'd recommend [this guide][git] for more details. In short it is an awesome revisioning system for use by anyone managing code(or content for that matter as well). It allows you to keep track of what is happening with your directory, and revert back to earlier versions (among **several** other things). 
 
 Sparkleshare asks you to setup a git-server somewhere and use it as a remote storage system. It offers out of the box support for git hosting providers [github][gh] and [gitorious][gi]. It also allows you to add your own custom servers as well. Enough description, lets get down to some work :
 
-###Setup Gitolite
-####Assumptions :
+### Setup Gitolite
+#### Assumptions :
 1. You are running a stable Linux OS (Fedore/Debian/Ubuntu etc)
 2. `user@host1` is your own computer
 3. `user2@host2` is the primary computer where you intend to start the server
@@ -42,7 +42,7 @@ cd gitolite-admin
 nano conf/gitolite.conf
 </pre>
 
-###Setup WildRepos
+### Setup WildRepos
 Edit the file and add the following lines at the bottom :
 <pre class="prettyprint lang-pl">
 repo	share/[a-z0-9]{6}
@@ -65,7 +65,7 @@ logout
 git push
 </pre>
 
-###Setup Client
+### Setup Client
 Now, your server is all setup, but there is still stuff to be done :
 <pre class="prettyprint lang-sh">
 #On user1@host1
@@ -100,7 +100,7 @@ Please take care of the slashes, otherwise sparkleshare fails to recognize it as
 
 After your first sync is complete (in which it tries to clone your existing repo, and gitolite creates it for you), you can find a folder called Sparkleshare in your home directory. This contains all your personal sparkleshares, including your first one. Put in any content inside the fh73ah and it would be automatically synchronized.
 
-##Conclusion
+## Conclusion
 The best thing about sparkleshare is that you can use your own server under your own rules. I've synced 143GB via Sparkleshare so far, and it has been working excellent so far. It takes a complete history, takes care of moves (git) and allows you to keeo huge backups easily. Just drag and drop, and forget. If you want to sync already existing folders, just drag them , and alt+drop them inside the shared folder. This way a sym-link gets created, which refers to the original directory. The sparkleshare folder on my computer takes up hardly a few kbs, but syncs worth 150gb. 
 
 This method is only useful if you need to manage multiple accounts on the same host. Otherwise, you can refer to this [excellent post](http://www.webupd8.org/2011/03/set-up-sparkleshare-with-your-own.html) on webupd8 for instructions to install it to a single user system (which does not involve the complication of gitolite). I've been looking for some gitolite management scripts (I've written a few as well) which would allow one to easily add their own ssh keys. This way anyone can easily setup accounts on the system. However, as of now, this is just a dream.

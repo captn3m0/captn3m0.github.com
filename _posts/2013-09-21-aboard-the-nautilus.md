@@ -50,21 +50,21 @@ On the browser, my most visited sites would be
 [Hacker News][hn] (via hckrnews.com), [WorkFlowy][wf] for managing
 my to-do list and GitHub on a daily basis for most of my projects.
 
-##Hardware
+## Hardware
 I own a old Nokia X3-02, and will be upgrading to a [Firefox OS Phone][fos] soon enough. I use a Dell Inspiron 1545 as my personal machine. I also use an iPad 2 (with 3G) on a daily basis (mostly for reading). I also own a Dayan Zhanchi 3x3 and a 5x5 shengshou 
 speed cube.
 
-##iPad Apps
+## iPad Apps
 The must have iPad apps for me are Chrome, [imo][imop],  and iBooks. I have installed [Mailbox][mb] alongside GMail, and haven't used GMail since
 I installed it. I sometimes write stuff using [Plaintext][pt], and sketch using [Paper][paper]. I read my RSS feeds using Newsify and Feedly.
 
-##Extensions
+## Extensions
 Chrome Extensions that I use on a daily basis include [Chime][chime] for 
 wonderful notifications (highly recommended), [Ghostery][ghostery] for getting a tracker-free internet
 , [HTTPS Everywhere][httpse] to keep me secure, [LastPass][lp] to manage passwords and [Stylish][stylish]
  for [customizing](http://userstyles.org/users/183835) the looks of various websites.
 
-##Dream Setup
+## Dream Setup
 My dream setup would consist of a lightweight Ubuntu Laptop that I can carry around
 that still has lots of processing power and battery life. I'll prety much be satisfied
 by any high-end Android phone as long as it has a decent battery life. 

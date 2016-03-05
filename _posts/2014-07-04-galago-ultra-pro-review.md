@@ -18,7 +18,7 @@ The other few machines I did consider included the Apple MBP, Lenovo Ideapad, De
 
 A few other machines were rejected because I was exclusively looking for a 14-inch screen, due in part to my experience with my previous bulky machine.
 
-##Hardware Review
+## Hardware Review
 The build quality of the Galago is above average, but its still a flimsy offering, when compared to the MBP or other business class offerings such as the Vostro. A lot of the Galago reviews on the internet talk about the defective keyboards, but I faced no such issues. It seems to have been fixed, and the keyboard has been iterated several times since, I think.
 
 The IPS screen (1920x1080) is a real gem, and I've gotten used to watching everything in full HD these days. The laptop has 2 small fans on the lower side, and they hardly ever kick in, making it a quiet laptop. The only times it heats up much is when I'm playing demanding games or doing something GPU intensive. A few issues that I've actually faced with it include:
@@ -33,7 +33,7 @@ As an aside, I really like the keyboard layout (I don't like numeric keypads muc
 
 Having a branded Ubuntu key is also a good show-off at some places :) I also have to mention that the laptop is very silent. The fans rarely kick in, and I have faced no heating issues so far.
 
-##Software Side
+## Software Side
 Despite being built for Linux, I've still faced a few software issues on Linux. None of these are a deal-breaker though for me. The first time I realized that it wasn't really built for Linux was when I booted using my external to Ubuntu 12.04 and the WiFi didn't work. Apparently you need a combination of System 76 custom (though open-source) drivers and 14.04 on this machine to get the drivers to work. This is one of the reasons I haven't downgraded to Elementary Luna (which is based on Ubuntu 12.04). The issues I've faced (along with my workarounds) include:
 
 - Flash not working on Google Chrome Stable. I talked to System76 support over this, and I'm yet to get it working. As a workaround, I've been using Google Chrome Unstable (which I usually use anyway), and it detects flash fine.
@@ -41,10 +41,10 @@ Despite being built for Linux, I've still faced a few software issues on Linux. 
 - Webcam not being detected. This has gotten me a bit puzzled. It was working fine on the fresh Ubuntu 14.04 setup, but some driver issue is preventing it from working now. I think a dist-upgrade should fix it, but I'm not sure. I might try to re-install the `system76-driver` package if that doesn't work. **Update**: It started working again after just a restart.
 - Another minor issue I face is that the brightness key on the keyboard (Fn+F8/F9) allows you to take the brightness level all the way down to *zero*. So you could make your screen pitch-black, with absolutely no idea how to get it back to normal. This happens only on ubuntu, though.
 
-##Overall
+## Overall
 Despite its few quirks, I'm liking my new laptop. I'm enjoying gaming on it (on both Linux and Windows), and it has more than enough power to run whatever combination of VMs I want to. 
 
-##Gaming
+## Gaming
 All the Linux games from my various Humble Bundle purchases are finally being put to good use. The only game that I haven't been able to run is Oilrush, which doesn't support Intel Graphic cards on Linux for some reason. Some of the games that I've tried and enjoy on Linux include:
 
 - Mark of the ninja
@@ -63,7 +63,7 @@ Trine 2 does show some noticable lag on full settings, but its not supported on 
 
 I haven't tried gaming much on Windows, but I do play Blur (admittedly a 3 year old game) sometimes on it at the highest settings.
 
-##Specs
+## Specs
 The only thing I upgraded in my laptop was an increase in RAM from the default of 4GB to 8GB, primarily because I intend to run lots of VMs on this machine. The rest is same as the specs [on the official site](https://system76.com/laptops/model/galu1) (scroll to bottom):
 
 ```

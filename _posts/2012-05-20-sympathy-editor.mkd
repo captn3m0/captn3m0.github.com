@@ -14,7 +14,7 @@ I've used more than a dozen of editors for mainly two purposes: coding, and writ
 
 The era of WYSIWYG editors in web development is long past. I'm yet to hear someone suggest Dreamweaver as a serious editor. If you were to go out in the Rails world, you'd mostly be met by vim/emacs/textmate fans. As a linux user, I use geany for most of my editing work, including blog posts, like this one (Markdown is hands down, the best thing to happen to word-processing).
 
-#Browser meet Editor meet Terminal
+# Browser meet Editor meet Terminal
 
 There were a few attempts at creating code editors (I don't like the term IDE) powered by the gecko engine some time back. None of them materialized to anything special. Today, a normal workflow for me involves 3 open applications - a browser (chromium), a terminal window, and a text-editor. 
 
@@ -26,16 +26,16 @@ On the other hand we have a terminal, which I usually use to run builds, compile
 
 The easiest solution is to get a second monitor. And yes, I love using dual monitors. But I'm still not satisfied. I want something more. I have 3 core applications, but using 3 monitors is an extremely costly venture. So I'm stuck to running a text editor, and alt tabbing my way between Chromium and Gnome Terminal.
 
-#Cloud IDEs
+# Cloud IDEs
 One of the solutions that keeps popping up are the almighty cloud based IDEs (like c9.io), which I really like. But the experience is sub-par at best. 
 
 Another cool project called [sky-edit](https://github.com/Gozala/sky-edit) involves an extension in mozilla, which enables one to edit any text file in the browser itself, by pointing it to "edit:" urls. This is closer to what my ultimate aim is: "text editor in a browser, editing local files".
 
-#Workflow
+# Workflow
 
 What I'd want my workflow to be is point my browser to a text file, edit it in place, change the tab to the live site, and then refresh. Once I realize I have to restart apache, I'd just change my tab to the terminal one, and do my cli stuff there itself.
 
-##Shortcuts:
+## Shortcuts:
 
 - Ctrl+T: New browser tab
 - Ctrl+E: New editor tab
@@ -46,14 +46,14 @@ All `file://` urls are browsable as usual, and all text files become editable. J
 
 And the best part is that it is still a complete browser. Meaning you get to use all your bookmarks, bookmarklets, plugins, and fancy stuff that you expect in a browser.
 
-##Integration
+## Integration
 Just think of the possibilities! Since this is just another browser, you can build extensions that target edit windows. Meaning an extension could add support for auto-completion very easily. And repeat for inline documentation browsing.
 
 A build shortcut could probably be used to switch to a running version of the website in some way. What about other stuff? Like spell-checking? Browsers support that. Even dictation would probably work.
 
 And markdown editing! Hell yeah!. Edit it all in your browser itself, while keeping github open in another tab.
 
-#Start
+# Start
 This is a simple propsal of sorts, to get a few recommendations about how this should proceed. I asked a similar question on the askubuntu forums, which made me realize what the real problems were. I'm trying to build chromium and get something off the ground. The project is tentatively titled `sympathy` and has zero code as of now. 
 
 I tried to earlier write something similar in python, but realized that I could not build an awesome feature complete text-editor by myself. Which made me shift to forking something like geany. I then realized that getting the webview in geany to be feature-complete as a browser would be again heavily demanding. 
@@ -64,5 +64,5 @@ As such, my plan is to fork chromium, and work on adding support for text-file e
 
 Sounds interesting? I've got no idea on how to approach this. Help me out. If you do not like facebook comments, please discuss this on Hacker News, or feel free to drop me a mail.
 
-##Update
+## Update
 I did try my best on developing such a thing, and the end result (still far from finished) is [Sympathy Editor](/sympathy/). Try out the beta. Hopefully you will like it.

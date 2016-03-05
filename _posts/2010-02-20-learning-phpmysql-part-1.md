@@ -20,7 +20,7 @@ Over the past 2 months, I’ve been learning PHP/mySQL as a great language. Afte
 
 The website we will be developing is called Artemis Fowl Files (AFF for short). It is a small website with several features that we shall develop over the length of the tutorial.
 
-##Installing PHP &amp; mySQL using XAMPP
+## Installing PHP &amp; mySQL using XAMPP
 
 
 PHP is a server side scripting language. Which means that PHP is run on the web server itself. For example any PHP script running at Google.com will remain on the server, and not reach you (the client). By contrast, JavaScript runs on the client side, i.e. any JS code must be transmitted to the client before being executed.
@@ -57,7 +57,7 @@ Now open your web browser (Firefox/Chrome is preferred) and open <a href="http:/
 
 Now comes the part where we actually sit down to write some code. We will be developing the mysql parts in the next segment. However we still need to do some other little things before we reach that part.
 
-##Creating The Dreamweaver Template
+## Creating The Dreamweaver Template
 
 Now, call me lazy, but I don’t like designing themes, and CSS for my websites. I usually use a free one. And for the rest of this tutorial, I assume you will do the same. We need to create a Dreamweaver website using a readymade CSS Template. To get a template head on to <a href="http://www.freecsstemplates.org">http://www.freecsstemplates.org</a>. I choose <a href="http://www.freecsstemplates.org/preview/reckoning" target="_blank">this</a> template. Feel free to choose anything. It does not really matter which, but take care not to download a three column template, because what we will be developing is quite basic.
 

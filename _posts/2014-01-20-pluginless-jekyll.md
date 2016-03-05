@@ -26,7 +26,7 @@ away from using them but want to point out that plain-Jekyll itself is powerful
 enough to do most of the tasks. What follows are some examples of how to use
 Jekyll optimally.
 
-##Data Files
+## Data Files
 This is a [recent addition][data-files] in Jekyll that allows you to use
 data noted down in YAML format inside the `_data` directory that is accessible
 to you anywhere using the `site.data` prefix. For instance, I recently shifted
@@ -69,7 +69,7 @@ Earlier, you could have achieved the same thing by adding this data to your
 `_config.yml` file, but the `_data` folder allows you to store data properly
 in various files, if needed.
 
-##Liquid Filters
+## Liquid Filters
 Since Jekyll relies on [Shopify's Liquid][liquid] language for templating
 purposes, it has a very large list of supported functions, filters and markup
 tools ready for you to use. For instance, while working on the
@@ -91,7 +91,7 @@ The above snippet converts a string like "Web Development" to a smaller string
 You can check out more liquid filters [over here][liquid-filters]. These include
 things like `plus`, `times`, `reverse`, and even `md5` (helpful for gravatars).
 
-##Code Highlighting
+## Code Highlighting
 Markdown is really awesome, but it lacks Synax Highlighting for code. Jekyll
 uses [pygments][pygments] to support syntax highlighting for various languages.
 To highlight a piece of code, you just use the following syntax:
@@ -120,7 +120,7 @@ def show
 end
 {% endhighlight %}
 
-##Custom Permalinks
+## Custom Permalinks
 Everyone knows about handling the blog posts permalink using the permalinks
 setting in `_config.yml`. But did you know that you can provide custom
 permalink to any page in your site? For instance, the Jekyll documentation site
@@ -133,7 +133,7 @@ been published to `docs/configuration.html` by default, but the permalink in the
 file forces it to be published to `/docs/config/index.html`. Its a really nice
 setting that allows you to customize the post url for any particular post.
 
-##Raw Liquid Tag
+## Raw Liquid Tag
 In the rare case that you want to use liquid-like syntax somewhere, say you are
 using Handlebars (which uses {%raw%}{{{variable}}}{%endraw%} to echo variables).
 You can use the following syntax:
@@ -149,7 +149,7 @@ portions. You can see the [liquid documentation][ld] for more help.
 
 Side Note: Writing the endraw tag in liquid is [really, really hard][endraw].
 
-##Embedding HTML/CSS inside markdown
+## Embedding HTML/CSS inside markdown
 Sometimes, there are some things that just can't be done with markdown. For
 instance, if you need to use a custom tag, or need to write some css within the
 markdown document for some reason, there is always a way: just embed content

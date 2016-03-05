@@ -10,7 +10,7 @@ I installed Ubuntu as my primary OS back sometime in February. Not that I'd not 
 
 What have I learned ? That its better than Windows, for one. But several other things as well. I'm writing this post from the general linux-distro scene, and not just Ubuntu in specific. For the period before Feb, I'd been using Linux Mint as my primary OS for quite some time. But Ubuntu Natty Alpha brought all that Unity love (which I doted on once), and I had to move to 11.04
 
-##Reasons to switch to Linux
+## Reasons to switch to Linux
 1. Its free!
 2. Its free! No more paying up for Windows. People who had Windows ship with their computers would be delighted to know that there is something called a Windows Refund, which allows you to be compensated by the cost of Windows, if you decide not to use it.
 3. Better file system. If you've ever lost yourself in the mirth of files in "Program Files", "AppData", "Application Data", "sytem32" and the like, you'd be delighted to know that there is a very well balanced binary management system in Linux. All binaries are in PATH, unlike Windows, where some softwares do that, and most don't. So you can actually run `php`, `git`, `ruby` from any damn place that you want. People who have tried to compile Java programs using `javac` on Windows might remembring updating PATH in Windows. No more of that in Linux.
@@ -22,7 +22,7 @@ What have I learned ? That its better than Windows, for one. But several other t
 9. **Software Development** You use Windows to develop stuff for Windows. I'm nowhere near to writing applications in C#. I'll probably be hacking away scripts in ruby, node, python, bash, and building stuff using xul, gtk, webgtk, and qt. All my web applications are ultimately deployed on Linux machines, so it makes sense to write them on Linux. And only Linux has the ease of language package managers, like rubygems, npm, and pip. 
 10. **Open Source** I haven't yet checked out the Linux Kernel source code, but I'm thinking of getting my hands dirty real soon. Ever since I've joined github, I've been introduced to several awesome coders, projects, and organizations. And guess what? Its all open source! Meaning I actually spend less time writing parsers for xml, and more time working on applications.
 
-##What I've Learned
+## What I've Learned
 1. **Be utterly fearless** Back when I was in Windows, a simple partition deletion used to scare me to death. Now? I'm ready for anything. If you, like me, go play with the alpha of all your favorite stuff, then things will break. And it will be fun to solve all that stuff. You will learn a thousand new things in the process, gain lots of rep on askubuntu, and become a Ubuntu Jedi Master. OK, maybe not the last bit, but *you shall become utterly fearless* of all danger. I had to use my computer without network accesibility for three days. And it didn't even give me a GUI. So I just drudged along for 3 days straight on the console. :)
 2. **Community** Sometimes, I feel people do not get my helpful comments, and offerings of help on Facebook. Its not their fault. They've never been introduced to a proper online, helpful community before. The Linux community is helpful, worldwide, readily available, and has probably handled the problem that you are facing now.
 3. **Server Administration** I'm still lacking on the cloud front, as I don't have servers powerful enough to host virtual machines. But otherwise, I've handled lots of stuff. `ssh` is my thing, and I use `git` to deploy applications like a pro. I've moved on from `apache` to `nginx` to `cherokee` and what not.
@@ -30,7 +30,7 @@ What have I learned ? That its better than Windows, for one. But several other t
 
 The only counter argument would be that Windows has much more stream-lined view of things, with almost everything offering a GUI based application to amange stuff. That's just not the Linux way. Still, I'm not one of those crazy fanatics who go around preaching Linux (maybe I am!). I feel that if you are using your computer to just open Chrome, Firefox, VLC, and Word, then anything would do. You could probably install android on your computer and do everything you are doing right now. If you are a heavy gamer, then better stay with Windows. And if you are a programmer, switch to Linux.
 
-##Windows 8
+## Windows 8
 I installed a developer preview copy of Windows 8 recently, and although I was really awed by its designs concepts, I feel that it is still lacking in certain fronts. For instance, it seems to me that Microsoft is trying to get 8 to the tablets much more readily than on the desktops. Why? Because, there is nothing that can undermine Windows superior market share in Desktops for the near future. However Android & iOS have a very strong presence. Ergo, Windows 8 goes to tables. 
 
 I installed all my favorite programs on Windows 8, but had to switch back after a few days. As a developer, it just does not offer me the same freedom, and easy workflow that I am accustomed to. For instance :

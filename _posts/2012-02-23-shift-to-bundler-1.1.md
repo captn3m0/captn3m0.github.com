@@ -15,7 +15,7 @@ The following command should do the trick:
 
 Bundler 1.1 is faster by a huge margin in comparision to 1.0.
 
-###References
+### References
 
 - <http://patshaughnessy.net/2011/10/14/why-bundler-1-1-will-be-much-faster>
 - <http://robots.thoughtbot.com/post/2729333530/fetching-source-index-for-http-rubygems-org>

@@ -1,16 +1,9 @@
 encoding: utf-8
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
 # Workaround for permalinks becoming global in jekyll 3
 collections:
   posts:
     output: true
     permalink: /blog/:year/:month/:day/:title/
-markdown: kramdown
 author:
   name: Abhay Rana
   url: https://about.me/n3m0

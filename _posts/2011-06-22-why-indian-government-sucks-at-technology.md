@@ -6,7 +6,7 @@ tags:
 - india
 ---
 
-###Why The Indian Government sucks at technology
+### Why The Indian Government sucks at technology
 
 >**Note**: All opinions are mine alone. Please keep your opinions limited to comments.
 

@@ -8,7 +8,7 @@ tags:
 
 I've changed to using Chrome for iOS as my primary browser. Since I only own an iPad 2, all of my observations are with regard to the iPad version of the browser.
 
-##Why I love Chrome
+## Why I love Chrome
 
 Chrome is already my primary browser on my primary machine, and after it came out for the iOS, I tried it out hesitantly, but to my surprise (contrary to what the internet says) it is working out even better than expected.
 
@@ -22,7 +22,7 @@ Chrome is already my primary browser on my primary machine, and after it came ou
 
 **Note**: If you have a jailbroken device, you can setup Chrome as your default browser using BrowserChooser from Cydia. The best part is that home-screen shortcuts open in Chrome as well.  I've ditched Facebook App for a shortcut icon to `touch.facebook.com` as a result.
 
-##Things I want
+## Things I want
 
 - Support for **configurable search engines**. I use them extensively (for eg **d**uckduckgo, google **l**ucky search, **a**mazon, **e**bay, **g**it**h**ub, **s**tack**o**verflow and even google **m**obile search). The pre-defined search engines are of no use to me (Bing/Yahoo/Guruji).
 - **Find in Page**. This is a no-brainer. **Edit**: This is available via [Chrome Customizer](http://www.addictivetips.com/ios/great-cydia-tweaks-for-chrome-iphone-ipad/) in Cydia for a jailbroken device.

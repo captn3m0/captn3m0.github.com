@@ -17,7 +17,7 @@ nuts-and-bolts that make rails such a pleasure to work with. Since
 I'm coming back to rails after such a long time, I thought I'd document
 some of the cool new features that I've found in rails this time around.
 
-##Spring
+## Spring
 
 One of the major discomforts of working with rails on the
 command line was that it is *heavy* and *slow*. Spring works behind
@@ -39,7 +39,7 @@ the spring pre-loader leading to much faster startup times. You can even
 use spring against the default system binaries by prefixing the commands
 with `spring`, such as `spring rake -T`.
 
-##Resque-Scheduler
+## Resque-Scheduler
 
 I needed a job queue for background tasks and polling API
 services, and what better tool to use than resque. I'm using it in combination
@@ -71,7 +71,7 @@ Also remember to define the `resque:setup` task according to the
 This blog post is a work-in-progress and I will continue to update it with
 bits of rails-foo as I learn more.
 
-##Rake-notes
+## Rake-notes
 
 I'd never tried using notes before, and as it turns out, using `rake:notes`
 is easy and super-awesome. Its allows you to spread your notes about TODOs, FIXMEs and such throughout your codebase and take a bird-eye's look at them with just a single command.

@@ -62,7 +62,7 @@ I don't think I will ever see the first amendment repealed in my lifetime. Howev
 
 If you want to let the government know of your thoughts on the matter, the Assistant Solicitor General (representing the Government in the case) can be reached at <tusharmehta64@yahoo.com>.
 
-##Further Reading
+## Further Reading
 
 This is a loose list of various references and readings on the topic.
 
