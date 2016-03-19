@@ -1,0 +1,2012 @@
+- 
+  - 
+    user: hiemanshu
+    text: "@nemo: whats the biggest item on your TODO list that been pending so long you've stopped even thinking about it?"
+    timestamp: 1457116419
+  - 
+    user: nemo
+    text: My book.
+    timestamp: 1457116444
+  - 
+    user: nemo
+    text: "[josd.captnemo.in](http://josd.captnemo.in) in case someone is interested"
+    timestamp: 1457116476
+  - 
+    user: nemo
+    text: >
+      Started writing last year, but have
+      kinda lost momentum.
+    timestamp: 1457116454
+- 
+  - 
+    user: sathyabhat
+    text: "@nemo: Do you do lot of interviews? What's the more bizarre/stupid things you've heard at interviews?"
+    timestamp: 1457116473
+  - 
+    user: nemo
+    text: 'Do lots of interviews. Bizzare/stupid thing off the top of my head:'
+    timestamp: 1457116731
+  - 
+    user: nemo
+    text: >
+      The browser makes a second request to
+      the registrar for every https
+      certificate check
+    timestamp: 1457116750
+  - 
+    user: nemo
+    text: 'So every time you hit google.com, you also hit thawte :stuck_out_tongue:'
+    timestamp: 1457116764
+  - 
+    user: nemo
+    text: "Tip for interviews: Your solutions don't matter as much as your reasoning. If you are able to explain why you took a particular design decision, and give its limits, that's usually good enough."
+    timestamp: 1457116983
+  - 
+    user: nemo
+    text: >
+      Also, people getting confused between
+      hashing, encryption, encoding
+    timestamp: 1457116898
+  - 
+    user: nemo
+    text: "I'm still disheartened at the number of people unaware of bcrypt"
+    timestamp: 1457117033
+- 
+  - 
+    user: ativerc
+    text: >
+      I learnt about same origin policy from
+      your blog....
+    timestamp: 1457116837
+  - 
+    user: ativerc
+    text: Very informative blog ..... thanks
+    timestamp: 1457116853
+  - 
+    user: nemo
+    text: Yay! Someone _does_ read it
+    timestamp: 1457116866
+  - 
+    user: hiemanshu
+    text: '@nemo: what about md5?'
+    timestamp: 1457117052
+  - 
+    user: nemo
+    text: md5 is broken.
+    timestamp: 1457117102
+  - 
+    user: nemo
+    text: '<https://codahale.com/how-to-safely-store-a-password/>'
+    attachments:
+      - 
+        title: How To Safely Store A Password
+        title_link: >
+          https://codahale.com/how-to-safely-store-a-password/
+        text: In which I recommend bcrypt.
+        fallback: How To Safely Store A Password
+        from_url: >
+          https://codahale.com/how-to-safely-store-a-password/
+        id: 1
+    timestamp: 1457117117
+  - 
+    user: hiemanshu
+    text: >
+      Well let me rephrase, do you think
+      people not using SHA2 or better should
+      move away from md5 to sha2+salt?
+    timestamp: 1457117186
+  - 
+    user: nemo
+    text: >
+      If you are ready to move, just move to
+      bcrypt
+    timestamp: 1457117217
+  - 
+    user: nemo
+    text: >
+      Because hand-rolling salts is (slightly)
+      harder than bcrypt anyway
+    timestamp: 1457117238
+  - 
+    user: nemo
+    text: Since bcrypt handles that for you
+    timestamp: 1457117243
+  - 
+    user: nemo
+    text: ">SHA-256 - 3110.2 M/s"
+    timestamp: 1457117302
+  - 
+    user: nemo
+    text: 'From 2012 - <http://blog.codinghorror.com/speed-hashing/>'
+    timestamp: 1457117308
+- 
+  - 
+    user: ativerc
+    text: "You said on your website that a web dev who doesnt know about same origin policy..... you won't hire him. Do you think that the current people learning code from odinproject or fcc ....can they reach the standards you think is required for a web dev? Or is formal CS education necessary for this?"
+    timestamp: 1457117417
+  - 
+    user: nemo
+    text: >
+      My point over there is that web
+      developers should be aware of how the
+      web itself works
+    timestamp: 1457117496
+  - 
+    user: nemo
+    text: "I don't think a CS education is necessary.  I don't have one"
+    timestamp: 1457117512
+  - 
+    user: hiemanshu
+    text: >
+      I haven’t read the blog post in
+      question, @nemo point me to it please?
+    timestamp: 1457117544
+  - 
+    user: nemo
+    text: 'Point 7 in this blog post: <https://captnemo.in/2015/10/12/get-better-at-software-development.html>'
+    timestamp: 1457117583
+- 
+  - 
+    user: ativerc
+    text: >
+      Arent you a masters degree in cs from
+      IITr?
+    timestamp: 1457117655
+  - 
+    user: nemo
+    text: No, undergrad.
+    timestamp: 1457117664
+  - 
+    user: nemo
+    text: 'And that too in Production &amp; Industrial engineering'
+    timestamp: 1457117675
+  - 
+    user: nemo
+    text: >
+      Which means I just took 1 java course
+      throughout my entire college
+    timestamp: 1457117690
+- 
+  - 
+    user: hiemanshu
+    text: >
+      What language/framework/paradigm are you
+      looking at next? something you want to
+      master
+    timestamp: 1457117880
+  - 
+    user: nemo
+    text: "I'm taking haskell classes at Nilenso these days"
+    timestamp: 1457117893
+  - 
+    user: nemo
+    text: 'Friend is running them, and he gives homework :disappointed:'
+    timestamp: 1457117909
+  - 
+    user: nemo
+    text: "He's planning it for 6 months or so..."
+    timestamp: 1457117939
+  - 
+    user: nemo
+    text: >
+      Trying to catch up with Rails 5 features
+      on a side project
+    timestamp: 1457117955
+  - 
+    user: nemo
+    text: >
+      Elixir is something I want to explore as
+      well, if I get the time
+    timestamp: 1457117966
+- 
+  - 
+    user: ativerc
+    text: >
+      So system76 and the cm keyboard.... im
+      jelly
+    timestamp: 1457118176
+  - 
+    user: nemo
+    text: I usually leave both at work, though.
+    timestamp: 1457118212
+  - 
+    user: nemo
+    text: >
+      My system76 is almost like a workstation
+      now
+    timestamp: 1457118221
+  - 
+    user: ativerc
+    text: What do you use at home? Or travel?
+    timestamp: 1457118238
+  - 
+    user: nemo
+    text: I have a Mac Air
+    timestamp: 1457118264
+  - 
+    user: hiemanshu
+    text: I have the same keyboard.
+    timestamp: 1457118267
+  - 
+    user: nemo
+    text: >
+      Which I use for travel, conferences and
+      at home
+    timestamp: 1457118281
+  - 
+    user: nemo
+    text: '@hiemanshu: With O-rings?'
+    timestamp: 1457118292
+  - 
+    user: hiemanshu
+    text: Without O-rings, but custom keycaps
+    timestamp: 1457118303
+  - 
+    user: hiemanshu
+    text: >
+      I have a bunch of O-rings (like 200 of
+      those)
+    timestamp: 1457118312
+  - 
+    user: hiemanshu
+    text: I have O-rings on the blue keyboards
+    timestamp: 1457118323
+  - 
+    user: nemo
+    text: "Which keycaps? I'm still waiting for a nice cheap release at massdrop"
+    timestamp: 1457118359
+- 
+  - 
+    user: ativerc
+    text: >
+      When did you start to code? How did you
+      progress to where you are right now?
+      Also vim vs emacs?
+    timestamp: 1457118360
+  - 
+    user: nemo
+    text: "Started programming in basic at school. Senior at school taught me C++ because I couldn't make good things in basic"
+    timestamp: 1457118410
+  - 
+    user: nemo
+    text: >
+      Started web-development at college.
+      Mostly PHP because that is what someone
+      told me to do...
+    timestamp: 1457118434
+  - 
+    user: nemo
+    text: >
+      Slowly moved over to other web-related
+      stuff, linux and so on...
+    timestamp: 1457118451
+  - 
+    user: nemo
+    text: >
+      I lurked on reddit for a long time
+      before making an account
+    timestamp: 1457118476
+  - 
+    user: nemo
+    text: >
+      The idea was to make a novelty account
+      and start flamewars everwhere
+    timestamp: 1457118491
+- 
+  - 
+    user: nemo
+    text: "That reminds me of @voldyman's question on editors. I mostly use sublime/vim for work. More comfortable with sublime because I can manage my workspace better there."
+    timestamp: 1457118933
+- 
+  - 
+    user: hiemanshu
+    text: Where did you get the system76 from btw?
+    timestamp: 1457119069
+  - 
+    user: nemo
+    text: Friend carried it on a flight to India.
+  - 
+    user: nemo
+    text: I got it shipped to his home.
+    timestamp: 1457119134
+  - 
+    user: nemo
+    text: "It's a nice machine with good specs and everything"
+    timestamp: 1457119147
+  - 
+    user: nemo
+    text: "But the build quality isn't worth it"
+    timestamp: 1457119167
+- 
+  - 
+    user: sudhirkhanger
+    text: How long have you been using i3?
+    timestamp: 1457119210
+  - 
+    user: nemo
+    text: 'i3 - Since June last year.'
+    timestamp: 1457119230
+  - 
+    user: nemo
+    text: I was using cinnamon before that.
+    timestamp: 1457119239
+- 
+  - 
+    user: ativerc
+    text: Arrey bhai intro toh nahi diya yaar?
+    timestamp: 1457119213
+  - 
+    user: nemo
+    text: 'Intro: @nemo here. I work as a software dev at Razorpay, doing things no one else finds the time for'
+    timestamp: 1457119296
+  - 
+    user: nemo
+    text: "I've been programming since school. Doing web development for the last 5-6 years now."
+    timestamp: 1457119354
+  - 
+    user: nemo
+    text: >
+      In my free time, I do writing,
+      sketching, and slacklining these days.
+    timestamp: 1457119379
+  - 
+    user: nemo
+    text: >
+      Also, I love playing boardgames and
+      retro games (I have a cool raspberry pi
+      setup where we play Tank weekly)
+    timestamp: 1457119425
+  - 
+    user: nemo
+    text: 'If you are in bangalore and wanna play Dungeons and Dragons sometime, let me know :simple_smile:'
+    timestamp: 1457119442
+- 
+  - 
+    user: ativerc
+    text: Also why nemo?
+    timestamp: 1457119271
+  - 
+    user: sudhirkhanger
+    text: "@ativerc checkout the blog linked above."
+    timestamp: 1457119298
+  - 
+    user: nemo
+    text: I have a shitty blog post about the nick
+    timestamp: 1457119319
+- 
+  - 
+    user: sudhirkhanger
+    text: >
+      Is i3 good for running things like GIMP,
+      inkscape? Or is it only good for running
+      terminals?
+    timestamp: 1457119277
+  - 
+    user: nemo
+    text: "I do run pinta on i3, and don't face any issues"
+    timestamp: 1457119486
+  - 
+    user: nemo
+    text: "I guess you can't run gimp in multi-window/floating mode easily"
+    timestamp: 1457119499
+  - 
+    user: nemo
+    text: >
+      But the single window mode should work
+      fine.
+    timestamp: 1457119508
+- 
+  - 
+    user: hiemanshu
+    text: >
+      whats your next music listening device
+      upgrade look like?
+    timestamp: 1457119791
+  - 
+    user: nemo
+    text: >
+      Probably an ATH-M50x, if I can convince
+      myself, or a UE Roll
+    timestamp: 1457119831
+  - 
+    user: nemo
+    text: >
+      I like my sennheisers, and they are
+      quite cheap compared to ATH.
+    timestamp: 1457119857
+  - 
+    user: nemo
+    text: >
+      Quite happy with my current audio setup,
+      actually
+    timestamp: 1457119881
+  - 
+    user: hiemanshu
+    text: >
+      You have a HD202 right? Are they comfy
+      for a long period of time?
+    timestamp: 1457120035
+  - 
+    user: nemo
+    text: "Nopes, they aren't"
+    timestamp: 1457120057
+  - 
+    user: nemo
+    text: "I don't find M30 much comfortable either, and M50 is just too costly for me to justify"
+    timestamp: 1457120089
+  - 
+    user: nemo
+    text: >
+      I stream my laptop pulseaudio to icecast
+      in office
+    timestamp: 1457120122
+  - 
+    user: nemo
+    text: "And just pick up the music on my phone when I walk. It's fun sometimes :simple_smile:"
+    timestamp: 1457120137
+  - 
+    user: hiemanshu
+    text: >
+      ah nice, I used to run a shoutcast
+      server a while ago
+    timestamp: 1457120174
+  - 
+    user: hiemanshu
+    text: '@nemo: the M50x isn’t worth it (depending on what type of music you listen), I’d recommend saving up for a nicer pair. The biggest issue there is then having a nice DAC/AMP along with it.'
+    timestamp: 1457120628
+  - 
+    user: hiemanshu
+    text: >
+      the M50x isn’t very drive-able by most
+      laptops/PCs. You’ll need a nice
+      DAC/AMP to have better control, and the
+      cheap ones screw up with the sound stage
+      too much.
+    timestamp: 1457120684
+- 
+  - 
+    user: sudhirkhanger
+    text: >
+      @nemo what to you use for power
+      management, screen lock, volume, and
+      display manager with your i3 setup?
+    timestamp: 1457121139
+  - 
+    user: voldyman
+    text: '@nemo: vim or emacs? and why emacs?'
+    timestamp: 1457121172
+  - 
+    user: hiemanshu
+    text: '@voldyman: wrong question, he’s a neovim user :stuck_out_tongue:'
+    timestamp: 1457121188
+  - 
+    user: nemo
+    text: 'Hehe. Starting editor flamewars is supposed to be my job :stuck_out_tongue:'
+    timestamp: 1457121232
+  - 
+    user: nemo
+    text: |
+      power-management: nothing. It's mostly used as a workstation, as I said.
+      screen-lock: i3, with a composite lock wallpaper.
+      volume: volumeicon
+      display manager: xdm, because that was easiest to setup.
+    timestamp: 1457121295
+  - 
+    user: nemo
+    text: '<https://github.com/captn3m0/Scripts/blob/master/i3lock.sh>'
+    timestamp: 1457121337
+  - 
+    user: nemo
+    text: 'My i3 config is pretty well commented: <https://github.com/captn3m0/dotfiles/blob/47ba1ddf79df271c17cf04b7a6a3506fb114976c/files/i3/.i3/config>'
+    timestamp: 1457121505
+- 
+  - 
+    user: voldyman
+    text: '@nemo: what kind of work did you do at hillhacks?'
+    timestamp: 1457121329
+  - 
+    user: nemo
+    text: "I think I covered most of it in my blog post. I helped out with the school program. We went to nearby schools and taught kids rubik's cubes, basic ciphers, drama etc"
+    timestamp: 1457121385
+  - 
+    user: nemo
+    text: >
+      hillhacks is very volunteer driven, so I
+      was also helping with the conference
+      scheduling, logistics etc
+    timestamp: 1457121460
+- 
+  - 
+    user: voldyman
+    text: >
+      (btw i have a similar script for
+      locking, just added a command to
+      switchoff the monitor after a few
+      minutes)
+    timestamp: 1457121400
+  - 
+    user: nemo
+    text: I use xautolock for that
+    timestamp: 1457121413
+  - 
+    user: nemo
+    text: >
+      I like showing off my lock screen, so no
+      monitor turnoffs for me
+    timestamp: 1457121437
+  - 
+    user: voldyman
+    text: >
+      i did that for a few days then felt
+      guilty for waisting energy
+    timestamp: 1457121461
+- 
+  - 
+    user: hiemanshu
+    text: '@nemo: what other retro games do you like? Pokemon, mario, etc?'
+    timestamp: 1457122227
+  - 
+    user: nemo
+    text: "hiemanshu: I'm really good at Road Fighter. Sometimes play Pokemon, but mostly stick to Tank, Tetris, and Tennis (the nintendo one)"
+    timestamp: 1457156113
+- 
+  - 
+    user: nikhil
+    text: >
+      On hillhack, I read about it on your
+      blog, seems a lots of learning. Quick
+      question, how did you get involved in
+      first place, I mean do they have any
+      criteria for accepting the members or
+      everyone can join them to learn and
+      experience?
+    timestamp: 1457123065
+  - 
+    user: nemo
+    text: "nikhil: hillhacks is a very open event. There is an online signup and it's highly recommended you join the mailing list"
+    timestamp: 1457156456
+  - 
+    user: nemo
+    text: "We had lots of tents so didn't face any accomodation related issues last year, thankfully"
+    timestamp: 1457156488
+  - 
+    user: nemo
+    text: >
+      I got involved because sva posted a link
+      to hillhacks on the null mailing list
+      and I got instantly hooked (_Hacking in
+      the Himalayas_ is a great pitch)
+    timestamp: 1457156523
+- 
+  - 
+    user: nemo
+    text: "abhshkdz / hiemanshu: Can you suggest what you'd go for that's better than M50x?"
+    timestamp: 1457157082
+- 
+  - 
+    user: hiemanshu
+    text: '@nemo: what about PC gaming?'
+    timestamp: 1457160928
+  - 
+    user: nemo
+    text: >
+      Contra is harder these days. None of us
+      are good at it anymore
+    timestamp: 1457162658
+  - 
+    user: nemo
+    text: On the PC, I only do linux gaming now
+    timestamp: 1457162712
+  - 
+    user: nemo
+    text: >
+      Sometimes on the mac, but limit myself
+      to games that are available for linux
+    timestamp: 1457162724
+  - 
+    user: nemo
+    text: "I've been playing Risk of Rain these days"
+    timestamp: 1457162785
+  - 
+    user: nemo
+    text: >
+      Used to play a lot of AoE, still visit
+      the subreddit
+    timestamp: 1457162884
+- 
+  - 
+    user: ativerc
+    text: Have you played Roadrash?
+    timestamp: 1457165751
+  - 
+    user: nemo
+    text: >
+      I was pretty good at roadrash at one
+      point..
+    timestamp: 1457166427
+  - 
+    user: nemo
+    text: >
+      Yeah, I remember spoon getting turbo.
+      Except it was only 20 turbos or so?
+    timestamp: 1457166442
+  - 
+    user: nemo
+    text: 'And then retype :stuck_out_tongue:'
+    timestamp: 1457166447
+  - 
+    user: ativerc
+    text: yeah
+    timestamp: 1457167359
+- 
+  - 
+    user: nikhil
+    text: |
+      Just out of curiosity, if you are about to meet Dr. Richard Stallman, what would you ask him?
+      (as he his coming to IITR tomorrow)
+    timestamp: 1457168229
+  - 
+    user: nemo
+    text: "Wow. Didn't know cognizance invited him"
+    timestamp: 1457168553
+  - 
+    user: nemo
+    text: "I'd ask him which for-profit companies are doing free software correctly"
+    timestamp: 1457168622
+  - 
+    user: nemo
+    text: 'You usually hear him giving negative companies: google/android, facebook is evil and so on..'
+    timestamp: 1457168664
+  - 
+    user: nemo
+    text: "I'd be interested in knowing if there are any companies he thinks that take software freedom as seriously as he does"
+    timestamp: 1457168682
+  - 
+    user: sudhirkhanger
+    text: >
+      RMS is as crazy as it gets but respect
+      to the man. One thing he has been very
+      true about is that any use of
+      proprietary software is a slippery
+      slope.
+    timestamp: 1457169288
+  - 
+    user: sudhirkhanger
+    text: "I think RMS is secretly Indian. When he has to surf internet he uses friend's computer so that he doesn't get tracked. :stuck_out_tongue_closed_eyes: #jugaad."
+    timestamp: 1457169694
+  - 
+    user: tocttou
+    text: >
+      he said that to promote free software in
+      India we should use the term `mukt
+      software`
+    timestamp: 1457169737
+- 
+  - 
+    user: v
+    text: '@nemo: vi or emacs'
+    timestamp: 1457176195
+  - 
+    user: nemo
+    text: 'nvim these days :stuck_out_tongue:'
+    timestamp: 1457176207
+- 
+  - 
+    user: ativerc
+    text: "@nemo: What's your usual mode or transport? Legs, Cycle, bike , public transport? Also do you workout?"
+    timestamp: 1457180821
+  - 
+    user: nemo
+    text: >
+      usual mode of transport is uber in
+      bangalore
+    timestamp: 1457180849
+  - 
+    user: nemo
+    text: >
+      Going to get a cycle for commute soon.
+      Still researching
+    timestamp: 1457180861
+  - 
+    user: nemo
+    text: "I'd like to get started with running, but for now I slackline every sunday"
+    timestamp: 1457180883
+- 
+  - 
+    user: ativerc
+    text: >
+      What pisses you off everytime that you
+      think of it?
+    timestamp: 1457180991
+  - 
+    user: nemo
+    text: homeopathy, pseudo-science
+    timestamp: 1457181028
+- 
+  - 
+    user: ativerc
+    text: >
+      Digital India ..... what do you think
+      about it?
+    timestamp: 1457181185
+  - 
+    user: nemo
+    text: 'We need better architects, if we want to make this a reality. Government  + technology has never mixed well together in India..'
+    timestamp: 1457181305
+  - 
+    user: nemo
+    text: "UPI, for eg, is a nice initiative. I'm still worried about the day aadhar gets hacked, though :stuck_out_tongue:"
+    timestamp: 1457181336
+  - 
+    user: nemo
+    text: >
+      Digital India is such a bad umbrella
+      term, btw.
+    timestamp: 1457181359
+- 
+  - 
+    user: v
+    text: What kind chair and table you use
+    timestamp: 1457181366
+  - 
+    user: nemo
+    text: >
+      No idea what chair this is. Standard
+      swivel office chair
+    timestamp: 1457181516
+  - 
+    user: nemo
+    text: "Table is open office long style. You've seen our office, no?"
+    timestamp: 1457181533
+- 
+  - 
+    user: v
+    text: Post pics of your setup
+    timestamp: 1457181373
+  - 
+    user: v
+    text: >
+      and your work setup, OS, keyboard and
+      other things
+    timestamp: 1457181573
+  - 
+    user: nemo
+    text: '[captnemo.in/setup/](http://captnemo.in/setup/)'
+    timestamp: 1457181581
+  - 
+    text: '![Photo of my workplace](/img/ama_setup.jpg)'
+    user: nemo
+    timestamp: 1457181837
+- 
+  - 
+    user: v
+    text: 'do you like Dory? :see_no_evil:'
+    timestamp: 1457181666
+  - 
+    user: nemo
+    text: "Haha. That's my hotspot name"
+    timestamp: 1457181725
+  - 
+    user: v
+    text: and whats the password?
+    timestamp: 1457181745
+  - 
+    user: nemo
+    text: Same as the hillhacks wifi password
+    timestamp: 1457181777
+  - 
+    user: nemo
+    text: "You'll have to come to the next one to get that"
+    timestamp: 1457181793
+- 
+  - 
+    user: v
+    text: I saw you wanted Kindle with ePub
+    timestamp: 1457181816
+  - 
+    user: v
+    text: why not Kobo?
+    timestamp: 1457181820
+  - 
+    user: nemo
+    text: Kindle is better
+    timestamp: 1457181828
+  - 
+    user: v
+    text: >
+      the keyboard should not be placed at
+      such height. you will end up having
+      wrist pain in long run
+    timestamp: 1457181926
+  - 
+    user: nemo
+    text: "However, I've bought too many physical books last few months."
+    timestamp: 1457181933
+  - 
+    user: nemo
+    text: >
+      Chair is adjustable, along with the
+      chair armrests
+    timestamp: 1457181941
+- 
+  - 
+    user: ativerc
+    text: "@nemo: Which Laptop manufacturer would you prefer now....given that you don't like the build quality of system76? Im asking this for myself....because I learnt after buying a i7 laptop that stable specs, good quality, linux support matter rather than just sheer power...."
+    timestamp: 1457182257
+  - 
+    user: nemo
+    text: Hmm, I like the build quality of my Air
+    timestamp: 1457182749
+  - 
+    user: nemo
+    text: "But it still doesn't have wifi support on linux"
+    timestamp: 1457182756
+  - 
+    user: nemo
+    text: >
+      You can get a pro and install linux on
+      it
+    timestamp: 1457182762
+  - 
+    user: nemo
+    text: Couple of people in our office do that
+    timestamp: 1457182769
+- 
+  - 
+    user: hiemanshu
+    text: >
+      you watch anime? If you do, why is
+      cowboy bepop your fav?
+    timestamp: 1457183318
+  - 
+    user: nemo
+    text: "haha. it's on my to-watch list."
+    timestamp: 1457183352
+  - 
+    user: nemo
+    text: "Don't watch too much anime. Just the usual: deathnote, FMA: brotherhood, code geass."
+    timestamp: 1457183449
+  - 
+    user: nemo
+    text: Watching samurai champloo these days
+    timestamp: 1457183455
+- 
+  - 
+    user: ativerc
+    text: >
+      you own any cars...bikes...what your
+      favorite car/bike?
+    timestamp: 1457183599
+  - 
+    user: nemo
+    text: |
+      not much interested in automobiles. Would love to own a Tesla someday :stuck_out_tongue:
+      My cooking skills have varied over time. These days I'm limited to maggi
+    timestamp: 1457184066
+- 
+  - 
+    user: ativerc
+    text: >
+      also favorite food.... eating place and
+      do you know how to cook?
+    timestamp: 1457183769
+  - 
+    user: nemo
+    text: I like Truffles in bangalore.
+    timestamp: 1457184082
+- 
+  - 
+    user: sjacob
+    text: "Do you like Bangalore? Would you like to move to any other city/place if your office wasn't a concern? "
+    timestamp: 1457184640
+  - 
+    user: nemo
+    text: >
+      I like bangalore. Mostly because of the
+      people and the communities here, which I
+      sorely missed while living in places
+      like Dehradun
+    timestamp: 1457184782
+  - 
+    user: nemo
+    text: "I'd like to try working from a place like mussorie or nainital someday"
+    timestamp: 1457184807
+- 
+  - 
+    user: sudhirkhanger
+    text: >
+      In your opinion is programming abilities
+      an inherent trait or a learned
+      phenomena?
+    timestamp: 1457205074
+  - 
+    user: nemo
+    text: Give me enough time and I can make a developer out of anyone. Might take a while for some folks, but it's doable.
+    timestamp: 1457226137
+  - 
+    user: nemo
+    text: "You should pick your profession carefully, you will be spending a lot of your lifetime doing it. Make sure it's something that you enjoy."
+    timestamp: 1457226216
+- 
+  - 
+    user: sudhirkhanger
+    text: >
+      @nemo what desktop environment/window
+      manager were you using before i3? Do you
+      find yourself to be more productive with
+      tiling window managers?
+    timestamp: 1457209798
+  - 
+    user: nemo
+    text: "On WM: I was using Cinnamon with lots of shortcuts for workspace switching. I think I'm more productive with i3, but don't really have a way to test that."
+    timestamp: 1457226277
+  - 
+    user: nemo
+    text: >
+      However, I used to use byobu extensively
+      before I shifted.
+    timestamp: 1457226291
+  - 
+    user: nemo
+    text: "I even got the same shortcuts for splits in i3 from byobu. Don't use them anymore but they helped me switch over to i3"
+    timestamp: 1457226347
+- 
+  - 
+    user: hiemanshu
+    text: '@nemo: can you teach people how to think? because I feel like programming is less writing code, more thinking how you do it'
+    timestamp: 1457231143
+  - 
+    user: hiemanshu
+    text: >
+      its hard to teach a person to reason the
+      right way
+    timestamp: 1457231156
+  - 
+    user: nemo
+    text: "Haven't taught basic programming in a while, but teaching people how to think is usually someone else's job."
+    timestamp: 1457231359
+  - 
+    user: nemo
+    text: >
+      More relevant is the ability to model a
+      given problem
+    timestamp: 1457231406
+  - 
+    user: nemo
+    text: >
+      Even basic things like recognising
+      inputs/outputs for a program.
+    timestamp: 1457231458
+  - 
+    user: nemo
+    text: >
+      I think drawing flowcharts and doing all
+      those "write a program for ...."
+      questions in school was helpful for me
+    timestamp: 1457231502
+- 
+  - 
+    user: hariprasad.kulkarni
+    text: "How does the multi screen i3 work? I've never used it multi screen. "
+    timestamp: 1457236031
+  - 
+    user: nemo
+    text: It works brilliantly
+    timestamp: 1457236868
+  - 
+    user: nemo
+    text: "Exactly as you'd want it to: workspaces can move between monitors"
+    timestamp: 1457236891
+  - 
+    user: nemo
+    text: 'I use Win+Shift+(A\|S) to move current workspace to left\|right'
+    timestamp: 1457236907
+  - 
+    user: hariprasad.kulkarni
+    text: >
+      I use h, j, k and l for movement. Just
+      to use my vim muscle memory.
+    timestamp: 1457237509
+- 
+  - 
+    user: hariprasad.kulkarni
+    text: "More details about the haskell classes that you're attending? "
+    timestamp: 1457238730
+  - 
+    user: nemo
+    text: |
+      Notes: <https://github.com/abhin4v/haskell-classes>  
+      Lesson Plan: <https://slack-files.com/T026CAXFZ-F03C4TACH-22a00bae5a>
+    timestamp: 1457238935
+  - 
+    user: nemo
+    text: "abhinav says he'll get us to write production ready haskell in 6 months"
+    timestamp: 1457238952
+  - 
+    user: nemo
+    text: But I doubt that.
+    timestamp: 1457238956
+  - 
+    user: hariprasad.kulkarni
+    text: >
+      How are the classes conducted? I mean
+      physical classes or over something like
+      hangouts?
+    timestamp: 1457243501
+  - 
+    user: nemo
+    text: >
+      @hariprasad.kulkarni physical classes at
+      nilenso office
+    timestamp: 1457254026
+- 
+  - 
+    user: ashwinik
+    text: >
+      @nemo : 2 questions.  
+
+      1. Hypothetically, if you have to start a startup today, what will it be about?
+      2. Fav. Indian startup / small business apart from rzp
+    timestamp: 1457245297
+  - 
+    user: nemo
+    text: "@ashwinik probably on my devmail idea"
+    timestamp: 1457254059
+  - 
+    user: nemo
+    text: 2. I like Wingify
+    timestamp: 1457254115
+  - 
+    user: nemo
+    text: "Other companies I like are hasgeek (not sure if it's a startup still), nilenso"
+    timestamp: 1457254272
+  - 
+    user: nemo
+    text: |
+      @ashwinik: Original Idea: <https://github.com/captn3m0/ideas#newsletters-for-github>
+      
+      Proper Specification: <https://hackpad.com/Idea-Initial-Discussion-WNTdLjDyPhM>
+      
+      Chat: <http://friends.hasgeek.com> (Join `#devmail`)
+    timestamp: 1457268097
+  - 
+    user: nemo
+    text: >
+      Not a very good idea for a startup,
+      because of the small market size and
+      hard monetization
+    timestamp: 1457268139
+- 
+  - 
+    user: sudhirkhanger
+    text: '@nemo: Do you prefer working in office or from home?'
+    timestamp: 1457247586
+- 
+  - 
+    user: chaitanya
+    text: '@nemo: Is that cubbon park in your slacklining video?'
+    timestamp: 1457247703
+  - 
+    user: nemo
+    text: "@chaitanya yes, cubbon park. Go there every Sunday. Didn't go today. Won a quiz instead :)"
+    timestamp: 1457254199
+- 
+  - 
+    user: chaitanya
+    text: "Also, how hard is it to setup i3? Everytime I look at someone's setup on /r/unixporn I feel the urge to try it out but then my enthusiasm fizzles when I see that there is a bunch of config involved."
+    timestamp: 1457247846
+  - 
+    user: tocttou
+    text: css on that sub is so good
+    timestamp: 1457249357
+  - 
+    user: sudhirkhanger
+    text: >
+      @chaitanya having to setup things other
+      than wm like power management, lock,
+      volume, etc. kills it for me.
+    timestamp: 1457253316
+  - 
+    user: nemo
+    text: >
+      I3 has the sanest config among tiling
+      wms
+    timestamp: 1457254223
+- 
+  - 
+    user: sa1
+    text: '@nemo: Does that guy write production haskell at Nilenso?'
+    timestamp: 1457256044
+  - 
+    user: nemo
+    text: >
+      @sa1 he wrote production Haskell at his
+      previous gig. Currently does clojure i
+      think
+    timestamp: 1457256950
+  - 
+    user: nemo
+    text: "I don't remember his previous company, just that he did haskell there."
+    timestamp: 1457267940
+- 
+  - 
+    user: sathyabhat
+    text: '@nemo: How did you get started at Razorpay? Were you working elsewhere/freelancing before RP?'
+    timestamp: 1457256346
+  - 
+    user: nemo
+    text: '@sathyabhat: The first 10 people at razorpay were all from iitr (From 2 different batches). 8 of us from SDSLabs as well'
+    timestamp: 1457268230
+- 
+  - 
+    user: voldyman
+    text: '@nemo: what do you think about bangalore traffic?'
+    timestamp: 1457266597
+  - 
+    user: nemo
+    text: |
+      voldyman: Do you really expect an answer here?
+      Standard answer: good weather, awful traffic
+    timestamp: 1457268035
+- 
+  - 
+    user: muditbhutani
+    text: 'I read in ur book intro that u have been coding " since childhood". So i thought that is why u were such a pro in your first year. But above u said u only knew cpp and started webd in clg. How u learnt so much so fast?  How u managed it with production and industrial branch, it is one of the most hectic branch... What were the habits / situations / beliefs u think helped u a lot in your college years?'
+    timestamp: 1457269260
+  - 
+    user: nemo
+    text: 'mudit: I was only doing c++ before college because I didn’t have proper internet. I gave very little time to acads, which shows in my grades'
+    timestamp: 1457275756
+  - 
+    user: nemo
+    text: |
+      >What were the habits / situations / beliefs u think helped u a lot in your college years?
+
+      - Being part of SDSLabs, where I had some nice mentors
+      - Sticking to one thing I was good at, which I happened to find quite early (web dev). Not necessarily a good thing though. @ashwinik did web for a long time before deciding to do his MS and so on..
+
+      >How u learnt so much so fast?
+
+      - Writing code, making products teaches you faster than anything else can
+    timestamp: 1457275907
+  - 
+    user: nemo
+    text: 'Also, another thing to keep in mind: I’m probably the worst person to take academic advice from.'
+    reactions:
+      - 
+        name: stuck_out_tongue
+        users:
+          - U0FBH35C0
+          - U06VBQ8TB
+        count: 2
+    timestamp: 1457276045
+  - 
+    user: muditbhutani
+    text: 'That i know. :joy: ..  I know enough about you. Nemo is a popular figure here :sunglasses: '
+    timestamp: 1457276760
+  - 
+    user: nemo
+    text: >
+      <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">People are asking me college advice on the ama. Someone please tell them I&#39;m not fit to answer these questions.</p>&mdash; Nemo (@captn3m0) <a href="https://twitter.com/captn3m0/status/706497268833083392">March 6, 2016</a></blockquote>
+    timestamp: 1457276760
+- 
+  - 
+    user: muditbhutani
+    text: 'You founded labs then you must have been the mentor of others. How others mentored you in labs?  :thinking_face: '
+    timestamp: 1457276807
+  - 
+    user: nemo
+    text: >
+      For the mentorship question, I was in
+      second year when we started SDSLabs, so
+      there were people senior to me as well
+    timestamp: 1457293196
+- 
+  - 
+    user: muditbhutani
+    text: 'I thought information security is your passion. Web d :thinking_face: '
+    timestamp: 1457276912
+  - 
+    user: nemo
+    text: '@muditbhutani: I had a career choice between software development and software security. Decided to keep infosec as my side hobby.'
+    timestamp: 1457293159
+- 
+  - 
+    user: aps
+    text: >
+      @nemo What is the one thing, you wish
+      that you had completed at IITR/SDSLabs?
+    timestamp: 1457290321
+  - 
+    user: nemo
+    text: '@aps: Should have started infoseciitr from within college rather than remotely'
+    timestamp: 1457293217
+- 
+  - 
+    user: sathyabhat
+    text: "@nemo: why did you do undergrad in Production &amp; Industrial engineering when software's your interest?"
+    timestamp: 1457293498
+  - 
+    user: sathyabhat
+    text: >
+      (or at least I _think_ you were
+      interested in software since long?
+      apologies if I jumped the gun)
+    timestamp: 1457293634
+  - 
+    user: nemo
+    text: >
+      Yes, I was pretty much interested in
+      software.
+    timestamp: 1457293665
+  - 
+    user: nemo
+    text: >
+      Shitty decisions when you are kid who
+      just cleared JEE, I guess
+    timestamp: 1457293677
+  - 
+    user: nemo
+    text: Also, Roorkee was close to my place.
+    timestamp: 1457293697
+- 
+  - 
+    user: sathyabhat
+    text: >
+      do you regret not taking up CS or has
+      your involvement with SDS Labs exceeded
+      what would have been possible with a
+      formal CS learning program?
+    timestamp: 1457293797
+  - 
+    user: nemo
+    text: >
+      I don’t regret it much, because for me
+      college was about a)learning on my own
+      b) figuring out what I wanted to do c)
+      getting around like-minded people. IITs,
+      despite the shortcomings in technical
+      education, are really good at these
+      three things.
+    timestamp: 1457298183
+- 
+  - 
+    user: nikhil
+    text: >
+      Were you ever got confused between
+      choosing a career as a developer or it
+      was always very clear for you? I mean
+      you ever tried in your branch?
+    timestamp: 1457297970
+  - 
+    user: nemo
+    text: 'nikhil: I am a decent enough production engineer. A lot of P&amp;I work is essentially modelling problems to maths with tools like simplex, linear algebra, and the like. It’s just that I :heart: writing software and making products, far more than I’ll ever enjoy doing cost-benefit or a value engineering analysis'
+    timestamp: 1457298337
+  - 
+    user: nemo
+    text: 'Other career choices I’ve considered: software security, writing.'
+    timestamp: 1457298382
+- 
+  - 
+    user: hiemanshu
+    text: "don't you already do a different version of cost-benefit analysis with SE?"
+    timestamp: 1457298403
+  - 
+    user: hiemanshu
+    text: Value vs Effort analysis
+    timestamp: 1457298413
+  - 
+    user: nemo
+    text: >
+      Yes, but we track different metrics, and
+      the customer feedback loop is usually
+      much faster/better in our industry.
+    timestamp: 1457298483
+  - 
+    user: nemo
+    text: 'And it’s not what we do on a daily basis as developers. Optimising for cost is what you do as a P&amp;I engineer'
+    timestamp: 1457298536
+- 
+  - 
+    user: nikhil
+    text: >
+      Good to know that about you. Still were
+      you always very clear about choosing
+      developing as a profession?
+    timestamp: 1457298647
+  - 
+    user: nemo
+    text: >
+      Mostly yes. The only other career choice
+      I gave some serious thought was infosec,
+      but I never really matured much in that
+      (compared to working on products and
+      code)
+    timestamp: 1457298785
+  - 
+    user: nemo
+    text: >
+      I knew I wasn’t getting into
+      production as a career choice pretty
+      early on
+    timestamp: 1457298808
+- 
+  - 
+    user: nikhil
+    text: 'Given your choice for development, did you tried working  for software giants (Google, MS, FB..) or you were again very clear about starting up?'
+    timestamp: 1457299255
+  - 
+    user: nemo
+    text: |
+      >did you tried working  for software giants
+
+      I had a couple interview offers, but decided I wanted to try startups first. Being an HN addict would do that to you. Also, not having a CS background meant I would have to spend a few months brushing up my cs fundamentals. I decided to use that time elsewhere
+    timestamp: 1457299672
+  - 
+    user: nikhil
+    text: |
+      >I wanted to try startups first.
+
+      How about now?
+    timestamp: 1457300579
+- 
+  - 
+    user: perverted_sage
+    text: |
+      >not having a CS background meant I would have to spend a few months brushing up my cs fundamentals
+
+      @nemo: Some leads on how one can do that?
+    timestamp: 1457315470
+  - 
+    user: nemo
+    text: '@perverted_sage: Do the MIT OCW course on algos. Read CLRS.'
+    timestamp: 1457327579
+- 
+  - 
+    user: hashfyre
+    text: >
+      @nemo Do you use any specific time /
+      productivity management techniques to
+      get the most out of a day. Is not
+      needing to sleep one of them, and is it
+      an acquired skill? Does a 16+ hour
+      schedule affect you biologically.
+    timestamp: 1457318948
+  - 
+    user: nemo
+    text: "@hashfyre: I don't think I work on a 16+ hour schedule, especially seeing as I sleep more than 8 hours usually. I use pomodoro occasionally for working on a focused mode"
+    timestamp: 1457327648
+- 
+  - 
+    user: sudhirkhanger
+    text: "There's an infosec coaching center in my town. The center lead boasts after taking coaching from him his student hacked Google. :joy: :joy: :joy:."
+    timestamp: 1457326035
+  - 
+    user: nemo
+    text: |
+      I have a plan to print cards that say:
+      
+      ```Ankit Fadia won the charlatan of the year award at DEFCON.
+      Don't buy his books if you wanna learn something.```
+      
+      and go to bookstores and put that in all his books
+    timestamp: 1457327808
+- 
+  - 
+    user: tocttou
+    text: |
+      A big problem that I face while working on projects is that academics is a big hindrance, especially when my interests are not aligned with it. For example when there is an extra class on Saturday, even if it is for 1 hour, it ruins the whole day and I am not able to do anything then. I am not sure that I am being picky here or is it the same with others as well. So my questions:
+      
+      1. How did you manage such situations?
+      2. Worst is interacting with profs when you haven't done tutorials / missed some classes. How was you experience in this regard?
+      
+      _Not necessarily an academic advice; just want to know how you managed it_
+    timestamp: 1457327937
+  - 
+    user: nemo
+    text: "Short answer: I didn't manage it. I sidestepped the problem by missing even more classes. Not something I'd recommend"
+    timestamp: 1457328070
+  - 
+    user: nemo
+    text: "You'll like reading this, btw: <http://www.paulgraham.com/makersschedule.html>"
+    timestamp: 1457328102
+- 
+  - 
+    user: hashfyre
+    text: >
+      @nemo What is your reaction to a certain
+      level of practiced negligence regarding
+      infosec, when it comes to Indian
+      business, marketing execs and other
+      non-dev organizational people
+    timestamp: 1457335970
+  - 
+    user: nemo
+    text: |
+      1. It's not just restricted to India. See the link that hiemanshu just posted in #general.
+      2. I don't think that any software developer wants to make insecure products. It's just that security is lower down the priority list of things compared to features
+      3. However, companies ignoring security reports is something I can never understand. Your first priority should be the security of your customers and you are doing them a great disservice by ignoring security reports.
+      
+      There are still some good companies in India taking security seriously. <https://fallible.co/> for eg.
+    timestamp: 1457336209
+  - 
+    user: nemo
+    text: "However, security consultancy (where you are the one doing pen-tests, and not running metasploit) is something I'm yet to see any indian company do well"
+    timestamp: 1457336271
+- 
+  - 
+    user: hiemanshu
+    text: '@nemo: what do you think about oauth2? and why do you think it should die?'
+    timestamp: 1457336937
+  - 
+    user: nemo
+    text: You and your loaded questions
+    timestamp: 1457337527
+- 
+  - 
+    user: nemo
+    text: "Secret announcement: I'm doing a webinar on 14th. <https://twitter.com/Razorpay/status/706760300863729665>"
+    timestamp: 1457340525
+  - 
+    user: nemo
+    text: "Anyway, doing a webinar on 14th about UPI. Register if you're interested :simple_smile:"
+    timestamp: 1457340729
+  - 
+    user: ativerc
+    text: >
+      UPI as in Universal payments something
+      something
+    timestamp: 1457340767
+  - 
+    user: nemo
+    text: 'Yes. Universal Payments Interface. You can find more details at <https://razorpay.com/upi/> (scroll)'
+    timestamp: 1457340905
+- 
+  - 
+    user: turtledev
+    text: |
+      I like how razorpay's hiring paage says "don't see a role that fits you ? apply anyway" :smile:
+    timestamp: 1457350739
+  - 
+    user: sathyabhat
+    text: >
+      they do require people who know a little
+      bit on security though. At least thats
+      what I got from my wife
+    timestamp: 1457350858
+- 
+  - 
+    user: sudhirkhanger
+    text: "I find that words like interest, passion, etc. don't mean so much for me. Not at this age. There's a necessity. For the past few weeks I have been in frame of mind that in order for me to get work done I need to cultivate and maintain habits. I need to avoid distracting things. Some people who start to excel very early don't have to think about it. For someone like me it is a big deal. What do you think? In a nutshell perspiration is more important than inspiration. @nemo "
+    timestamp: 1457351720
+  - 
+    user: nemo
+    text: 'sudhir: Wanna write a self-help book? /s'
+    timestamp: 1457352733
+  - 
+    user: nemo
+    text: >
+      Go build things. Rest all will fall into
+      place
+    timestamp: 1457353005
+- 
+  - 
+    user: v
+    text: '@nemo: what kind of books you read, what are your fav genre, name your current 5 favourite fiction and (non fiction, too) books'
+    timestamp: 1457371950
+  - 
+    user: nemo
+    text: |
+      **Books**
+
+      I mostly read Science Fiction/Fantasy these days with an occasional non-fiction mixed in.
+      I’m a Neil Gaiman and [Brandon Sanderson](http://brandonsanderson.com/) fan. Still waiting for Winds of Winter to come out. The best three books I read last year (all links are to my reviews):
+
+      1. [Lions of Al-Rassan](https://www.goodreads.com/review/show/1241094426 "link to my review") (Historical Fantasy)
+      2. [Goblin Emperor](https://www.goodreads.com/review/show/1400549503 "link to my review") (Medieval Fantasy)
+      3. [The Martian](https://www.goodreads.com/review/show/1148506677 "link to my review") (SF)
+    timestamp: 1457377614
+- 
+  - 
+    user: v
+    text: '@nemo: WHY PHP, I MEAN WHY, OH GOD WHY'
+    timestamp: 1457371989
+  - 
+    user: repmovsd
+    text: LOL
+    timestamp: 1457377238
+  - 
+    user: nemo
+    text: '*PHP*:  I do php/js at work mostly, but love writing Ruby. I’m currently running php7 on dev (and soon on prod), which makes writing code so much more better. There are still issues, yes, mostly regarding inconsistent APIs and names in standard library, but having access to a nice package manager (composer/packagist) can clear most of these. I still call bullshit on the php/scale argument, though.'
+    timestamp: 1457377756
+- 
+  - 
+    user: v
+    text: '@nemo: if you had a chance to erase a programming language completely from everyone, kill it, which one it would be? And why Javascript?'
+    timestamp: 1457372065
+  - 
+    user: nemo
+    text: |
+      *Death of a language*:  
+      I don’t think _any_ language deserves to die. Not even Javascript. Especially not javascript, because that would probably trigger a global economic meltdown. No javascript =
+      
+      - more than half the internet stops working, preventing even this ama from continuing
+      - facebook dies a sad death, along with spotify, netflix, google (which survives somewhat)
+      - Chrome stops working, because even the <chrome://settings> page runs on javascript
+      
+      By eradicating javascript, you have killed node, mongodb, spidermonkey, and businesses worth billions of dollars relying on things as simple as grunt.
+    timestamp: 1457378104
+- 
+  - 
+    user: hiemanshu
+    text: 'what do you think about ruby’s performance, really bad thread supports and GIL? and why do you want to kill it? :stuck_out_tongue:'
+    timestamp: 1457378108
+  - 
+    user: nemo
+    text: and I thought you did RoR?
+    timestamp: 1457378146
+  - 
+    user: hiemanshu
+    text: 'When I started the job, I didn’t know RoR, now that I do, I want to move away from it :stuck_out_tongue:'
+    timestamp: 1457378176
+  - 
+    user: nemo
+    text: 'I was reading this (old read) earlier today: <http://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/>'
+    timestamp: 1457378385
+  - 
+    user: nemo
+    text: |
+      More particularly this quote:
+
+      >Most software is not sold in boxes, available on the Internet, or downloaded from the App Store.  Most software is boring one-off applications in corporations, under-girding every imaginable facet of the global economy.  It tracks expenses, it optimizes shipping costs, it assists the accounting department in preparing projections, it helps design new widgets, it prices insurance policies, it flags orders for manual review by the fraud department, etc etc.  Software solves business problems.
+    timestamp: 1457378457
+  - 
+    user: nemo
+    text: >
+      Ruby lets me write my code cleaner and
+      faster than anything else.
+    timestamp: 1457378486
+  - 
+    user: nemo
+    text: >
+      GIL is still troublesome, though. For
+      me, your code should run as fast as it
+      needs to
+    timestamp: 1457378614
+  - 
+    user: nemo
+    text: >
+      And if I need to a different language
+      for a particular purpose, I’ll do that
+      gladly
+    timestamp: 1457378644
+- 
+  - 
+    user: hiemanshu
+    text: >
+      but what about trying to do anything at
+      scale, do you rewrite your current Rails
+      app?
+    timestamp: 1457378804
+  - 
+    user: nemo
+    text: >
+      I break it down into services, figure
+      out the bottlenecks, and would have a
+      list of low-hanging fruits.
+    timestamp: 1457379270
+  - 
+    user: nemo
+    text: >
+      Scaling is not something you can just
+      wish into thin air.
+    timestamp: 1457379282
+  - 
+    user: nemo
+    text: >
+      You always have plans and know what all
+      things you can optimize and improve
+    timestamp: 1457379303
+  - 
+    user: hiemanshu
+    text: >
+      I know, I might end up just rewriting
+      our most computer intensive parts with a
+      different framework
+    timestamp: 1457379311
+  - 
+    user: nemo
+    text: Exactly.
+    timestamp: 1457379317
+- 
+  - 
+    user: sudhirkhanger
+    text: >
+      @nemo who is your favorite Game of
+      Thrones character?
+    timestamp: 1457378925
+  - 
+    user: nemo
+    text: 'sudhirkhanger: Arya'
+    timestamp: 1457379346
+  - 
+    user: ativerc
+    text: Stick them with the pointy end.
+    timestamp: 1457380588
+- 
+  - 
+    user: turtledev
+    text: "@nemo: following up on @v 's question. What if you could _replace_ javascript with one language. Which one would you choose ?"
+    timestamp: 1457416643
+  - 
+    user: nemo
+    text: 'Lots of people have tried it: <http://www.skulpt.org/> (Python) <http://trydecaf.org/> (Ruby) <http://moonshinejs.org/> (Lua) along with attempts like Dart itself'
+    timestamp: 1457416737
+  - 
+    user: nemo
+    text: >
+      none of these are transpilers. They
+      either modify the browser runtime
+    timestamp: 1457416850
+  - 
+    user: nemo
+    text: Or run a VM inside javascript
+    timestamp: 1457416859
+  - 
+    user: nemo
+    text: "I'd probably go with lua, but I haven't really given it much thought"
+    timestamp: 1457416892
+  - 
+    user: turtledev
+    text: >
+      Cool! Lua is quite nice. Its like js,
+      but more minimal.
+    timestamp: 1457416923
+  - 
+    user: turtledev
+    text: and without all the weird behaviours.
+    timestamp: 1457416937
+- 
+  - 
+    user: perverted_sage
+    text: "@nemo Tried lisp/ml family? Thoughts?"
+    timestamp: 1457418906
+  - 
+    user: nemo
+    text: "Not much to have an opinion. I've gone through some of SICP"
+    timestamp: 1457419019
+- 
+  - 
+    user: repmovsd
+    text: first computer?
+    timestamp: 1457420189
+  - 
+    user: nemo
+    text: P4, 40GB hdd, 128MB RAM. Windows 98
+    timestamp: 1457420485
+  - 
+    user: repmovsd
+    text: which year?
+    timestamp: 1457420851
+  - 
+    user: nemo
+    text: 2003, I think
+    timestamp: 1457421089
+- 
+  - 
+    user: sudhirkhanger
+    text: >
+      @nemo which file manager and terminal
+      emulator do you use? Are you Ubuntu guy
+      as far as server distros go?
+    timestamp: 1457448096
+  - 
+    text: is now running i3 :sunglasses:.
+    subtype: me_message
+    user: sudhirkhanger
+    timestamp: 1457448132
+  - 
+    user: nemo
+    text: 'Ranger and pcmanfm '
+    timestamp: 1457450173
+  - 
+    user: nemo
+    text: Urxvt
+    timestamp: 1457450180
+  - 
+    user: nemo
+    text: Mostly ubuntu on servers
+    timestamp: 1457450189
+- 
+  - 
+    user: muditbhutani
+    text: >
+      How much competitive programming you
+      have done?
+    timestamp: 1457529987
+  - 
+    user: nemo
+    text: "I have multiple hackerearth profiles, but can't find the one with my ruby submissions right now"
+    timestamp: 1457530507
+  - 
+    user: nemo
+    text: 'The last time I was trying out CC, I ended up doing this: <https://www.hackerearth.com/notes/how-i-found-a-bug-in-hackerearth/>'
+    timestamp: 1457530525
+  - 
+    user: nemo
+    text: 'I liked codewars better: <http://www.codewars.com/users/captn3m0>'
+    timestamp: 1457530569
+  - 
+    user: nemo
+    text: 'I want to try out <https://starfighter.readme.io/docs/what-is-stockfighter-faq> soon'
+    timestamp: 1457530588
+  - 
+    user: nemo
+    text: "Haven't gotten much time"
+    timestamp: 1457530592
+- 
+  - 
+    user: muditbhutani
+    text: >
+      Favourite books related to web
+      development or hacking?
+    timestamp: 1457530166
+  - 
+    user: nemo
+    text: "Kevin Mitnick's books are a nice fun read."
+    timestamp: 1457530610
+  - 
+    user: nemo
+    text: >
+      The nice part about our industry is that
+      most content is freely available online
+    timestamp: 1457531402
+  - 
+    user: nemo
+    text: "My favorite recommendation is [Don't Make Me Think](https://www.sensible.com/dmmt.html DMMT Website), which is such a great book that I think all developers should be _forced_ to read it"
+    timestamp: 1457531439
+- 
+  - 
+    user: hariprasad.kulkarni
+    text: "@nemo: How do you catalog the books that you've read?"
+    timestamp: 1457531244
+  - 
+    user: hariprasad.kulkarni
+    text: Do you have something like goodreads?
+    timestamp: 1457531251
+  - 
+    user: nemo
+    text: Yes, I use goodreads extensively
+    timestamp: 1457531388
+  - 
+    user: nemo
+    text: 'You can follow me at <https://www.goodreads.com/user/show/6170741-abhay-rana>'
+    timestamp: 1457531514
+- 
+  - 
+    user: sudhirkhanger
+    text: "What do you guys think of RBI at work? Payments are such a mess in India. Who do you think is response for this mess? RBI? Visa/MasterCard? Banks? What do you think of wallets? Ola Money? Pockets? Chillr? I don't use them because of how fragmented our system is."
+    timestamp: 1457538420
+  - 
+    user: nemo
+    text: |
+      1. The only reason wallets are popular is because they bypass the RBI 2 factor guidelines
+      2. RBI has managed to hold our economy pretty well. Their stance on 2 factor is understandable, even though it doesn't let SaaS companies mature in India at all. NPCI on the other hand is trying really nice things with UPI and IMPS and so on.  RBI is even doing a consultation on Card Acceptance Infrastructure currently: <https://rbidocs.rbi.org.in/rdocs/PublicationReport/Pdfs/MDRDBEDA36AB77C4C81A3951C4679DAE68F.PDF>.
+      3. There is a lot of regulation in the payments industry (which is kinda needed) that inhibits growth and experiments. However, the only authorities RBI grants this power to are banks, which are monolithic and slow and very risk-averse. However, a few banks like RBL are doing good stuff here. The regulations I'd want to attack are those that prohibit private players from doing [X] while allowing banks to do [X]. Opening a bank is next to impossible in India, and as such, you are left to tying up with banks and hoping you get decent terms.
+      4. Wallets will hopefully die out over the next few years as we move to better payments infrastructure (things like UPI). They fragment the ecosystem and should not be allowed to flourish beyond a certain limit. Otherwise, you face the same risks as China, where a single private provider (AliPay) controls the majority of the online payments market. Contrast this to somewhere like US, where you have digital wallets, but no one uses them (like AMEX ezeclick) because the incentive for using them isn't high enough.
+    timestamp: 1457538962
+  - 
+    user: ativerc
+    text: |
+      @nemo: PayTM is offering even kirana shops to get payments from customers using PayTM wallets. The process is very simple. Just a internet connection for the kirana shop and the customer and a QR code. Your payment is done.
+      
+      Does the UPI offer this level of simplicity for small PoS like kirana shops? On the other side will banks support the required accounts when the kirana shop links his UPI or digital wallet to the bank? Or will they block it and demand some additional tax as well?
+    timestamp: 1457539743
+  - 
+    user: ativerc
+    text: >
+      >"where a single private provider controls the majority of the online payments market."
+
+      is so scary
+    timestamp: 1457539801
+  - 
+    user: nemo
+    text: "UPI kinda does, but it's still early days. It's not even live yet."
+    timestamp: 1457539810
+  - 
+    user: nemo
+    text: >
+      Merchants can initiate collect payments
+      easily, which open a upi:// intent on
+      android etc
+    timestamp: 1457539827
+  - 
+    user: nemo
+    text: This can be made into a QR code easily
+    timestamp: 1457539832
+- 
+  - 
+    user: ativerc
+    text: "I'm really waiting for that talk on 14th. Also they need to rev up the IMPS and MPIN and USSD. I have a Mobile Banking no (MPIN) also tried the USSD based thing but it was so confusing. When I went to the bank because of some problems, they said what's a USSD?? and didn't really cooperate with me to understand the MPIN and IMPS funda."
+    timestamp: 1457539987
+  - 
+    user: nemo
+    text: MPIN is separate from USSD, actually
+    timestamp: 1457540021
+  - 
+    user: ativerc
+    text: >
+      But one needs the MPIN to access the
+      USSD thing do we not?
+    timestamp: 1457540053
+  - 
+    user: nemo
+    text: "yes, but it's separate infrastructure"
+    timestamp: 1457540100
+  - 
+    user: nemo
+    text: >
+      Which they are improving and making
+      better with UPI
+    timestamp: 1457540108
+  - 
+    user: nemo
+    text: 'See <http://www.npci.org.in/Product-Overview-NUUP.aspx>'
+    timestamp: 1457540118
+  - 
+    user: ativerc
+    text: >
+      I know...its a separate
+      infrastructure...
+    timestamp: 1457540137
+  - 
+    user: nemo
+    text: >
+      So, the MPIN acceptance kinda becomes
+      open with UPI
+    timestamp: 1457540328
+  - 
+    user: nemo
+    text: "I'll go into more detail in the webinar :simple_smile:"
+    timestamp: 1457540340
+  - 
+    user: ativerc
+    text: Here let me show you a tweet....
+    timestamp: 1457540945
+  - 
+    user: ativerc
+    text: '<https://twitter.com/pratyushpmhptr/status/652417517357428737>'
+    timestamp: 1457540975
+  - 
+    user: ativerc
+    text: >
+      One says MPIN shud be 6 digits, other
+      says 6 with digits/chars , the other
+      says 6 with digits/char/specialchar
+    timestamp: 1457541097
+  - 
+    user: sudhirkhanger
+    text: |
+      I can't say I am a fan of imps. I don't even want to maintain one mpin for each bank account I own. I like how ICICI allows you do transfer via neft/rtgs/imps just by using standard ifsc code and account no. We have all grown pretty accustomed to ifsc which are publicly available.
+      
+      Truthfully users shouldn't even be concerned about if he is using imps,neft or rtgs for most cases of course.
+    timestamp: 1457543514
+  - 
+    user: nemo
+    text: "I think you'll like the changes that UPI is bringing :simple_smile:"
+    timestamp: 1457543586
+- 
+  - 
+    user: vivekagr
+    text: 'Pardon my ignorance on this subject but why do we even need NEFT anymore, now that we have IMPS (that works with IFSC &amp; account number too)?'
+    timestamp: 1457551518
+  - 
+    user: hiemanshu
+    text: >
+      IMPS has a limit of around 50k(or
+      something) for most banks, NEFT/RTGS
+      goes much higher.
+    timestamp: 1457551548
+  - 
+    user: hiemanshu
+    text: its 5k for MMID, 2L for account no.
+    timestamp: 1457551609
+  - 
+    user: vivekagr
+    text: >
+      You’re right, do you know of any
+      reason behind the lower limit on IMPS?
+    timestamp: 1457551843
+  - 
+    user: vivekagr
+    text: 'Btw on the same note, I find it silly that SBI only allows IMPS transfer during certain hours - <http://prntscr.com/ad77li>'
+    timestamp: 1457552080
+  - 
+    user: sa1
+    text: >
+      Its not about banks not wanting better
+      technology, etc. The reasons are
+      financial, it has do with liquidity
+      reasons and the risk they are willing to
+      undertake.
+    timestamp: 1457552193
+  - 
+    user: sa1
+    text: >
+      When you transfer funds real time to
+      another bank you(as a bank), need to
+      have much higher liquidity than when you
+      only transfer the net amount you have to
+      transfer at the end of every hour or at
+      the end of every day.
+    timestamp: 1457552309
+  - 
+    user: sa1
+    text: >
+      There are chances that smaller banks
+      might not be able to have the liquidity
+      to transfer so much money and other
+      banks want to minimize risks when
+      dealing with such banks.
+    timestamp: 1457552384
+  - 
+    user: sa1
+    text: |
+      Read this pdf: <http://www.bankofengland.co.uk/markets/Documents/paymentsystems/rtgsguide.pdf>
+      ah, forgot that this was `#ama`, I'll let @nemo answer.
+    timestamp: 1457552447
+  - 
+    user: vivekagr
+    text: >
+      Great answer, hadn’t thought of that.
+      Thanks @sa1
+    timestamp: 1457552606
+  - 
+    user: nemo
+    text: >
+      @sa1 That is a nice answer, better than
+      I could have answered.
+    timestamp: 1457594898
+  - 
+    user: sa1
+    text: "afaik, US doesn't have something like IMPS either till now: <http://www.bankingexchange.com/blogs-3/making-sense-of-it-all/item/5453-when-will-u-s-get-real-about-real-time-payments> (edited with better link)"
+    timestamp: 1457552971
+- 
+  - 
+    user: shagun
+    text: '@nemo: "I have multiple hackerearth profiles". Any reason?'
+    timestamp: 1457583683
+  - 
+    user: nemo
+    text: 'shagun: hackerearth tricked me into creating multiple ones, and they have no way of combining'
+    timestamp: 1457594931
+  - 
+    user: nemo
+    text: >
+      One from gmail, one because I logged in
+      via github, 2-3 more from other email
+      addresses
+    timestamp: 1457594952
+  - 
+    user: shagun
+    text: '@nemo: ask them if they can merge it. I had a similar situation and this is what they told me'
+    timestamp: 1457600046
+  - 
+    user: nemo
+    text: "Yeah, I've been planning to"
+    timestamp: 1457600069
+  - 
+    user: nemo
+    text: "But it's not high on my list. Don't use HE much"
+    timestamp: 1457600082
+- 
+  - 
+    user: hashb
+    text: '@nemo: Would you rather fight 100 duck-sized horses or one horse-sized duck?'
+    timestamp: 1457719468
+  - 
+    user: nemo
+    text: >
+      one horse sized duck. I could probably
+      run faster
+    timestamp: 1457721017

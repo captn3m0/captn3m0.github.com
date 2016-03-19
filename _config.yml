@@ -19,3 +19,7 @@ paginate: 3
 paginate_path: "/page/:num/"
 gems:
   - jekyll-paginate
+  - jemoji
+kramdown:
+  input: GFM
+  hard_wrap: false
