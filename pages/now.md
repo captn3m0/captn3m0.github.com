@@ -12,8 +12,9 @@ I am
     + [hackercouch][hc]
     + /dev/mail (TBA)
 - Learning Haskell
+- Trying out [Crystal](http://crystal-lang.org/)
 - Living in Bangalore
-- Reading Bird by Bird
+- Reading :bird: by :bird:
 
 Page inspired by [nownownow.com](http://nownownow.com/about).
 
