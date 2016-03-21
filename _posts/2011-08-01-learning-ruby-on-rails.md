@@ -25,5 +25,5 @@ Instead of writing down *another* beginner tutorial on Rails, I'd rather direct 
 [red]: http://redmine.org "A project management system with code browsing"
 [gh]: https://github.com "GitHub"
 [ror]: http://rubyonrails.org "Official RoR Site"
-[ror3t]: http://ruby.railstutorial.org/ruby-on-rails-tutorial-book "Ruby On Rails 3 Tutorial"
+[ror3t]: https://www.railstutorial.org/ "Ruby On Rails Tutorial Book"
 [mvc]: http://en.wikipedia.org/wiki/Model-view-controller "Model View Conroller"
