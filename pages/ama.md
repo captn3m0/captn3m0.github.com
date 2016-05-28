@@ -38,7 +38,7 @@ You can access the original at [slackarchive](https://dev-s.slackarchive.io/ama/
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Thought I&#39;d draw something for my tiny <a href="https://twitter.com/hashtag/AMA?src=hash">#AMA</a>. See pinned tweet for the details. <a href="https://t.co/U9r3vqJ8Yj">pic.twitter.com/U9r3vqJ8Yj</a></p>&mdash; Nemo (@captn3m0) <a href="https://twitter.com/captn3m0/status/705822087735177216">March 4, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<table>
+<table class="responsive">
 <thead>
 	<tr>
 		<th>user</th>
@@ -66,7 +66,6 @@ You can access the original at [slackarchive](https://dev-s.slackarchive.io/ama/
 {% endfor %}
 {% endfor %}
 </tbody>
-
 </table>
 
 If you've reached this and are still reading, here's an easter egg for you<a href="https://www.youtube.com/watch?v=BVT-ChnS_Mg" rel="nofollow">:</a> I named myself Nemo after Capt. Nemo in 20,000 leagues under the sea.
