@@ -12,8 +12,8 @@ I am
     + [hackercouch][hc]
     + /dev/mail (TBA)
 - Learning Haskell
-- Trying out [Crystal](http://crystal-lang.org/)
-- Living in Bangalore
+- Trying out [:gem:](http://crystal-lang.org/ "Crystal Language")
+- Camping at [hillhacks][hh]
 - Reading :bird: by :bird:
 
 Page inspired by [nownownow.com](http://nownownow.com/about).
@@ -22,3 +22,4 @@ Last Updated: January 2016
 
 [josd]: https://josd.captnemo.in/
 [hc]: https://hackercouch.com
+[hh]: https://hillhacks.in
