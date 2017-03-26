@@ -1,9 +1,13 @@
+---
+layout: post
+title: How I found a bug in HackerEarth
+tags: 
+ - hackerearth
+ - ruby
+ - bugs
+---
 
-[Source](https://www.hackerearth.com/notes/how-i-found-a-bug-in-hackerearth/ "Permalink to How I found a bug in HackerEarth")
-
-# How I found a bug in HackerEarth
-
-How I found a bug in HackerEarth
+_[Source](https://www.hackerearth.com/notes/how-i-found-a-bug-in-hackerearth/ "Permalink to How I found a bug in HackerEarth")_
 
 I am not a competitive programmer. I love programming, but more so I love building things. As a result, I rarely participate in coding contests. Even when I do, I try to use languages like Ruby and Python just to see if I can do it _my way_, so to speak.
 
@@ -75,5 +79,6 @@ A few of these are understandable (`win32` since HE platform runs on Linux, and 
 
 Kudos to HackerEarth for fixing a bug that very few of their users would have faced. All the source code for this post can be found at [github][1].
 
+*Note*: This article was copied from HackerEarth because they are shutting down their notes platform.
+
 [1]: https://github.com/captn3m0/ruby-stdlib-test-hackerearth "HackerEarth Ruby stdlib Tests"
-  
