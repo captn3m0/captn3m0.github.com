@@ -37,7 +37,10 @@ projects:
   jinora:
     desc: Slack webhook app to create anonymous public channels
     color: "#A89907"
-
+  shauryaa.in:
+    desc: A website/email setup I maintain for my young niece
+    color: "#03A9F4"
+    url: /projects/shauryaa/
 ---
 
 ## Older Projects
@@ -50,5 +53,5 @@ You might wanna take a look at my [github account](https://github.com/captn3m0) 
 * [Akira](http://captnemo.in/blog/2012/05/23/phonegap-blog-post/) - Winning entry to the Adobe Express Apps Contest @ Cognizance 2012. ([source](https://github.com/captn3m0/akira)) #mobile #phonegap 
 * [CNEditor](https://github.com/captn3m0/cneditor) - A single file browser/editor for PHP. #php #security #pen-testing
 
-##Very Old Projects
+## Very Old Projects
 * [Hacker](https://github.com/captn3m0/hacker) - Hacking Game Simulator in written in 8th grade #turbocpp
