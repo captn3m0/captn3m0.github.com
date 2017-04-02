@@ -6,8 +6,6 @@ tags:
 - india
 ---
 
-### Why The Indian Government sucks at technology
-
 >**Note**: All opinions are mine alone. Please keep your opinions limited to comments.
 
 This is in wake of the [not-so-anonymous](http://www.voiceofgreyhat.com/2011/06/anonymous-withdrawn-op-india-untold.html "Aftermath of the attack") [attacks](http://www.thehackernews.com/2011/06/anonymous-india-opindia-strikes-again.html "News report of the actual event") on the nic servers. Apparently a [few people](http://pastebin.com/MHwHNTEi "Names of perpetrators of the hack") had decided to brand their own version of AnonymousIndia and hack into the nic servers. This had been viewed as almost normal in the Indian Media. This is after all something that happens every other day in India. Its just the Indian Army website, nothing that we care about.
