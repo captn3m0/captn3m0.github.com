@@ -6,4 +6,4 @@
 
 [jekyll]: http://jekyllrb.com/
 [lanyon]: http://lanyon.getpoole.com/
-[githubpages]: https://pages.github.com/
+[ghpages]: https://pages.github.com/
