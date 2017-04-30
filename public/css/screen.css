@@ -125,3 +125,8 @@ only screen and (max-width: 760px),
   table.responsive td:nth-of-type(2):before { content: "Message"; }
   table.responsive td:nth-of-type(3):before { content: "Time"; }
 }
+
+.center-content {
+  display: block;
+  margin: 0 auto;
+}
