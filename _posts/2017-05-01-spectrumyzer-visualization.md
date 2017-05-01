@@ -75,7 +75,7 @@ Here is one showing the actual positioning (set using the offsets):
 
 With the padding set to zero, it already looked great. I ended up using this
 as my wallpaper for the next one week. Vikalp wanted to make the bars
-non rectangular, and I spent some time figuring out how to make waveforms using 
+non-rectangular, and I spent some time figuring out how to make waveforms using 
 bezier curves[^1]. The basic learning from my experiments were:
 
 - Cairo has methods for drawing cubic bezier curves.
