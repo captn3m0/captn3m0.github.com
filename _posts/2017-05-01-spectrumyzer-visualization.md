@@ -121,8 +121,8 @@ Here is the complete final result in HD:
 - Drawing pixels on screen and filling them was quite easy with Cairo and Python.
 - Coding is wizardry. The things that I take for granted every day (take a multi-page website and get useful tabular data out of it, for eg) are unthinkable for most people. The idea of doing water waves was something I knew would be possible before I even looked at the codebase.
 
-If you'd like to replicate this setup, or build upon it, here is my [spectrum.conf][config] file. I also [filed a PR][PR]
-to the spectrumyzer project adding support for curve based renders.
+If you'd like to replicate this setup, or build upon it, here is my [spectrum.conf][config] file.
+I also [filed a PR][PR] (now merged!) to the spectrumyzer project adding support for curve based renders.
 
 [^1]: The Spectrumyzer codebase turned out to be fairly easy to understand. It was just cairo and pyGTK.
 [^2]: [A Primer on Bézier Curves][bezier.primer] was published on HN just a few days after I finished this project.
@@ -149,5 +149,5 @@ to the spectrumyzer project adding support for curve based renders.
 [spectrumyzer]: https://github.com/HaCk3Dq/spectrumyzer/
 [img.cava]: https://cdn.rawgit.com/karlstav/cava/gh-pages/cava_gradient.gif
 [img.projectm]: /img/milkdrop.jpg
-[config]: https://github.com/captn3m0/dotfiles/blob/master/files/audio/.config/spectrum.conf "This relies on my PR, so use my fork if you're using this"
+[config]: https://github.com/captn3m0/dotfiles/blob/master/files/audio/.config/spectrum.conf "Just ensure you have the latest spectrumyzer code before using this"
 [PR]: https://github.com/HaCk3Dq/spectrumyzer/pull/22 "Configurable renderers"

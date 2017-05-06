@@ -26,18 +26,18 @@ Inspite of both these conditions being false, the user could approve any other e
 After studying resend.asp and seeing the following javascript code :
 
 ```js
-function submitted(){
-email = document.getElementById("email_id").value;
-if(email==""){
-alert("Email Address cannot be empty");
-return false;
+function submitted() {
+  email = document.getElementById('email_id').value;
+  if (email == '') {
+    alert('Email Address cannot be empty');
+    return false;
+  } else {
+    //boolean is_approved
+    return true;
+  }
+  return false;
 }
-else{
-//boolean is_approved
-        return true;
-}
-return false;
-}
+
 ```
 
 We tried to submit the form with another element, called "is_approved" with its value set to "true" and the user account was approved.
@@ -60,16 +60,15 @@ if($_POST('is_approved')==true){
 Similarly `(2)` above can be fixed by shortening the javascript validation code to :
 
 ```js
-function submitted(){
-email = document.getElementById("email_id").value;
-if(email==""){
-  alert("Email Address cannot be empty");
+function submitted() {
+  email = document.getElementById('email_id').value;
+  if (email == '') {
+    alert('Email Address cannot be empty');
+    return false;
+  } else {
+    return true;
+  }
   return false;
-}
-else{
-  return true;
-}
-return false;
 }
 ```
 
@@ -107,19 +106,21 @@ The credentials for the hidden user account were left in the images of various b
 
 ```js
 function purchase(bid, cost) {
-        $.ajax({
-              url: "checkout.asp?book_id="+bid+"&action=checkin",
-              success: function(msg){
-            }
-        });
-        $.ajax({
-              url: "purchase.asp?book_id="+bid+"&action=purchase&book_cost="+cost,
-              success: function(msg){
-                  alert(msg);
-                  history.go(0);
-            }
-        });
-    }   
+    $.ajax({
+        url: 'checkout.asp?book_id=' + bid + '&action=checkin',
+        success: function(msg) {},
+    });
+    $.ajax({
+        url: 'purchase.asp?book_id=' +
+            bid +
+            '&action=purchase&book_cost=' +
+            cost,
+        success: function(msg) {
+            alert(msg);
+            history.go(0);
+        },
+    });
+}
 ```
 
 4.  We found that the application was sending a get request to `purchase.asp` with the fields `book_id` , `purchase`, and `book_cost`.
@@ -148,18 +149,18 @@ Do not allow a user to specify cost for a book by himself.
 ```php
 <?php
 $cost = $_GET['cost'];
-...//Validation integer
-$mysqli->query('INSERT INTO purchase(book_id,cost) VALUES($id,$cost)l
+//Validation integer
+$mysqli->query("INSERT INTO purchase(book_id,cost) VALUES($id,$cost)");
 ```
 
 **to**
 
 ```php
 <?php
-$result = $db->query("SELECT cost from books where book_id = '$id');
+$result = $db->query("SELECT cost from books where book_id = $id");
 $row = $result->fetch_assoc();
 $cost = $row['cost'];
-$db->query("INSERT INTO purchase(book_id,cost) VALUES($id,$cost);
+$db->query("INSERT INTO purchase(book_id,cost) VALUES($id,$cost)");
 ```
 
 ## Challenge 5
@@ -204,19 +205,21 @@ The async code is given below :
 
 ```js
 function purchase(bid, cost) {
-        $.ajax({
-              url: "checkout.asp?book_id="+bid+"&action=checkin",
-              success: function(msg){
-            }
-        });
-        $.ajax({
-              url: "purchase.asp?book_id="+bid+"&action=purchase&book_cost="+cost,
-              success: function(msg){
-                  alert(msg);
-                  history.go(0);
-            }
-        });
-    }   
+    $.ajax({
+        url: 'checkout.asp?book_id=' + bid + '&action=checkin',
+        success: function(msg) {},
+    });
+    $.ajax({
+        url: 'purchase.asp?book_id=' +
+            bid +
+            '&action=purchase&book_cost=' +
+            cost,
+        success: function(msg) {
+            alert(msg);
+            history.go(0);
+        },
+    });
+}
 ```
 
 A side-effect of using ajax in such a sensitive environment is that you do not control the order of requests performed. Here, a request to `purchase.asp` may get completed before `checkout.asp`, which may have caused problems if the code was written out properly.
