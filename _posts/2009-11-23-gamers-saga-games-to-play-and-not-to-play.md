@@ -19,8 +19,8 @@ Games You Must Play
 
 Games You Play
 : Skip this if you aren't a gamer. If you're one, well you know the games I'm talking about. Nothing beats taking a frag with a deagle. Other than maybe shouting 14 before all those AoE games. Its the thrill, and excitement, and your love of the game that keeps you glued to the seat. I won't call these games entirely unethical, because the game play here is fair enough, and exciting. You know what you're doing, and why. And its not just because of that score, or frag. It is also because of the satisfaction that you get after that frag.
-Games You Wish You Could Play
 
+Games You Wish You Could Play
 : Sometimes you Graphics Card isn't all that powerful, or you just can't find a torrent/download link for the game. Sometimes 10GB games do seem big. And sometimes, as in the case of FIESTA, the game hasn't been launched for PC.
 
 Games You Should Play
