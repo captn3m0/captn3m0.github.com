@@ -189,4 +189,4 @@ B.R.Gurjar. I’m still not sympathatic to the excuse given entirely, and
 believe that it might have come out a bit more sooner with some more
 effort on wona’s side.
 
-{% include comments.html %}
+<!-- {% include comments.html %} -->
