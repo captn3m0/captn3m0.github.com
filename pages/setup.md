@@ -17,11 +17,11 @@ I do tech and security related things at [Razorpay](https://razorpay.com).
 
 Most of my work is done on my [System 76 Galago UltraPro][galago]. It has a clear 14" IPS display which runs at full HD powered by the Intel i7-4750HQ processor and Intel HD 5200 Iris Pro graphic card. I work on VMs sometimes, so I had its RAM upgraded to 8GB. I also shifted to a Samsung EVO SSD (120GB).
 
-My phone these days is a ~~[Moto Z Play][moto]~~ borrowed android. I backup all of my media to a 3TB WD MyBook. Other than this, I own a Kindle Paperwhite and an iPad 2 (which is hardly used). For my music, I have a pair of [Sennheiser HD 202][hd-202], an excellent pair of headphones considering the price. For travelling, I prefer my [Sennheiser CX275s][cx275s], which muffle outside noise nicely.
+My phone these days is a [Moto Z Play][moto] (Rooted, running stock Nougat). I backup all of my media to a 3TB WD MyBook. Other than this, I own a Kindle Paperwhite and an iPad 2 (which hasn't been used in last 3 months). For my music, I have a pair of [Sennheiser HD 202][hd-202], an excellent pair of headphones considering the price. For travelling, I prefer my [Sennheiser CX275s][cx275s], which muffle outside noise nicely.
 
 I am an ocassional gamer and use the [Logitech G300s][g300s] for both gaming and productivity (its heavily customizable). Since my laptop speakers aren't exactly top-notch, I rely on my [Logitech X100][x100] bluetooth speakers for listening in closed spaces.
 
-I own a [Leopold FC660C][fc660c] keyboard (Topre switches), which I just got. My backup keyboard is a [Cooler Master QuickFire Rapid-i][quickfire] mechanical keyboard (Cherry MX brown), which I love. It has crazy custom backlight support, and typing on it is a joy.
+I own a [Leopold FC660C][fc660c] keyboard (Topre switches). My backup keyboard is a [Cooler Master QuickFire Rapid-i][quickfire] mechanical keyboard (Cherry MX brown), which I love. It has crazy custom backlight support, and typing on it is a joy.
 
 At home, I have a Raspberry Pi 2 Model B, which runs lots of tiny services, which are proxied over to the internet with a Digital Ocean droplet in the `BLR1` region.
 
