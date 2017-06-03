@@ -1,0 +1,9 @@
+<span class="comment-author">
+{% if include.url %}
+<a href="{{include.url}}" title="{{include.author}}">
+{{include.author}}
+</a>
+{% else %}
+{{include.author}}
+{% endif %}
+</span>

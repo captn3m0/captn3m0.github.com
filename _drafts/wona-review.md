@@ -10,10 +10,12 @@ Download the issue on the WONA
 [![Wona December
 Issue](https://captnemo.in/wona/2010-12.jpg "Wona December Issue")](/wona/)
 
+**Note about Archival**: _This post used to live on the (now-dead) piratecoders.co.cc website. I've moved it here for archival's sake._
+
 The latest issue of WONA turned up 3 months late at my doorstep. Other
 than the fact that it was missing an apology letter for this lateness,
 it was a good step in the forward direction by WONA in general. Once you
-take aside the pleasantries, and the sarcasm, I felt that WONA was ,on a
+take aside the pleasantries, and the sarcasm, I felt that WONA was, on a
 general scale, surpassing what it had been doing till now, and moving
 towards a better (and hopefully a quicker) issue. However, this one was
 definately not the one to be labelled perfect. So here comes the review
@@ -189,4 +191,4 @@ B.R.Gurjar. I’m still not sympathatic to the excuse given entirely, and
 believe that it might have come out a bit more sooner with some more
 effort on wona’s side.
 
-<!-- {% include comments.html %} -->
+{% include comments.html %}

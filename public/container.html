@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style type="text/css">
+video {  
+   width:100%; 
+   max-width:600px; 
+   height:auto; 
+}
+</style>
+
+<video width="100%" controls>
+  <source id="video" src="" type="video/mp4">
+</video>
+
+<script type="text/javascript">
+	// https://stackoverflow.com/a/13419367/368328
+	function parseQuery(qstr) {
+    	var query = {};
+	    var a = (qstr[0] === '?' ? qstr.substr(1) : qstr).split('&');
+	    for (var i = 0; i < a.length; i++) {
+	        var b = a[i].split('=');
+	        query[decodeURIComponent(b[0])] = decodeURIComponent(b[1] || '');
+	    }
+	    return query;
+	}
+	var q = parseQuery(document.location.search);
+	document.getElementById('video').setAttribute('src', '/videos/' + q.video);
+</script>
+</body>
+</html>

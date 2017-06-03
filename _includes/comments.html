@@ -1,18 +1,8 @@
-{% comment %}
-First we set the parent comment to zero if one is not passed
-{% endcomment %}
-
-{% if include.parent %}
-{% capture parent %}{{include.parent}}{%endcapture%}
-{% else %}
-{% capture parent %}0{%endcapture%}
-{% endif %}
-
-<table class="comments">
+<table class="comments parent-{{parent}}">
 {% for c in site.data.comments %}
 {% if c.comment_parent != '0' %}{% continue %}{% endif %}
 <tr class="comment-parent">
-	<td>
+	<td class="comment-avatar">
 		<img src="https://www.gravatar.com/avatar/{{c.emailmd5}}">
 	</td>
 	<td>
@@ -23,7 +13,26 @@ First we set the parent comment to zero if one is not passed
 	<span class="comment-meta">
 	&mdash; {{c.comment_author}} on {{c.comment_date}}
 	</span>
-	{% capture comment_id %}{{c.comment_ID}}{% endcapture %}
+		<table class="comments comments-child">
+		{% for innerc in site.data.comments %}
+			{% if innerc.comment_parent != c.comment_ID %}{% continue %}{% endif %}
+			<tr class="comment-parent">
+				<td class="comment-avatar">
+					<img src="https://www.gravatar.com/avatar/{{innerc.emailmd5}}">
+				</td>
+				<td>
+				<span class="comment-content">
+					{{innerc.comment_content}}
+				</span>
+				<br>
+				<span class="comment-meta">
+				&mdash; {% include comments.author.html url=innerc.comment_author_url author=innerc.comment_author %} on {{innerc.comment_date}}
+				</span>
+				
+				</td>
+			</tr>
+		{% endfor %}
+		</table>
 	</td>
 </tr>
 {% endfor %}

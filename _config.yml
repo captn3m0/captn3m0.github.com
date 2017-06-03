@@ -20,6 +20,10 @@ paginate_path: "/page/:num/"
 gems:
   - jekyll-paginate
   - jemoji
+# Sass settings
+sass:
+    sass_dir: _scss
+    style: :compressed
 kramdown:
   input: GFM
   hard_wrap: false

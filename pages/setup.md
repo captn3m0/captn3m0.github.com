@@ -2,6 +2,9 @@
 title: The Setup
 permalink: /setup/
 layout: page
+image: spectrum/poster.jpg
+video: spectrum_320.mp4
+image_alt: "Music Visualization Demo"
 ---
 
 ## Who am I, and what do I do?
@@ -30,7 +33,16 @@ other twisty puzzles, including a Mirror Cube and a Megaminx.
 
 ## And what software?
 
-![This is my desktop](/img/spectrum/poster.jpg)
+(audio warning)
+
+<video 
+    src = "/videos/spectrum_320.webm"
+    width = "100%"
+    poster = "/img/spectrum/poster.jpg"
+    onclick = "this.paused?this.play():this.pause();"
+    title = "Spectrum Visualization Demo."
+    class = "center-content"
+></video>
 
 My current distro is [Arch Linux][arch] with [i3][i3] as the window manager. My most used tools include: [Neovim][neovim], [Sublime Text 3][sublime], Google Chrome Canary, and Git. I game using Steam, and purchase DRM free games via Humble Bundle whenever possible. The above animated wallpaper runs via [spectrumyzer][wallpaper-blog].
 
@@ -38,7 +50,7 @@ Most of my work is done in editors, command line, and the browser. A few essenti
 
 I am a [Hacker News][hn] addict, and have even [written an application][hackertray] for it. Most used webapps would be: Slack, GitHub. I use Google Play Music for listening to music on the go, and `cmus` on the desktop.
 
-I run lots of tiny services on my Raspberry-Pi at home, including [Libreelec][libreelec], OpenVPN, and a [custom service][pirunner] that runs NES games and local media. I have my Kindle jailbroken and run [KOReader][koreader] to read EPUB files.
+I run lots of tiny services on my Raspberry-Pi at home, including [Libreelec][libreelec], OpenVPN, and a [custom service][pirunner] that runs NES games and local media. I have my Kindle jailbroken and run [KOReader][koreader] to read EPUB files and PDFs with reflow (seriously, it is better than sliced bread).
 
 ## What would be my dream setup?
 
@@ -52,7 +64,7 @@ If we're talking super-crazy, I'd love to have a thought-dictation feature. That
 [g300s]: http://support.logitech.com/en_us/product/g300s-gaming-mouse "Lots of buttons, which I use for my window manager"
 [x100]: https://secure.logitech.com/en-hk/product/x100-mobile-wireless-speaker "Its not very loud, but very good for indoor use"
 [quickfire]: http://gaming.coolermaster.com/en/products/keyboards/rapid-i/ "The backlighting on this keyboard is insanely customizable"
-[thunderclap]: http://www.speedcubereview.com/qiyi-thunderclap.html "My backup cube is a really old DaYan Guhong"
+[thunderclap]: http://www.speedcubereview.com/qiyi-thunderclap.html "No backup cubes at present"
 [arch]: https://www.archlinux.org/ "Rolling, lightweight distro for Linux"
 [i3]: http://i3wm.org/ "i3 is a tiling window manager"
 [neovim]: http://neovim.io/ "Fork of vim for modern platforms"

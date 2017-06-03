@@ -3,67 +3,59 @@
  * MIT Licensed
  */
 @media print {
-  *,
-  *:before,
-  *:after {
+  * {
     background: transparent !important;
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important;
+    &:before, &:after {
+      background: transparent !important;
+      color: #000 !important;
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
   }
-
-  a,
-  a:visited {
+  a {
     text-decoration: underline;
+    &:visited {
+      text-decoration: underline;
+    }
+    &[href]:after {
+      content: " (" attr(href) ")";
+    }
   }
-
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
-
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: "";
+  a {
+    &[href^="#"]:after, &[href^="javascript:"]:after {
+      content: "";
+    }
   }
-
-  pre,
-  blockquote {
+  pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
-
   thead {
     display: table-header-group;
   }
-
-  tr,
-  img {
+  tr {
     page-break-inside: avoid;
   }
-
   img {
+    page-break-inside: avoid;
     max-width: 100% !important;
   }
-
-  p,
-  h2,
-  h3 {
+  p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
-
-  h2,
-  h3 {
+  h2, h3 {
     page-break-after: avoid;
   }
 }
 
-pre,
-code {
+pre, code {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
 
@@ -73,15 +65,14 @@ pre {
   overflow-x: scroll;
 }
 
-a,
-a:visited {
+a {
   color: #3498db;
-}
-
-a:hover,
-a:focus,
-a:active {
-  color: #2980b9;
+  &:visited {
+    color: #3498db;
+  }
+  &:hover, &:focus, &:active {
+    color: #2980b9;
+  }
 }
 
 .modest-no-decoration {
@@ -108,70 +99,49 @@ body {
   line-height: 1.85;
 }
 
-p,
-.modest-p {
+p, .modest-p {
   font-size: 1rem;
   margin-bottom: 1.3rem;
 }
 
-h1,
-.modest-h1,
-h2,
-.modest-h2,
-h3,
-.modest-h3,
-h4,
-.modest-h4 {
+h1, .modest-h1, h2, .modest-h2, h3, .modest-h3, h4, .modest-h4 {
   margin: 1.414rem 0 .5rem;
   font-weight: inherit;
   line-height: 1.42;
 }
 
-h1,
-.modest-h1 {
+h1, .modest-h1 {
   margin-top: 0;
   font-size: 3.998rem;
 }
 
-h2,
-.modest-h2 {
+h2, .modest-h2 {
   font-size: 2.827rem;
 }
 
-h3,
-.modest-h3 {
+h3, .modest-h3 {
   font-size: 1.999rem;
 }
 
-h4,
-.modest-h4 {
+h4, .modest-h4 {
   font-size: 1.414rem;
 }
 
-h5,
-.modest-h5 {
+h5, .modest-h5 {
   font-size: 1.121rem;
 }
 
-h6,
-.modest-h6 {
+h6, .modest-h6 {
   font-size: .88rem;
 }
 
-small,
-.modest-small {
+small, .modest-small {
   font-size: .707em;
 }
 
 /* https://github.com/mrmrs/fluidity */
 
-img,
-canvas,
-iframe,
-video,
-svg,
-select,
-textarea {
+img, canvas, iframe, video, svg, select, textarea {
   max-width: 100%;
 }
 
@@ -194,18 +164,11 @@ body {
   padding: .25rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: Arimo, Helvetica, sans-serif;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   border-bottom: 2px solid #fafafa;
   margin-bottom: 1.15rem;
   padding-bottom: .5rem;
@@ -217,7 +180,6 @@ blockquote {
   padding: 1rem;
 }
 
-pre,
-code {
+pre, code {
   background-color: #fafafa;
 }
