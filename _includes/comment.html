@@ -1,0 +1,24 @@
+<tr class="comment-parent">
+	<td class="comment-avatar">
+		<img src="https://www.gravatar.com/avatar/{{include.comment.emailmd5}}">
+	</td>
+	<td>
+	<span class="comment-content">
+		{{include.comment.comment_content}}
+	</span>
+	<br>
+	<span class="comment-meta">
+	&mdash; {{include.comment.comment_author}} on {{include.comment.comment_date}}
+	</span>
+	{% if include.top == true %}
+		{% assign children = include.all_comments | where:"name",include.comment.comment_ID %}
+		{% assign children = children|first %}
+		{% assign children = children.items %}
+		<table class="comments comments-child">
+			{% for inner_comment in children %}
+			{% include comment.html comment=inner_comment top=false %}
+			{% endfor %}
+		</table>
+	{% endif %}
+	</td>
+</tr>

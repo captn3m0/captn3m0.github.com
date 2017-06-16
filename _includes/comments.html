@@ -1,39 +1,11 @@
+{% assign comments = site.data.comments | where:"comment_post_ID",include.post_id |group_by:"comment_parent" %}
+
+{% assign top_level_comments = comments |where:"name", "0" %}
+{% assign top_level_comments = top_level_comments|first %}
+{% assign top_level_comments = top_level_comments.items %}
+
 <table class="comments parent-{{parent}}">
-{% for c in site.data.comments %}
-{% if c.comment_parent != '0' %}{% continue %}{% endif %}
-<tr class="comment-parent">
-	<td class="comment-avatar">
-		<img src="https://www.gravatar.com/avatar/{{c.emailmd5}}">
-	</td>
-	<td>
-	<span class="comment-content">
-		{{c.comment_content}}
-	</span>
-	<br>
-	<span class="comment-meta">
-	&mdash; {{c.comment_author}} on {{c.comment_date}}
-	</span>
-		<table class="comments comments-child">
-		{% for innerc in site.data.comments %}
-			{% if innerc.comment_parent != c.comment_ID %}{% continue %}{% endif %}
-			<tr class="comment-parent">
-				<td class="comment-avatar">
-					<img src="https://www.gravatar.com/avatar/{{innerc.emailmd5}}">
-				</td>
-				<td>
-				<span class="comment-content">
-					{{innerc.comment_content}}
-				</span>
-				<br>
-				<span class="comment-meta">
-				&mdash; {% include comments.author.html url=innerc.comment_author_url author=innerc.comment_author %} on {{innerc.comment_date}}
-				</span>
-				
-				</td>
-			</tr>
-		{% endfor %}
-		</table>
-	</td>
-</tr>
+{% for c in top_level_comments %}
+{% include comment.html comment=c top=true all_comments=comments%}
 {% endfor %}
 </table>

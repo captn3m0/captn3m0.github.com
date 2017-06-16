@@ -2,6 +2,7 @@
 layout: post
 title: "Wona Oct-Dec '10 Review"
 date: 2011-03-17
+comment_post_ID: '175'
 ---
 
 Download the issue on the WONA
@@ -191,4 +192,4 @@ B.R.Gurjar. I’m still not sympathatic to the excuse given entirely, and
 believe that it might have come out a bit more sooner with some more
 effort on wona’s side.
 
-{% include comments.html %}
+{% include comments.html post_id=page.comment_post_ID hash=page.hash%}
