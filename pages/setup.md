@@ -20,7 +20,7 @@ I do tech and security related things at [Razorpay](https://razorpay.com).
 
 Most of my work is done on my [System 76 Galago UltraPro][galago]. It has a clear 14" IPS display which runs at full HD powered by the Intel i7-4750HQ processor and Intel HD 5200 Iris Pro graphic card. I work on VMs sometimes, so I had its RAM upgraded to 8GB. I also shifted to a Samsung EVO SSD (120GB).
 
-My phone these days is a [Moto Z Play][moto] (Rooted, running stock Nougat). I backup all of my media to a 3TB WD MyBook. Other than this, I own a Kindle Paperwhite and an iPad 2 (which hasn't been used in last 3 months). For my music, I have a pair of [Sennheiser HD 202][hd-202], an excellent pair of headphones considering the price. For travelling, I prefer my [Sennheiser CX275s][cx275s], which muffle outside noise nicely.
+My phone these days is a [Moto Z Play][moto] (Rooted, running stock Nougat). I backup all of my media to a 3TB WD MyBook. Other than this, I own a Kindle Paperwhite and an iPad 2 (which hasn't been used in last 3 months). For my music, I have a pair of [Sennheiser HD 202][hd-202], an excellent pair of headphones considering the price. 
 
 I am an ocassional gamer and use the [Logitech G300s][g300s] for both gaming and productivity (its heavily customizable). Since my laptop speakers aren't exactly top-notch, I rely on my [Logitech X100][x100] bluetooth speakers for listening in closed spaces.
 
@@ -75,8 +75,7 @@ If we're talking super-crazy, I'd love to have a thought-dictation feature. That
 [ublock]: https://github.com/gorhill/uBlock/ "uBlock Origin"
 [privacybadger]: https://www.eff.org/privacybadger "Privacy Badger (by EFF) blocks spying ads and invisible trackers"
 [hn]: https://news.ycombinator.com "Hacker News"
-[josd]: https://josd.captnemo.in/ "Joy of Software Development, Book I'm working on "
-[cx275s]: http://en-de.sennheiser.com/earphones-headset-smart-phones-cx-275s "Really good in-ear headset, with great audio-reproduction"
+[josd]: https://josd.captnemo.in/ "Joy of Software Development, Book I'm working on"
 [pirunner]: https://github.captnemo.in/pirunner
 [.js]: https://github.captnemo.in/dotjs "This is my fork of the original dotjs that runs on top of local Apache with a working SSL Certificate"
 [libreelec]: https://libreelec.tv
