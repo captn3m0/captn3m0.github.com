@@ -1,6 +1,7 @@
 ---
 layout: page
 title: IIT-JEE  Results
+permalink: /projects/iitjee/
 ---
 
 This page will contain the latest information and developments on the IIT-JEE Results. The entire resultset is available for download and is searchable as well. 
@@ -10,22 +11,27 @@ SDSLabs JEE site) may include a search-by-name feature.
 
 Most of the source code used to gather these datasets is available [on github](https://github.com/captn3m0/iitjee/). It is released under MIT Licence. Feel free to use it for further work.
 
+## 2016
+
+* Results are available at [jeedata.github.io](https://jeedata.github.io/mains2016)
+* I have no idea who published these, but I'm told they are genuine and correct.
+
 ## 2015
 
-* Results are available [here](https://jee.sdslabs.co/index2.html)
+* Results are available at [jee.sdslabs.co](https://jee.sdslabs.co/index2.html)
 
 ## 2014
 
-* Results are available at <https://jee.sdslabs.co/2014/>
+* Results are available at [jee.sdslabs.co](https://jee.sdslabs.co/2014/)
 
 ## 2013
 
-* Results are available [here](https://jee.sdslabs.co/2013/).
-* Some graphs are available [here](https://jee.sdslabs.co/graph/2013.html)
+* Results are available at [jee.sdslabs.co](https://jee.sdslabs.co/2013/)
+* Some graphs are available at [jee.sdslabs.co/graph/2013](https://jee.sdslabs.co/graph/2013.html)
 
 ## 2012
 
-* I have uploaded the list [here](https://jee.sdslabs.co/2012/). Some statistics and pretty graphs are available [here](https://jee.sdslabs.co/2012/graph/)
+* I have uploaded the list at [jee.sdslabs.co](https://jee.sdslabs.co/2012/). Some statistics and pretty graphs are available [here](https://jee.sdslabs.co/2012/graph/)
 * For sake of backups, and archival, I'm also keeping a copy of the list [here](2012.html). However, please forward all issues regarding this to the SDSLabs site, I will be able to better handle it there.
 * I also have lots of complementary data to this dataset (such as that on Application Form Numbers). I am not uploading this data right now (at least till the allotments are over). Someone please remind me to do so after they are done with. I'm sure people would find it interesting.
 
