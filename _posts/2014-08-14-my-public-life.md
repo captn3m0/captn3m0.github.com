@@ -45,7 +45,7 @@ My simple rule of thumb is to ask for permission, rather than beg for forgivenes
 [lastfm]: http://www.last.fm/user/captn3m0 "My last.fm profile page"
 [twitter]: https://twitter.com/captn3m0 "My twitter account"
 [github]: https://github.com/captn3m0 "My github account"
-[blog]: http://captnemo.in/archive.html "My blog archive page"
+[blog]: https://captnemo.in/archive.html "My blog archive page"
 [quora]: https://www.quora.com/Abhay-Rana "My Quora profile"
 [bookmarks]: http://share.xmarks.com/folder/bookmarks/Jy4cCyZzZR "My Shared public bookmarks"
 [fb]: "https://facebook.com/capt.n3m0" "My facebook profile"

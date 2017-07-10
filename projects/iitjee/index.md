@@ -44,9 +44,9 @@ Most of the source code used to gather these datasets is available [on github](h
 
 ## 2010
 
-* View [Results Online](2010.html) (2.3 MB, might take some time to load)
-* Or Download it in [csv](2010.csv) and [sql](2010.sql) formats
-* A list of selection count is available [here](2010.center.html). This count is based on the first three digits of the registration number, which I've since learned is not how it works. As such it is not-completely-correct. (The correct versioning scheme uses the first four digits of the registration number to denote the actual center (within a city)).
+* View [Results Online](https://captnemo.in/projects/iitjee/2010.html) (2.3 MB, might take some time to load)
+* Or Download it in [csv](https://captnemo.in/projects/iitjee/2010.csv) and [sql](https://captnemo.in/projects/iitjee/2010.sql) formats
+* A list of selection count is available [here](https://captnemo.in/projects/iitjee/2010.center.html). This count is based on the first three digits of the registration number, which I've since learned is not how it works. As such it is not-completely-correct. (The correct versioning scheme uses the first four digits of the registration number to denote the actual center (within a city)).
 
 ## 2009
 

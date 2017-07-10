@@ -61,7 +61,7 @@ And I started to work on [muzi](https://sdslabs.co.in/muzi/), which was to be _m
 The next semester involved our [actual launch (11-11-11)](http://blog.sdslabs.co/2011/11/launch-and-beyond) of all our applications. 
 We had all converted into semi-breathing coding machines cum zombies by that time though. Sleepless and exhausted, we did prevail, 
 and launched a few hours early. The Launch was appreciably recieved in the campus, although I had to leave for the
- [Deloitte CCTC Contest](http://captnemo.in/blog/2011/11/20/cctc-blog/) the very same day(which we won!).
+ [Deloitte CCTC Contest](https://captnemo.in/blog/2011/11/20/cctc-blog/) the very same day(which we won!).
 
 I ended up doing a rewrite of Codematics (codename CodeBot) in node for the launch. It has a geeky, command line interface
 which was inspired by [goosh](http://goosh.org/) and [xkcd's unix interface](http://unix.xkcd.com). Along with that, Muzi was
@@ -81,7 +81,7 @@ will be launched soon. I took lectures on far apart topics from
 ["Usability Designing"](https://speakerdeck.com/captn3m0/ux-and-usability-designing) to
  ["Software Development 101"].(https://speakerdeck.com/captn3m0/software-development-101) I mostly
 worked on internal features, improving our API, and something called Presence. We also 
-[participated](http://captnemo.in/blog/2012/05/23/phonegap-blog-post/) in 
+[participated](https://captnemo.in/blog/2012/05/23/phonegap-blog-post/) in 
 [two hackathons](http://blog.sdslabs.co/2012/09/hacku),
 and we won both of them.
 
