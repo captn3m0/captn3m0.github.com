@@ -52,8 +52,9 @@ Most of the source code used to gather these datasets is available [on github](h
 
 I was the first person to do such a listing, and since my first such list was in 2010 (posted on the now defunct piratecoders.co.cc), after my second semester in college, I fear there are very few archives of such things before that date. However, a JEE panel had analysed the results of the year 2009, and they were made available on the [IIT JEE website](http://jee.iitr.ernet.in/images/jee2009.mdb) (38MB).
 
-**Update**: JEE took down that file, and I've luckily setup a mirror [here](http://ge.tt/4lLmqf32). The file is an Access Database and you'd need MS Access to open it, but I have a csv version of the same as well. The dataset seems to have been released as result of a RTI application available [here on the jee site](http://jee.iitr.ernet.in/images/SG-06112009-10.pdf), and [archived by me](SG-06112009-10.pdf) as well. I can't seem to find the pdf with the results analysis. If anyone finds such a thing, please let me know.
+**Update**: JEE took down that file, and I've luckily setup a mirror [here](http://ge.tt/4lLmqf32). The file is an Access Database and you'd need MS Access to open it, but I have a csv and PDF (both official versions) of the same as well. The dataset seems to have been released as result of a RTI application available [here on the jee site](http://jee.iitr.ernet.in/images/SG-06112009-10.pdf), and [archived by me](SG-06112009-10.pdf) as well. I can't seem to find the pdf with the results analysis. If anyone finds such a thing, please let me know.
 
+  * Download the [Official marks list PDF file](http://ge.tt/4lLmqf32/v/2). (13,276 pages)
   * Download the [Official marks list csv file](http://ge.tt/4lLmqf32/v/1).
   * Download the [Official jee2009 database](http://ge.tt/4lLmqf32/v/0) (MS Access format).
 
