@@ -43,6 +43,7 @@ Here are links to other similar tools that you might like:
 - <http://ficsave.xyz/>
 - <http://ff2ebook.com/old/>
 - <https://github.com/sainathadapa/reddit2mobi>
+- <https://doocer.com>, which generates EPUB/MOBI files out of RSS/ATOM feeds, and given a TOC. Pretty cool
 
 As a side-effect, I often get into the rabbit hole of generating the perfect EPUB instead of actually reading them.
 
