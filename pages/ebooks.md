@@ -26,12 +26,12 @@ A fun side-project that I often pick up is generation of semantically correct EP
 
 Things next on my list:
 
-- https://www.tor.com/series/warbreaker-reread-brandon-sanderson/
-- https://www.tor.com/series/edgedancer-reread-brandon-sanderson/
+- <https://www.tor.com/series/warbreaker-reread-brandon-sanderson/>
+- <https://www.tor.com/series/edgedancer-reread-brandon-sanderson/>
 - White Sand (From .doc to EPUB)
-- https://www.tor.com/series/malazan-reread-of-the-fallen/
-- https://www.tor.com/series/a-read-of-ice-and-fire/
-- https://www.tor.com/series/jonathan-strange-mr-norrell-reread/
+- <https://www.tor.com/series/malazan-reread-of-the-fallen/>
+- <https://www.tor.com/series/a-read-of-ice-and-fire/>
+- <https://www.tor.com/series/jonathan-strange-mr-norrell-reread/>
 
 I only provide the scripts for the generation on GitHub. If you'd like a copy without having to run the script, [get in touch][contact] and ask.
 
@@ -39,10 +39,10 @@ I only provide the scripts for the generation on GitHub. If you'd like a copy wi
 
 Here are links to other similar tools that you might like:
 
-- https://github.com/iarna/fetch-fic
-- http://ficsave.xyz/
-- http://ff2ebook.com/old/
-- https://github.com/sainathadapa/reddit2mobi
+- <https://github.com/iarna/fetch-fic>
+- <http://ficsave.xyz/>
+- <http://ff2ebook.com/old/>
+- <https://github.com/sainathadapa/reddit2mobi>
 
 As a side-effect, I often get into the rabbit hole of generating the perfect EPUB instead of actually reading them.
 
