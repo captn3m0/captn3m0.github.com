@@ -31,9 +31,10 @@ projects:
   play: 
     desc: Music Server to allow a team to play and queue songs
     color: "#3498db"
-  hackview: 
-    desc: A WebRTC based P2P collaborative document editor with live a/v chat
+  ebooks: 
+    desc: Multiple Scrapers for online content that generates EPUB/MOBI files
     color: "#85144B"
+    url: /ebooks/
   jinora:
     desc: Slack webhook app to create anonymous public channels
     color: "#A89907"
