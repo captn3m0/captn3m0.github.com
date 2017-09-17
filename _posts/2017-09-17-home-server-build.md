@@ -1,0 +1,60 @@
+---
+title: Home Server Build
+layout: post
+tags:
+- home-server
+- arch-linux
+image: home-server.jpg
+---
+
+I'd been planning to run my own home server for a while, and this culminated in a mini-ITX build recently. The exact part list is up at <https://in.pcpartpicker.com/list/krc8Gf>.
+
+In no particular order, here were the constraints:
+
+- The case should be small (I preferred the Elite 110, but it was unavailable everywhere).
+- Dual LAN, if possible (decided against it at the end). The plan was to run the entire home network from this directly by plugging in the ISP into the server.
+- Recent i3/i5 for amd64 builds.
+- Enough SATA bays in the cabinet for storage
+
+The plans for the server:
+
+1. Scheduled backups from other sources (Android/Laptop)
+2. Run Kodi (or perhaps switch to Emby)
+3. Run torrents. Transmission-daemon works. Preferably something pluggable and that works with RSS
+4. Do amd64 builds. See https://github.com/captn3m0/ideas#arch-linux-package-build-system
+5. Host a webserver. This is primarily for serving resources off the internet
+    - Host some other minor web-services
+    - A simple wiki
+    - Caldav server
+    - Other personal projects
+6. Sync Server setup. Mainly for the Kindle and the phone.
+7. Calibre-server, koreader sync server for the Kindle
+    - Now looking at libreread as well
+8. Tiny k8s cluster for running other webapps
+9. Run a graylog server for sending other system log data (using papertrail now, has a 200MB limit)
+
+No plans to move mail hosting. That will stay at migadu.com for now.
+
+I had a lot of spare HDDs that I was going to re-use for this build:
+
+1. WD MyBook 3TB (external, shelled).
+2. Seagate Expansion: 1TB
+3. WD Blue: 500GB (~60% used). From System76
+4. Samsung EVO 128GB SSD
+
+In total giving me ~4.5TB of storage. Plan is to get another 3TB WD Blue soon and setup RAID across both.
+
+
+## Software
+
+Currently running `kodi-standalone-service` on boot. Have to decide on a easy-to-use container orchestration platform. Choices as of now are:
+
+1. Rancher
+2. Docker Swarm
+3. Shipyard
+4. Terraform
+5. Portainer
+
+Most of these are tuned for multi-host setups, and bring in a lot of complexity as a result. Looking at either terraform or Rancher as a result. 
+
+![](/img/home-server.jpg)
