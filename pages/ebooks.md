@@ -15,6 +15,9 @@ A fun side-project that I often pick up is generation of semantically correct EP
 [Words of Radiance Reread][cosmere]
 : Tor re-read of Words of Radiance, Book 2 in the Stormlight Archive.
 
+[Edgedancer Reread][cosmere]
+: Tor re-read of Edgedancer, a novella between Books 2 & 3 in the Stormlight Archive.
+
 [Hoshruba][hoshruba]
 : Tor's serialized publication of Hoshruba-The Land and the Tilism
 
@@ -27,7 +30,6 @@ A fun side-project that I often pick up is generation of semantically correct EP
 Things next on my list:
 
 - <https://www.tor.com/series/warbreaker-reread-brandon-sanderson/>
-- <https://www.tor.com/series/edgedancer-reread-brandon-sanderson/>
 - White Sand (From .doc to EPUB)
 - <https://www.tor.com/series/malazan-reread-of-the-fallen/>
 - <https://www.tor.com/series/a-read-of-ice-and-fire/>
