@@ -18,6 +18,9 @@ A fun side-project that I often pick up is generation of semantically correct EP
 [Edgedancer Reread][cosmere]
 : Tor re-read of Edgedancer, a novella between Books 2 & 3 in the Stormlight Archive.
 
+[Way of Kings Prime][cosmere]
+: Brandaon Sanderson published a few chapters from the earliest draft of Way of Kings (2002, while the book was published almost a decade later).
+
 [Hoshruba][hoshruba]
 : Tor's serialized publication of Hoshruba-The Land and the Tilism
 
