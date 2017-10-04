@@ -46,6 +46,9 @@ projects:
 
 ## Recent Projects by Date
 
+[DNSCrypt](/dnscrypt/)
+: **2017** Running a DNS Crypt server on a Digital Ocean BLR1 server.
+
 [Sushi Go][sushigo]
 : **Summer 2017** This is a work-in-progress conversion of Sushi Go (original), the popular card game by Gamewright into Ruby.
 
