@@ -39,11 +39,10 @@ I had a lot of spare HDDs that I was going to re-use for this build:
 
 1. WD MyBook 3TB (external, shelled).
 2. Seagate Expansion: 1TB
-3. WD Blue: 500GB (~60% used). From System76
+3. Seagate Expansion 3TB (external, shelled)
 4. Samsung EVO 128GB SSD
 
-In total giving me ~4.5TB of storage. Plan is to get another 3TB WD Blue soon and setup RAID across both.
-
+The 2x3TB disks are setup with RAID1 over `btrsfs`. Important data is snapshotted to the other 1TB disk using btrfs snapshots and subvolumes. In total giving me ~4TB of storage
 
 ## Software
 
@@ -55,6 +54,11 @@ Currently running `kodi-standalone-service` on boot. Have to decide on a easy-to
 4. Terraform
 5. Portainer
 
-Most of these are tuned for multi-host setups, and bring in a lot of complexity as a result. Looking at either terraform or Rancher as a result. 
+Most of these are tuned for multi-host setups, and bring in a lot of complexity as a result. Looking at Portainer, which seems well suited to a single-host setup.
+
+Other services I'm currently running:
+
+1. `elibsrv`. Running a patched build with support for ebook-convert
+2. `ubooquity` for online reading of comics
 
 ![](/img/home-server.jpg)
