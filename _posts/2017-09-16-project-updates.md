@@ -21,7 +21,7 @@ Over the last couple of years, I've been involved with lots of side projects, bo
 : **Ongoing** I maintain a CC0 licensed list of personal ideas. Feel free to use.
 
 [spectrumyzer][spectrumyzer]
-: **May 2017** Created an animated wallpaper using spectrumyzer. Wrote a [blog post about it](http://localhost:4000/blog/2017/05/01/spectrumyzer-visualization/).
+: **May 2017** Created an animated wallpaper using spectrumyzer. Wrote a [blog post about it](/blog/2017/05/01/spectrumyzer-visualization/).
 
 [google-sre][sre]
 : **Feb/Sep 2017** EPUB generator for the Google SRE ebook. Started in February in Python. Gave up and redid it properly in September.
