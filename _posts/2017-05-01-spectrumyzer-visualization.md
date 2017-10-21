@@ -129,8 +129,8 @@ I also [filed a PR][PR] (now merged!) to the spectrumyzer project adding support
 [^3]: [Sony World Junction][twitter.sonyworld] - Where startup ideas are born.
 
 [twitter.sonyworld]: https://twitter.com/SonyWorldJn
-[wallpaper.old]: https://cdn.rawgit.com/captn3m0/avatars/master/wallpaper/1920x1080.jpg
-[wallpaper.new]: https://cdn.rawgit.com/captn3m0/avatars/4d5a5399/wallpaper/minimal.jpg
+[wallpaper.old]: https://cdn.rawgit.com/captn3m0/avatars/a8255290/wallpaper/1920x1080.jpg
+[wallpaper.new]: https://cdn.rawgit.com/captn3m0/avatars/a8255290/wallpaper/minimal.jpg
 
 [spectrum.default]: /img/spectrum/default.jpg "Spectrumyzer Default Config"
 [spectrum.poster]: /img/spectrum/poster.jpg
