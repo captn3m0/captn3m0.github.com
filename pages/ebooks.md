@@ -7,7 +7,7 @@ permalink: /ebooks/
 A fun side-project that I often pick up is generation of semantically correct EPUB/MOBI/PDF files from various online books and content. This is a short list:
 
 [Oathbringer][cosmere]
-: Chapters 0-62 from Oathbringer, Book 3 in the Stormlight Archive, being published by Tor in serialized format. (ongoing)
+: Chapters 0-32 from Oathbringer, Book 3 in the Stormlight Archive, being published by Tor in serialized format. (ongoing)
 
 [Way of Kings Reread][cosmere]
 : Tor's re-read of Way of kings, Book 1 in the Stormlight Archive.
@@ -22,7 +22,7 @@ A fun side-project that I often pick up is generation of semantically correct EP
 : Brandaon Sanderson published a few chapters from the earliest draft of Way of Kings (2002, while the book was published almost a decade later).
 
 [Hoshruba][hoshruba]
-: Tor's serialized publication of Hoshruba-The Land and the Tilism
+: Tor's serialized publication of Hoshruba-The Land and the Tilism.
 
 [Magic Muggle][mm]
 : Harry Potter fan-fiction about a muggle going to Hogwarts. (3rd book ongoing)
@@ -49,6 +49,7 @@ Here are links to other similar tools that you might like:
 - <http://ff2ebook.com/old/>
 - <https://github.com/sainathadapa/reddit2mobi>
 - <https://doocer.com>, which generates EPUB/MOBI files out of RSS/ATOM feeds, and given a TOC. Pretty cool
+- [Calibre Recipes](https://manual.calibre-ebook.com/news_recipe.html), which are similar but mostly focused on news websites instead of online books.
 
 As a side-effect, I often get into the rabbit hole of generating the perfect EPUB instead of actually reading them.
 
