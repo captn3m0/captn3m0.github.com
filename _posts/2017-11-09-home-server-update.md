@@ -77,7 +77,7 @@ I forgot to do this on the last blog post, so here is the list:
 
 1. archlinux has official packages for [intel-microcode-updates](https://wiki.archlinux.org/index.php/Microcode).
 2. wireguard is almost there. I'm running openvpn for now, waiting for the stable release.
-3. While [`traefik`][] is great, I'm concerned about the security model it has for connecting to Docker (uses the docker unix socket over a docker mounted volume, which gives it root access on the host). Scary stuff.
+3. While [`traefik`][traefik] is great, I'm concerned about the security model it has for connecting to Docker (uses the docker unix socket over a docker mounted volume, which gives it root access on the host). Scary stuff.
 4. Docker Labels are a great signalling mechanism.
 5. Terraform still needs a lot of work on their docker provider. A lot of updates destroy containers, which should be applied without needing a destroy.
 6. I can't proxy gitea's SSH authentication easily, since `traefik` doesn't support TCP proxying yet.
@@ -132,3 +132,4 @@ A few things off my TODO list:
 [traefik]: https://traefik.io/
 [elibsrv]: http://elibsrv.sourceforge.net/
 [ubooquity]: https://vaemendis.net/ubooquity/
+[airsonic]: https://airsonic.github.io/

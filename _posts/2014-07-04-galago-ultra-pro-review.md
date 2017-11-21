@@ -74,5 +74,7 @@ Hard Disk:  Western Digital, WDC WD5000LPVX-2, 500GB (465GiB)
 Operating System: Ubuntu 14.04 (Pre-installed)
 Desktop Environment: Pantheon, using the elementary-os-daily PPA
 Memory: 8GB 204 pin Dual Channel DDR3 @ 1600 MHz
+Intel ME Version: 9.0.20.1447
 ```
+
 If you're interested in getting any further details about the laptop, feel free to [contact](/contact/) me.
