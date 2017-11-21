@@ -8,6 +8,9 @@ tags:
 
 Over the last couple of years, I've been involved with lots of side projects, both online and offline. Some of them, I've written about on the blog, like my [music visualizer project][spectrumyzer]. A few of them, got their own project page, like [the website for my niece][shauryaa] (but no blog post) while some didn't even get a mention. I thought I'd write about the many-many side projects I've started (and abandoned). You might also wanna visit the [/projects](/projects/) page for the larger projects.
 
+[Home Server Build][home-server]
+: **Sep 2017** Built a home server, mostly as a HTPC but also as a learning exercise for managing services over Docker.
+
 [Sushi Go][sushigo]
 : **Summer 2017** This is a work-in-progress conversion of Sushi Go (original), the popular card game by Gamewright into Ruby.
 
@@ -61,3 +64,4 @@ Over the last couple of years, I've been involved with lots of side projects, bo
 [ideas]: https://github.captnemo.in/ideas
 [sushigo]: https://github.captnemo.in/sushigo
 [ytripper]: https://github.captnemo.in/youtube-ripper
+[home-server]: /blog/2017/09/17/home-server-build/
