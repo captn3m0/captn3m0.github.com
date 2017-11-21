@@ -13,10 +13,20 @@ Connection details are:
 ```
 ProviderName    2.dnscrypt-cert.captnemo.in 
 ProviderKey     053A:DFF2:C5A3:2916:D81A:D88A:6779:2C30:2BAA:D5D2:8032:95E8:5A9B:D22F:8687:1E10
-ResolverAddress 139.59.22.234:4434
-#ResolverAddress 139.59.48.222:4434
+ResolverAddress 139.59.48.222:4434
 ```
 
-You can monitor the uptime of the same at [status.captnemo.in](https://status.captnemo.in/). The second IP is a floating IP (which means it won't change), but only supports TCP requests, because of some Digital Ocean issues. I'd recommend using the first IP with `TCPOnly=false` (default,recommended) while I sort this with Digital Ocean support.
+You can monitor the uptime of the same at [status.captnemo.in](https://status.captnemo.in/). The above IP is a floating IP (which means it won't change even after server restarts).
+
+## CHANGELOG
+
+2017-11-21
+: Fixed Floating IP issues. Now UDP (default) works with Floating IPs
+
+2017-10-04
+: Launched to the public in `alpha`.
+
+2017-08-13
+: Initial setup. Running for personal use only.
 
 For any other queries, please see my [contact page](/contact/).
