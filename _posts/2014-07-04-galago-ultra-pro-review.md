@@ -71,9 +71,7 @@ Processor: Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz
 RAM: Samsung, SODIMM DDR3 Synchronous 1600 MHz (0.6 ns), M471B5173QH0-YK0 (4GiB) x2
 Graphic Card: Intel Iris Pro Graphics 5200 with 128 MB eDRAM, Crystal Well Integrated Graphics Controller
 Hard Disk:  Western Digital, WDC WD5000LPVX-2, 500GB (465GiB)
-Operating System: Ubuntu 14.04 (Pre-installed)
-Desktop Environment: Pantheon, using the elementary-os-daily PPA
-Memory: 8GB 204 pin Dual Channel DDR3 @ 1600 MHz
+Memory: 8GB 204 pin Dual Channel DDR3 @ 1600 MHz (2x4GB)
 Intel ME Version: 9.0.20.1447
 ```
 
