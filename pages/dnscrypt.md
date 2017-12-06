@@ -6,7 +6,7 @@ permalink: /dnscrypt/
 
 I have a DNSCrypt server running out of a Digital Ocean droplet in BLR1 region. If you are within India, this might be a nice DNS server to use. Runs with DNSCrypt support, and uses [OpenDNS](https://use.opendns.com/) resolvers as the upstream.
 
-This is currently considered to be in `alpha`, which means I don't take any guarantees for this and it can go down at any point. The server does not log anything for DNS queries. This is running on a small DO server, so I'd recommend using this only for personal machines.
+This is currently considered to be in `beta`, which means I'll try my very best to keep it running at all times. The server does not log anything for DNS queries. This is running on a small DO server, so I'd recommend using this only for personal machines (and not enterprise setups).
 
 Connection details are:
 
@@ -19,6 +19,9 @@ ResolverAddress 139.59.48.222:4434
 You can monitor the uptime of the same at [status.captnemo.in](https://status.captnemo.in/). The above IP is a floating IP (which means it won't change even after server restarts).
 
 ## CHANGELOG
+
+2017-12-06
+: Server stability changed to `beta`.
 
 2017-11-21
 : Fixed Floating IP issues. Now UDP (default) works with Floating IPs
