@@ -18,9 +18,11 @@ ResolverAddress 139.59.48.222:4434
 
 You can monitor the uptime of the same at [status.captnemo.in](https://status.captnemo.in/). The above IP is a floating IP (which means it won't change even after server restarts).
 
+The server is running dnscrypt-wrapper `v0.3`.
+
 ## Warning
 
-By using this service you take full responsibility. The terms and/or availability of this service may change without prior notice.
+By using this service you take full responsibility. If this puts your computer on fire, I'm not responsible!
 
 ## CHANGELOG
 
