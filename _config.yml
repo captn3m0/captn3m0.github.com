@@ -17,7 +17,7 @@ url: https://captnemo.in
 baseurl: /
 paginate: 3
 paginate_path: "/page/:num/"
-gems:
+plugins:
   - jekyll-paginate
   - jemoji
 # Sass settings

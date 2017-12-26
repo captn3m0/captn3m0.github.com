@@ -73,48 +73,14 @@ MariaDB
 
 ## Learnings
 
-I forgot to do this on the last blog post, so here is the list:
-
-1. archlinux has official packages for [intel-microcode-updates](https://wiki.archlinux.org/index.php/Microcode).
-2. wireguard is almost there. I'm running openvpn for now, waiting for the stable release.
-3. While [`traefik`][traefik] is great, I'm concerned about the security model it has for connecting to Docker (uses the docker unix socket over a docker mounted volume, which gives it root access on the host). Scary stuff.
-4. Docker Labels are a great signalling mechanism.
-5. Terraform still needs a lot of work on their docker provider. A lot of updates destroy containers, which should be applied without needing a destroy.
-6. I can't proxy gitea's SSH authentication easily, since `traefik` doesn't support TCP proxying yet.
-7. The `docker_volume` resource in terraform is useless, since it doesn't give you any control over the volume location on the host.
-8. The `upload` block inside a `docker_container` resource is a great idea. Lets you push configuration straight inside a container. This is how I push configuration straight inside the `traefik` container for eg:
-  ```hcl
-upload {
-  content = "${file("${path.module}/conf/traefik.toml")}"
-  file    = "/etc/traefik/traefik.toml"
-}
-```
-
-## Advice
-
-This section is if you're venturing into a docker-heavy terraform setup:
-
-1. Use `traefik`. Will save you a lot of pain with proxying requests.
-2. Repeat the `ports` section for every IP you want to listen on. CIDRs don't work.
-3. If you want to run the container on boot, you want the following:
-    ```ini
-    restart = "unless-stopped"
-    destroy_grace_seconds = 10
-    must_run = true
-    ```
-4. If you have a single `docker_registry_image` resource in your state, you can't run terraform without internet access.
-5. Breaking your docker module into `images.tf`, `volumes.tf`, and `data.tf` (for registry_images) works quite well.
-6. Memory limits on docker containers can be too contrained. Keep an eye on logs to see if anything is getting killed.
-7. Setup Docker TLS auth _first_. I tried proxying Docker over apache with basic auth, but it didn't work out well.
-
-When I'd started the project, I'd looked at GUI based docker management solutions (Portainer, Shipyard, Rancher), but I've found that the tough parts for me (container linking, ports, environments, volumes) were all handled much more cleanly by just terraform.
+Moved these to a separate [blog post](/blog/2017/12/180/home-server-learnings/)
 
 ## TODO
 
 A few things off my TODO list:
 
 1. Create a Docker image for elibsrv that comes with both `ebook-convert` and `kindlegen` pre-installed
-2. Do the same for ubooquity as well
+2. ~~Do the same for ubooquity as well~~ (Using the `linuxserver/ubooquity` docker image)
 
 [kodi-wiki-standalone]: https://wiki.archlinux.org/index.php/Kodi#Kodi-standalone-service
 [pr]: https://github.com/hashicorp/go-version/pull/34
