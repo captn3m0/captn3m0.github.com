@@ -65,10 +65,13 @@ And an associated Anchor IP for static IP usecases via Digital Ocean. (`10.47.0.
 
 I wanted to run the following setup:
 
-`eth0:22` -> `sshd`
-`Anchor IP:22` -> `simpleproxy` -> `gitea:ssh`
+- `eth0:22` -> `sshd`
+- `Anchor-IP:22` -> `simpleproxy` -> `gitea:ssh`
 
-where gitea is the git server hosting `git.captnemo.in`.
+where gitea is the git server hosting `git.captnemo.in`. This way:
+
+- I could SSH to the proxy server over 22
+- And directly SSH to the Gitea server over 22 using a different IP address.
 
 Unfortunately, `sshd` doesn't allow you to listen on a specific interface, and since the `eth0` IP is non-static I can't rely on it.
 
@@ -130,7 +133,12 @@ I created 2 copies of the VPN configuration files. Both of the them have identic
 
 `redirect-gateway def1`
 
-If I connect to the VPN config using this configuration, all my traffic is forwarded over the VPN.
+If I connect to the VPN config using this configuration, all my traffic is forwarded over the VPN. If you're using Arch Linux, this is as simple as creating 2 config files:
+
+- `/etc/openvpn/client/one.conf`
+- `/etc/openvpn/client/two.conf`
+
+And running `systemctl start openvpn-client@one`. I've enabled my non-defaut-route VPN service, so it automatically connects to on boot.
 
 [kodi-wiki-standalone]: https://wiki.archlinux.org/index.php/Kodi#Kodi-standalone-service
 [pr]: https://github.com/hashicorp/go-version/pull/34
