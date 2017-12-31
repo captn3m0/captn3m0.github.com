@@ -2,10 +2,11 @@
 title: Running terraform and docker on my home server
 layout: post
 tags:
-- home-server
-- arch-linux
-- docker
-- terraform
+    - homeserver
+    - archlinux
+    - docker
+    - terraform
+    - selfhosted
 ---
 
 The last time I'd posted about my Home Server build in September, I'd just gotten it working. Since then, I've made a lot of progress. It is now running almost 10 services, up from just Kodi back then. Now it has a working copy of:

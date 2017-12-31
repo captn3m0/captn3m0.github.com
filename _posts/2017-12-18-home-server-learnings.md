@@ -2,11 +2,11 @@
 title: Learnings from building my own home server
 layout: post
 tags:
-- home-server
-- arch-linux
-- docker
-- terraform
-- learnings
+  - homeserver
+  - archlinux
+  - docker
+  - terraform
+  - learnings
 ---
 
 ## Learnings

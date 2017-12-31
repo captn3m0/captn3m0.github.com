@@ -2,8 +2,9 @@
 title: Home Server Build
 layout: post
 tags:
-- home-server
-- arch-linux
+    - homeserver
+    - archlinux
+    - hardware
 image: home-server.jpg
 ---
 
