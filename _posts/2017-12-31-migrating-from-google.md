@@ -136,7 +136,14 @@ _Why Gitea_: The other alternatives were `gogs`, and GitLab. There have been con
 
 ---
 
-If you're interested in my self-hosting setup, I'm using Terraform+Docker, the code is hosted on the [same gitea server][nebula], and includes links to my other blog posts in the series. If you have any comments, [reach out to me](/contact/)
+If you're interested in my self-hosting setup, I'm using Terraform + Docker, the code is hosted on the [same gitea server][nebula], and I've been writing about my experience and learnings:
+
+1. [Part 1, Hardware](https://captnemo.in/blog/2017/09/17/home-server-build/)
+2. [Part 2, Terraform/Docker](https://captnemo.in/blog/2017/11/09/home-server-update/)
+3. [Part 3, Learnings](https://captnemo.in/blog/2017/12/18/home-server-learnings/)
+4. [Part 4, Migrating from Google (and more)](https://captnemo.in/blog/2017/12/31/migrating-from-google/)
+
+If you have any comments, [reach out to me](/contact/)
 
 [gpm]: https://music.google.com "Google Play Music"
 [mg]: https://microg.org/ "MicroG is a free-as-in-freedom re-implementation of Google’s proprietary Android user space apps and libraries."
