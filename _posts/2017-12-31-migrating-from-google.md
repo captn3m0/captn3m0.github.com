@@ -54,7 +54,7 @@ I'm currently using [Clementine](https://www.clementine-player.org/) on the Desk
 
 _Why_: I didn't like Google Play Music limits, plus I wanted to try the "phone-without-google" experiment.
 
-_Why AirSonic_: [Subsonic](https://github.com/sindremehus/subsonic) is now closed source, and the [Libresonic developers forked off to AirSonic](https://www.reddit.com/r/selfhosted/comments/6saiac/airsonic_is_out/dlbea94/, which is under active development. It is supports across all devices that I use, while [Ampache][ampache] has spotty Android support.
+_Why AirSonic_: [Subsonic](https://github.com/sindremehus/subsonic) is now closed source, and the [Libresonic developers forked off to AirSonic](https://www.reddit.com/r/selfhosted/comments/6saiac/airsonic_is_out/dlbea94/), which is under active development. It is supports across all devices that I use, while [Ampache][ampache] has spotty Android support.
 
 # Google Keep
 
@@ -106,13 +106,15 @@ _Why Radicale_: I looked [around at alternatives](https://github.com/Kickball/aw
 
 ## Google Play Store
 
-Switch to [FDroid](https://f-droid.org/) - It has some apps that Google doesn't like, and some more. Moreover, you can use YALP Store to download any applications from the Play Store. You can even run a FDroid repository for the apps you use from Play Store, as an alternative.
+Switch to [FDroid](https://f-droid.org/) - It has some apps that [Google doesn't](https://adaway.org/) [like](https://newpipe.schabi.org/), and some more. Moreover, you can use YALP Store to download any applications from the Play Store. You can even run a FDroid repository for the apps you use from Play Store, as an alternative. See [this excellent](https://shadow53.com/android/no-gapps/faq/can-i-use-the-official-play-store-with-microg/) guide on the various options.
 
 _Why_: Play Store is tightly linked to Google Play Services, and doesn't play nice with [microG][mg].
 
-_Why FDroid_: FDroid has publicly verifiable builds, and tons of open-source applications.
+_Why FDroid_: FDroid has [publicly verifiable builds](https://f-droid.org/wiki/page/Deterministic,_Reproducible_Builds), and tons of open-source applications.
 
 _Why Yalp_: Was easy enough to setup.
+
+If you're looking to migrate to MicroG, I'd recommend going through the entire [NO Gapps Setup Guide](https://shadow53.com/android/no-gapps/setup-guide/microg/) by shadow53 before proceeding.
 
 # LastPass
 
@@ -134,7 +136,7 @@ _Why Gitea_: The other alternatives were `gogs`, and GitLab. There have been con
 
 ---
 
-If you're interested in my self-hosting setup, I'm using Terraform+Docker, the code is hosted on the [same gitea server][nebula], and includes links to my other blog posts in the series.
+If you're interested in my self-hosting setup, I'm using Terraform+Docker, the code is hosted on the [same gitea server][nebula], and includes links to my other blog posts in the series. If you have any comments, [reach out to me](/contact/)
 
 [gpm]: https://music.google.com "Google Play Music"
 [mg]: https://microg.org/ "MicroG is a free-as-in-freedom re-implementation of Google’s proprietary Android user space apps and libraries."
