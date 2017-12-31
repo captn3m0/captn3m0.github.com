@@ -83,6 +83,8 @@ A few things off my TODO list:
 1. Create a Docker image for elibsrv that comes with both `ebook-convert` and `kindlegen` pre-installed
 2. ~~Do the same for ubooquity as well~~ (Using the `linuxserver/ubooquity` docker image)
 
+{% include selfhosted.md %}
+
 [kodi-wiki-standalone]: https://wiki.archlinux.org/index.php/Kodi#Kodi-standalone-service
 [pr]: https://github.com/hashicorp/go-version/pull/34
 [sickrage]: https://sickrage.github.io/

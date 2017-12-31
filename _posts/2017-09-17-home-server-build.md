@@ -63,3 +63,5 @@ Other services I'm currently running:
 2. `ubooquity` for online reading of comics
 
 ![](/img/home-server.jpg)
+
+{% include selfhosted.md %}

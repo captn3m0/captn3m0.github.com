@@ -140,6 +140,8 @@ If I connect to the VPN config using this configuration, all my traffic is forwa
 
 And running `systemctl start openvpn-client@one`. I've enabled my non-defaut-route VPN service, so it automatically connects to on boot.
 
+{% include selfhosted.md %}
+
 [kodi-wiki-standalone]: https://wiki.archlinux.org/index.php/Kodi#Kodi-standalone-service
 [pr]: https://github.com/hashicorp/go-version/pull/34
 [sickrage]: https://sickrage.github.io/
