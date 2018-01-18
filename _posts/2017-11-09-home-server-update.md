@@ -74,7 +74,7 @@ MariaDB
 
 ## Learnings
 
-Moved these to a separate [blog post](/blog/2017/12/180/home-server-learnings/)
+Moved these to a separate [blog post](/blog/2017/12/18/home-server-learnings/)
 
 ## TODO
 
