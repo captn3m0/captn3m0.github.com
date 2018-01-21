@@ -32,5 +32,4 @@ Instead of one-big-break, you get individual upgrades that you can apply cleanly
 I used to have a very-customized Windows setup around a decade back. I even wrote about my Vista setup. At the end, it boils down to: whatever workflow works for you. For me, this means:
 
 - Locking my laptop as soon as I unplug my Yubikey
-- Being able to create my own packages for software that I use
-- 
+- Being able to create my own packages for software that I use (I maintain 3 on the AUR)

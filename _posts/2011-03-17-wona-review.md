@@ -191,5 +191,3 @@ side. If that was the case, the blame’s partially on your staff advisors
 B.R.Gurjar. I’m still not sympathatic to the excuse given entirely, and
 believe that it might have come out a bit more sooner with some more
 effort on wona’s side.
-
-{% include comments.html post_id=page.comment_post_ID hash=page.hash%}
