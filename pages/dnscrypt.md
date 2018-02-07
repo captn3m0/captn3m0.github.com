@@ -26,6 +26,9 @@ By using this service you take full responsibility. If this puts your computer o
 
 ## CHANGELOG
 
+2017-12-10
+: Now added to the official DNSCrypt resolver list. (Only one running in India). [[csv](https://github.com/DNSCrypt/dnscrypt-resolvers/blob/master/v1/dnscrypt-resolvers.csv)], [[announcement](https://twitter.com/captn3m0/status/939568861828997120)]
+
 2017-12-06
 : Server stability changed to `beta`.
 
