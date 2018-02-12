@@ -11,6 +11,12 @@ This is currently considered to be in `beta`, which means I'll try my very best 
 Connection details are:
 
 ```
+ResolverName captnemo-in
+```
+
+Alternatively, if you don't have the resolver in your DNSCrypt version (it was added around Jan-2018), then you can use:
+
+```
 ProviderName    2.dnscrypt-cert.captnemo.in
 ProviderKey     053A:DFF2:C5A3:2916:D81A:D88A:6779:2C30:2BAA:D5D2:8032:95E8:5A9B:D22F:8687:1E10
 ResolverAddress 139.59.48.222:4434
