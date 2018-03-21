@@ -18,15 +18,15 @@ I do tech and security related things at [Razorpay](https://razorpay.com).
 
 ![My current work setup](/img/ama_setup.jpg)
 
-Most of my work is done on my [System 76 Galago UltraPro][galago]. It has a clear 14" IPS display which runs at full HD powered by the Intel i7-4750HQ processor and Intel HD 5200 Iris Pro graphic card. I work on VMs sometimes, so I had its RAM upgraded to 8GB. I also shifted to a Samsung EVO SSD (120GB).
+Most of my work is done on my Macbook Air 2015 running Arch Linux.
 
-My phone these days is a [Moto Z Play][moto] (Rooted, running stock Nougat). I backup all of my media to a 3TB WD MyBook. Other than this, I own a Kindle Paperwhite and an iPad 2 (which hasn't been used in last 3 months). For my music, I have a pair of [Sennheiser HD 202][hd-202], an excellent pair of headphones considering the price. 
+My phone these days is a [Moto Z Play][moto] (running [Lineage OS for MicroG][ug]). I backup all of my media to my home server. Other than this, I own a Kindle Paperwhite and an iPad 2 (which I exclusively use for reading books and comics). For my music, I have a pair of [Sennheiser HD 202][hd-202], an excellent pair of headphones considering the price. 
 
 I am an ocassional gamer and use the [Logitech G300s][g300s] for both gaming and productivity (its heavily customizable). Since my laptop speakers aren't exactly top-notch, I rely on my [Logitech X100][x100] bluetooth speakers for listening in closed spaces.
 
-I own a [Leopold FC660C][fc660c] keyboard (Topre switches). My backup keyboard is a [Cooler Master QuickFire Rapid-i][quickfire] mechanical keyboard (Cherry MX brown), which I love. It has crazy custom backlight support, and typing on it is a joy.
+I own a [Leopold FC660C][fc660c] keyboard (Topre switches) which I use at work. My backup keyboard at home is a [Cooler Master QuickFire Rapid-i][quickfire] mechanical keyboard (Cherry MX brown).
 
-At home, I have a Raspberry Pi 2 Model B, which runs lots of tiny services, which are proxied over to the internet with a Digital Ocean droplet in the `BLR1` region.
+At home, I have a Raspberry Pi 2 Model B and a PC/HomeServer, which runs lots of tiny services, which are proxied over to the internet with a Digital Ocean droplet in the `BLR1` region. I wrote about it in [detail][homeserver].
 
 I am also a speedcuber; my primary cube is a [QiYi Thunderclap][thunderclap] (stickerless). I also own several
 other twisty puzzles, including a Mirror Cube and a Megaminx.
@@ -44,13 +44,13 @@ other twisty puzzles, including a Mirror Cube and a Megaminx.
     class = "center-content"
 ></video>
 
-My current distro is [Arch Linux][arch] with [i3][i3] as the window manager. My most used tools include: [Neovim][neovim], [Sublime Text 3][sublime], Google Chrome Canary, and Git. I game using Steam, and purchase DRM free games via Humble Bundle whenever possible. The above animated wallpaper runs via [spectrumyzer][wallpaper-blog].
+My current distro is [Arch Linux][arch] with [i3][i3] as the window manager. My most used tools include: [Neovim][neovim], [Sublime Text 3][sublime], Firefox Beta, and Git. I game using Steam, and purchase DRM free games via Humble Bundle whenever possible. The above animated wallpaper runs via [spectrumyzer][wallpaper-blog].
 
 Most of my work is done in editors, command line, and the browser. A few essential extensions on my browser include: [dotjs][.js] (with apache support), [Privacy Badger][privacybadger], [uBlock Origin][ublock], HTTPS Everywhere, LastPass, and Markdown Here.
 
-I am a [Hacker News][hn] addict, and have even [written an application][hackertray] for it. Most used webapps would be: Slack, GitHub. I use Google Play Music for listening to music on the go, and `cmus` on the desktop.
+I am a [Hacker News][hn] addict, and have even [written an application][hackertray] for it. Most used webapps would be: Slack, GitHub. I use AirSonics for listening to music on the go, and `cmus` on the desktop.
 
-I run lots of tiny services on my Raspberry-Pi at home, including [Libreelec][libreelec], OpenVPN, and a [custom service][pirunner] that runs NES games and local media. I have my Kindle jailbroken and run [KOReader][koreader] to read EPUB files and PDFs with reflow (seriously, it is better than sliced bread).
+I run lots of tiny services on my homeserver, including [Gitea][gitea], OpenVPN, Emby, and Grafana. I have my Kindle jailbroken and run [KOReader][koreader] to read EPUB files and PDFs with reflow (seriously, it is better than sliced bread).
 
 ## What would be my dream setup?
 
@@ -83,3 +83,6 @@ If we're talking super-crazy, I'd love to have a thought-dictation feature. That
 [koreader]: https://github.com/koreader/koreader "Document reader for Kindles that has EPUB and PDF Reflow support"
 [wallpaper-blog]: "/blog/2017/05/01/spectrumyzer-visualization/" "I wrote a blog post about how I made my animated wallpaper"
 [fc660c]: https://deskthority.net/wiki/Leopold_FC660C "I haven't typed enough on it yet to have an opinion"
+[ug]: https://lineage.microg.org/ "Access all the Google services without proprietary closed software"
+[homeserver]: https://captnemo.in/blog/2017/09/17/home-server-build/
+[gitea]: https://git.captnemo.in
