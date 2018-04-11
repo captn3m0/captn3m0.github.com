@@ -14,13 +14,15 @@ and a UX enthusiast. ~~I am working on a book called [The Joy of Software Develo
 
 I do tech and security related things at [Razorpay](https://razorpay.com).
 
+I run [HackerCouch](https://hackercouch.com/), which is like couchsurfing for hackers.
+
 ## What hardware do I use?
 
 ![My current work setup](/img/ama_setup.jpg)
 
 Most of my work is done on my Macbook Air 2015 running Arch Linux.
 
-My phone these days is a [Moto Z Play][moto] (running [Lineage OS for MicroG][ug]). I backup all of my media to my home server. Other than this, I own a Kindle Paperwhite and an iPad 2 (which I exclusively use for reading books and comics). For my music, I have a pair of [Sennheiser HD 202][hd-202], an excellent pair of headphones considering the price. 
+My phone is a [Moto Z Play][moto] (running [Lineage OS for MicroG][ug]). I backup all of my media to my home server. Other than this, I own a Kindle Paperwhite and an iPad 2 (which I exclusively use for reading books and comics). For my music, I have a pair of [Sennheiser HD 202][hd-202], an excellent pair of headphones considering the price.
 
 I am an ocassional gamer and use the [Logitech G300s][g300s] for both gaming and productivity (its heavily customizable). Since my laptop speakers aren't exactly top-notch, I rely on my [Logitech X100][x100] bluetooth speakers for listening in closed spaces.
 
@@ -35,7 +37,7 @@ other twisty puzzles, including a Mirror Cube and a Megaminx.
 
 (audio warning)
 
-<video 
+<video
     src = "/videos/spectrum_320.webm"
     width = "100%"
     poster = "/img/spectrum/poster.jpg"
@@ -48,7 +50,7 @@ My current distro is [Arch Linux][arch] with [i3][i3] as the window manager. My 
 
 Most of my work is done in editors, command line, and the browser. A few essential extensions on my browser include: [dotjs][.js] (with apache support), [Privacy Badger][privacybadger], [uBlock Origin][ublock], HTTPS Everywhere, LastPass, and Markdown Here.
 
-I am a [Hacker News][hn] addict, and have even [written an application][hackertray] for it. Most used webapps would be: Slack, GitHub. I use AirSonics for listening to music on the go, and `cmus` on the desktop.
+I am a [Hacker News][hn] addict, and have even [written an application][hackertray] for it. Most used webapps would be: Slack, GitHub. I use [AirSonic][airsonic]/[Audinaut][audinaut] for listening to music on the go, and `cmus` on the desktop.
 
 I run lots of tiny services on my homeserver, including [Gitea][gitea], OpenVPN, Emby, and Grafana. I have my Kindle jailbroken and run [KOReader][koreader] to read EPUB files and PDFs with reflow (seriously, it is better than sliced bread).
 
@@ -86,3 +88,5 @@ If we're talking super-crazy, I'd love to have a thought-dictation feature. That
 [ug]: https://lineage.microg.org/ "Access all the Google services without proprietary closed software"
 [homeserver]: https://captnemo.in/blog/2017/09/17/home-server-build/
 [gitea]: https://git.captnemo.in
+[airsonic]: https://airsonic.github.io/ "Free and Open Source community driven media server, providing ubiquitous access to your music."
+[audinaut]: https://f-droid.org/en/packages/net.nullsum.audinaut/ "Stream music from Airsonic servers."
