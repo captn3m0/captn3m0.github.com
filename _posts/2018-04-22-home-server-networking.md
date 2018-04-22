@@ -1,6 +1,7 @@
 ---
 title: Home Server Networking
 layout: post
+image: networking.jpg
 tags: 
     - home-server
     - Networking
