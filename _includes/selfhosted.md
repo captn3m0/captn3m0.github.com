@@ -6,6 +6,7 @@ If you're interested in my self-hosting setup, I'm using Terraform + Docker, the
 2. [Part 2, Terraform/Docker](/blog/2017/11/09/home-server-update/)
 3. [Part 3, Learnings](/blog/2017/12/18/home-server-learnings/)
 4. [Part 4, Migrating from Google (and more)](/blog/2017/12/31/migrating-from-google/)
+5. [Part 5, Home Server Networking](/blog/2018/04/22/home-server-networking/)
 
 If you have any comments, [reach out to me](/contact/)
 
