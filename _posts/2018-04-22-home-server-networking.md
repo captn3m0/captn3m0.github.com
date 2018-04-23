@@ -166,6 +166,9 @@ After=network.target
 
 I run 3 of these: 2 for HTTP/HTTPS, and another one for SSH.
 
+While I use simpleproxy for its stability and simplicity, you could also use iptables to
+achieve the same result.
+
 # SSH Tunelling
 
 When I'm on the go, there are 3 different SSH services I might need:
