@@ -5,6 +5,9 @@ tags:
     - selfhosted
     - migration
     - google
+excerpt: >
+    As part of working on my home-server setup, I wanted to move off few online services to ones that I manage.
+    This is a list of what all services I used and what I've migrated to . 
 ---
 
 <div class="toc" markdown="1">

@@ -1,12 +1,9 @@
 ---
 layout: home
+title: Home
 ---
-<div class="homeheader">
-  <div class="name" title="aka Abhay Rana">Nemo</div>
-  <div class="about">{% include abouttext.html %}</div>
-  {% include topbar.html %}
-</div>
-<div class="posts">
+
+<div class="home-posts">
   {% for post in paginator.posts limit:3 %}
   <div class="post">
     <span class="post-date">{{ post.date | date_to_long_string: "ordinal" }}</span>
@@ -15,7 +12,7 @@ layout: home
         {{ post.title }}
       </a>
     </h1>
-    {{ post.excerpt }}
+    <div class="post-excerpt">{{ post.excerpt }}</div>
   </div>
   {% endfor %}
 </div>

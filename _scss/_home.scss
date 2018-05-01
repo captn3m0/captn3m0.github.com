@@ -1,0 +1,77 @@
+.homeheader {
+    width: 560px;
+    min-height: 180px;
+    text-align: center;
+    margin: 64px auto 0px auto;
+
+    .circle:before {
+      content: ' \25CF';
+      font-size: 40px;
+      color: #1EACFF;
+    }
+
+    .name {
+        font-family: Ubuntu Mono;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 32px;
+        color: #06C3FF;
+    }
+    .about {
+        font-family: Cabin;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 23px;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #4E5E6F;
+    }
+}
+
+.topbar {
+    .topbar-nav-item {        
+        font-family: Ubuntu Mono;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #1eacff;
+        padding: 5px;
+
+        &:hover {
+            background: rgba(30, 172, 255, 0.1);
+            border-radius: 3px;
+        }
+    }
+}
+
+.home-posts {
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: normal;
+    .post {
+        .post-date {
+            font-family: Ubuntu Mono;
+            line-height: 17px;
+            font-size: 14px;
+            letter-spacing: 0.1em;
+            color: rgba(78, 94, 111, 0.56);
+        }
+
+        .post-title {
+            font-weight: bold;
+            line-height: normal;
+            font-size: 28px;
+            letter-spacing: 0.04em;
+            color: #4e5e6f;
+        }
+        .post-excerpt {
+            letter-spacing: normal;
+        }
+    }
+}
