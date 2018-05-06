@@ -1,0 +1,71 @@
+.homeheader {
+    @media (max-width: 480px) {
+        width: 300px;
+    }
+    width: 560px;
+    min-height: 150px;
+    text-align: center;
+    margin: 48px auto 0px auto;
+
+    .circle:before {
+      content: ' \25CF';
+      font-size: 50px;
+      color: #1eacff;
+    }
+
+    .name {
+        font-family: Ubuntu Mono;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 32px;
+        color: #06c3ff;
+        margin-bottom: 16px;
+        margin-left: -44px;
+    }
+    .about {
+        font-family: Cabin;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 23px;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #4e5e6f;
+        margin-bottom: 16px
+    }
+    margin-bottom: 48px;
+}
+
+.topbar {
+    margin: 0 auto;
+    @media (max-width: 480px) {
+        max-width: 250px;
+    }
+    .topbar-nav-item {
+        @media (max-width: 480px) {
+            font-size: 16px;
+            padding: 8px;
+        }
+        font-family: Ubuntu Mono;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 16px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #1eacff;
+        padding: 5px;
+
+        &:hover {
+            background: rgba(30, 172, 255, 0.1);
+            border-radius: 3px;
+        }
+    }
+
+    .hide-on-mobile {
+        @media (min-width: 320px) and (max-width: 480px) {
+            display: none !important;
+        }
+    }
+}

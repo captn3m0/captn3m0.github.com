@@ -2,16 +2,18 @@
 layout: default
 ---
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }} <a href="{{ post.url }}" title="Permalink to this post">⚓</a></h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  {{ content }}
+<div class="raava-posts">
+    <div class="raava-post">
+      <span class="raava-post-date">{{ page.date | date_to_long_string: "ordinal"  }}</span>
+      <h1 class="page-title">{{ page.title }} <a href="{{ post.url }}" title="Permalink to this post">⚓</a></h1>
+      {{ content }}
 
-  <blockquote>
-    Published on <a href="https://captnemo.in/{{page.url}}">{{page.date | date: "%B %d,  %Y"}}</a> in {{page.tags| join:','}}
-  </blockquote>
+      <blockquote>
+        Published on <a href="https://captnemo.in/{{page.url}}">{{page.date | date: "%B %d,  %Y"}}</a> in {{page.tags| join:','}}
+      </blockquote>
 
-  <div id="follow">
-    By <a rel="author" href="https://plus.google.com/116290713924645527187/?rel=author">Abhay Rana</a> (<a href="https://twitter.com/captn3m0">Twitter</a>)
-  </div>
+      <div id="follow">
+        By <a rel="author" href="https://twitter.com/captn3m0">Abhay Rana (Nemo)</a>
+      </div>
+    </div>
 </div>

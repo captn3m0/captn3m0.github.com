@@ -1,116 +1,73 @@
-.homeheader {
-    @media (max-width: 480px) {
-        width: 300px;
-    }
-    width: 560px;
-    min-height: 180px;
-    text-align: center;
-    margin: 48px auto 0px auto;
-
-    .circle:before {
-      content: ' \25CF';
-      font-size: 50px;
-      color: #1eacff;
-    }
-
-    .name {
-        font-family: Ubuntu Mono;
-        font-style: normal;
-        font-weight: normal;
-        line-height: normal;
-        font-size: 32px;
-        color: #06c3ff;
-        margin-bottom: 16px;
-        margin-left: -44px;
-    }
-    .about {
-        font-family: Cabin;
-        font-style: normal;
-        font-weight: normal;
-        line-height: 23px;
-        font-size: 16px;
-        text-align: center;
-        letter-spacing: 0.04em;
-        color: #4e5e6f;
-        margin-bottom: 16px
-    }
-    margin-bottom: 48px;
-}
-
-.topbar {
-    margin: 0 auto;
-    @media (max-width: 480px) {
-        max-width: 250px;
-    }
-    .topbar-nav-item {
-        @media (max-width: 480px) {
-            font-size: 16px;
-            padding: 8px;
-        }
-        font-family: Ubuntu Mono;
-        font-style: normal;
-        font-weight: normal;
-        line-height: normal;
-        font-size: 16px;
-        text-transform: uppercase;
-        text-decoration: none;
-        color: #1eacff;
-        padding: 5px;
-
-        &:hover {
-            background: rgba(30, 172, 255, 0.1);
-            border-radius: 3px;
-        }
-    }
-
-    .hide-on-mobile {
-        @media (min-width: 320px) and (max-width: 480px) {
-            display: none !important;
-        }
-    }
-}
-
-.raava-posts {
-    font-family: Cabin;
+.posts,.post {
+    font-family: $serif;
     font-style: normal;
     font-weight: normal;
+}
 
-    .raava-post {
+.raava-post {
+    margin-top: 40px;
 
-        margin-top: 40px;
+    p,ul,li {
+        line-height: 1.4em;
+        font-size: 20px;
+        color: #7888a0;
+        letter-spacing: 0.6px;
+    }
 
-        .raava-post-date {
-            font-family: Ubuntu Mono;
-            line-height: 17px;
-            font-size: 14px;
-            letter-spacing: 0.1em;
-            color: #7d8ca0;
-        }
+    /**
+     * This is used for titles on the page headings
+     */
+    h1.page-title {
+        font-weight: bold;
+        line-height: normal;
+        font-size: 40px;
+        letter-spacing: 0.04em;
 
-        h1.raava-post-title {
-            font-family: Cabin;
-            font-weight: bold;
-            line-height: normal;
-            font-size: 28px;
-            letter-spacing: 0.04em;
-            color: #4e5e6f;
-            margin: 8px 0px;
+        color: #4E5E6F;
+    }
+}
 
-            a {
-                color: #4e5e6f;
-                text-decoration: none;
+.raava-post-date {
+    font-family: $monospace;
+    line-height: 17px;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: #7d8ca0;
+}
 
-                &:hover {
-                    color: #06c3ff;
-                }
-            }
-        }
+h1 {
+    font-family: $serif;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 28px;
+    letter-spacing: 0.04em;
+    color: #4e5e6f;
+    margin: 8px 0px;
 
-        .raava-post-excerpt {
-            line-height: 24px;
-            font-size: 20px;
-            letter-spacing: 0.06em;
-            color: #7888a0;
+    a {
+        color: #4e5e6f;
+        text-decoration: none !important;
+
+        &:hover {
+            color: #06c3ff;
         }
     }
+}
+
+.raava-post-excerpt {
+    line-height: 24px;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #7888a0;
+}
+
+.raava-post-link {
+    line-height: 24px;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #06c3ff;
+}
+
+.year-header {
+    margin-top: 20px;
 }

@@ -1,6 +1,7 @@
 ---
 title: A records on top level domains
 excerpt: A list of all TLDs with an active A record.
+layout: post
 ---
 Re-ran the same scan as <http://blog.towo.eu/a-records-on-top-level-domains/>
 

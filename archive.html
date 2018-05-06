@@ -2,11 +2,13 @@
 layout: default
 title: Archive
 ---
+<div class="raava-posts posts">
 {% for post in site.posts %}
   {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
   {% if currentyear != year %}
-    <h1>{{ currentyear }}</h1>
-    {% capture year %}{{currentyear}}{% endcapture %} 
+    <h1 class="year-header">{{ currentyear }}</h1>
+    {% capture year %}{{currentyear}}{% endcapture %}
   {% endif %}
-    <a href="{{ post.url }}">{{ post.title }}</a> <small>{{post.date | date_to_string}}</small><br>
+    <a class="raava-post-link" href="{{ post.url }}">{{ post.title }}</a> <small class="raava-post-date">{{post.date |  date_to_long_string: "ordinal"}}</small><br>
 {% endfor %}
+</div>
