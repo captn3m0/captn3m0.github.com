@@ -1,4 +1,7 @@
 .homeheader {
+    @media (max-width: 480px) {
+        width: 300px;
+    }
     width: 560px;
     min-height: 180px;
     text-align: center;
@@ -18,6 +21,7 @@
         font-size: 32px;
         color: #06c3ff;
         margin-bottom: 16px;
+        margin-left: -44px;
     }
     .about {
         font-family: Cabin;
@@ -34,13 +38,20 @@
 }
 
 .topbar {
+    margin: 0 auto;
+    @media (max-width: 480px) {
+        max-width: 250px;
+    }
     .topbar-nav-item {
+        @media (max-width: 480px) {
+            font-size: 16px;
+            padding: 8px;
+        }
         font-family: Ubuntu Mono;
         font-style: normal;
         font-weight: normal;
         line-height: normal;
         font-size: 16px;
-        letter-spacing: 0.04em;
         text-transform: uppercase;
         text-decoration: none;
         color: #1eacff;
@@ -49,6 +60,12 @@
         &:hover {
             background: rgba(30, 172, 255, 0.1);
             border-radius: 3px;
+        }
+    }
+
+    .hide-on-mobile {
+        @media (min-width: 320px) and (max-width: 480px) {
+            display: none !important;
         }
     }
 }
@@ -60,14 +77,14 @@
 
     .raava-post {
 
-        margin-top: 32px;
+        margin-top: 40px;
 
         .raava-post-date {
             font-family: Ubuntu Mono;
             line-height: 17px;
             font-size: 14px;
             letter-spacing: 0.1em;
-            color: rgba(78, 94, 111, 0.56);
+            color: #7d8ca0;
         }
 
         h1.raava-post-title {
@@ -77,19 +94,23 @@
             font-size: 28px;
             letter-spacing: 0.04em;
             color: #4e5e6f;
-            margin: 7px 0px;
+            margin: 8px 0px;
 
             a {
                 color: #4e5e6f;
                 text-decoration: none;
+
+                &:hover {
+                    color: #06c3ff;
+                }
             }
         }
 
         .raava-post-excerpt {
             line-height: 24px;
             font-size: 20px;
-            letter-spacing: 0.04em;
-            color: #4e5e6f;
+            letter-spacing: 0.06em;
+            color: #7888a0;
         }
     }
 }
