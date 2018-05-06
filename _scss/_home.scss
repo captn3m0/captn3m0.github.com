@@ -2,12 +2,12 @@
     width: 560px;
     min-height: 180px;
     text-align: center;
-    margin: 64px auto 0px auto;
+    margin: 48px auto 0px auto;
 
     .circle:before {
       content: ' \25CF';
-      font-size: 40px;
-      color: #1EACFF;
+      font-size: 50px;
+      color: #1eacff;
     }
 
     .name {
@@ -16,7 +16,8 @@
         font-weight: normal;
         line-height: normal;
         font-size: 32px;
-        color: #06C3FF;
+        color: #06c3ff;
+        margin-bottom: 16px;
     }
     .about {
         font-family: Cabin;
@@ -26,12 +27,14 @@
         font-size: 16px;
         text-align: center;
         letter-spacing: 0.04em;
-        color: #4E5E6F;
+        color: #4e5e6f;
+        margin-bottom: 16px
     }
+    margin-bottom: 48px;
 }
 
 .topbar {
-    .topbar-nav-item {        
+    .topbar-nav-item {
         font-family: Ubuntu Mono;
         font-style: normal;
         font-weight: normal;
@@ -50,12 +53,16 @@
     }
 }
 
-.home-posts {
+.raava-posts {
     font-family: Cabin;
     font-style: normal;
     font-weight: normal;
-    .post {
-        .post-date {
+
+    .raava-post {
+
+        margin-top: 32px;
+
+        .raava-post-date {
             font-family: Ubuntu Mono;
             line-height: 17px;
             font-size: 14px;
@@ -63,15 +70,26 @@
             color: rgba(78, 94, 111, 0.56);
         }
 
-        .post-title {
+        h1.raava-post-title {
+            font-family: Cabin;
             font-weight: bold;
             line-height: normal;
             font-size: 28px;
             letter-spacing: 0.04em;
             color: #4e5e6f;
+            margin: 7px 0px;
+
+            a {
+                color: #4e5e6f;
+                text-decoration: none;
+            }
         }
-        .post-excerpt {
-            letter-spacing: normal;
+
+        .raava-post-excerpt {
+            line-height: 24px;
+            font-size: 20px;
+            letter-spacing: 0.04em;
+            color: #4e5e6f;
         }
     }
 }
