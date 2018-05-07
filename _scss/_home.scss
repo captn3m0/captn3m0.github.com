@@ -1,0 +1,73 @@
+.posts,.post {
+    font-family: $serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.raava-post {
+    margin-top: 40px;
+
+    p,ul,li {
+        line-height: 1.4em;
+        font-size: 20px;
+        color: #7888a0;
+        letter-spacing: 0.6px;
+    }
+
+    /**
+     * This is used for titles on the page headings
+     */
+    h1.page-title {
+        font-weight: bold;
+        line-height: normal;
+        font-size: 40px;
+        letter-spacing: 0.04em;
+
+        color: #4E5E6F;
+    }
+}
+
+.raava-post-date {
+    font-family: $monospace;
+    line-height: 17px;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: #7d8ca0;
+}
+
+h1 {
+    font-family: $serif;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 28px;
+    letter-spacing: 0.04em;
+    color: #4e5e6f;
+    margin: 8px 0px;
+
+    a {
+        color: #4e5e6f;
+        text-decoration: none !important;
+
+        &:hover {
+            color: #06c3ff;
+        }
+    }
+}
+
+.raava-post-excerpt {
+    line-height: 24px;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #7888a0;
+}
+
+.raava-post-link {
+    line-height: 24px;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #06c3ff;
+}
+
+.year-header {
+    margin-top: 20px;
+}

@@ -18,6 +18,7 @@ html {
   font-family: $root-font-family;
   font-size: $root-font-size;
   line-height: $root-line-height;
+  font-variant-ligatures: none;
 
   @media (min-width: $large-breakpoint) {
     font-size: $large-font-size;
