@@ -11,7 +11,7 @@ Here are the scripts that I use
 
 {% highlight bash %}
 #! /bin/bash
-plowdown   --run-download="axel -n 15 -a  %url" $1
+plowdown --run-download="axel -n 15 -a  %url" $1
 {% endhighlight %}
 
 Basically this downloads anything and passes the final download url to axel. The next issue cropped up with the google search. I wanted the number of steps to download a file to be bare minimum. When I search for something on google, the links to various pages are redirects via google. I looked around for some userscripts, but found none that worked (they were all from the pre instant-search era). What I wanted was something that gets activated at will and disables the redirects.

@@ -26,3 +26,5 @@ The benifits of having such a system in place are enormous:
 Also, we are running all our services on https, which _is not dependent upon the visibility of the website_. Even though the site is hosted locally, the process of certificate signing remains exactly the same as any other site. Once we aquire a SSL certificate and attach it to our web-server, the visibility of the domain does not matter to the browser at all.
 
 Note: For the benifit of those not in IIT Roorkee, we are running multiple web-service on the domain sdslabs.co.in, which is only served locally, as it resolves to a local IP address (192.168.208.208)
+
+**Caveat**: Several DNS servers wil block RFC1913 responses by default (basically any DNS response in the private IP ranges). This is usually disabled in the intranet scenarios, but something to keep in mind if you're looking to use this solution.
