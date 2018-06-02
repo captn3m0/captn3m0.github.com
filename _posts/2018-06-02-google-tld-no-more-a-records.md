@@ -1,5 +1,5 @@
 ---
-title: Google owned TLDs don't have A records any more.
+title: Google owned TLDs don't have A records any more
 layout: post
 ---
 
