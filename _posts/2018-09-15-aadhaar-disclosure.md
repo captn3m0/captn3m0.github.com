@@ -32,13 +32,17 @@ It shows up like:
 
 # Fun
 
-If you'd like to embed your own tweet on UIDAI's website, you can share the following URL:
+The current script allows for embeding any tweet using a `tweet` parameter. To embed:
 
-`https://resident.uidai.gov.in/?cdn_host=https://scan.bb8.fun&tweet=sanitarypanels/status/948987599191977986`
+Go to any tweet, copy the part after `twitter.com` and pass it as the `tweet` parameter. For eg, to embed this tweet:
 
-This embeds [this tweet](https://twitter.com/sanitarypanels/status/948987599191977986) and looks like this:
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Breaking: Exclusive footage from inside <a href="https://twitter.com/UIDAI?ref_src=twsrc%5Etfw">@UIDAI</a>&#39;s IT department after media reports of Aadhaar data leaks. <a href="https://t.co/W7m9L0HvEX">pic.twitter.com/W7m9L0HvEX</a></p>&mdash; Aadhaar Compound Wall (@13footwall) <a href="https://twitter.com/13footwall/status/979301578686345216?ref_src=twsrc%5Etfw">March 29, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-![](/img/aadhaar2.jpg)
+1.  look at the URL: `https://twitter.com/13footwall/status/979301578686345216`
+2.  Copy `13footwall/status/979301578686345216` and pass it as the `tweet parameter`:
+3.  The URL becomes`https://resident.uidai.gov.in/?cdn_host=https://scan.bb8.fun&tweet=13footwall/status/979301578686345216`
+4.  [**SHARE IT**](https://resident.uidai.gov.in/?cdn_host=https://scan.bb8.fun&tweet=13footwall/status/979301578686345216)
 
 # The Report
 
@@ -64,3 +68,5 @@ This is still not fixed. Here is a complete timeline:
 | 19 Mar 2018 | Confirmation from NCIIPC thanking me for the report.                                               |
 | 19 Apr 2018 | Reminder sent to UIDAI asking for acknowledgement                                                  |
 | 30 May 2018 | Reminder sent to NCIIPC and CERT asking for updates                                                |
+
+The only change that I'm aware of since my initial report is that the website stopped declaring the [LifeRay version in a HTTP response Header](https://en.wikipedia.org/wiki/Security_through_obscurity).
