@@ -55,6 +55,19 @@ Forgot all about it till Jan 2018, when someone mentioned I should try my luck w
 
 ![](/img/aadhaar-report2.png)
 
+# Update
+
+There is [some confusion](https://twitter.com/kingslyj/status/1040985678408871937) regarding which version of LifeRay
+is UIDAI running. They seem to be running 6.1.1, released in 2013-02-26.
+
+The exact version is not relevant to the fact that UIDAI is:
+
+-   running an unsupported release
+-   which is 5 year old
+-   not updating it despite being notified multiple times
+
+# Timeline
+
 This is still not fixed. Here is a complete timeline:
 
 | Date        | What?                                                                                              |
