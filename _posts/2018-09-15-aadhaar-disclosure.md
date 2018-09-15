@@ -15,7 +15,7 @@ of LifeRay software. It is running LifeRay 6.1, which was declared End-of-Life i
 
 This release includes multiple known vulnerabilities, including:
 
-1.  A XSS issue, for which a PoC can be found at [resident.uidai.gov.in](https://resident.uidai.gov.in/?cdn_host=https://scan.bb8.fun)
+1.  A XSS issue, for which a PoC can be found at [resident.uidai.gov.in](https://resident.uidai.gov.in/?cdn_host=https://scan.bb8.fun) (Picture Credits: [@sanitarypanels](https://twitter.com/sanitarypanels))
 2.  Multiple RCEs: See [issue-62](https://dev.liferay.com/web/community-security-team/known-vulnerabilities/liferay-portal-62) for eg.
 
 In fact the release is so old it does not even appear on the ["Known Vulnerabilities"](https://dev.liferay.com/web/community-security-team/known-vulnerabilities) page on the LifeRay website; you have to go look at their [Archived Vulnerabilities](https://dev.liferay.com/web/community-security-team/known-vulnerabilities/liferay-portal-62).
@@ -39,7 +39,7 @@ Go to any tweet, copy the part after `twitter.com` and pass it as the `tweet` pa
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Breaking: Exclusive footage from inside <a href="https://twitter.com/UIDAI?ref_src=twsrc%5Etfw">@UIDAI</a>&#39;s IT department after media reports of Aadhaar data leaks. <a href="https://t.co/W7m9L0HvEX">pic.twitter.com/W7m9L0HvEX</a></p>&mdash; Aadhaar Compound Wall (@13footwall) <a href="https://twitter.com/13footwall/status/979301578686345216?ref_src=twsrc%5Etfw">March 29, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-1.  look at the URL: `https://twitter.com/13footwall/status/979301578686345216`
+1.  Look at the URL: `https://twitter.com/13footwall/status/979301578686345216`
 2.  Copy `13footwall/status/979301578686345216` and pass it as the `tweet parameter`:
 3.  The URL becomes`https://resident.uidai.gov.in/?cdn_host=https://scan.bb8.fun&tweet=13footwall/status/979301578686345216`
 4.  [**SHARE IT**](https://resident.uidai.gov.in/?cdn_host=https://scan.bb8.fun&tweet=13footwall/status/979301578686345216)
@@ -59,7 +59,7 @@ This is still not fixed. Here is a complete timeline:
 | Date        | What?                                                                                              |
 | ----------- | -------------------------------------------------------------------------------------------------- |
 | 16 Jan 2017 | Initially reported to `help@uidai.gov.in`. No response                                             |
-| 21 Jan 2018 | Reported to `ceo@uidai.gov.in` and `nfo@cert-in.org.in`. No response                               |
+| 21 Jan 2018 | Reported to `ceo@uidai.gov.in` and `info@cert-in.org.in`. No response                              |
 | 19 Feb 2018 | Reminder sent to `ceo@uidai.gov.in` and `info@cert-in.org.in`                                      |
 | 19 Feb 2018 | Acknowledgement from CERT                                                                          |
 | 15 Mar 2018 | Reminder sent. No response                                                                         |
