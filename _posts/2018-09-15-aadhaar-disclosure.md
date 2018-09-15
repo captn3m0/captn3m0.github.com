@@ -1,6 +1,7 @@
 ---
 title: Aadhaar Vulnerability Public Disclosure
 layout: post
+image: aadhaar1.jpg
 tags:
     - aadhaar
     - disclosure
