@@ -66,9 +66,11 @@ The exact version is not relevant to the fact that UIDAI is:
 -   which is 5 year old
 -   not updating it despite being notified multiple times
 
+_0800 16-Sep_: UIDAI seems to have patched the issue by putting a block on the `cdn_host` parameter. This still leaves them vulnerable to multiple vulnerabilities until they update to a supported release.
+
 # Timeline
 
-This is still not fixed. Here is a complete timeline:
+The vulnerability is still not fixed. Here is a complete timeline:
 
 | Date        | What?                                                                                              |
 | ----------- | -------------------------------------------------------------------------------------------------- |
