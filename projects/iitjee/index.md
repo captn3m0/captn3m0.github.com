@@ -37,8 +37,8 @@ Most of the source code used to gather these datasets is available [on github](h
 
 ## 2011
 
--   View [Results Online](https://captnemo.in/projects/iitjee/2011.html)
--   Or Download it in [csv](https://captnemo.in/projects/iitjee/2011.html) [ods](https://captnemo.in/projects/iitjee/2011.ods) [xlsx](https://captnemo.in/projects/iitjee/2011.xlsx) formats.
+-   View [Results Online](/projects/iitjee/2011.html)
+-   Or Download it in [csv](/projects/iitjee/2011.html) [ods](/projects/iitjee/2011.ods) [xlsx](/projects/iitjee/2011.xlsx) formats.
 -   A list of center-wise selection count is available [here](https://captnemo.in/projects/iitjee/center.html)
 -   This list lacks some information (such as the application form numbers). I have since then lost my database backup, otherwise I would have uploaded it.
 
