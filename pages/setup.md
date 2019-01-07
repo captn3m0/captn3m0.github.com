@@ -1,4 +1,4 @@
----
+---https://github.com/krayon/ratslap/
 title: The Setup
 permalink: /setup/
 layout: page
@@ -97,3 +97,4 @@ If we're talking super-crazy, I'd love to have a thought-dictation feature. That
 [pw3]: https://en.wikipedia.org/wiki/Amazon_Kindle#Kindle_Paperwhite_(3rd_generation) 'Paperwhite 3rd Generation'
 [se]: https://support.apple.com/kb/SP738?locale=en_US 'iPhone SE - The Best Phone Apple ever made'
 [jaybird]: https://www.amazon.com/Jaybird-Wireless-Bluetooth-Sports-Headphones/dp/B01M7NCT5O
+[ratslap]: https://github.com/krayon/ratslap/ 'RatSlap: Linux configuration tool for Logitech G300S'
