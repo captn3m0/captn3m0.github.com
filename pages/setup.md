@@ -94,3 +94,6 @@ If we're talking super-crazy, I'd love to have a thought-dictation feature. That
 [riitech]: http://www.riitek.com/product/i8.html 'Mini Wireless Keyboard / Touchpad'
 [logitechbt]: https://www.logitech.com/en-us/product/wireless-touch-keyboard-k400r 'Wireless Touch Keyboard K400'
 [lguw]: https://www.amazon.in/dp/B01BV1XB2K/ 'LG 25UM58'
+[pw3]: https://en.wikipedia.org/wiki/Amazon_Kindle#Kindle_Paperwhite_(3rd_generation) 'Paperwhite 3rd Generation'
+[se]: https://support.apple.com/kb/SP738?locale=en_US 'iPhone SE - The Best Phone Apple ever made'
+[jaybird]: https://www.amazon.com/Jaybird-Wireless-Bluetooth-Sports-Headphones/dp/B01M7NCT5O
