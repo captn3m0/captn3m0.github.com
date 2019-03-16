@@ -1,11 +1,12 @@
 ---
-title: Bringing up a self-hosted Kubernetes cluster using Terraform Docker Provider and Bootkube
+title: 'Kayak: Self-hosted Kubernetes cluster using Terraform Docker Provider and Bootkube'
 layout: post
 tags:
     - terraform
     - docker
     - terraform-provider-docker
     - bootkube
+    - kayak
     - kubernetes
 ---
 
@@ -17,20 +18,20 @@ This turned out to be a very audacious goal, and was tricky to get working. The 
 
 The objectives are:
 
-1. Run *everything* as a Docker Container.
+1. Run _everything_ as a Docker Container.
 2. Make sure that the cluster is only exposed on the OpenVPN Network Interface.
 3. No system level changes on the server, except for Docker API setup.
 
 ## Why is this a big deal?
 
-- This manages to run kubelet inside a docker container without using the `--containerized` flag.
-- There is no systemd/shell scripting involved (assuming you already have docker daemon setup). This is important because it moves all the configuration to terraform.
+-   This manages to run kubelet inside a docker container without using the `--containerized` flag.
+-   There is no systemd/shell scripting involved. This is important because it moves all the configuration to terraform.
 
 ## The How of it
 
 The walkthrough steps would be roughly:
 
-1. [Get Docker API running on your server](https://success.docker.com/article/how-do-i-enable-the-remote-api-for-dockerd)
+1. [Get Docker API running on your server](https://success.docker.com/article/how-do-i-enable-the-remote-api-for-dockerd). If you're on CoreOS, you can use this [nice ignition module](https://registry.terraform.io/modules/captn3m0/docker-api/ignition/1.0.3) I wrote to avoid shell scripting.
 1. [Setup this API against your local Terraform configuration.](https://www.terraform.io/docs/providers/docker/index.html)
 1. Run [terraform-render-bootkube](https://github.com/poseidon/terraform-render-bootkube) from the [typhoon](http://typhoon.psdn.io/) project to generate the assets for the cluster. See [terraform config](https://git.captnemo.in/nemo/nebula/src/branch/kubernetes/kubernetes.tf#L69-L77).
 1. Run [etcd](https://coreos.com/etcd/) as a container with a volume mount for the etcd-data. See [terraform module](https://git.captnemo.in/nemo/nebula/src/branch/kubernetes/modules/etcd/main.tf) and [usage](https://git.captnemo.in/nemo/nebula/src/branch/kubernetes/kubernetes.tf#L1-L20)
