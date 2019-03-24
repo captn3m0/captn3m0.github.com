@@ -7,9 +7,44 @@ I run a non-standard Kindle configuration:
 
 1.  Jailbroken
 2.  Runs KOReader
-3.  And I strip DRM from every book that I purchase from Kindle.
+3.  DRM Stripping
 
 Since I don't do any of these often enough to automate it, this is a self guide.
+
+# Jailbreak
+
+The lifehacker guide is a good starting point: https://lifehacker.com/how-to-jailbreak-your-kindle-1783864074
+
+The mobileread forums have the definitive guides: https://www.mobileread.com/forums/showthread.php?t=275881
+
+Also see https://wiki.mobileread.com/wiki/5_x_Jailbreak#Will_this_jail_break_work_on_my_current_firmware.3F
+
+(Most of these only cover modern paperwhite kindles)
+
+## Maintaining the Jailbreak
+
+Sometimes, Kindle firmware updates will stop the Jailbreak. Search for your firmware on mobileread forums. For 5.8 series, see https://www.mobileread.com/forums/showthread.php?p=3562050
+
+Copy the `.bin` file to your kindle root directory and trigger a manual firmware update. That should reboot and re-affirm the jailbreak.
+
+# Applications
+
+Once you have a jailbreak, the rest is mostly installing packages via MRPI. I keep a ready directory of packages I can copy as-is to my Kindle. The current listing is at https://paste.ubuntu.com/p/CXS5hYZdqc/ with most of it just being koreader.
+
+The primary 2 packages are:
+
+-   `Update_KUALBooklet_v2.7_install.bin`
+-   `update_kpvbooklet_0.6.6_install.bin`
+
+Run `;log mrpi` via search after copying them to re-install them if needed.
+
+## Koreader
+
+Download the latest release from https://github.com/koreader/koreader/releases/latest.
+
+You should download the `kindle5-linux-gnueabi` package for modern paperwhites. Unzip it to the copy directory mentioned above.
+
+Aside: koreader has a linux appimage version for desktops, which [I package for AUR](https://aur.archlinux.org/packages/koreader-appimage/).
 
 # DRM Related Stuff
 
