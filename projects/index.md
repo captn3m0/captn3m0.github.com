@@ -42,6 +42,14 @@ projects:
     desc: A website/email setup I maintain for my young niece
     color: "#03A9F4"
     url: /projects/shauryaa/
+  kayak:
+    desc: A tiny kubernetes distribution that uses the Docker API to bootstrap a control plane
+  ideas:
+    desc: Ideas for everyone under a CC licence. Feel free to use.
+    url: /projects/ideas/
+  nebula:
+    desc: Terraform + Docker scripts that power my homeserver.
+    url: https://github.com/captn3m0/nebula
 ---
 
 ## Recent Projects by Date
@@ -53,7 +61,7 @@ projects:
 : **Summer 2017** This is a work-in-progress conversion of Sushi Go (original), the popular card game by Gamewright into Ruby.
 
 [youtube-ripper][ytripper]
-: **June 2017** Downloads music-compilations from YouTube and rips them into multiple tagged MP3 files. 
+: **June 2017** Downloads music-compilations from YouTube and rips them into multiple tagged MP3 files.
 
 [cosmere-books][cosmere]
 : **September 2017** Wrote a EPUB generator for multiple books in the Cosmere. Currently covers 4 different serializations at Tor.com. Also created a project page on all of my ebooks projects at [/ebooks/](/ebooks/)
@@ -68,7 +76,7 @@ projects:
 : **Feb/Sep 2017** EPUB generator for the Google SRE ebook. Started in February in Python. Gave up and redid it properly in September.
 
 [CodeChef Offline][codechef]
-: **March 2012** I attempted to make a offline repository for CodeChef problems. I spent some time in May 2017 upgrading the project with a cleaner scraper and a Jekyll base. 
+: **March 2012** I attempted to make a offline repository for CodeChef problems. I spent some time in May 2017 upgrading the project with a cleaner scraper and a Jekyll base.
 
 [Hoshruba][hoshruba]
 : **June 2015** I wrote a script that scraped Tor's serialized publication of the first book in Hoshruba series to generate EPUB and MOBI files. I would recommend the book if you are interested in reading what many would term the "original fantasy book"
@@ -80,7 +88,7 @@ projects:
 : **May 2017** I wrote a script to convert Magic Muggle (A Harry Potter fanfic about a muggle who accidentally gets into Hogwarts) books from their original reddit posts to EPUB and MOBI files.
 
 [Kerala IT Policy][kerala-it]
-: **March 2017** Attempted to transcribe the draft IT policies put up by the Government of Kerala. Lots of OCR followed by manual fixes. I stopped working on this when I realized that the government had actually put up a really nice website for this (with clear plaintext, not the bad PDF I was using as the source). 
+: **March 2017** Attempted to transcribe the draft IT policies put up by the Government of Kerala. Lots of OCR followed by manual fixes. I stopped working on this when I realized that the government had actually put up a really nice website for this (with clear plaintext, not the bad PDF I was using as the source).
 
 [lightsaber][lightsaber]
 : **August 2015** I created a DNS based HTTP-3xx redirect service. Useful if you own a domain and you want it to be redirected, but don't have a webserver with you. Made as part of the Django Hackathon organized by HackerEarth in Ruby.
@@ -89,17 +97,19 @@ projects:
 : **November 2015** My hack during hackbeach 2015. Created something best described as "couchsurfing for hackers". Simple Jekyll/Ruby website hosted on GitHub Pages.
 
 ## Older Projects
+
 You might wanna take a look at my [github account](https://github.com/captn3m0) for more of my work. Most of the following projects are no longer under active development
 
-* [Sympathy Editor](/sympathy) - Local File Editor Extension For Chrome (using NPAPI) ([source](https://github.com/captn3m0/sympathy), [blog post](http://captnemo.in/blog/2012/05/20/sympathy-editor/)). Now DEPRECATED.
-* Geo_Rss Demo for multiple layers on a Google Map - [Geo RSS](./geo_rss/)
-* [WoNA Archives](/wona/) - A download page for all issues of Watch Out News Agency ([source](https://github.com/captn3m0/wona/)) #sass
-* [CodeChef Repo Browser](/codechef/) - An offline practice problem viewer for [Codechef](http://codechef.com). ([source](https://github.com/captn3m0/codechef/)) #javascript #pushstate
-* [Akira](http://captnemo.in/blog/2012/05/23/phonegap-blog-post/) - Winning entry to the Adobe Express Apps Contest @ Cognizance 2012. ([source](https://github.com/captn3m0/akira)) #mobile #phonegap 
-* [CNEditor](https://github.com/captn3m0/cneditor) - A single file browser/editor for PHP. #php #security #pen-testing
+- [Sympathy Editor](/sympathy) - Local File Editor Extension For Chrome (using NPAPI) ([source](https://github.com/captn3m0/sympathy), [blog post](http://captnemo.in/blog/2012/05/20/sympathy-editor/)). Now DEPRECATED.
+- Geo_Rss Demo for multiple layers on a Google Map - [Geo RSS](./geo_rss/)
+- [WoNA Archives](/wona/) - A download page for all issues of Watch Out News Agency ([source](https://github.com/captn3m0/wona/)) #sass
+- [CodeChef Repo Browser](/codechef/) - An offline practice problem viewer for [Codechef](http://codechef.com). ([source](https://github.com/captn3m0/codechef/)) #javascript #pushstate
+- [Akira](http://captnemo.in/blog/2012/05/23/phonegap-blog-post/) - Winning entry to the Adobe Express Apps Contest @ Cognizance 2012. ([source](https://github.com/captn3m0/akira)) #mobile #phonegap
+- [CNEditor](https://github.com/captn3m0/cneditor) - A single file browser/editor for PHP. #php #security #pen-testing
 
 ## Very Old Projects
-* [Hacker](https://github.com/captn3m0/hacker) - Hacking Game Simulator in written in 8th grade #turbocpp
+
+- [Hacker](https://github.com/captn3m0/hacker) - Hacking Game Simulator in written in 8th grade #turbocpp
 
 [cosmere]: https://github.captnemo.in/cosmere-books
 [hackercouch]: https://hackercouch.com
