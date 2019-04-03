@@ -71,6 +71,8 @@ I once did some trickery on the `kindlekey.pyw` application to get it working on
 
 ## Stripping DRM
 
+_Note_: [Newer DeDRM releases](https://github.com/apprenticeharper/DeDRM_tools/releases) seem to support Kindle for PC newer versions as well as KFX files.
+
 1.  Install Kindle for PC. It does work on Wine. Make sure you download `1.17.0 (44170)`. I trust [filehippo](https://filehippo.com/download_kindle_for_pc/download/a6284b51053b0e38f4b9f90d4470bd91/) for this. The sha256sum for the installer is `14e0f0053f1276c0c7c446892dc170344f707fbfe99b6951762c120144163200`. I have a backup copy referenced below as well.
 2.  Launch it, and download the book.
 3.  Go to `~/Documents/My Kindle Content`
