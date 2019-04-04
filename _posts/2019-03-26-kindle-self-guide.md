@@ -13,13 +13,13 @@ Since I don't do any of these often enough to automate it, this is a self guide 
 
 # Jailbreak
 
-The [lifehacker guide on how to jailbreak your kindle](https://lifehacker.com/how-to-jailbreak-your-kindle-1783864074) is a good starting point [[archived](https://outline.com/cEZNAt)]. The mobileread forums have the [definitive guides](https://www.mobileread.com/forums/showthread.php?t=275881). Also see [this FAQ](https://wiki.mobileread.com/wiki/5_x_Jailbreak#Will_this_jail_break_work_on_my_current_firmware.3F) on the mobileread wiki.
+The [lifehacker guide on how to jailbreak your kindle][lh] is a good starting point [[archived][lha]]. The mobileread forums have the [definitive guides][jb1]. Also see [this FAQ][faq] on the mobileread wiki.
 
 (Most of these only cover modern paperwhite kindles)
 
 ## Maintaining the Jailbreak
 
-Sometimes, Kindle firmware updates will stop the Jailbreak. Search for your firmware on mobileread forums. See [this link](https://www.mobileread.com/forums/showthread.php?p=3562050) for the 5.8 series.
+Sometimes, Kindle firmware updates will stop the Jailbreak. Search for your firmware on mobileread forums. See [this link][fw] for the 5.8 series.
 
 Copy the `.bin` file to your kindle root directory and trigger a manual firmware update. That should reboot and re-affirm the jailbreak. To trigger a manual firmware update, go to the Kindle Menu and click "Update". If it is greyed out, check if the file was copied correctly, and try rebooting.
 
@@ -27,7 +27,7 @@ Copy the `.bin` file to your kindle root directory and trigger a manual firmware
 
 Once you have a jailbreak, the rest is mostly installing packages via MRPI. I keep a ready directory of packages I can copy as-is to my Kindle. The current listing is at <https://paste.ubuntu.com/p/CXS5hYZdqc/> with most of it just being koreader.
 
-[koreader](https://koreader.rocks/) is a FOSS document viewer for E Ink devices that supports Kindle, Kobo, PocketBook, Ubuntu Touch and Android devices.
+[koreader][ko] is a FOSS document viewer for E Ink devices that supports Kindle, Kobo, PocketBook, Ubuntu Touch and Android devices.
 
 The primary 2 packages are:
 
@@ -38,20 +38,20 @@ Run `;log mrpi` via search after copying them to re-install them if needed.
 
 ## koreader
 
-Download the latest release from [GitHub](https://github.com/koreader/koreader/releases/latest).
+Download the latest release from [GitHub][koreader-release].
 
 You should download the `kindle5-linux-gnueabi` package for modern Paperwhites. Unzip it to the copy directory mentioned above.
 
-Aside: koreader has a linux appimage version for desktops, which [I package for AUR](https://aur.archlinux.org/packages/koreader-appimage/).
+Aside: koreader has a linux appimage version for desktops, which [I package for AUR][ko-aur].
 
 # DRM Related Stuff
 
 DRM is inherently bad for users. If I switch my Ebook reader from Kindle (which are great _as of today_) to
 a Kobo tomorrow, I want my content to stay with me.
 
-There are much better websites that explain the issues with DRM, so go visit: [fckdrm.com](https://fckdrm.com/), [DefectiveByDesign.org](https://www.defectivebydesign.org/), or [EFF/drm](https://www.eff.org/issues/drm).
+There are much better websites that explain the issues with DRM, so go visit: [fckdrm.com](https://fckdrm.com/), [DefectiveByDesign.org][dbd], or [EFF/drm][eff-drm].
 
-The primary tool for stripping DRM from Kindle books is [apprenticeharper's DeDRM Repo](https://github.com/apprenticeharper/DeDRM_tools).
+The primary tool for stripping DRM from Kindle books is [apprenticeharper's DeDRM Repo][dedrm] which works as a [Calibre Plugin](https://calibre-ebook.com/).
 
 ## Getting the Key
 
@@ -71,10 +71,12 @@ I once did some trickery on the `kindlekey.pyw` application to get it working on
 
 ## Stripping DRM
 
-_Note_: [Newer DeDRM releases](https://github.com/apprenticeharper/DeDRM_tools/releases) seem to support Kindle for PC newer versions as well as KFX files.
+Stripping DRM for any medium is always a cat-and-mouse game. Amazon keeps changing the DRM format in every Kindle firmware update, which is why the recommended method is to use a known/older version of the Kindle for Mac/PC Application as your source.
 
-1.  Install Kindle for PC. It does work on Wine. Make sure you download `1.17.0 (44170)`. I trust [filehippo](https://filehippo.com/download_kindle_for_pc/download/a6284b51053b0e38f4b9f90d4470bd91/) for this. The sha256sum for the installer is `14e0f0053f1276c0c7c446892dc170344f707fbfe99b6951762c120144163200`. I have a backup copy referenced below as well.
-2.  Launch it, and download the book.
+_Note_: The 1.24.3 release does not work on Linux. If you're on Linux, you must instead download the [1.17.0](https://filehippo.com/download_kindle_for_pc/download/a6284b51053b0e38f4b9f90d4470bd91/) release instead (`sha256=14e0f0053f1276c0c7c446892dc170344f707fbfe99b6951762c120144163200`).
+
+1.  Install Kindle for PC. It does work on Wine. Make sure you download `1.24.3 (51068)`. I trust [filehippo](https://filehippo.com/download_kindle_for_pc/download/ef9369348002466588fd3316af6e00fb/) for this. The sha256sum for the installer is `c7a1a93763d102bca0fed9c16799789ae18c3322b1b3bdfbe8c00422c32f83d7`.
+2.  Install then launch it, and download the book.
 3.  Go to `~/Documents/My Kindle Content`
 4.  Find book by Last Modified Date.
 5.  Run `calibredb add book.azw`. If all goes well, the book should show up in your library, and you should be able to convert it.
@@ -88,6 +90,7 @@ I have a backup of my current Kindle files at http://ge.tt/75zk4Dv2 in case you 
 ```
 e3b05193ed9d0b482f01dfb550eba67f3b113b5165aae5632379cf35fec2f59d  copy.tar.gz
 14e0f0053f1276c0c7c446892dc170344f707fbfe99b6951762c120144163200  KindleForPC-installer-1.17.44170.exe
+c7a1a93763d102bca0fed9c16799789ae18c3322b1b3bdfbe8c00422c32f83d7  KindleForPC-installer-1.24.51068.exe
 50bb0e5d9c03bcb79b17c1b7063cefd2c947a9d1c4392814e6ec05225296472a  kual-helper-0.5.N.zip
 39352b4b68993680f06d5ecc57ce7ec4c271b6b5f2386ea998027420c45f2acd  KUAL-KDK-1.0.azw2
 ceb207ee4c8d3674f308ff91432aeabf213b203571e270f70b8ae218df6ded7d  KUAL-KDK-2.0.azw2
@@ -96,3 +99,15 @@ fce02f0e104e846f1e4cc0e029500c5a722614d63a47035d78ea4cf59f67a448  kual-mrinstall
 253d0b00b31d62ef9dadb7ca88b98e2718cb35246816b3c50dd63c0a7ef28a52  Update_jailbreak_hotfix_1.14_5.8.10_install.bin
 cc63ba1b454d1f32492c835f108ee04aaa80e6e7a95f12b7216c2c015daa2fbc  Update_jailbreak_hotfix_1.14_nomax_install.bin
 ```
+
+[lh]: https://lifehacker.com/how-to-jailbreak-your-kindle-1783864074 "Lifehacker's Guide on how to Jailbreak a Kindle"
+[lha]: https://outline.com/cEZNAt
+[jb1]: https://www.mobileread.com/forums/showthread.php?t=275881
+[faq]: https://wiki.mobileread.com/wiki/5_x_Jailbreak#Will_this_jail_break_work_on_my_current_firmware.3F
+[fw]: https://www.mobileread.com/forums/showthread.php?p=3562050
+[ko]: https://koreader.rocks
+[koreader-release]: https://github.com/koreader/koreader/releases/latest
+[ko-aur]: https://aur.archlinux.org/packages/koreader-appimage/
+[dbd]: https://www.defectivebydesign.org
+[eff-drm]: https://www.eff.org/issues/drm
+[dedrm]: https://github.com/apprenticeharper/DeDRM_tools
