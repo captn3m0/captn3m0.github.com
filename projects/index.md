@@ -2,14 +2,14 @@
 layout: portfolio
 title: List Of Projects
 projects:
-  hackertray: 
+  hackertray:
     desc: A system-tray Hacker News app for Linux
     color: "#FF851B"
   joy of software development:
     desc: A book on Software Development
     color: "#DB8D17"
     url: https://josd.captnemo.in/
-  hackercouch: 
+  hackercouch:
     desc: CouchSurfing for Hackers
     color: "#B10DC9"
     url: https://hackercouch.com
@@ -21,17 +21,10 @@ projects:
     desc: Browser-based music player by SDSLabs
     color: "#001F3F"
     url: http://sdslabs.co/
-  ifttt-webhook: 
-    desc: Webhook middleware for the ifttt.com service
-    color: "#3D9970"
-  Homeopathy Bug Bounty: 
-    desc: A bug bounty project on Homeopathy in India
-    color: "#e74c3c"
-    url: /homeopathy/
-  play: 
+  play:
     desc: Music Server to allow a team to play and queue songs
     color: "#3498db"
-  ebooks: 
+  ebooks:
     desc: Multiple Scrapers for online content that generates EPUB/MOBI files
     color: "#85144B"
     url: /ebooks/
@@ -44,6 +37,7 @@ projects:
     url: /projects/shauryaa/
   kayak:
     desc: A tiny kubernetes distribution that uses the Docker API to bootstrap a control plane
+    url: https://github.com/captn3m0/terraform-docker-kayak
   ideas:
     desc: Ideas for everyone under a CC licence. Feel free to use.
     url: /projects/ideas/
@@ -52,7 +46,10 @@ projects:
     url: https://github.com/captn3m0/nebula
 ---
 
-## Recent Projects by Date
+## Projects by Date
+
+[Kayak][kayak]
+: **2018** Bootstrapping a kubernetes cluster on top of the Docker API by using Terraform and Bootkube
 
 [DNSCrypt](/dnscrypt/)
 : **2017** Running a DNS Crypt server on a Digital Ocean BLR1 server.
@@ -96,6 +93,9 @@ projects:
 [HackerCouch][hackercouch]
 : **November 2015** My hack during hackbeach 2015. Created something best described as "couchsurfing for hackers". Simple Jekyll/Ruby website hosted on GitHub Pages.
 
+[ifttt-webhook][iftt]
+: **2014-** A webhook middleware for the ifttt.com service. Still used by some people.
+
 ## Older Projects
 
 You might wanna take a look at my [github account](https://github.com/captn3m0) for more of my work. Most of the following projects are no longer under active development
@@ -125,3 +125,4 @@ You might wanna take a look at my [github account](https://github.com/captn3m0) 
 [ideas]: https://github.captnemo.in/ideas
 [sushigo]: https://github.captnemo.in/sushigo
 [ytripper]: https://github.captnemo.in/youtube-ripper
+[kayak]: https://github.com/captn3m0/terraform-docker-kayak
