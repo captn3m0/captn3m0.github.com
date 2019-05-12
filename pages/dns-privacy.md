@@ -7,7 +7,7 @@ permalink: /dns/privacy/
 This policy covers applies to the following services (called `resolver`):
 
 1. [DNSCrypt Resolver](/dnscrypt/) <small>(ie, this page)</small>
-2. [DoH Resolver](/doh/) :soon:
+2. [DoH Resolver](/doh/)🔜
 
 The policy aims to be compliant with [Mozilla's Trusted Recursive Resolver (TRR) program][trr].
 
@@ -19,15 +19,7 @@ The policy aims to be compliant with [Mozilla's Trusted Recursive Resolver (TRR)
 
 ## tl;dr
 
-1. DNS queries or responses are not logged by default.
-1. DNS responses are not modified.
-1. User identifiable data may be retained for upto 24 hours if I have to debug something.
-1. No data will be retained beyond 24 hours (either aggregate or identifable).
-1. No data will be shared with any third-parties.
-1. Your IP Address (or ISP) will not be revealed to the upstream resolver.
-1. No domains are blocked, unless required by law.
-1. Blocked domains will be listed on this site. [/dns/blocked.txt](/dns/blocked.txt)
-1. An yearly transparency report will be published.
+Your data is not logged by default. If it has to be logged, it will be deleted within 24 hours. No queries or respones are modified, and no domains are blocked or filtered. If law enforcement forces me to do anything of the above, the [block list](/dns/blocked.txt) will be updated, along with an Annual Transparency Report. Your data (even anonymized or aggregate) will never be sold or shared with another third party.
 
 ## Privacy
 
@@ -41,7 +33,7 @@ The policy aims to be compliant with [Mozilla's Trusted Recursive Resolver (TRR)
 
 ## Transparency
 
-The privacy policy for te resolver is publicly published at https://captnemo.in/dns/privacy. Any changes to this policy will be documented here, and communicated in advance to the Mozilla Trusted Recursive Resolver Program.
+The privacy policy for te resolver is publicly published at <https://captnemo.in/dns/privacy>. Any changes to this policy will be documented here, and communicated in advance to the Mozilla Trusted Recursive Resolver Program.
 
 Transparency reports for the resolvers is published on an annual basis. The reports will include:
 
@@ -54,8 +46,8 @@ Transparency reports for the resolvers is published on an annual basis. The repo
 
 Transparency Reports for the following years are published below:
 
-- [2017](/dns/2017/transparency-report.pdf)
-- [2018](/dns/2018/transparency-report.pdf)
+- [2017](/dns/2017/transparency.html)
+- [2018](/dns/2018/transparency.html)
 
 # Blocking and Modification
 
@@ -63,11 +55,11 @@ Transparency Reports for the following years are published below:
 - The resolver operates in the Karnataka State Jurisdiction of India, and may be specifically required by law to block or filter specific domains.
 - Any domains blocked or filtered because of law enforcement requests will be listed at [/dns/blocked.txt](/dns/blocked.txt).
 - The domain blocklist above will maintain a log of when particular domains are added and removed from the blocklist. It will also document which resolver the block applies to, and if possible (to the extent allowed by law), publish the corresponding Law Enforcement order.
-- Accurate NXDOMAIN responses for absent domains will be provided.
+- Accurate `NXDOMAIN` responses for absent domains will be provided.
 
 # Operating Principles
 
-I (Abhay Rana) run this resolver with your Privacy and Security in mind. I'm an InfoSec professional with enough experience to do this safely. The resolver runs out of [Digital Ocean Data center in Bangalore][do], which is colocated with [NetMagic IT Services Private Limited][nm] in [Electronic City Bangalore][ecity]. The Data Center is both SOC1 and SOC2 certified.
+I (Abhay Rana) run this resolver with your Privacy and Security in mind. I'm an InfoSec professional with enough experience to do this safely. The resolver runs out of [Digital Ocean Bangalore Region][do], which is colocated with [NetMagic IT Services Private Limited][nm] in [Electronic City Bangalore][ecity]. The Data Center is both SOC1 and SOC2 certified.
 
 The resolver is co-located on a Droplet that runs a few other personal webservices.
 
@@ -76,7 +68,7 @@ The objectives of the resolver:
 1. Maintaining security of the Infrastructure hosting it.
 2. Upholding privacy of the users using it.
 3. Being transparent about its operations.
-4. While running inside Indian Jurisdiction.
+4. While running within Indian Jurisdiction.
 
 [trr]: https://wiki.mozilla.org/Security/DOH-resolver-policy
 [do]: https://www.digitalocean.com/docs/platform/availability-matrix/
