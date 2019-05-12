@@ -14,8 +14,8 @@ layout: page
 
 ## Law Enforcement
 
-Number of user data requests received: `0`
-Number of user data requests answered: `0`
+- Number of user data requests received: `0`
+- Number of user data requests answered: `0`
 
 ## Domain Blocks
 
