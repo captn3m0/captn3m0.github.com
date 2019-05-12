@@ -1,0 +1,10 @@
+# This page will contain a list of domains blocked
+# by DNS Resolvers I'm running
+# Each domain block will include the following information:
+# 1. Website blocked
+# 2. Date it was blocked
+# 3. Date it was unblocked
+# 4. Which resolvers was the block applicable to (DNSCrypt/DoH)
+# 5. A link with more information (such as the court order)
+# Created: 2017-08-13
+# Last Updated: 2019-05-12
