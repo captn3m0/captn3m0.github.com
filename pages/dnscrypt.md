@@ -4,7 +4,7 @@ title: DNSCrypt
 permalink: /dnscrypt/
 ---
 
-I have a DNSCrypt server running out of a Digital Ocean droplet in BLR1 region. If you are within India, this might be a nice DNS server to use. This is running on a small DigitalOcean server, so I'd recommend using this only for personal machines (and not enterprise setups).
+I have a [DNSCrypt][dnscrypt] server running out of a Digital Ocean droplet in BLR1 region. If you are within India, this might be a nice DNS server to use. This is running on a small DigitalOcean server, so I'd recommend using this only for personal machines (and not enterprise setups).
 
 Connection details are:
 
@@ -75,3 +75,5 @@ The service is provided "as is", without warranty of any kind, express or implie
 : Initial setup. Running for personal use only.
 
 For any other queries, please see my [contact page](/contact/).
+
+[dnscrypt]: https://dnscrypt.info/ 'DNSCrypt is a protocol that authenticates communications between a DNS client and a DNS resolver.'

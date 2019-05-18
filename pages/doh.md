@@ -4,7 +4,7 @@ title: DoH Server
 permalink: /doh/
 ---
 
-Alongside my [DNSCrypt Server](/dnscrypt/), I'm also running a [DoH (DNS Over HTTPS)][doh] Server at <https://doh.captnemo.in>. The IP Address for the server is `139.59.48.222`, and is expected to never change.
+Alongside my [DNSCrypt Server](/dnscrypt/), I'm also running a [DoH (DNS Over HTTPS)][doh] Server at [doh.captnemo.in](https://doh.captnemo.in). The IP Address for the server is `139.59.48.222`, and is expected to never change.
 
 ## Usage
 
