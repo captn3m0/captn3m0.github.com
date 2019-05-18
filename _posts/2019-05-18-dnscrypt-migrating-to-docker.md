@@ -9,7 +9,10 @@ Since then, I've upgraded it to a distribution supported version, but recent cha
 
 The easiest way was to switch to the official [DNSCrypt Docker](https://github.com/DNSCrypt/dnscrypt-server-docker) image, which does both key generation and certificate rotation. Since my public key was already present in the [DNSCrypt Server lists][lists], I was not too keen to regenerate a new key.
 
-The migration was fairly straightforward:
+The primary challenge was ensuring that the docker container picks up my existing keys without trying to generate new ones from scratch. It was basically 2 steps:
+
+1.  Match the directory structure that the container expects.
+2.  Invoke the container directly into `start` mode while passing existing keys.
 
 ## Directory Structure
 
@@ -48,6 +51,8 @@ Then, I directly ran `dnscrypt-wrapper` container:
 ```
 docker run --detatched --restart=unless-stopped --volume /etc/dnscrypt-keys:/opt/dnscrypt-wrapper/etc/keys --publish 10.47.0.5:4434:443/tcp --publish 10.47.0.5:4434:443/udp jedisct1/dnscrypt-server start
 ```
+
+I pass a host path mount instead of creating a Docker Volume, since they can get deleted in regular `docker prune`.
 
 Here, `10.47.0.5` is the ["Anchor IP"][anchor], which Digital Ocean internally maps to my [Floating IP][fip].
 
