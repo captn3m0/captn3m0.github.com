@@ -4,7 +4,7 @@ title: DNSCrypt
 permalink: /dnscrypt/
 ---
 
-I have a DNSCrypt server running out of a Digital Ocean droplet in BLR1 region. If you are within India, this might be a nice DNS server to use. Runs with DNSCrypt support (queries to upstream are encrypted), and uses [Quad9](https://www.quad9.net/) resolvers. This is running on a small DigitalOcean server, so I'd recommend using this only for personal machines (and not enterprise setups).
+I have a DNSCrypt server running out of a Digital Ocean droplet in BLR1 region. If you are within India, this might be a nice DNS server to use. This is running on a small DigitalOcean server, so I'd recommend using this only for personal machines (and not enterprise setups).
 
 Connection details are:
 
@@ -22,7 +22,13 @@ ResolverAddress 139.59.48.222:4434
 
 The above IP is a Floating IP (which means it won't change even after server restarts or dies).
 
-The server is running dnscrypt-wrapper `0.3-8.g625f311`.
+The DNS Stamp is:
+
+```
+sdns://AQcAAAAAAAAAEjEzOS41OS40OC4yMjI6NDQzNCAFOt_yxaMpFtga2IpneSwwK6rV0oAyleham9IvhoceEBsyLmRuc2NyeXB0LWNlcnQuY2FwdG5lbW8uaW4
+```
+
+The server is running dnscrypt-wrapper `dnscrypt-server-docker` at commit `40595af59dc01c35c3d61681621d40a11be2c80a`.
 
 ## Uptime
 
@@ -43,6 +49,9 @@ Please see [/dns/privacy](/dns/privacy) for the Privacy Policy, Transparency Gui
 The service is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall I be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
 
 ## CHANGELOG
+
+2019-05-18
+: Switched to Docker with [automatic key rotation](https://captnemo.in/blog/2019/05/18/dnscrypt-migrating-to-docker/). No longer uses a Upstream resolver.
 
 2019-05-12
 : Resolver stability changed to `stable`. Published Draft policies.
