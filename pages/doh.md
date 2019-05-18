@@ -4,7 +4,22 @@ title: DoH Server
 permalink: /doh/
 ---
 
-Alongside my [DNSCrypt Server](/dnscrypt/), I'm also running a DoH Server at <https://doh.captnemo.in>. The IP Address for the server is `139.59.48.222`, and is expected to never change.
+Alongside my [DNSCrypt Server](/dnscrypt/), I'm also running a [DoH (DNS Over HTTPS)][doh] Server at <https://doh.captnemo.in>. The IP Address for the server is `139.59.48.222`, and is expected to never change.
+
+## Usage
+
+### Firefox
+
+1.  Load `about:config` in the Firefox address bar.
+2.  Confirm that you will be careful if the warning page is displayed.
+3.  Search for network.trr.mode and double-click on the name.
+    -   Set the value to 2 to make DNS Over HTTPS the browser's first choice but use regular DNS as a fallback. This is the optimal setting for compatibility.
+    -   You can set it to 1 to let Firefox pick whichever is faster, 3 for TRR only mode, or 0 to disable it.
+    -   Since my DoH service is in `beta` right now, I recommend using `2` for now.
+4.  Search for `network.trr.uri` and set it to `https://doh.captnemo.in/dns-query`. You can find other options at [the cURL wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS).
+5.  Set `network.trr.bootstrapAddress` to `139.59.48.222`. If you are using some other server, set accordingly (or let it remain blank)
+
+(Based on [this article](https://www.ghacks.net/2018/04/02/configure-dns-over-https-in-firefox/) on ghacks)
 
 ## Uptime
 
@@ -29,3 +44,5 @@ The service is provided "as is", without warranty of any kind, express or implie
 
 2019-05-12
 : Published Draft policies for the Resolver.
+
+[doh]: https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/ 'A cartoon intro to DNS over HTTPS'
