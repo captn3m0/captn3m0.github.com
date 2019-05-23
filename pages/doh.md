@@ -12,7 +12,7 @@ Alongside my [DNSCrypt Server](/dnscrypt/), I'm also running a [DoH (DNS Over HT
 
 1.  Load `about:config` in the Firefox address bar.
 2.  Confirm that you will be careful if the warning page is displayed.
-3.  Search for network.trr.mode and double-click on the name.
+3.  Search for `network.trr.mode` and double-click on the name.
     -   Set the value to 2 to make DNS Over HTTPS the browser's first choice but use regular DNS as a fallback. This is the optimal setting for compatibility.
     -   You can set it to 1 to let Firefox pick whichever is faster, 3 for TRR only mode, or 0 to disable it.
     -   Since my DoH service is in `beta` right now, I recommend using `2` for now.
@@ -40,7 +40,7 @@ The service is provided "as is", without warranty of any kind, express or implie
 ## CHANGELOG
 
 2019-05-15
-: Resolver goes online at https://doh.captnemo.in
+: Resolver goes online at <https://doh.captnemo.in>
 
 2019-05-12
 : Published Draft policies for the Resolver.
