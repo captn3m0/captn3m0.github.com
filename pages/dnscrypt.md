@@ -28,7 +28,7 @@ The DNS Stamp is:
 sdns://AQcAAAAAAAAAEjEzOS41OS40OC4yMjI6NDQzNCAFOt_yxaMpFtga2IpneSwwK6rV0oAyleham9IvhoceEBsyLmRuc2NyeXB0LWNlcnQuY2FwdG5lbW8uaW4
 ```
 
-The server is running dnscrypt-wrapper `dnscrypt-server-docker` at commit `40595af59dc01c35c3d61681621d40a11be2c80a`.
+The server is running dnscrypt-wrapper `dnscrypt-server-docker` with [QNAME Minimization Enabled](https://github.com/captn3m0/dnscrypt-server-docker/commit/437cacc0b67784280c619c6f5922f872fc4ebe89).
 
 ## Uptime
 
@@ -50,8 +50,11 @@ The service is provided "as is", without warranty of any kind, express or implie
 
 ## CHANGELOG
 
+2019-05-28
+: [Enabled QNAME Minimization](https://github.com/captn3m0/dnscrypt-server-docker/commit/437cacc0b67784280c619c6f5922f872fc4ebe89).
+
 2019-05-18
-: Switched to Docker with [automatic key rotation](https://captnemo.in/blog/2019/05/18/dnscrypt-migrating-to-docker/). No longer uses a Upstream resolver.
+: Switched to Docker with [automatic key rotation](https://captnemo.in/blog/2019/05/18/dnscrypt-migrating-to-docker/). No longer uses a Upstream resolver, and instead acts as a Recursive Resolver.
 
 2019-05-12
 : Resolver stability changed to `stable`. Published Draft policies.
@@ -76,4 +79,4 @@ The service is provided "as is", without warranty of any kind, express or implie
 
 For any other queries, please see my [contact page](/contact/).
 
-[dnscrypt]: https://dnscrypt.info/ 'DNSCrypt is a protocol that authenticates communications between a DNS client and a DNS resolver.'
+[dnscrypt]: https://dnscrypt.info/ "DNSCrypt is a protocol that authenticates communications between a DNS client and a DNS resolver."

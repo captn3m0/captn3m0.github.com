@@ -48,11 +48,14 @@ projects:
 
 ## Projects by Date
 
+[DNS-over-HTTPS][doh]
+: **2019** Running a [DNS over HTTPS](https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/) server.
+
 [Kayak][kayak]
 : **2018** Bootstrapping a kubernetes cluster on top of the Docker API by using Terraform and Bootkube
 
 [DNSCrypt](/dnscrypt/)
-: **2017** Running a DNS Crypt server on a Digital Ocean BLR1 server.
+: **2017** Running a [DNSCrypt](https://dnscrypt.info) server on a Digital Ocean BLR1 server.
 
 [Sushi Go][sushigo]
 : **Summer 2017** This is a work-in-progress conversion of Sushi Go (original), the popular card game by Gamewright into Ruby.
@@ -126,3 +129,4 @@ You might wanna take a look at my [github account](https://github.com/captn3m0) 
 [sushigo]: https://github.captnemo.in/sushigo
 [ytripper]: https://github.captnemo.in/youtube-ripper
 [kayak]: https://github.com/captn3m0/terraform-docker-kayak
+[doh]: https://captnemo.in/doh/

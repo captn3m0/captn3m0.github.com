@@ -106,7 +106,7 @@ Transparency Reports for the following years are published below:
 
 # Operating Principles
 
-I (Abhay Rana) run this resolver with your Privacy and Security in mind. I'm an InfoSec professional with enough experience to do this safely. The resolver runs out of [Digital Ocean Bangalore Region][do], which is colocated with [NetMagic IT Services Private Limited][nm] in [Electronic City Bangalore][ecity]. The Data Center is both SOC1 and SOC2 certified.
+I (Abhay Rana) run this resolver with your Privacy and Security in mind. I'm an InfoSec professional with enough experience to do this safely. The resolver runs out of the [Digital Ocean Bangalore Region][do], which is colocated with [NetMagic IT Services Private Limited][nm] in [Electronic City Bangalore][ecity]. The Data Center is both SOC1 and SOC2 certified.
 
 The resolver is co-located on a Droplet that runs a few other personal webservices.
 
