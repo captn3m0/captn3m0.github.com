@@ -14,6 +14,7 @@ For me it lists purchases going as far back as 2013, which include:
 5. Purchases on Steam
 6. BigBasket purchases
 7. Google Playstore purchases as well, of course
+8. And much, much more.
 
 For each of the purchases, it remembers the price, the taxes, as well as the delivery address used.
 
@@ -27,24 +28,39 @@ While this isn't shocking in the least, I was surprised, because as a Infosec pr
 
 Regardless, the Google purchases page had hundreds of results, going back half a decade. Google currently does not offer a way to delete collected purchases directly, or to pause this collection in any way. The only way is to find the emails that Google scanned, and delete them.
 
-I ended up deleting everything that matched the following:
+I ended up deleting everything from the following email addresses:
 
 ```
-from:"no_reply@email.apple.com" subject:Invoice
-from:auto-confirm@amazon.in
-from:no-reply@flipkart.com
-from:noreply@snapdeals.co.in
-from:order-update@amazon.in
-from:payments-messages@amazon.in
-from:return@amazon.in
-from:ship-confirm@amazon.in
-from:shipment-tracking@amazon.in
-from:cs@flipkart.com
-from:noreply@steampowered.com
-from:do_not_reply@audible.com
+auto-confirm@amazon.com
+auto-confirm@amazon.in
+cs@flipkart.com
+digital-no-reply@amazon.com
+do_not_reply@audible.com
+do_not_reply@gog.comorders@services.target.com
+ebay@ebay.in
+googleplay-noreply@google.com
+help@stickermule.com
+mail@info.fabfurnish.com
+no-reply@flipkart.com
+no-reply@paytm.com
+no_reply@email.apple.com
+noreply@flipkart.com
+noreply@pizzahut.co.in
+noreply@snapdeals.co.in
+noreply@steampowered.com
+notification@wish.com
+order-update@amazon.in
+orders@services.target.com
+payments-messages@amazon.in
+return@amazon.in
+ship-confirm@amazon.com
+ship-confirm@amazon.in
+shipment-tracking@amazon.com
+shipment-tracking@amazon.in
+updates@myntra.com
 ```
 
-Note that deleting the email doesn't seem to be sufficient either, you need to clear your Trash, and then wait for a while before the system refreshes.
+Note that deleting the email doesn't seem to be sufficient either, you need to clear your Trash, and then wait for a while (almost 2 days for me) before the system refreshes.
 
 Google seems to be picking up _all kinds of emails, including_:
 
@@ -53,10 +69,8 @@ Google seems to be picking up _all kinds of emails, including_:
 3. Return confirmations
 4. Payment Confirmations
 5. Order Cancellations
-6. Payment Failures
-
-What this means is that you could have initiated a payment on Amazon, failed it, and Google would still start to show it in your Purchase History, thinking you actually bought it. Which makes me wonder, if any of these services let me buy things as a guest without creating an account.
+6. Payment Failures (gasp!)
 
 ## Warning about Deletions
 
-I've already switched away from Amazon/Flipkart emails from my Gmail. But deleting invoices from your inbox isn't always the best idea. Most websites will let you re-download invoices (Amazon/Flipkart do), but take care not to delete any necessary emails that you might need for warranty claims later.
+I've already switched away from Amazon/Flipkart emails from my Gmail. But deleting invoices from your inbox isn't always the best idea. Most websites will let you re-download invoices (Amazon/Flipkart do), but take care not to delete any necessary emails that you might need for warranty claims or any other purpose later.
