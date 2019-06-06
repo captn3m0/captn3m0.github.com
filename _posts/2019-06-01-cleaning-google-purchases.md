@@ -60,7 +60,9 @@ shipment-tracking@amazon.in
 updates@myntra.com
 ```
 
-Note that deleting the email doesn't seem to be sufficient either, you need to clear your Trash, and then wait for a while (almost 2 days for me) before the system refreshes.
+Note that deleting the email doesn't seem to be sufficient either, you need to clear your Trash, and then wait for a while (almost 2 days for me) before the system refreshes. After 3 days of just deleting mails, I finally got this screen:
+
+![screenshot of google purchases dashboard showing "You don't have any purchases"](/img/google-purchases.png)
 
 Google seems to be picking up _all kinds of emails, including_:
 
