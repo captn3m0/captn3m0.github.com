@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cleaning up Google Purchases
+image: google-purchases.png
 ---
 
 The [Google Purchase History](https://www.cnbc.com/2019/05/17/google-gmail-tracks-purchase-history-how-to-delete-it.html) feature has been doing rounds in the news recently. In case you missed it, go to <https://myaccount.google.com/purchases> right now and make sure you are logged in with your personal gmail account to see what all Google thinks you've bought.
