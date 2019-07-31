@@ -11,4 +11,15 @@ Let us look at the most common configuration first, HTTPS websites over the Inte
 
 ## The Mobile User
 
-_What_:
+# _What_
+
+This is going to be a somewhat long blog post, as I want to be exhaustive and cover as much information as possible. We'll take wikipedia as the example website, and a few more assumptions:
+
+1.  No censorship
+2.  TBD
+
+Let us look at the most common configuration first, HTTPS websites over the Internet using a mobile browser.
+
+## The Mobile User
+
+_What_: `https://en.wikipedia.org/wiki/Special:Random`
