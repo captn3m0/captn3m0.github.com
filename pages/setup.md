@@ -9,27 +9,25 @@ image_alt: "Music Visualization Demo"
 
 ## Who am I, and what do I do?
 
-I'm Abhay Rana, more popularly known as Nemo. I am a hacker, web developer, writer,
-and a UX enthusiast. ~~I am working on a book called [The Joy of Software Development][josd].~~
+I'm Abhay Rana, more popularly known as Nemo. I am a hacker, web developer, writer, and a UX enthusiast. ~~I am working on a book called [The Joy of Software Development][josd].~~
 
 I do tech and security related things at [Razorpay](https://razorpay.com).
 
-I run [HackerCouch](https://hackercouch.com/), which is like couchsurfing for hackers.
+I run [HackerCouch](https://hackercouch.com/), which is like couchsurfing for hackers and [other projects](/projects/).
 
 ## What hardware do I use?
 
 ![My current home setup](/img/battlestation.jpg)
 
-Most of my work is done on my Macbook Air 2015 running Arch Linux. My personal laptop is a [System76 Galgago Pro][galago].
+Most of my work is done on my Macbook Air 2015 running Arch Linux. My personal laptop is a [System76 Galgago Pro][galago], which sits as my home batlestation (pictured above).
 
-My primary phone is a [iPhone SE][se]. I use a Nokia 105 as my secondary phone for my work. I backup all of my media to my home server. Other than this, I own a [Kindle Paperwhite][pw3]. For my music, I have a pair of [Jaybird X3][jaybird], which I sometimes use.
+My primary phone is a [iPhone SE][se]. ~~I use a Nokia 105 as my secondary phone for my work.~~ I backup all of my media to my home server. Other than this, I own a [Kindle Paperwhite][pw3]. For my music, I have a pair of [Jaybird X3][jaybird], alongside the noise-cancelling [Sennheiser HD 4.50][btnc].
 
 I own a [Leopold FC660C][fc660c] keyboard (Topre switches) which I use at home. My keyboard at work is a [Cooler Master QuickFire Rapid-i][quickfire] mechanical keyboard (Cherry MX Brown). I have a [dual][curved]-[monitor][lguw] setup at home and a Dell Ultrasharp at work. I am an ocassional gamer and use the [Logitech G300s][g300s] at both work and office (its [heavily customizable][ratslap]). I also have a [Steam Controller][steamcontroller] and a few more [fancy][riitech] [keyboards][logitechbt] for my HTPC.
 
-At home, I have a Raspberry Pi 2 Model B and a PC/HomeServer, which runs lots of tiny services, which are proxied over to the internet with a Digital Ocean droplet in the `BLR1` region. I wrote about it in [detail][homeserver].
+At home, I have a Raspberry Pi 2 Model B (soon upgrading to Pi 4) and a PC/HomeServer, which runs lots of tiny services, which are proxied over to the internet with a Digital Ocean droplet in the `BLR1` region. I wrote about it in [detail][homeserver].
 
-I am also a speedcuber; my primary cube is a GuoGuan YueXiao Pro (stickerless). I also own several
-other twisty puzzles, including a Axis Cube and a Megaminx.
+I am also a speedcuber; my primary cube is a stickerless Gans 356 R (Magnetic). I also own several other twisty puzzles, including a Axis Cube and a Megaminx.
 
 ## And what software?
 
@@ -99,3 +97,4 @@ If we're talking super-crazy, I'd love to have a thought-dictation feature. That
 [jaybird]: https://www.amazon.com/Jaybird-Wireless-Bluetooth-Sports-Headphones/dp/B01M7NCT5O
 [ratslap]: https://github.com/krayon/ratslap/ 'RatSlap: Linux configuration tool for Logitech G300S'
 [curved]: https://www.amazon.in/Samsung-23-5-inch-Curved-Monitor/dp/B01GFPGHSM/ "Samsung's 23.5 Inch Curved Monitor"
+[btnc]: https://en-uk.sennheiser.com/wireless-headphones-bluetooth-noise-cancelling-hd-4-50-btnc "Sennheiser Wireless Headphones Noise Cancelling (HD-4.5BTNC)"
