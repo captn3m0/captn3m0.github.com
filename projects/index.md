@@ -48,8 +48,17 @@ projects:
 
 ## Projects by Date
 
+[outliner][outliner]
+: **August 2019** A simple Ruby Client for the [Outline](https://www.getoutline.com/) knowledge base with easy-to-use export and import functionality.
+
+[endoflife.date][eoldate]
+: **Ongoing** A simple informative site with EoL dates of everything you need.
+
 [DNS-over-HTTPS][doh]
 : **2019** Running a [DNS over HTTPS](https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/) server.
+
+[prometheus-act-export][pae]
+: **July 2018** A simple prometheus exporter for ACT Fibernet customers that generatetes Internet Usage metrics by scraping the ACT Self-care portal. Uses Google Puppeteer. Also available as a NPM package.
 
 [Kayak][kayak]
 : **2018** Bootstrapping a kubernetes cluster on top of the Docker API by using Terraform and Bootkube
@@ -130,3 +139,6 @@ You might wanna take a look at my [github account](https://github.com/captn3m0) 
 [ytripper]: https://github.captnemo.in/youtube-ripper
 [kayak]: https://github.com/captn3m0/terraform-docker-kayak
 [doh]: https://captnemo.in/doh/
+[eoldate]: https://endoflife.date/
+[outliner]: https://github.com/captn3m0/outliner
+[pae]: https://github.com/captn3m0/prometheus-act-exporter
