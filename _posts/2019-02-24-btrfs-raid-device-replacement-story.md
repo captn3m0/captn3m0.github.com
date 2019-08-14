@@ -66,4 +66,6 @@ If you are faced with a situation where you have to remove a device, but can't d
 3.  Reboot
 4.  Re-attach new disk, and then run a `btrfs device add`
 
+As a retro, I posted a summary with the issues I faced on the [btrfs mailing list](https://lore.kernel.org/linux-btrfs/d1eac64c-056b-a95b-7890-875d313a7ab4@captnemo.in/T/#u)
+
 {% include selfhosted.md %}
