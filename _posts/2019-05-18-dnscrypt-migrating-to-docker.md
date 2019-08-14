@@ -87,6 +87,17 @@ ok: run: dnscrypt-wrapper: (pid 31) 600s
 
 Once the server was up, I verified connectivity with `dnscrypt-proxy` and it worked perfectly.
 
+## Future Scope
+
+Right now, I have a single container that does 2 things:
+
+1. [Certificate Rotation](https://github.com/DNSCrypt/dnscrypt-server-docker/blob/master/key-rotation.sh#L3) via a service that checks it every 30 minutes.
+2. DNSCrypt Service, which is accessible over the internet.
+
+For (1) to work, it needs access to the Private Keys that are used to sign the temporary certificates that last 24 hours. Since both things are managed within the same container, the container ends up with both network _and_ long-term keys access. This means, any RCE on the service can result in the long-term keys being compromised.
+
+A simple fix for this would be to separate out the Certificate Rotation part into a separate "mode" on the Docker Image, which can be called independently. This would allow someone to run certificate rotation on a second container using a scheduler, but with far more limitations (such as no network access). A common file-mount between both the containers can take care of sharing the temporary keys between the containers, and a simple unix socket on the shared-file-mount can be used to signal a certificate rotation (this triggers the dnscrypt service restart, so it picks the new cert).
+
 [doc]: https://captnemo.in/dnscrypt/
 [lists]: https://dnscrypt.info/public-servers
 [anchor]: https://www.digitalocean.com/docs/networking/floating-ips/how-to/find-anchor-ips/
