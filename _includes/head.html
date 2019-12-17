@@ -1,85 +1,106 @@
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
   <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1"
+  />
 
   <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
+    {% if page.title == "Home" %} {{ site.title }} &middot; {{ site.tagline }}
+    {% else %} {{ page.title }} &middot; {{ site.title }} {% endif %}
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/public/main.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+  <link rel="stylesheet" href="/public/main.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400"
+  />
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{site.url}}/atom.xml">
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="RSS"
+    href="{{site.url}}/atom.xml"
+  />
 
-  <link rel="shortcut icon" href="/img/favicon.png">
-  <link rel="apple-touch-icon" href="/img/favicon.png">
-  <meta name="author" content="Abhay Rana">
-  <meta name="keywords" content="captnemo, abhay rana, sdslabs, github pages, piratecoders, iit roorkee, abhayumt">
-  
+  <link rel="shortcut icon" href="/img/favicon.png" />
+  <link rel="apple-touch-icon" href="/img/favicon.png" />
+  <meta name="author" content="Abhay Rana" />
+  <meta
+    name="keywords"
+    content="captnemo, abhay rana, sdslabs, piratecoders, iit roorkee, abhayumt, abhay bir singh rana"
+  />
+
   <!--Open Graph Related Stuff-->
-  <meta property="og:title" content="{{ page.title }}" >
-  <meta property="twitter:title" content="{{ page.title }}" >
-  <meta property="og:url" content="https://captnemo.in{{ page.url }}" >
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="twitter:title" content="{{ page.title }}" />
+  <meta property="og:url" content="https://captnemo.in{{ page.url }}" />
 
   {% if page.date %}
-  <meta property="article:published_time" content='{{ page.date | date:"%Y-%m-%d" }}' >
-  <meta property="og:type" content="article">
+  <meta
+    property="article:published_time"
+    content='{{ page.date | date:"%Y-%m-%d" }}'
+  />
+  <meta property="og:type" content="article" />
   {% endif %}
-  <meta property="og:site_name" content="Abhay Rana" >
-  
+  <meta property="og:site_name" content="Abhay Rana" />
 
   {% if page.image %}
-  <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:image" content="{{site.url}}/img/{{page.image}}" >
-  <meta name="twitter:image" content="{{site.url}}/img/{{page.image}}">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:image" content="{{site.url}}/img/{{page.image}}" />
+  <meta name="twitter:image" content="{{site.url}}/img/{{page.image}}" />
   {% else %}
-  <meta name="twitter:card" content="summary">
-  <meta property="twitter:image" content="https://captnemo.in/img/favicon.png">
-  <meta property="og:image" content="https://captnemo.in/img/favicon.png">
-  {% endif %}
-  
-  {% if page.repo %}
+  <meta name="twitter:card" content="summary" />
+  <meta
+    property="twitter:image"
+    content="https://captnemo.in/img/favicon.png"
+  />
+  <meta property="og:image" content="https://captnemo.in/img/favicon.png" />
+  {% endif %} {% if page.repo %}
   <!-- This might hurt my SEO, but is ultimately a better landing page -->
-  <meta rel="canonical" content="https://github.com/{{page.repo}}">
-  {% endif %}
-
-  {% if page.video %}
-  <meta name="twitter:card" content="player">
-  <meta name="twitter:player" content="{{site.url}}/public/container.html?video={{page.video}}">
-  <meta name="twitter:player:stream" content="{{site.url}}/videos/{{page.video}}">
-  <meta name="twitter:player:stream:content_type" content="video/mp4">
-  <meta name="twitter:player:stream:content_type" content="{{page.image_alt}}">
-  <meta name="twitter:player:width" content="480">
-  <meta name="twitter:player:height" content="640">
+  <meta rel="canonical" content="https://github.com/{{page.repo}}" />
+  {% endif %} {% if page.video %}
+  <meta name="twitter:card" content="player" />
+  <meta
+    name="twitter:player"
+    content="{{site.url}}/public/container.html?video={{page.video}}"
+  />
+  <meta
+    name="twitter:player:stream"
+    content="{{site.url}}/videos/{{page.video}}"
+  />
+  <meta name="twitter:player:stream:content_type" content="video/mp4" />
+  <meta
+    name="twitter:player:stream:content_type"
+    content="{{page.image_alt}}"
+  />
+  <meta name="twitter:player:width" content="480" />
+  <meta name="twitter:player:height" content="640" />
   {% endif %}
 
   <!--Facebook Comments-->
-  <meta property="fb:admins" content="capt.n3m0">
-  <meta property="fb:app_id" content="358126290896126">
+  <meta property="fb:admins" content="capt.n3m0" />
+  <meta property="fb:app_id" content="358126290896126" />
 
   <!--Authorship-->
-  <link rel="me" href="https://google.com/+AbhayRana/">
-  <link rel="me" href="https://facebook.com/capt.n3m0">
-  <meta name="twitter:site" content="@captn3m0">
-  <meta name="twitter:creator" content="@captn3m0">
+  <link rel="me" href="https://twitter.com/captn3m0" />
+  <link rel="me" href="https://facebook.com/capt.n3m0" />
+  <meta name="twitter:site" content="@captn3m0" />
+  <meta name="twitter:creator" content="@captn3m0" />
 
   {% if page.layout == 'page' or page.layout == 'post' %}
-  <meta name="twitter:description" content="{{page.excerpt | strip_html}}">
+  <meta name="twitter:description" content="{{page.excerpt | strip_html}}" />
   {% else %}
-  <meta name="twitter:description" content="You've found Nemo!">
+  <meta name="twitter:description" content="You've found Nemo!" />
   {% endif %}
 
   <!-- https://indieweb.org/OpenPGP#Link_to_your_public_key -->
-  <link rel="pgpkey" type="application/pgp-keys" href="/key.pub">
+  <link rel="pgpkey" type="application/pgp-keys" href="/key.pub" />
 
   <!-- le google analytics -->
   <script>
@@ -87,9 +108,15 @@
     _gaq.push(['_setAccount', 'UA-5922129-9']);
     _gaq.push(['_trackPageview']);
     (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src =
+        ('https:' == document.location.protocol
+          ? 'https://ssl'
+          : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
     })();
   </script>
 </head>
