@@ -2,3 +2,4 @@ _site/
 .rvm-gemset
 .jekyll-metadata
 .sass-cache/
+.jekyll-cache/
