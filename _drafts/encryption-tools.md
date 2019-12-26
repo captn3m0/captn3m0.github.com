@@ -77,7 +77,7 @@ gpgconf --launch gpg-agent
 
 U2F lets me use a physical key as my second-factor on supported websites. I configure both of my Yubikeys for U2F wherever possible (Twitter/AWS are notable exceptions and only support a single key).
 
-U2F support for [OpenSSH](https://news.ycombinator.com/item?id=21451564) is coming soon. So you can authenticate to your server with the Yubikey+PIN, and finish the 2FA with the U2F by tapping the key.
+U2F support for [OpenSSH][ssh-u2f] is coming soon. So you can authenticate to your server with the Yubikey+PIN, and finish the 2FA with the U2F by tapping the key.
 
 ## Root-of-Identity
 
@@ -114,19 +114,21 @@ There are lots of failure scenarios with such a setup, and while I've got a pret
 
 ### Yubikey failures
 
-If my Yubikey fails (or if I forget its PIN), I can't access passwords on my device. My backup Yubikey is kept safely at my home. If I lose both, I have the paperkey backup at home (which I should store elsewhere).
+If my Yubikey fails (or if I forget its PIN), I can't access passwords on my device. I still have access to commonly used passwords and my mail on my phone. My backup Yubikey is kept safely at my home. If I lose both, I have the paperkey backup at home (which I should store elsewhere).
 
 ### Device failures
 
 I have a current version of the password repository against 3 PCs, and a partial version in my mobile. If all these 4 devices fail at once, I can still clone a fresh version of the repository with my YubiKey (I would still have GitLab SSH access). I might need to prepare better for this though, since configuring GPG-SSH might not always be easy during an incident.
 
+As a alternate scenario, my phone GPG key does have my GitLab password, so I can clone the repo over HTTPS (with password) if needed.
+
 ### Circular dependency against GitLab
 
-My GitLab password is randomly generated and stored on the same password store. That is not too big of an issue, because I don't need the GitLab password anymore to clone my passwords repo, just my Yubikey (for SSH).
+My GitLab password is randomly generated and stored in the same password store on GitLab. That is not too big of an issue, because I don't need the GitLab password anymore to clone my passwords repo, just my Yubikey (for SSH).
 
 ### Lost Key
 
-If I lose my key, the GPG card contains public info, including my email address, which can be used to contact me. I have a Tile bluetooth tracker on my keychain to make it easier for me to find it.
+If I lose my key, the GPG card contains public info, including my email address, which can be used to contact me. I have a [Tile bluetooth tracker][tile] on my keychain to make it easier for me to find it.
 
 ### Malware
 
@@ -173,7 +175,7 @@ A lot of this is undocumented, and I wish organizations were more public about t
 
 ### Fidesmo Card
 
-I'm planning to configure my Fidesmo card against my existing GPG/SSH key, so it stays in my wallet to improve redundancy. Unfortunately, it is not supported on iOS, so I plan to get a NFC reader/writer and test that out. This also helps with travel plans a bit, since I'm less likely to lose my wallet (which also has a bluetooth tracker).
+I'm planning to configure my Fidesmo card against my existing GPG/SSH key, so it stays in my wallet to improve redundancy. Unfortunately, it is not supported on iOS, so I plan to get a NFC reader/writer and test that out. This also helps with travel plans a bit, since I'm less likely to lose my wallet (which also has [a bluetooth tracker][slim]).
 
 ### U2F on iPhone
 
@@ -230,7 +232,18 @@ My GMail recovery email is set to my main account, so it creates a circular depe
 
 I work in infosec. Breaking things comes naturally to me, and I plan for defense-in-depth. Plus, I'd be a terrible security person if I got hacked.
 
+### Why not recommend open source keys instead?
+
+Availability is a pain point, especially if you aren't in the US. Even getting my hands on a SoloKey was hard, despite backing it on KickStarter. 
+
+- [OnlyKey](https://onlykey.io) also makes some claims regarding open source, but I can't find their schematics anywhere.
+- SoloKey is great, and what I'd recommend, but they don't support OpenPGP yet.
+- NitroKey Start is apparently completely FOSS, so you might wanna check that.
+
+The HyperFIDO keys are compliant to the U2F/FIDO standards, and I've not faced any issues while using them. They're cheap and widely available. Unless you need GPG, go for it.
+
 [^1]: The [pass-tomb](https://github.com/roddhjav/pass-tomb) extension bypasses this limit and encrypts your filenames as well.
+[^2]: The Solokey is mostly redundant in this setup, but I have it around because I have it configured in a few places where the Yubikey isn't. I'm slowly phasing it out of my setup, since it is just an extra unused key on my keychain.
 [^3]: I moved away from Lastpass after Tavis Ormandy reported a RCE vulnerability on their browser extension. Their wikipedia page mentions 2 breaches, and 3 security incidents. It has never undergone a security audit (unlike bitwarden) and is not something I recommend anymore.
 [^5]: Namecheap announced [U2F support](https://www.namecheap.com/blog/protect-account-totp-2-factor/) in April 2019, and while it was buggy at first, it has definitely improved.
 [^6]: The domain is stuck in a legal limbo, because of an [ongoing case between my registrar and NIXI](https://our.in/mitsu-ceo-got-upset-with-the-nixi-proceedings/) (which runs the `.in` registry). If you have any suggestions/ideas, please [reach out](/contact).
@@ -241,3 +254,6 @@ I work in infosec. Breaking things comes naturally to me, and I plan for defense
 [passforios]: https://mssun.github.io/passforios/ 'Open Source, no-network, minimalist pass client for iOS'
 [okc]: https://www.openkeychain.org/
 [pass]: https://passwordstore.org
+[tile]: https://www.thetileapp.com/en-us/
+[slim]: https://www.thetileapp.com/en-us/store/tiles/slim "I have the older version of the Tile Slim"
+[ssh-u2f]: https://www.undeadly.org/cgi?action=article;sid=20191115064850 "Does it really count as 2FA if both your SSH and U2F is the same device?"
