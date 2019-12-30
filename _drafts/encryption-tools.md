@@ -184,7 +184,7 @@ Everywhere else, I use my actual domain (captnemo.in) to ensure nothing else rou
 1. Change DNS to another email provider.
 2. Reset password via migadu admin panel.
 
-Ensuring that either of these workflows do not rely on the same email account I've just lost access to is vital.
+Ensuring that either of these workflows do not rely on the same email account I've just lost access to is vital. Another alternative is to use a trusted-friend as a proxy for these emails, and use their domain for managing these 2 services. Might get around to it someday.
 
 ### What do you recommend I use?
 
