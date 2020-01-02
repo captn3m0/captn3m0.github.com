@@ -77,6 +77,8 @@ gpgconf --launch gpg-agent
 
 U2F lets me use a physical key as my second-factor on supported websites. I configure both of my Yubikeys for U2F wherever possible (Twitter/AWS are notable exceptions and only support a single key).
 
+U2F support for [OpenSSH](https://news.ycombinator.com/item?id=21451564) is coming soon. So you can authenticate to your server with the Yubikey+PIN, and finish the 2FA with the U2F by tapping the key.
+
 ## Root-of-Identity
 
 For most people, the root of your identity comes down to ownership of your email. As such, it is very often the juiciest target for most attackers. I run my mail against [Migadu](https://www.migadu.com), a privacy friendly swiss email-hosting service. They provide me a management layer for managing my domains which uses my GMail account. (See FAQ for why). I also have 2FA (TOTP only) configured on the Migadu management setup.
@@ -112,7 +114,7 @@ There are lots of failure scenarios with such a setup, and while I've got a pret
 
 ### Yubikey failures
 
-If my Yubikey fails (or if I forget its PIN), I can't access passwords on my device. My backup Yubikey is kept safely at home.
+If my Yubikey fails (or if I forget its PIN), I can't access passwords on my device. My backup Yubikey is kept safely at my home. If I lose both, I have the paperkey backup at home (which I should store elsewhere).
 
 ### Device failures
 
@@ -132,19 +134,19 @@ A hardware key doesn't protect you from all attacks. At the end of the day, my p
 
 If my browser has a malicious extension, it already has keys to the kingdom. But if I then log into a website, it does get access to that password additionaly.
 
-XKCD 1200 famously illustrates this:
+xkcd 1200 famously illustrates this:
 
-![XKCD 1200](https://imgs.xkcd.com/comics/authorization_2x.png)
+[![xkcd 1200](https://imgs.xkcd.com/comics/authorization_2x.png)](https://xkcd.com/1200/)
 
 A password vault protected by a hardware key protects against some attacks:
 
 -   A malicious extension can't sniff my vault passphrase, since I don't have one
 
-However, a malware can connect to my authenticated GPG socket, and start decrypting things. To prevent against that, I run my Yubikey in "touch-only" mode, so it requires a "touch" before it actually decrypts anything.
+However, a malware can connect to my authenticated GPG socket, and start decrypting things. To prevent against that, I run my Yubikey in "touch-only" mode, so it requires a "physical touch" before it actually does anything, even if the PIN is cached. Customizability is [dependent on your Yubikey model](https://support.yubico.com/support/solutions/articles/15000012643-yubikey-manager-cli-ykman-user-manual#ykman_openpgp_set-touchlkn6xj).
 
 ## Improvements
 
-If you have any suggestions for any of the below, I'm happy to hear them.
+If you have any suggestions for any of the below, I'm [happy to hear them](/contact).
 
 ### Travel Plans
 
@@ -208,7 +210,7 @@ Everywhere else, I use my actual domain (`captnemo.in`) to ensure nothing else r
 
 Ensuring that either of these workflows do not rely on the same email account I've just lost access to is vital. Another alternative is to use a trusted-friend (ideally someone more paranoid than me) as a proxy for these emails, and use their domain for managing these 2 services. Might get around to it someday.
 
-My GMail recovery email is set to my main account, but I don't think it is actually usable (since I'm enrolled in Advanced Protection Program).a
+My GMail recovery email is set to my main account, so it creates a circular dependency, but one that I actually want.
 
 ### What do you recommend I use?
 
