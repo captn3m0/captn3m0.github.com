@@ -1,24 +1,24 @@
 ---
-title: "My Setup: Passwords, 2FA, and security tidbits"
+title: 'My Setup: Passwords, 2FA, and security tidbits'
 layout: post
 ---
 
-I upgraded my encryption setup recently, so I thought I should write about it, just in case it is helpful to someone else. As a security professional, I have a different threat model from most folks, and as such my setup does involve a bit more complexity than what I'd recommend to everyone. But if you are a at-risk individual (journalist, person holding hundreds of bitcoins or other digital assets, activist) - you might consider duplicating some of this.
+I upgraded my encryption setup recently, so I thought I should write about it, just in case it is helpful to someone else. As a security professional, I have a different threat model from most folks, and as such my setup does involve a bit more complexity than what I'd recommend to everyone. But if you are a at-risk individual (journalist, person holding hundreds of bitcoins or other digital assets, activist) or if you are a linux user with too much free time - you might consider duplicating some of this.
 
-I'll discuss some of the other approaches I've considered, and my thought process around each choice I made.
+I'll discuss some of the other approaches I've considered, and my thought process around each choice I made. There are general recommendations at the [bottom of the post](#what-do-you-recommend-i-use "Yes, you can skip the blog post with this link. I won't mind").
 
 ## Passwords
 
-I used to be on LastPass till 2017[^3], when I migrated to [`pass`][pass] ("the standard unix password manager"). With pass, each password lives inside of a gpg encrypted file whose filename is the title of the website or resource that requires the password. 
+I used to be on LastPass till 2017[^3], when I migrated to [`pass`][pass] ("the standard unix password manager"). With pass, each password lives inside of a gpg encrypted file whose filename is the title of the website or resource that requires the password.
 
 `pass` automatically manages a git repository for you, which I sync against GitLab. The one downside of using `pass` is that the list of my domains is visible to my hosting provider. [^1] In the past, I've set this up against Keybase Encrypted Git (Keybase doesn't get to see even the file list), and my own git-server (only I get to see it).
 
-I don't push it to GitHub, since most of my stuff lives on GitHub anyway, and I didn't want to add my passwords there as well. GitLab uptime is decent enough for my usecase (I have [my own git server](https://git.captnemo.in/explore/repos) configured as a fallback if it goes down). Finally, my GitLab account is fairly locked down with:
+I don't push it to GitHub, since most of my stuff lives on GitHub anyway, and I didn't want to add my passwords there as well. GitLab uptime is decent enough for my usecase[^7]. Finally, my GitLab account is fairly locked down with:
 
-- zero integrations or third-party apps
-- no active personal tokens
-- social signin disabled
-- only yubikey SSH key configured
+-   zero integrations or third-party apps
+-   no active personal tokens
+-   social signin disabled
+-   only yubikey SSH key configured
 
 ### Mobile Passwords
 
@@ -27,9 +27,9 @@ There are 2 primary considerations I have:
 1. Using `pass` involves GPG keys, and I can't use hardware GPG keys on my current device (iPhone SE).
 2. I don't want to sync all my passwords to my phone. I have a limited number of applications on my device, and syncing all passwords doesn't make sense.
 
-For the first issue, I am forced to use a PGP key in software on [passforios][passforios]. If you are on Android, take a look at [OpenKeychain][okc], and Fidesmo, which both support hardware cards/keys.
+For the first issue, I am forced to use a PGP key in software on [passforios][passforios]. If you are on Android, take a look at [OpenKeychain][okc], and Fidesmo/Yubikey NFC.
 
-For the second issue, I use `pass cp`, and the `.gpg-id` file, which allows me to maintain a `mobile-sync` directory inside my pass git repository encrypted against a different key. From the documentation:
+For the second issue, I use `pass cp`, and the `.gpg-id` file, which allows me to maintain a `mobile-sync` directory inside my pass git repository encrypted against a different key. From the `pass` documentation:
 
 #### `~/.password-store/.gpg-id`
 
@@ -39,32 +39,29 @@ My `~/.password-store/mobile-sync/.gpg-id` file holds 2 keys: My main encryption
 
 Unfortunately, I haven't gotten it working well as a git submodule, so I have a helper script that copies the encrypted password files from `mobile-sync` subdirectory to a different repository (`mobile-passwords.git`). The script is just 2 lines:
 
-
 ```bash
 cp -r ~/.password-store/mobile-sync/*.gpg .
 git-sync
 ```
 
-It updates the git repository, and runs a sync to push any local changes to my mobile-passwords repository. I can pull that on my passforios application.
+It updates the git repository, and runs a sync to push any local changes to my mobile-passwords repository. I can pull that on my passforios application. I could also clone the entire repo, but the iOS app doesn't work nicely with a single-subdirectory approach.
 
 ## GPG
 
 `pass` relies on GPG, and as such I require a strong key setup. I have the following:
 
-
 1. 2xYubikey 4 (Doesn't have NFC)
-2. SoloKey (Only supports U2F)[^2]
-3. Fidesmo Smartcard, currently unused
+2. Fidesmo Smartcard, currently unused
 
-Both the Yubikeys are configured against my GPG Encryption key. I carry one of the Yubikeys and the Solokey on my keyring with me. The backup Yubikey stays at my home.
+Both the Yubikeys are configured against my GPG Encryption key. I carry one of the Yubikeys on my keyring with me. The backup Yubikey stays at my home.
 
 I followed [this guide](https://github.com/drduh/YubiKey-Guide#multiple-keys) while configuring the same. As of now, switching between keys is not very user-friendly, but future [GnuPG versions plan to fix it](https://dev.gnupg.org/T2291). The Yubikey holds:
 
-- An encryption key
-- A signing key
-- An authentication key
+-   An encryption key
+-   A signing key
+-   An authentication key
 
-The master key is backed up using [paperkey](https://wiki.archlinux.org/index.php/Paperkey) and a strong password. I have a subkey backup as well, since Yubikeys are known to fail (I lost my previous GPG key because my Yubikey stopped working).
+The master key is backed up using [paperkey](https://wiki.archlinux.org/index.php/Paperkey) and a strong password. I have a subkey backup as well, since Yubikeys are known to fail[^8].
 
 ## SSH
 
@@ -78,7 +75,7 @@ gpgconf --launch gpg-agent
 
 ## U2F
 
-U2F lets me use a physical key as my second-factor on supported websites. I configure all 3 (2xYubikey+Solokey) of my keys for U2F wherever possible. Lots of websites (AWS/Twitter for eg) don't support multiple U2F keys, and I use the Yubikey in such places.
+U2F lets me use a physical key as my second-factor on supported websites. I configure both of my Yubikeys for U2F wherever possible (Twitter/AWS are notable exceptions and only support a single key).
 
 ## Root-of-Identity
 
@@ -86,23 +83,32 @@ For most people, the root of your identity comes down to ownership of your email
 
 The domain is currently registered at a Indian registrar (which doesn't offer U2F, but I do have TOTP configured). I would have moved this to CloudFlare, but CloudFlare doesn't support the `.in` TLD yet.[^6]
 
-The email address used for registring the domain again is my GMail.
+The email address used for registring the domain again is my GMail. My DNS is configured on CloudFlare, which again uses my GMail and has appropriate 2FA configured. (It doesn't support U2F). So here's the list of critical providers:
+
+| Provider       | What can an attacker do                                          | Auth           | 2FA  |
+| -------------- | ---------------------------------------------------------------- | -------------- | ---- |
+| Regisrar/Mitsu | Change my nameserver, read any future email, reset passwords     | GMail/Password | TOTP |
+| DNS/CloudFlare | Change my MX records, read any future emails, reset passwords    | GMail/Password | TOTP |
+| Email/Migadu   | Reset my email password, read my current emails, reset passwords | GMail/Password | TOTP |
+| GMail          | Reset passwords for the above 3 accounts                         | Email/Password | U2F  |
+
+As you can see, I end up trusting GMail a lot here.
 
 ## Recovery/Backup codes and Security Questions
 
 I use randomly generated UUIDs as answers to security questions. Currently, I'm storing these for various services within the same password store. As it stands, I can't get access to my password OR recovery token without my Yubikey and PIN. The access Matrix looks like this:
 
-|What|Physical Access|Additional Authentication|
-|---|---|---|
-|Password|Yubikey|PIN|
-|U2F-2FA|Yubikey OR SoloKey|Physical touch|
-|TOTP|Phone|TouchID|
-|Recovery Code|Yubikey|PIN|
-|Security Question answers|Yubikey|PIN|
+| What                      | Physical Access | Additional Authentication |
+| ------------------------- | --------------- | ------------------------- |
+| Password                  | Yubikey         | PIN                       |
+| U2F-2FA                   | Yubikey         | Physical touch            |
+| TOTP                      | Phone           | TouchID                   |
+| Recovery Code             | Yubikey         | PIN                       |
+| Security Question answers | Yubikey         | PIN                       |
 
 ## Failure Scenarios
 
-There are lots of failure scenarios with such a setup, and while I've got a pretty spotless record of not being hacked - I'm not immune to screwups. Here's all the bad things that can happen:
+There are lots of failure scenarios with such a setup, and while I've got a pretty spotless record of not getting hacked - I'm not immune to screwups. Here's all the bad things that can happen:
 
 ### Yubikey failures
 
@@ -120,6 +126,22 @@ My GitLab password is randomly generated and stored on the same password store. 
 
 If I lose my key, the GPG card contains public info, including my email address, which can be used to contact me. I have a Tile bluetooth tracker on my keychain to make it easier for me to find it.
 
+### Malware
+
+A hardware key doesn't protect you from all attacks. At the end of the day, my passwords must be decrypted by the key and passed unencrypted back to my browser (or editor). `pass` for eg, doesn't protect against memory scraping attacks. If I edit a password on an infected machine, it gets that password.
+
+If my browser has a malicious extension, it already has keys to the kingdom. But if I then log into a website, it does get access to that password additionaly.
+
+XKCD 1200 famously illustrates this:
+
+![XKCD 1200](https://imgs.xkcd.com/comics/authorization_2x.png)
+
+A password vault protected by a hardware key protects against some attacks:
+
+-   A malicious extension can't sniff my vault passphrase, since I don't have one
+
+However, a malware can connect to my authenticated GPG socket, and start decrypting things. To prevent against that, I run my Yubikey in "touch-only" mode, so it requires a "touch" before it actually decrypts anything.
+
 ## Improvements
 
 If you have any suggestions for any of the below, I'm happy to hear them.
@@ -132,10 +154,10 @@ Since my backup key stays at home, how do I deal with long-term travel? This is 
 
 I'd like to transfer my domain to one of these 4 registrars that support U2F:
 
-- Gandi
-- NameCheap
-- Porkbun
-- Google Domains
+-   Gandi
+-   NameCheap
+-   Porkbun
+-   Google Domains
 
 I already own some domains with uncommon TLDs, mostly via Namecheap[^5]
 
@@ -153,10 +175,9 @@ I'm planning to configure my Fidesmo card against my existing GPG/SSH key, so it
 
 ### U2F on iPhone
 
-U2F support on Mobile Safari is non-existent. Brave recently added support for the upcoming Yubikey 5Ci, which supports both USB-C and lightning. However, this requires a special Yubikey SDK, which breaks the idea of U2F being interoperable. The 5Ci is also quite costly at $70. I don't know of any application that is actually supporting GPG-over-Yubikey-over-lightning.
+U2F support on Mobile Safari is non-existent. Brave recently added support for the upcoming Yubikey 5Ci, which supports both USB-C and lightning. However, this requires a special Yubikey SDK, which breaks the idea of U2F being interoperable. The 5Ci is also quite costly at \$70. I don't know of any application that is actually supporting GPG-over-Yubikey-over-lightning.
 
 Compare this to Android where NFC based smartcards or Yubikeys just work. I'd like that to happen with iPhones.
-
 
 ### Full Disk Encryption using a Yubikey
 
@@ -174,41 +195,44 @@ My current setup of saving recovery codes alongside passwords isn't optimal, but
 
 ### Why do you have stuff configured on your GMail? Aren't you anti-Google?
 
-Despite all the flak that Google gets for privacy, their security team is pretty awesome. Your account is pretty much unhackable once you are enrolled into their Advanced Protection Program. The only two security-sensitive places where I use it are:
+Despite all the flak that Google gets for privacy, their security team is pretty awesome. Your account is pretty much unhackable once you are enrolled into their Advanced Protection Program. The few security-sensitive places where I use it are:
 
 1. Domain Registration
 2. Email Management
+3. DNS Configuration
 
-Everywhere else, I use my actual domain (captnemo.in) to ensure nothing else routes over GMail. Using GMail for the above 2 ensures that I don't have a circular dependency. If I were to lose my main email password, I can recover via multiple ways:
+Everywhere else, I use my actual domain (`captnemo.in`) to ensure nothing else routes over GMail. Using GMail for the above 2 ensures that I don't have a circular dependency. If I were to lose my main email password, I can recover via multiple ways:
 
 1. Change DNS to another email provider.
 2. Reset password via migadu admin panel.
 
-Ensuring that either of these workflows do not rely on the same email account I've just lost access to is vital. Another alternative is to use a trusted-friend as a proxy for these emails, and use their domain for managing these 2 services. Might get around to it someday.
+Ensuring that either of these workflows do not rely on the same email account I've just lost access to is vital. Another alternative is to use a trusted-friend (ideally someone more paranoid than me) as a proxy for these emails, and use their domain for managing these 2 services. Might get around to it someday.
+
+My GMail recovery email is set to my main account, but I don't think it is actually usable (since I'm enrolled in Advanced Protection Program).
 
 ### What do you recommend I use?
 
-- [Bitwarden](https://bitwarden.com/) for password management.
-- 2x[HyperFIDO Mini U2F](https://www.amazon.in/HyperFIDO-Mini-U2F-Security-Key/dp/B01LZO0WE9) Keys configured [against as many accounts as possible](https://www.dongleauth.info/). U2F is not only safer, but much more convenient than TOTP/SMS based 2FA. For iPhone/USB-C users, see [the Yubico website](https://www.yubico.com/products/compare-yubikey-5-series/).
-- If you'd like to get off GMail, pay for FastMail. Alternatively, if I know you in real-life, I'm happy to host your mail in my Migadu account. (Only works if you know me well enough to trust me)
-- A PIN configured on all your SIMs.
-- Full-Disk-Encryption on all your devices
-- Get a SIM without an Aadhaar, to make SIM-Jacking attackes harder (applies in India).
-- Use randomly generated passwords everywhere.
-- Setup a PIN on your WhatsApp
-- If you own a lot of cryptocurrency, use a hardware wallet and put it in a bank safe. And have a backup one, in another safe. You can put the PIN for those in your password store. I haven't researched enough to suggest you which wallet.
+-   [Bitwarden](https://bitwarden.com/) for password management.
+-   2x[HyperFIDO Mini U2F](https://www.amazon.in/HyperFIDO-Mini-U2F-Security-Key/dp/B01LZO0WE9) Keys configured [against as many accounts as possible](https://www.dongleauth.info/). U2F is not only safer, but much more convenient than TOTP/SMS based 2FA. For iPhone/USB-C users, see [the Yubico website](https://www.yubico.com/products/compare-yubikey-5-series/).
+-   If you'd like to get off GMail, pay for FastMail. Alternatively, if I know you in real-life, I'm happy to host your mail in my Migadu account. (Only works if you know me well enough to trust me)
+-   A PIN configured on all your SIMs.
+-   Full-Disk-Encryption on all your devices
+-   Get a SIM without an Aadhaar, to make SIM-Jacking attackes harder (applies in India).
+-   Use randomly generated passwords everywhere.
+-   Setup a PIN on your WhatsApp
+-   If you own a lot of cryptocurrency, use a hardware wallet and put it in a bank safe. And have a backup one, in another safe. You can put the PIN for those in your password store. I haven't researched enough to suggest you which wallet.
 
 ### Why are you so paranoid?
 
 I work in infosec. Breaking things comes naturally to me, and I plan for defense-in-depth. Plus, I'd be a terrible security guy if I got hacked.
 
-
 [^1]: The [pass-tomb](https://github.com/roddhjav/pass-tomb) extension bypasses this limit and encrypts your filenames as well.
-[^2]: The Solokey is mostly redundant in this setup, but I have it around because I have it configured in a few places where the Yubikey isn't. I'm slowly phasing it out.
 [^3]: I moved away from Lastpass after Tavis Ormandy reported a RCE vulnerability on their browser extension. Their wikipedia page mentions 2 breaches, and 3 security incidents. It has never undergone a security audit (unlike bitwarden) and is not something I recommend anymore.
 [^5]: Namecheap announced [U2F support](https://www.namecheap.com/blog/protect-account-totp-2-factor/) in April 2019, and while it was buggy at first, it has definitely improved.
-[^6]: The domain is stuck in a legal limbo, because of an [ongoing case between my registrar and NIXI](https://our.in/mitsu-ceo-got-upset-with-the-nixi-proceedings/) (which runs the `.in` registry).
+[^6]: The domain is stuck in a legal limbo, because of an [ongoing case between my registrar and NIXI](https://our.in/mitsu-ceo-got-upset-with-the-nixi-proceedings/) (which runs the `.in` registry). If you have any suggestions/ideas, please [reach out](/contact).
+[^7]: I have [my own git server](https://git.captnemo.in/explore/repos) configured as a fallback if it goes down. I ensure the same controls on my Git server as Gitea, and it runs in my living room.
+[^8]: I lost my previous GPG key because my Yubikey stopped working
 
-[passforios]: https://mssun.github.io/passforios/
+[passforios]: https://mssun.github.io/passforios/ 'Open Source, no-network, minimalist pass client for iOS'
 [okc]: https://www.openkeychain.org/
 [pass]: https://passwordstore.org
