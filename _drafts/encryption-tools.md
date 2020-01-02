@@ -208,7 +208,7 @@ Everywhere else, I use my actual domain (`captnemo.in`) to ensure nothing else r
 
 Ensuring that either of these workflows do not rely on the same email account I've just lost access to is vital. Another alternative is to use a trusted-friend (ideally someone more paranoid than me) as a proxy for these emails, and use their domain for managing these 2 services. Might get around to it someday.
 
-My GMail recovery email is set to my main account, but I don't think it is actually usable (since I'm enrolled in Advanced Protection Program).
+My GMail recovery email is set to my main account, but I don't think it is actually usable (since I'm enrolled in Advanced Protection Program).a
 
 ### What do you recommend I use?
 
@@ -224,7 +224,7 @@ My GMail recovery email is set to my main account, but I don't think it is actua
 
 ### Why are you so paranoid?
 
-I work in infosec. Breaking things comes naturally to me, and I plan for defense-in-depth. Plus, I'd be a terrible security guy if I got hacked.
+I work in infosec. Breaking things comes naturally to me, and I plan for defense-in-depth. Plus, I'd be a terrible security person if I got hacked.
 
 [^1]: The [pass-tomb](https://github.com/roddhjav/pass-tomb) extension bypasses this limit and encrypts your filenames as well.
 [^3]: I moved away from Lastpass after Tavis Ormandy reported a RCE vulnerability on their browser extension. Their wikipedia page mentions 2 breaches, and 3 security incidents. It has never undergone a security audit (unlike bitwarden) and is not something I recommend anymore.
