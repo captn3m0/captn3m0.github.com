@@ -213,14 +213,16 @@ My GMail recovery email is set to my main account, but I don't think it is actua
 ### What do you recommend I use?
 
 -   [Bitwarden](https://bitwarden.com/) for password management.
--   2x[HyperFIDO Mini U2F](https://www.amazon.in/HyperFIDO-Mini-U2F-Security-Key/dp/B01LZO0WE9) Keys configured [against as many accounts as possible](https://www.dongleauth.info/). U2F is not only safer, but much more convenient than TOTP/SMS based 2FA. For iPhone/USB-C users, see [the Yubico website](https://www.yubico.com/products/compare-yubikey-5-series/).
--   If you'd like to get off GMail, pay for FastMail. Alternatively, if I know you in real-life, I'm happy to host your mail in my Migadu account. (Only works if you know me well enough to trust me)
--   A PIN configured on all your SIMs.
--   Full-Disk-Encryption on all your devices
+-   2x[HyperFIDO Mini U2F](https://amzn.to/2ZHMDZU) Keys configured for second factor [against as many accounts as possible](https://www.dongleauth.info/). U2F is not only safer, but much more convenient than TOTP/SMS based 2FA. For iPhone/USB-C users, see [the Yubico website](https://www.yubico.com/products/compare-yubikey-5-series/). If you don't like to pay the USB-C tax, there are cheap [USB-C to miniUSB](https://www.aliexpress.com/item/4000077099764.html) adapters that can work with the HyperFIDO key and fit on your keychain. If you aren't convinced on why this is a good idea, see [this guide](https://techsolidarity.org/resources/security_key_faq.htm).
+-   A PIN configured on all your SIMs. Instructions for [iPhone](https://support.apple.com/en-us/HT201529), [Android](https://support.t-mobile.com/docs/DOC-41621).
+-   Full-Disk-Encryption on all your devices. Instructions for [Windows](https://securityplanner.org/#/tool/windows-encryption), [Mac](https://securityplanner.org/#/tool/mac-encryption), [ArchLinux](https://wiki.archlinux.org/index.php/Dm-crypt/Encrypting_an_entire_system), [Fedora](https://fedoraproject.org/wiki/Disk_Encryption_User_Guide), [Ubuntu](https://help.ubuntu.com/community/Full_Disk_Encryption_Howto_2019).
+-   Use randomly generated passwords everywhere. Trust your password manager on this.
+-   [Setup a PIN on your WhatsApp](https://faq.whatsapp.com/en/android/26000021).
+-   If you own a lot of cryptocurrency, use a hardware wallet and put it in a bank safe. Have a backup one, in another safe. You can put the PIN for those in your password store. I haven't researched enough to suggest you which wallet(s).
 -   Get a SIM without an Aadhaar, to make SIM-Jacking attackes harder (applies in India).
--   Use randomly generated passwords everywhere.
--   Setup a PIN on your WhatsApp
--   If you own a lot of cryptocurrency, use a hardware wallet and put it in a bank safe. And have a backup one, in another safe. You can put the PIN for those in your password store. I haven't researched enough to suggest you which wallet.
+-   Go through [securityplanner.org](https://securityplanner.org/), which gives you personalized recommendations customized for our risk profile. I agree with most of their recommendations[^10]
+-   Signup for breach notifications against your email at <https://haveibeenpwned.com/>.
+-   If you'd like to get off GMail, pay for [FastMail](https://www.fastmail.com/). Alternatively, if I know you in real-life, I'm happy to host your mail in my Migadu account. (Only works if you know me well enough to trust me)
 
 ### Why are you so paranoid?
 
@@ -232,6 +234,7 @@ I work in infosec. Breaking things comes naturally to me, and I plan for defense
 [^6]: The domain is stuck in a legal limbo, because of an [ongoing case between my registrar and NIXI](https://our.in/mitsu-ceo-got-upset-with-the-nixi-proceedings/) (which runs the `.in` registry). If you have any suggestions/ideas, please [reach out](/contact).
 [^7]: I have [my own git server](https://git.captnemo.in/explore/repos) configured as a fallback if it goes down. I ensure the same controls on my Git server as Gitea, and it runs in my living room.
 [^8]: I lost my previous GPG key because my Yubikey stopped working
+[^10]: The one major exception is lastpass, which I no longer recommend.
 
 [passforios]: https://mssun.github.io/passforios/ 'Open Source, no-network, minimalist pass client for iOS'
 [okc]: https://www.openkeychain.org/
