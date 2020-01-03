@@ -47,7 +47,7 @@ My distro for the last 4 years is [Arch Linux][arch] with [i3][i3] as the window
 
 Most of my work is done in editors, command line, and the browser. A few essential extensions on my browser include: [dotjs][.js] (with apache support), [Privacy Badger][privacybadger], [uBlock Origin][ublock], HTTPS Everywhere, and Markdown Here. I manage my passwords using [pass][pass].
 
-I am a [Hacker News][hn] addict, and have even [written an application][hackertray] for it. Most used webapps would be: Slack, GitHub. I use [AirSonic][airsonic]/[play:sub][playsub] for listening to music on the go, and `cmus` on the desktop.
+I am a [Hacker News][hn] addict, and have even [written an application][hackertray] for it. Most used webapps would be: Slack, GitHub. I use [AirSonic][airsonic]/[play:sub][playsub] for listening to music on the go, and `cmus` on the desktop. My security setup (passwords/2FA etc) is documented [here][security].
 
 I run lots of tiny services on my homeserver, including [Gitea][gitea], OpenVPN, Emby, and Grafana. I have my Kindle jailbroken and run [KOReader][koreader] to read EPUB files and PDFs with reflow.
 

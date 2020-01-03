@@ -1,9 +1,18 @@
 ---
 title: 'My Setup: Passwords, 2FA, and security tidbits'
 layout: post
+tags:
+ - security
+ - u2f
+ - GPG
+ - pass
+ - yubikey
+image: keychain2.jpg
 ---
 
 I upgraded my encryption setup recently, so I thought I should write about it, just in case it is helpful to someone else. As a security professional, I have a different threat model from most folks, and as such my setup does involve a bit more complexity than what I'd recommend to everyone. But if you are an at-risk individual (journalist, person holding hundreds of bitcoins or other digital assets, activist) or if you are a linux user with a lot of free time - you might consider duplicating some of this.
+
+[![Header Image of my keychain, with a Tile, Yubikey, USB Disk, and house keys](/img/keychain-small.jpg)](/img/full-keychain.jpg)
 
 I'll discuss some of the other approaches I've considered, and my thought process around each choice I made. There are general recommendations at the [bottom of the post](#what-do-you-recommend-i-use "Yes, you can skip the blog post with this link. I won't mind").
 
@@ -231,6 +240,12 @@ Availability is a pain point, especially if you aren't in the US. Even getting m
 - [NitroKey Start][nitrokey-start] is [apparently completely FOSS](https://news.ycombinator.com/item?id=21884930), so you might wanna check that.
 
 The HyperFIDO keys are compliant to the U2F/FIDO standards, and I've not faced any issues while using them. They're cheap and widely available. Unless you need GPG, go for it.
+
+---
+
+<small>Thanks to Giridharan, Santosh, and Akshay for reviewing drafts of this and offering valuable suggesions. If you have any suggestions, happy to hear them [on Twitter](https://twitter.com/captn3m0) or [elsewhere](/contact/)</small>
+
+---
 
 [^1]: The [pass-tomb](https://github.com/roddhjav/pass-tomb) extension bypasses this limit and encrypts your filenames as well.
 [^2]: The Solokey is mostly redundant in this setup, but I have it around because I have it configured in a few places where the Yubikey isn't. I'm slowly phasing it out of my setup, since it is just an extra unused key on my keychain.
