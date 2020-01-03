@@ -3,7 +3,7 @@ title: 'My Setup: Passwords, 2FA, and security tidbits'
 layout: post
 ---
 
-I upgraded my encryption setup recently, so I thought I should write about it, just in case it is helpful to someone else. As a security professional, I have a different threat model from most folks, and as such my setup does involve a bit more complexity than what I'd recommend to everyone. But if you are a at-risk individual (journalist, person holding hundreds of bitcoins or other digital assets, activist) or if you are a linux user with too much free time - you might consider duplicating some of this.
+I upgraded my encryption setup recently, so I thought I should write about it, just in case it is helpful to someone else. As a security professional, I have a different threat model from most folks, and as such my setup does involve a bit more complexity than what I'd recommend to everyone. But if you are an at-risk individual (journalist, person holding hundreds of bitcoins or other digital assets, activist) or if you are a linux user with too much free time - you might consider duplicating some of this.
 
 I'll discuss some of the other approaches I've considered, and my thought process around each choice I made. There are general recommendations at the [bottom of the post](#what-do-you-recommend-i-use "Yes, you can skip the blog post with this link. I won't mind").
 
@@ -61,7 +61,7 @@ I followed [this guide](https://github.com/drduh/YubiKey-Guide#multiple-keys) wh
 -   A signing key
 -   An authentication key
 
-The master key is backed up using [paperkey](https://wiki.archlinux.org/index.php/Paperkey) and a strong password. I have a subkey backup as well, since Yubikeys are known to fail[^8].
+I keep a copy of all these keys using [paperkey](https://wiki.archlinux.org/index.php/Paperkey) as per the same guide. I have a subkey backup as well, since Yubikeys are known to fail[^8].
 
 ## SSH
 
@@ -75,13 +75,11 @@ gpgconf --launch gpg-agent
 
 ## U2F
 
-U2F lets me use a physical key as my second-factor on supported websites. I configure both of my Yubikeys for U2F wherever possible (Twitter/AWS are notable exceptions and only support a single key).
-
-U2F support for [OpenSSH][ssh-u2f] is coming soon. So you can authenticate to your server with the Yubikey+PIN, and finish the 2FA with the U2F by tapping the key.
+U2F lets me use a physical key as my second-factor on supported websites (as an alternative to SMS/TOTP). I configure both of my Yubikeys for U2F wherever possible (Twitter/AWS are notable exceptions and only support a single key). U2F support for [OpenSSH][ssh-u2f] is coming soon. So you can soon authenticate to your server with the Yubikey+PIN, and finish the 2FA with U2F by tapping the key[^11].
 
 ## Root-of-Identity
 
-For most people, the root of your identity comes down to ownership of your email. As such, it is very often the juiciest target for most attackers. I run my mail against [Migadu](https://www.migadu.com), a privacy friendly swiss email-hosting service. They provide me a management layer for managing my domains which uses my GMail account. (See FAQ for why). I also have 2FA (TOTP only) configured on the Migadu management setup.
+For most people, the root of identity comes down to ownership of their email address. As such, it is very often the juiciest target for most attackers. I run my mail against [Migadu](https://www.migadu.com), a privacy friendly swiss email-hosting service. They provide me a management layer for managing my domains which uses my GMail account. (See FAQ for why). I also have 2FA (TOTP only) configured on the Migadu management setup.
 
 The domain is currently registered at a Indian registrar (which doesn't offer U2F, but I do have TOTP configured). I would have moved this to CloudFlare, but CloudFlare doesn't support the `.in` TLD yet.[^6]
 
@@ -142,9 +140,10 @@ xkcd 1200 famously illustrates this:
 
 A password vault protected by a hardware key protects against some attacks:
 
--   A malicious extension can't sniff my vault passphrase, since I don't have one
+- A malicious extension can't sniff my vault passphrase, since I don't have one
+- The key can't be exfiltrated from hardware.
 
-However, a malware can connect to my authenticated GPG socket, and start decrypting things. To prevent against that, I run my Yubikey in "touch-only" mode, so it requires a "physical touch" before it actually does anything, even if the PIN is cached. Customizability is [dependent on your Yubikey model](https://support.yubico.com/support/solutions/articles/15000012643-yubikey-manager-cli-ykman-user-manual#ykman_openpgp_set-touchlkn6xj).
+However, a malware can connect to my authenticated GPG socket, and start decrypting things. To prevent against that, I run my Yubikey in "touch-only" mode, so it requires a "physical touch" before it actually does anything, even if the PIN is cached. Customizability is [dependent on your Yubikey model](https://support.yubico.com/support/solutions/articles/15000012643-yubikey-manager-cli-ykman-user-manual#ykman_openpgp_set-touchlkn6xj). But remember the xkcd warning - if I have a malware running on my device, it is pretty much game over anyway. `pass` doesn't prevent against memory scraping attacks, and actually uses `/dev/shm` to store the temporary plain-text files containing passwords. Ultimately, your identity is as secure as the device you trust it with.
 
 ## Improvements
 
@@ -156,16 +155,7 @@ Since my backup key stays at home, how do I deal with long-term travel? This is 
 
 ### Domain Ownership
 
-I'd like to transfer my domain to one of these 4 registrars that support U2F:
-
--   Gandi
--   NameCheap
--   Porkbun
--   Google Domains
-
-I already own some domains with uncommon TLDs, mostly via Namecheap[^5]
-
-If you use CloudFlare, they should roll out [U2F support soon](https://community.cloudflare.com/t/u2f-for-logins/17583/34).
+I'd like to transfer my domain to [a registrar that supports U2F](https://twofactorauth.org/#domains), likely Namecheap since I already own some domains there[^5]. If you use CloudFlare, they should roll out [U2F support soon](https://community.cloudflare.com/t/u2f-for-logins/17583/34).
 
 ### 2FA Recovery Guides
 
@@ -175,7 +165,7 @@ A lot of this is undocumented, and I wish organizations were more public about t
 
 ### Fidesmo Card
 
-I'm planning to configure my Fidesmo card against my existing GPG/SSH key, so it stays in my wallet to improve redundancy. Unfortunately, it is not supported on iOS, so I plan to get a NFC reader/writer and test that out. This also helps with travel plans a bit, since I'm less likely to lose my wallet (which also has [a bluetooth tracker][slim]).
+I'm planning to configure my Fidesmo card against my existing GPG/SSH key, so it stays in my wallet to improve redundancy. Unfortunately, it is not supported on iOS, so I plan to get a NFC reader/writer and test that out. This also helps with travel plans a bit, since I'm less likely to lose my wallet anecdotally(which also has [a bluetooth tracker][slim]).
 
 ### U2F on iPhone
 
@@ -205,7 +195,7 @@ Despite all the flak that Google gets for privacy, their security team is pretty
 2. Email Management
 3. DNS Configuration
 
-Everywhere else, I use my actual domain (`captnemo.in`) to ensure nothing else routes over GMail. Using GMail for the above 2 ensures that I don't have a circular dependency. If I were to lose my main email password, I can recover via multiple ways:
+Everywhere else, I use my actual domain (`captnemo.in`) to ensure nothing else routes over GMail. Using GMail for the above 3 ensures that I don't have a circular dependency. If I were to lose my main email password, I can recover via multiple ways:
 
 1. Change DNS to another email provider.
 2. Reset password via migadu admin panel.
@@ -237,8 +227,8 @@ I work in infosec. Breaking things comes naturally to me, and I plan for defense
 Availability is a pain point, especially if you aren't in the US. Even getting my hands on a SoloKey was hard, despite backing it on KickStarter. 
 
 - [OnlyKey](https://onlykey.io) also makes some claims regarding open source, but I can't find their schematics anywhere.
-- SoloKey is great, and what I'd recommend, but they don't support OpenPGP yet.
-- NitroKey Start is apparently completely FOSS, so you might wanna check that.
+- [SoloKey](https://solokeys.com/) is great, and what I'd recommend, but [it doesn't support OpenPGP yet](https://github.com/solokeys/solo/issues/16).
+- [NitroKey Start][nitrokey-start] is [apparently completely FOSS](https://news.ycombinator.com/item?id=21884930), so you might wanna check that.
 
 The HyperFIDO keys are compliant to the U2F/FIDO standards, and I've not faced any issues while using them. They're cheap and widely available. Unless you need GPG, go for it.
 
@@ -250,6 +240,7 @@ The HyperFIDO keys are compliant to the U2F/FIDO standards, and I've not faced a
 [^7]: I have [my own git server](https://git.captnemo.in/explore/repos) configured as a fallback if it goes down. I ensure the same controls on my Git server as Gitea, and it runs in my living room.
 [^8]: I lost my previous GPG key because my Yubikey stopped working
 [^10]: The one major exception is lastpass, which I no longer recommend.
+[^11]: The jury is still out on whether this counts as an "independent second factor".
 
 [passforios]: https://mssun.github.io/passforios/ 'Open Source, no-network, minimalist pass client for iOS'
 [okc]: https://www.openkeychain.org/
@@ -257,3 +248,4 @@ The HyperFIDO keys are compliant to the U2F/FIDO standards, and I've not faced a
 [tile]: https://www.thetileapp.com/en-us/
 [slim]: https://www.thetileapp.com/en-us/store/tiles/slim "I have the older version of the Tile Slim"
 [ssh-u2f]: https://www.undeadly.org/cgi?action=article;sid=20191115064850 "Does it really count as 2FA if both your SSH and U2F is the same device?"
+[nitrokey-start]: https://shop.nitrokey.com/shop/product/nitrokey-start-6
