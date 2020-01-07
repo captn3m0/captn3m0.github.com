@@ -1,5 +1,5 @@
 ---
-title: 'My Setup: Passwords, 2FA, and security tidbits'
+title: 'My Setup: Passwords, 2FA, and Yubikeys'
 layout: post
 tags:
  - security
