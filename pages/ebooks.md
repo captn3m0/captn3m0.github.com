@@ -46,6 +46,8 @@ Things next on my list:
 
 I only provide the scripts for the generation on GitHub. If you'd like a copy without having to run the script, [get in touch][contact] and ask.
 
+I also have a short script (node.js) that helps me generate EPUB files from URLs easily: <https://www.npmjs.com/package/url-to-epub>.
+
 ## References
 
 Here are links to other similar tools that you might like:

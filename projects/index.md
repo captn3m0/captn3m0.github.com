@@ -48,6 +48,12 @@ projects:
 
 ## Projects by Date
 
+[url-to-epub][url-to-epub]
+: **Jan 2020** A simple zero-config script that generates a standards-compliant EPUB from a webpage. Zero config. Requires pandoc
+
+[sarkar.icu][sarkar.icu]
+: **Dec 2019** Communications guide for network shutdowns. [@prtksxna](https://twitter.com/prtksxna) did most of the work.
+
 [outliner][outliner]
 : **August 2019** A simple Ruby Client for the [Outline](https://www.getoutline.com/) knowledge base with easy-to-use export and import functionality.
 
