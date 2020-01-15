@@ -5,7 +5,7 @@ title: His Dark Materials Season 1 Readthrough
 
 A long time ago, I tried to [do a readthrough][got] for Game of Thrones (Book 1) alongside the first season. I managed to reach Episode 5, before I sped through the rest of the book, but I tried. 
 
-Trying something similar for His Dark Materials, which is a great series if you're looking to watch something new. Instead of noting down Chapter/Book equivalence (like I tried last time), going to write down my thoughts here as I'm reading along. **Spoiler Warning** for the entire first season if you haven't realized it by now.
+Trying something similar for His Dark Materials, which is a great series if you're looking to watch something new. Instead of noting down Chapter/Book equivalence (like I tried last time), going to write down my thoughts here as I'm reading along. **Spoiler Warning** for the entire first season obviously.
 
 ## Overall
 
@@ -13,6 +13,7 @@ The show is very tightly knit with the book with a few over-arching changes from
 
 - You get to see other points-of-view, other than just Lyra. Helps establish what else is happening, especially in the other worlds.
 - A lot of infodumps are prevented, or better, broken down into multiple sessions.
+- The major change from the first book is ofcourse showing Will's PoV and our earth.
 
 ## Chapter 1
 
@@ -31,6 +32,19 @@ The show is very tightly knit with the book with a few over-arching changes from
 - Splitting Lyra's parentage reveal (Coulter reveals her father) is a smart move in the show.
 - The show changes Lyra's kidnappers from Turkish slavers to Gobblers.
 - The Alethiometer reveal happens with both Father Coram and John Fa in the book. The section also has a huge infodump, especially since it involves the parentage reveal. The show breaks it into 3: alethiometer reveal with Father Coram, a previous interrogation of Lyra with John Fa, and Lyra's parentage reveal (mother) with Ma Costa.
+
+## Chapter 4
+
+- The one notable "not-in-the-book" scene is the Coulter's meeting with Iofur.
+
+## Chapter 5
+
+- Interesting to note that the characters of Billy and Roger are fused in both the film and the TV adaptations.
+
+## Chapter 6
+
+- Lyra starts a fire in the books, but the show makes it more dramatic by destroying the machine.
+- The balloon ride covers a lot more in the books.
 
 ## Learnings
 
