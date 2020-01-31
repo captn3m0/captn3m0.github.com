@@ -36,6 +36,9 @@ A fun side-project that I often pick up is generation of semantically correct EP
 [The Site Reliability Workbook][sre]
 : The Site Reliability Workbook is the hands-on companion to the bestselling Site Reliability Engineering book and uses concrete examples to show how to put SRE principles and practices to work. Published by Google as a online read under CC BY-NC-ND 4.0.
 
+[Security Engineering — Third Edition][se3] by Ross Anderson [[source](https://www.cl.cam.ac.uk/~rja14/book.html)]
+: Comprised of the third-edition, currently under review PDFs. Only available till it goes to press.
+
 Things next on my list:
 
 -   <https://www.tor.com/series/warbreaker-reread-brandon-sanderson/>
@@ -66,3 +69,4 @@ As a side-effect, I often get into the rabbit hole of generating the perfect EPU
 [sre]: https://github.com/captn3m0/google-sre-ebook/
 [mm]: http://github.com/captn3m0/magicmuggle
 [contact]: /contact/
+[se3]: https://github.com/captn3m0/security-engineering-ebook
