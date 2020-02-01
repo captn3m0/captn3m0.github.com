@@ -4,7 +4,7 @@ title: EBooks
 permalink: /ebooks/
 ---
 
-A fun side-project that I often pick up is generation of semantically correct EPUB/MOBI/PDF files from various online books and content. This is a short list:
+A fun side-project that I often pick up is generation of semantically correct EPUB/MOBI/PDF files from various online books and content. Here's a list of the interesting books I've covered:
 
 [Oathbringer][cosmere] [[source][oathbringer-source]]
 : Chapters 0-32 from Oathbringer, Book 3 in the Stormlight Archive, being published by Tor in serialized format.
@@ -24,8 +24,8 @@ A fun side-project that I often pick up is generation of semantically correct EP
 [Way of Kings Prime][cosmere] [[source][wokprime-source]]
 : Brandaon Sanderson published a few chapters from the earliest draft of Way of Kings (2002, while the book was published almost a decade later).
 
-[Hoshruba][hoshruba] [[source][hoshruba-source]]
-: Tor's serialized publication of Hoshruba-The Land and the Tilism.
+[Hoshruba][hoshruba] (Translated by Musharraf Ali Farooqi) [[source][hoshruba-source]]
+: Tor's serialized publication of Hoshruba-The Land and the Tilism. This is just Vol 1 of the planned translation of the famous persian epic, [Hamzanama](https://en.wikipedia.org/wiki/Hamzanama). 
 
 [Magic Muggle][mm] [[source][mm-source]]
 : Harry Potter fan-fiction about a muggle going to Hogwarts. (3rd book ~~ongoing~~ abandoned)
@@ -36,7 +36,7 @@ A fun side-project that I often pick up is generation of semantically correct EP
 [The Site Reliability Workbook][sre] [[source][swe-source]]
 : The Site Reliability Workbook is the hands-on companion to the bestselling Site Reliability Engineering book and uses concrete examples to show how to put SRE principles and practices to work. Published by Google as a online read under CC BY-NC-ND 4.0.
 
-[Security Engineering — Third Edition][se3] by Ross Anderson [[source](https://www.cl.cam.ac.uk/~rja14/book.html)]
+[Security Engineering — Third Edition][se3] by Ross Anderson [[source][se3-source]]
 : Comprised of the third-edition, currently under review PDFs. Only available till it goes to press.
 
 [Defending Elysium][cosmere] by Brandon Sanderson [[source][de-source]]
@@ -57,7 +57,7 @@ Things next on my list:
 
 I only provide the scripts for the generation on GitHub. If you'd like a copy without having to run the script, [get in touch][contact] and ask.
 
-I also have a short script (node.js) that helps me generate EPUB files from URLs easily: <https://www.npmjs.com/package/url-to-epub>.
+I also have a short script (node.js) that helps me generate EPUB files from URLs easily: [url-to-epub][].
 
 ## References
 
@@ -91,3 +91,6 @@ As a side-effect, I often get into the rabbit hole of generating the perfect EPU
 [swe-source]: https://landing.google.com/sre/workbook/toc/
 [de-source]: https://brandonsanderson.com/defending-elysium/
 [tor-original-fiction]: https://www.tor.com/category/all-fiction/original-fiction/
+[skyward-source]: https://www.getunderlined.com/read/excerpt-reveal-start-reading-skyward-by-brandon-sanderson/
+[url-to-epub]: https://www.npmjs.com/package/url-to-epub
+[se3-source]: https://www.cl.cam.ac.uk/~rja14/book.html
