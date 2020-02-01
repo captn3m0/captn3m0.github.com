@@ -6,38 +6,46 @@ permalink: /ebooks/
 
 A fun side-project that I often pick up is generation of semantically correct EPUB/MOBI/PDF files from various online books and content. This is a short list:
 
-[Oathbringer][cosmere]
-: Chapters 0-32 from Oathbringer, Book 3 in the Stormlight Archive, being published by Tor in serialized format. (ongoing)
+[Oathbringer][cosmere] [[source][oathbringer-source]]
+: Chapters 0-32 from Oathbringer, Book 3 in the Stormlight Archive, being published by Tor in serialized format.
 
-[Way of Kings Reread][cosmere]
+[Way of Kings Reread][cosmere] [[source][wok-source]]
 : Tor's re-read of Way of kings, Book 1 in the Stormlight Archive.
 
-[Words of Radiance Reread][cosmere]
+[Words of Radiance Reread][cosmere] [[source][wor-source]]
 : Tor re-read of Words of Radiance, Book 2 in the Stormlight Archive.
 
-[Oathbringer Reread][cosmere]
-: Tor re-read of Oathbringer, Book 3 in the Stormlight Archive.
+[Oathbringer Reread][cosmere] [[source][oathbringer-reread-source]]
+: Tor re-read of Oathbringer, Book 3 in the Stormlight Archive. Ongoing
 
-[Edgedancer Reread][cosmere]
+[Edgedancer Reread][cosmere] [[source][edgedancer-source]]
 : Tor re-read of Edgedancer, a novella between Books 2 & 3 in the Stormlight Archive.
 
-[Way of Kings Prime][cosmere]
+[Way of Kings Prime][cosmere] [[source][wokprime-source]]
 : Brandaon Sanderson published a few chapters from the earliest draft of Way of Kings (2002, while the book was published almost a decade later).
 
-[Hoshruba][hoshruba]
+[Hoshruba][hoshruba] [[source][hoshruba-source]]
 : Tor's serialized publication of Hoshruba-The Land and the Tilism.
 
-[Magic Muggle][mm]
+[Magic Muggle][mm] [[source][mm-source]]
 : Harry Potter fan-fiction about a muggle going to Hogwarts. (3rd book ~~ongoing~~ abandoned)
 
-[Site Reliability Engineering][sre]
+[Site Reliability Engineering][sre] [[source][sre-source]]
 : Google's book on Site Reliability Engineering. Published by Google as a online read under CC BY-NC-ND 4.0
 
-[The Site Reliability Workbook][sre]
+[The Site Reliability Workbook][sre] [[source][swe-source]]
 : The Site Reliability Workbook is the hands-on companion to the bestselling Site Reliability Engineering book and uses concrete examples to show how to put SRE principles and practices to work. Published by Google as a online read under CC BY-NC-ND 4.0.
 
 [Security Engineering — Third Edition][se3] by Ross Anderson [[source](https://www.cl.cam.ac.uk/~rja14/book.html)]
 : Comprised of the third-edition, currently under review PDFs. Only available till it goes to press.
+
+[Defending Elysium][cosmere] by Brandon Sanderson [[source][de-source]]
+: Brandon Sanderson's short story, part of the Skyward universe. Published on his website.
+
+[Skyward][cosmere] by Brandon Sanderson [[source][skyward-source]]
+: Chapters 1-15 of the book. Published at getunderlined.com.
+
+I also went around converting [all of the original fiction published on Tor.com][tor-original-fiction] using [url-to-epub].
 
 Things next on my list:
 
@@ -70,3 +78,16 @@ As a side-effect, I often get into the rabbit hole of generating the perfect EPU
 [mm]: http://github.com/captn3m0/magicmuggle
 [contact]: /contact/
 [se3]: https://github.com/captn3m0/security-engineering-ebook
+
+[oathbringer-source]: https://www.tor.com/series/oathbringer/
+[wok-source]: https://www.tor.com/features/series/the-way-of-kings-reread-on-torcom/
+[wor-source]: https://www.tor.com/series/words-of-radiance-reread-on-torcom/
+[oathbringer-reread-source]: https://www.tor.com/series/oathbringer-reread-brandon-sanderson/
+[edgedancer-source]: https://www.tor.com/series/edgedancer-reread-brandon-sanderson/
+[wokprime-source]: https://brandonsanderson.com/chapters-from-the-original-draft-of-the-way-of-kings-available-in-anthology-to-benefit-robison-wells/
+[hoshruba-source]: https://www.tor.com/series/hoshruba-series/
+[mm-source]: https://old.reddit.com/r/magicmuggle/
+[sre-source]: https://landing.google.com/sre/sre-book/toc/index.html
+[swe-source]: https://landing.google.com/sre/workbook/toc/
+[de-source]: https://brandonsanderson.com/defending-elysium/
+[tor-original-fiction]: https://www.tor.com/category/all-fiction/original-fiction/
