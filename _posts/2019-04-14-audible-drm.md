@@ -15,14 +15,12 @@ Easiest way is via docker:
 
 ```
 cd ~/Music/Audiobooks
-docker run -v $(pwd):/data ryanfb/inaudible
+docker run -v $(pwd):/data ryanfb/inaudible@sha256:b66738d235be1007797e3a0a0ead115fa227e81e2ab5b7befb97d43f7712fac5
 ```
 
 The cool part about this is that the entire activation is done offline, and runs a Rainbow Table attack against the Audible DRM.
 
-The docker image checksum is `sha256:2f8dd34cdc3c97e85b0acfe98cb777df2db6046d0c796ae6ec982af95c51aae1` as of my last use.
-
 ## References
 
-- <https://github.com/ryanfb/docker_inaudible_rainbowcrack>
-- <https://github.com/inAudible-NG/tables>
+-   <https://github.com/ryanfb/docker_inaudible_rainbowcrack>
+-   <https://github.com/inAudible-NG/tables>
