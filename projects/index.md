@@ -48,6 +48,14 @@ projects:
 
 ## Projects by Date
 
+All the projects below are under a FOSS license (mostly MIT).
+
+[epub-metadata-generator][emg]
+: **Feb 2020** Generates a metadata.xml file for an EPUB from various online sources, can be used with pandoc.
+
+[pincode-validator][pincode]
+: **Feb 2020** A regex based validator for Postal Index Numbers in India. Packages available for JS/PHP.
+
 [url-to-epub][url-to-epub]
 : **Jan 2020** A simple zero-config script that generates a standards-compliant EPUB from a webpage. Zero config. Requires pandoc
 
@@ -76,7 +84,7 @@ projects:
 : **Summer 2017** This is a work-in-progress conversion of Sushi Go (original), the popular card game by Gamewright into Ruby.
 
 [youtube-ripper][ytripper]
-: **June 2017** Downloads music-compilations from YouTube and rips them into multiple tagged MP3 files.
+: **June 2017** Downloads music-compilations from YouTube and rips them into multiple tagged MP3 files. Still WIP.
 
 [cosmere-books][cosmere]
 : **September 2017** Wrote a EPUB generator for multiple books in the Cosmere. Currently covers 4 different serializations at Tor.com. Also created a project page on all of my ebooks projects at [/ebooks/](/ebooks/)
@@ -87,8 +95,8 @@ projects:
 [spectrumyzer][spectrumyzer]
 : **May 2017** Created an animated wallpaper using spectrumyzer. Wrote a [blog post about it](/blog/2017/05/01/spectrumyzer-visualization/).
 
-[google-sre][sre]
-: **Feb/Sep 2017** EPUB generator for the Google SRE ebook. Started in February in Python. Gave up and redid it properly in September.
+[google-sre-ebook][sre]
+: **Feb/Sep 2017** EPUB generator for the Google SRE ebook. Started in February in Python. Gave up and redid it properly in September. Now also supports the SRE Workbook.
 
 [CodeChef Offline][codechef]
 : **March 2012** I attempted to make a offline repository for CodeChef problems. I spent some time in May 2017 upgrading the project with a cleaner scraper and a Jekyll base.
@@ -111,7 +119,10 @@ projects:
 [HackerCouch][hackercouch]
 : **November 2015** My hack during hackbeach 2015. Created something best described as "couchsurfing for hackers". Simple Jekyll/Ruby website hosted on GitHub Pages.
 
-[ifttt-webhook][iftt]
+[Constitution of India][cons]
+: **April 2015** A git-based constitution of India, that lets you view each amendment as a plain-text diff. Updated till 100th Amendment as of Jan 2020.
+
+[ifttt-webhook][ifttt]
 : **2014-** A webhook middleware for the ifttt.com service. Still used by some people.
 
 ## Older Projects
@@ -148,3 +159,9 @@ You might wanna take a look at my [github account](https://github.com/captn3m0) 
 [eoldate]: https://endoflife.date/
 [outliner]: https://github.com/captn3m0/outliner
 [pae]: https://github.com/captn3m0/prometheus-act-exporter
+[pincode]: https://github.com/captn3m0/india-pincode-regex
+[emg]: https://github.com/captn3m0/epub-metadata-generator
+[cons]: https://github.com/captn3m0/constitution
+[url-to-epub]: https://github.com/captn3m0/url-to-epub
+[sarkar.icu]: https://sarkar.icu
+[ifttt]: https://github.com/captn3m0/ifttt-webhook
