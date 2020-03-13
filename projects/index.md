@@ -65,6 +65,9 @@ All the projects below are under a FOSS license (mostly MIT).
 [outliner][outliner]
 : **August 2019** A simple Ruby Client for the [Outline](https://www.getoutline.com/) knowledge base with easy-to-use export and import functionality.
 
+[tld-a-record][tld]
+: **Ongoing** I maintain a continously updated list of all TLDs with A records. Available at https://captnemo.in/tld-a-record/
+
 [endoflife.date][eoldate]
 : **Ongoing** A simple informative site with EoL dates of everything you need.
 
@@ -165,3 +168,4 @@ You might wanna take a look at my [github account](https://github.com/captn3m0) 
 [url-to-epub]: https://github.com/captn3m0/url-to-epub
 [sarkar.icu]: https://sarkar.icu
 [ifttt]: https://github.com/captn3m0/ifttt-webhook
+[tld]: https://github.com/captn3m0/tld-a-record
