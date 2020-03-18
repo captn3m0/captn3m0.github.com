@@ -106,3 +106,4 @@ If we're talking super-crazy, I'd love to have a thought-dictation feature. That
 [nuc]: https://www.intel.in/content/www/in/en/products/boards-kits/nuc/kits/nuc8i7beh.html "Very pricey, but totally worth it"
 [xps]: https://www.dell.com/learn/in/en/indhs1/campaigns/in-en-dhs-xps-13-9370 "Yes, I have the older edition with the nosecam"
 [steamcontroller]: https://store.steampowered.com/app/353370/Steam_Controller/
+[security]: /blog/2020/01/04/security-setup/
