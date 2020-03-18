@@ -105,3 +105,4 @@ If we're talking super-crazy, I'd love to have a thought-dictation feature. That
 [btnc]: https://en-uk.sennheiser.com/wireless-headphones-bluetooth-noise-cancelling-hd-4-50-btnc "Sennheiser Wireless Headphones Noise Cancelling (HD-4.5BTNC)"
 [nuc]: https://www.intel.in/content/www/in/en/products/boards-kits/nuc/kits/nuc8i7beh.html "Very pricey, but totally worth it"
 [xps]: https://www.dell.com/learn/in/en/indhs1/campaigns/in-en-dhs-xps-13-9370 "Yes, I have the older edition with the nosecam"
+[steamcontroller]: https://store.steampowered.com/app/353370/Steam_Controller/
