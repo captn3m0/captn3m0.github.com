@@ -54,7 +54,7 @@ All the projects below are under a FOSS license (mostly MIT).
 : **Feb 2020** Generates a metadata.xml file for an EPUB from various online sources, can be used with pandoc.
 
 [pincode-validator][pincode]
-: **Feb 2020** A regex based validator for Postal Index Numbers in India. Packages available for JS/PHP.
+: **Feb 2020** A regex based validator for Postal Index Numbers in India. Packages available for JS/PHP/Python
 
 [url-to-epub][url-to-epub]
 : **Jan 2020** A simple zero-config script that generates a standards-compliant EPUB from a webpage. Zero config. Requires pandoc

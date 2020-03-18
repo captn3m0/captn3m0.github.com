@@ -17,17 +17,21 @@ I run [HackerCouch](https://hackercouch.com/), which is like couchsurfing for ha
 
 ## What hardware do I use?
 
-![My current home setup](/img/battlestation.jpg)
+![My current home setup](/img/battlestation-shire.jpg)
 
-Most of my work is done on my Macbook Air 2015 running Arch Linux. My personal laptop is a [System76 Galgago Pro][galago], which sits as my home batlestation (pictured above).
+Most of my work is done on my [Intel NUC (7th Gen, i7)][nuc]. My work laptop is a [Dell XPS 13][xps].
 
-My primary phone is a [iPhone SE][se]. ~~I use a Nokia 105 as my secondary phone for my work.~~ I backup all of my media to my home server. Other than this, I own a [Kindle Paperwhite][pw3]. For my music, I have a pair of [Jaybird X3][jaybird], alongside the noise-cancelling [Sennheiser HD 4.50][btnc].
+My primary phone is a [iPhone SE][se]. I use an old Moto Z Play as my secondary phone for my work. I backup all of my media to my home server (NextCloud). Other than this, I own a [Kindle Paperwhite][pw3]. For my music, I have a pair of [Jaybird X3][jaybird], alongside the noise-cancelling [Sennheiser HD 4.50][btnc].
 
-I own a [Leopold FC660C][fc660c] keyboard (Topre switches) which I use at home. My keyboard at work is a [Cooler Master QuickFire Rapid-i][quickfire] mechanical keyboard (Cherry MX Brown). I have a [dual][curved]-[monitor][lguw] setup at home and a Dell Ultrasharp at work. I am an ocassional gamer and use the [Logitech G300s][g300s] at both work and office (its [heavily customizable][ratslap]). I also have a [Steam Controller][steamcontroller] and a few more [fancy][riitech] [keyboards][logitechbt] for my HTPC.
+I own a [Leopold FC660C][fc660c] keyboard (Topre switches) which I use at work (quieter). My keyboard at home is a [Cooler Master QuickFire Rapid-i][quickfire] mechanical keyboard (Cherry MX Brown). I have a [dual][curved]-[monitor][lguw] setup at home and a Dell Ultrasharp at work. I am an ocassional gamer and use the [Logitech G300s][g300s] at both work and office (its [heavily customizable][ratslap]). I also have a [Steam Controller][steamcontroller] and a few more [fancy][airmouse] [keyboards][logitechbt] for my HTPC.
 
-At home, I have a Raspberry Pi 2 Model B (soon upgrading to Pi 4) and a PC/HomeServer, which runs lots of tiny services, which are proxied over to the internet with a Digital Ocean droplet in the `BLR1` region. I wrote about it in [detail][homeserver].
+At home, I have a Raspberry Pi 4 and a PC/HomeServer, which runs lots of tiny services, which are proxied over to the internet with a Digital Ocean droplet in the `BLR1` region. I wrote about it in [detail][homeserver]. The Pi is used for few Kubernetes experiments.
 
 I am also a speedcuber; my primary cube is a stickerless Gans 356 R (Magnetic). I also own several other twisty puzzles, including a Axis Cube and a Megaminx.
+
+## Homeserver
+
+I self-host a lot of things, and my homeserver runs Arch with a separate RAID1 setup in a Orico enclosure. Total usable space is currently around 12TB, and I use it for all sort of things. The server runs [steamos-compositor-plus](https://aur.archlinux.org/packages/steamos-compositor-plus/) as the session manager, and I run Kodi from within Steam. With [SteamPlay/Proton](https://store.steampowered.com/steamplay), almost everything in my library is playable on Linux, and it makes for a great console. The homeserver build is detailed [here][homeserver].
 
 ## And what software?
 
@@ -47,7 +51,7 @@ My distro for the last 4 years is [Arch Linux][arch] with [i3][i3] as the window
 
 Most of my work is done in editors, command line, and the browser. A few essential extensions on my browser include: [dotjs][.js] (with apache support), [Privacy Badger][privacybadger], [uBlock Origin][ublock], HTTPS Everywhere, and Markdown Here. I manage my passwords using [pass][pass].
 
-I am a [Hacker News][hn] addict, and have even [written an application][hackertray] for it. Most used webapps would be: Slack, GitHub. I use [AirSonic][airsonic]/[play:sub][playsub] for listening to music on the go, and `cmus` on the desktop. My security setup (passwords/2FA etc) is documented [here][security].
+I am a [Hacker News][hn] addict, and have even [written an application][hackertray] for it. Most used webapps would be: Slack, GitHub. I use [AirSonic][airsonic]/[play:sub][playsub] for listening to music on the go, and Clementine on the desktop. My security setup (passwords/2FA etc) is documented [here][security].
 
 I run lots of tiny services on my homeserver, including [Gitea][gitea], OpenVPN, Emby, and Grafana. I have my Kindle jailbroken and run [KOReader][koreader] to read EPUB files and PDFs with reflow.
 
@@ -57,6 +61,7 @@ A lightweight laptop with tons of battery life, 13" display, and official Linux 
 
 If we're talking super-crazy, I'd love to have a thought-dictation feature. That would help _a lot_ with my writing.
 
+[airmouse]: https://www.amazon.in/gp/product/B083R52QL6/
 [galago]: https://system76.com/laptops/galago
 [moto]: https://www.motorola.com/us/products/moto-z-play
 [hd-202]: http://en-us.sennheiser.com/over-ear-headphones-hd-202
