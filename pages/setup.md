@@ -2,7 +2,7 @@
 title: The Setup
 permalink: /setup/
 layout: page
-image: spectrum/poster.jpg
+image: battlestation-shire.jpg
 video: spectrum_320.mp4
 image_alt: "Music Visualization Demo"
 ---
