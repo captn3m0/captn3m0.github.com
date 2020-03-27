@@ -50,6 +50,9 @@ projects:
 
 All the projects below are under a FOSS license (mostly MIT).
 
+[muse-ebook-downloader][muse]
+: **March 2020** Wrote some scripts to support downloading and stitching of books from [Project MUSE](https://muse.jhu.edu/). Project MUSE is a leading provider of digital humanities and social science content for the scholarly community around the world, run by the Johns Hopkins University.
+
 [epub-metadata-generator][emg]
 : **Feb 2020** Generates a metadata.xml file for an EPUB from various online sources, can be used with pandoc.
 
@@ -169,3 +172,4 @@ You might wanna take a look at my [github account](https://github.com/captn3m0) 
 [sarkar.icu]: https://sarkar.icu
 [ifttt]: https://github.com/captn3m0/ifttt-webhook
 [tld]: https://github.com/captn3m0/tld-a-record
+[muse]: https://github.com/captn3m0/muse-ebook-downloader

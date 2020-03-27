@@ -6,6 +6,8 @@ permalink: /doh/
 
 Alongside my [DNSCrypt Server](/dnscrypt/), I'm also running a [DoH (DNS Over HTTPS)][doh] Server at [doh.captnemo.in](https://doh.captnemo.in). The IP Address for the server is `139.59.48.222`, and is expected to never change.
 
+*Note*: I've taken this down for now, due to lack of resources.
+
 ## Usage
 
 ### Firefox
@@ -38,6 +40,9 @@ Please see [/dns/privacy](/dns/privacy) for the Privacy Policy, Transparency Gui
 The service is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall I be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
 
 ## CHANGELOG
+
+2020-02-03
+: Resolver taken down.
 
 2019-05-15
 : Resolver goes online at <https://doh.captnemo.in>
