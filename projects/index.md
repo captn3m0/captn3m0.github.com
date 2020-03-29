@@ -172,4 +172,4 @@ You might wanna take a look at my [github account](https://github.com/captn3m0) 
 [sarkar.icu]: https://sarkar.icu
 [ifttt]: https://github.com/captn3m0/ifttt-webhook
 [tld]: https://github.com/captn3m0/tld-a-record
-[muse]: https://github.com/captn3m0/muse-ebook-downloader
+[muse]: https://github.com/captn3m0/muse-dl
