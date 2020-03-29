@@ -50,8 +50,8 @@ projects:
 
 All the projects below are under a FOSS license (mostly MIT).
 
-[muse-ebook-downloader][muse]
-: **March 2020** Wrote some scripts to support downloading and stitching of books from [Project MUSE](https://muse.jhu.edu/). Project MUSE is a leading provider of digital humanities and social science content for the scholarly community around the world, run by the Johns Hopkins University.
+[muse-dl][muse]
+: **March 2020** Wrote a crystal app to support downloading and stitching of books from [Project MUSE](https://muse.jhu.edu/). Project MUSE is a leading provider of digital humanities and social science content for the scholarly community around the world, run by the Johns Hopkins University. This generates well-polished PDFs with proper metadata.
 
 [epub-metadata-generator][emg]
 : **Feb 2020** Generates a metadata.xml file for an EPUB from various online sources, can be used with pandoc.

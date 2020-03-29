@@ -4,7 +4,11 @@ title: EBooks
 permalink: /ebooks/
 ---
 
-A fun side-project that I often pick up is generation of semantically correct EPUB/MOBI/PDF files from various online books and content. Here's a list of the interesting books I've covered:
+A fun side-project that I often pick up is generation of semantically correct EPUB/MOBI/PDF files from various online books and content. 
+
+## Books
+
+Here's a list of the interesting books I've covered:
 
 [Oathbringer][cosmere] [[source][oathbringer-source]]
 : Chapters 0-32 from Oathbringer, Book 3 in the Stormlight Archive, being published by Tor in serialized format.
@@ -57,7 +61,18 @@ Things next on my list:
 
 I only provide the scripts for the generation on GitHub. If you'd like a copy without having to run the script, [get in touch][contact] and ask.
 
-I also have a short script (node.js) that helps me generate EPUB files from URLs easily: [url-to-epub][].
+## Tools
+
+To help me in these various projects, I've ended up some tooling:
+
+[muse-dl][muse]
+: Wrote a crystal app to support downloading and stitching of books from [Project MUSE](https://muse.jhu.edu/). Project MUSE is a leading provider of digital humanities and social science content for the scholarly community around the world, run by the Johns Hopkins University. This generates well-polished PDFs with proper metadata.
+
+[epub-metadata-generator][emg]
+: Generates a metadata.xml file for an EPUB from various online sources, can be used with pandoc.
+
+[url-to-epub][url-to-epub]
+: A simple zero-config script that generates a standards-compliant EPUB from a webpage. Zero config. Requires pandoc
 
 ## References
 
