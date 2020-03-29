@@ -109,3 +109,6 @@ As a side-effect, I often get into the rabbit hole of generating the perfect EPU
 [skyward-source]: https://www.getunderlined.com/read/excerpt-reveal-start-reading-skyward-by-brandon-sanderson/
 [url-to-epub]: https://www.npmjs.com/package/url-to-epub
 [se3-source]: https://www.cl.cam.ac.uk/~rja14/book.html
+
+[muse]: https://github.com/captn3m0/muse-dl
+[emg]: https://github.com/captn3m0/epub-metadata-generator
