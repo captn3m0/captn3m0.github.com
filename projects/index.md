@@ -48,7 +48,10 @@ projects:
 
 ## Projects by Date
 
-All the projects below are under a FOSS license (mostly MIT).
+All the projects below are under a FOSS license (mostly MIT). This page does not include contributions to other projects.
+
+[okiya](https://github.com/captn3m0/okiya)
+: **April 2020** A simple [`boardgame.io`](https://boardgame.io) based implementation of the Okiya boardgame. It's a perfect information 2-player game that plays like Tic-Tac-Toe with Tile-matching. I plan to submit this to [freeboardgames.org](https://freeboardgames.org) soon.
 
 [muse-dl][muse]
 : **March 2020** Wrote a crystal app to support downloading and stitching of books from [Project MUSE](https://muse.jhu.edu/). Project MUSE is a leading provider of digital humanities and social science content for the scholarly community around the world, run by the Johns Hopkins University. This generates well-polished PDFs with proper metadata.
@@ -57,7 +60,7 @@ All the projects below are under a FOSS license (mostly MIT).
 : **Feb 2020** Generates a metadata.xml file for an EPUB from various online sources, can be used with pandoc.
 
 [pincode-validator][pincode]
-: **Feb 2020** A regex based validator for Postal Index Numbers in India. Packages available for JS/PHP/Python
+: **Feb 2020** A regex based validator for Postal Index Numbers in India. Packages available for JS/PHP/Python/Ruby
 
 [url-to-epub][url-to-epub]
 : **Jan 2020** A simple zero-config script that generates a standards-compliant EPUB from a webpage. Zero config. Requires pandoc
