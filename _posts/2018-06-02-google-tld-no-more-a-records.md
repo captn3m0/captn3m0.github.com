@@ -55,3 +55,5 @@ Comparing with the previous scan, these TLDs no longer have an A record with the
 ```
 
 The majority of these are owned by Google. Not claiming it means anything, just a nice observation.
+
+*Update*: An automatically updated version of this is available at https://captnemo.in/tld-a-record/

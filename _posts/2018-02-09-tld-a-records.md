@@ -43,3 +43,5 @@ Results:
 |عرب |127.0.53.53|
 |招聘 |127.0.53.53|
 |グーグル |127.0.53.53|
+
+*Update*: An automatically updated version of this is available at https://captnemo.in/tld-a-record/

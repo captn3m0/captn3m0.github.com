@@ -5,6 +5,8 @@ layout: post
 
 A few more changes since [the last time I ran this](/blog/2018/06/02/google-tld-no-more-a-records/).
 
+*Update*: An automatically updated version of this is available at https://captnemo.in/tld-a-record/
+
 |TLD | IP | Web|
 |ai | 209.59.119.34 | [[http](http://ai)] [[https](https://ai)] |
 |arab | 127.0.53.53 | [[http](http://arab)] [[https](https://arab)] |
