@@ -21,9 +21,10 @@ projects:
     desc: Browser-based music player by SDSLabs
     color: "#001F3F"
     url: http://sdslabs.co/
-  play:
-    desc: Music Server to allow a team to play and queue songs
+  rss:
+    desc: A list of various RSS-related projects
     color: "#3498db"
+    url: /projects/rss
   ebooks:
     desc: Multiple Scrapers for online content that generates EPUB/MOBI files
     color: "#85144B"
