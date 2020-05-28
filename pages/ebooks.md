@@ -4,11 +4,14 @@ title: EBooks
 permalink: /ebooks/
 ---
 
-A fun side-project that I often pick up is generation of semantically correct EPUB/MOBI/PDF files from various online books and content. 
+A fun side-project that I often pick up is generation of semantically correct EPUB/MOBI/PDF files from various online books and content.
 
 ## Books
 
 Here's a list of the interesting books I've covered:
+
+[The Ickabog][ickabog] [[source][ickabog-source]]
+: (In Progress). EBook generated from The Ickabog, written by J.K Rowling, and being published online.
 
 [Oathbringer][cosmere] [[source][oathbringer-source]]
 : Chapters 0-32 from Oathbringer, Book 3 in the Stormlight Archive, being published by Tor in serialized format.
@@ -29,7 +32,7 @@ Here's a list of the interesting books I've covered:
 : Brandaon Sanderson published a few chapters from the earliest draft of Way of Kings (2002, while the book was published almost a decade later).
 
 [Hoshruba][hoshruba] (Translated by Musharraf Ali Farooqi) [[source][hoshruba-source]]
-: Tor's serialized publication of Hoshruba-The Land and the Tilism. This is just Vol 1 of the planned translation of the famous persian epic, [Hamzanama](https://en.wikipedia.org/wiki/Hamzanama). 
+: Tor's serialized publication of Hoshruba-The Land and the Tilism. This is just Vol 1 of the planned translation of the famous persian epic, [Hamzanama](https://en.wikipedia.org/wiki/Hamzanama).
 
 [Magic Muggle][mm] [[source][mm-source]]
 : Harry Potter fan-fiction about a muggle going to Hogwarts. (3rd book ~~ongoing~~ abandoned)
@@ -112,3 +115,5 @@ As a side-effect, I often get into the rabbit hole of generating the perfect EPU
 
 [muse]: https://github.com/captn3m0/muse-dl
 [emg]: https://github.com/captn3m0/epub-metadata-generator
+[ickabog]: https://github.com/captn3m0/ickabog-ebook
+[ickabog-source]: https://www.theickabog.com/home/
