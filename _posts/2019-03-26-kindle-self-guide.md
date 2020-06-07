@@ -51,7 +51,7 @@ a Kobo tomorrow, I want my content to stay with me.
 
 There are much better websites that explain the issues with DRM, so go visit: [fckdrm.com](https://fckdrm.com/), [DefectiveByDesign.org][dbd], or [EFF/drm][eff-drm].
 
-The primary tool for stripping DRM from Kindle books is [apprenticeharper's DeDRM Repo][dedrm] which works as a [Calibre Plugin](https://calibre-ebook.com/).
+The primary tool for stripping DRM from Kindle books is [apprenticeharper's DeDRM Repo][dedrm] which works as a [Calibre Plugin](https://calibre-ebook.com/). If you are running calibre with Python 3 (such as via the [calibre-python3](https://www.archlinux.org/packages/community/x86_64/calibre-python3/) package on Arch Linux) - you should install the DeDRM plugin from the [python3 fork](https://github.com/lalmeras/DeDRM_tools/tree/Python3/DeDRM_plugin). Compress the `DeDRM_plugin` directory into a flat-zip file and use that in Calibre.
 
 ## Getting the Key
 
@@ -69,7 +69,16 @@ If you don't have the key or if the above isn't valid, see [this comment on r/eb
 
 I once did some trickery on the `kindlekey.pyw` application to get it working on my system, but I didn't take notes. If I ever do this again - AUTOMATE THIS.
 
-## Stripping DRM
+## Getting a copy of the encrypted book
+
+There are multiple sources for you to try.
+
+1. Amazon website's My Content page is the easiest. It doesn't work for books with special typesetting - quite rare. Prefer this over everything else.
+2. Download via the Kindle for PC application (See next section).
+3. Get the KFX file from your Kindle device.
+4. Copy the KFX/AZW file from the Android/iOS application.
+
+### Kindle for PC
 
 Stripping DRM for any medium is always a cat-and-mouse game. Amazon keeps changing the DRM format in every Kindle firmware update, which is why the recommended method is to use a known/older version of the Kindle for Mac/PC Application as your source.
 
