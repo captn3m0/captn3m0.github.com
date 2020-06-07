@@ -7,9 +7,11 @@ tags:
     - ipad
 ---
 
+_Update_: Apple is no longer signing iOS6 for the iPad 2, so this is no longer feasible.
+
 I own a iPad 2 (GSM), which is rarely used these days because it is too slow with the latest iOS 9 upgrades. It is a 8 year old device, but I can't just install Linux on it and make it usable, which is what I do with most other devices.
 
-The next best thing was to downgrade the iOS version. The device is anyway un-supported at this point, so I might as well go there. Apple has restrictions on which iOS releases are installable at any point on any device, but thankfully they are still signing iOS6 for my device for some legal reasons.
+The next best thing was to downgrade the iOS version. The device is anyway un-supported at this point, so I might as well go there. Apple has restrictions on which iOS releases are installable at any point on any device, ~but thankfully they are still signing iOS6 for my device for some legal reasons~.
 
 ## Steps:
 
