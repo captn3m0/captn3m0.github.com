@@ -23,7 +23,7 @@ Here's a list of the interesting books I've covered:
 : Tor re-read of Words of Radiance, Book 2 in the Stormlight Archive.
 
 [Oathbringer Reread][cosmere] [[source][oathbringer-reread-source]]
-: Tor re-read of Oathbringer, Book 3 in the Stormlight Archive. Ongoing
+: Tor re-read of Oathbringer, Book 3 in the Stormlight Archive.
 
 [Edgedancer Reread][cosmere] [[source][edgedancer-source]]
 : Tor re-read of Edgedancer, a novella between Books 2 & 3 in the Stormlight Archive.
