@@ -3,7 +3,7 @@ layout: post
 title: His Dark Materials Season 1 Readthrough
 ---
 
-A long time ago, I tried to [do a readthrough][got] for Game of Thrones (Book 1) alongside the first season. I managed to reach Episode 5, before I sped through the rest of the book, but I tried. 
+A long time ago, I tried to [do a readthrough][got] for Game of Thrones (Book 1) alongside the first season. I managed to reach Episode 5, before I sped through the rest of the book, but I tried.
 
 Trying something similar for His Dark Materials, which is a great series if you're looking to watch something new. Instead of noting down Chapter/Book equivalence (like I tried last time), going to write down my thoughts here as I'm reading along. **Spoiler Warning** for the entire first season obviously.
 
@@ -54,6 +54,6 @@ Overall, the show has been nicely adapted so far, and I think there's a few reas
 2. Majority of the changes are either made on kill-able subplots, or side-plots that show us what's going on elsewhere.
 3. And finally, the show spends time on where the medium works best. The scaring scene in Chapter 2, for eg.
 
-I'm still sad that the ghosts don't get to be seen, though.
+I'm still sad that the ghosts in the crypt don't get to be seen, though.
 
 [got]: https://captnemo.in/blog/2011/04/19/game-of-thrones/
