@@ -72,7 +72,7 @@ India hasn't seen a true single-card app yet, but there have been lots of relate
 - [Infino promises a single-card](https://getinfino.com/), but it hasn't launched yet. It has a [public roadmap](https://trello.com/b/2h9S100Z/the-infino-roadmap).
 - IndusInd bank has [tried a dual-chip debit+credit](https://www.businesstoday.in/sectors/banks/indusind-launches-credit-cum-debit-card-confuse-customers/story/284912.html) card
 - IndusInd has also [tried an interactive credit card](https://www.businesstoday.in/top-story/new-credit-card-with-buttons-gives-users-emi-options-helps-redeem-reward-points/story/290763.html) with 3 buttons.
-- [FamPay](https://fampay.in/), [Fold](https://fold.money/), [Niyo](https://www.goniyo.com/), [OneCard](https://www.getonecard.app/), and lots of other startups are doing co-branded issuance, but that's not the same thing.
+- [FamPay](https://fampay.in/), [Fold](https://fold.money/), [Niyo](https://www.goniyo.com/), [OneCard](https://www.getonecard.app/), [Donut](https://meetdonut.com/), [vCard [^2]](https://vcard.ai/hdWorks/) and lots of other startups are doing co-branded issuance, but that's not the same thing.
 
 With the emergence of UPI, and low penetration rate of credit cards, I don't see a market in India - but I'd love to be proven wrong.
 
@@ -82,4 +82,5 @@ Did I miss anything? [Reach out](/contact/) and let me know.
 
 Thanks to [Harman](https://twitter.com/thatharmansingh) for reviewing drafts of this, and PRL for getting me interested enough to document this.
 
-[^1]: Curve used to live on `imaginecurve.com`, then switched to `curve.app` and now to `curve.com`, which most have cost them millions.
+[^1]: Curve used to live on `imaginecurve.com`, then switched to `curve.app` and now to `curve.com`, which must have cost them millions.
+[^2]: Unlike others on the list, vCard is entirely a virtual card, and supports UPI transfers from your credit limit.
