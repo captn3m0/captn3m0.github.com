@@ -70,7 +70,10 @@ So here is the more interesting corollary observation:
 
 >##  The mere existence of the Deal Breaker card breaks the game by making the Just Say No card unplayable and worthless.[^2]
 
-Hence, if you're playing Monopoly Deal, please house-rule the Deal Breaker card and make it easier for everyone.
+Hence, if you're playing Monopoly Deal, please house-rule the Deal Breaker card and make it easier for everyone. Two easy ways are:
+
+1. Remove the card from the game entirely.
+2. Reduce the power of the game to be same as a Forced Deal, except let it break a set.
 
 [^9]: Any game that eliminates players from the game breaks this rule. Popular examples are Monopoly and Mafia/Werewolf. Also see [this amazing post](https://danielsolisblog.blogspot.com/2015/07/one-thing-to-avoid-in-game-design.html) on the biggest mistake that Guillotine makes (The "Callous Guard" card).
 [^1]: I have the [slides here](https://slides.com/captn3m0/monopoly), but they don't stand well on their own.
