@@ -247,7 +247,13 @@ The PHP supported versions page is a thing of beauty[^8]:
 
 Figuring out the same information for Python takes a lot of clicks and efforts (or you could go to `endoflife.date/python`). While the EoLs are clear, the boundary when a bugfix branch changes to a security branch is unclear unless you lookup the specific PEP for that Python release.
 
-TODO: packaging correctness. Mention how wordpress, woocommerce, and magento all use the same packaging system despite it being relatively nascent in terms of PHP's lifespan. Python fucks up bad OTOH. Maybe cover [PSRs](https://www.php-fig.org/psr/)?
+TODO:
+
+- packaging correctness. Mention how wordpress, woocommerce, and magento all use the same packaging system despite it being relatively nascent in terms of PHP's lifespan. Python fucks up bad OTOH.
+- Maybe cover [PSRs](https://www.php-fig.org/psr/)?
+- Templating?
+- filestructure is your friend (you require files!)
+-
 
 [^1]: If you've been procastinating, there's a PHP project called [get-shit-done](https://github.com/viccherubini/get-shit-done) that you should check out.
 [^2]: These are via DuckDuckGo, since Google's results are entirely compromised by geeksforgeeks, tutorialspoint, and w3schools.
