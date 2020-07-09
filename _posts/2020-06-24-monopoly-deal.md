@@ -26,8 +26,9 @@ Deal Breaker stops people from doing that. How? Read on.
 
 ![](/img/deal-breaker.jpg)
 
+<aside>
 <details>
-<summary> Monopoly Deal (2-5 players) Basic Rules (Click to expand)</summary>
+<summary>Aside: Monopoly Deal (2-5 players) Basic Rules (Click to expand)</summary>
 The objective of the game is to get 3 sets of properties in distinct colors. The first player to 3 sets wins the game. There are some action cards, which let you get money/properties from other players. Important action cards, relevant for this post:
 <ul>
 <li>The <strong>Deal Breaker</strong> card lets you "steal" a complete set from another player.</li>
@@ -38,7 +39,7 @@ The objective of the game is to get 3 sets of properties in distinct colors. The
 
 <a href="https://youtu.be/Gc0XrTjmCV8">Here's a short 3 minute video</a> if you'd like to learn the complete rules.
 </details>
-
+</aside>
 <hr/>
 
 A lot of metagaming discussion with [friends](#link-somewhere-nice) resulted in the following observations:
