@@ -11,13 +11,19 @@ A fun side-project that I often pick up is generation of semantically correct EP
 Here's a list of the interesting books I've covered:
 
 [The Ickabog][ickabog] [[source][ickabog-source]]
-: (In Progress). EBook generated from The Ickabog, written by J.K Rowling, and being published online.
+: EBook generated from The Ickabog, written by J.K Rowling, and published online in seralized format.
+
+[Rhythm of War][cosmere] [[source][row-source]]
+: (In Progress). Initial chapters from Rhythm of War, Book 4 in the Stormlight Archive, being published by Tor in serialized format.
 
 [Oathbringer][cosmere] [[source][oathbringer-source]]
 : Chapters 0-32 from Oathbringer, Book 3 in the Stormlight Archive, being published by Tor in serialized format.
 
+[Warbreaker Prime: Mythwalker][cosmere] [[source][mythwalker-source]]
+: Initial draft of the Warbreaker by Brandon Sanderson, before various parts of it were incorporated into Mistborn.
+
 [Way of Kings Reread][cosmere] [[source][wok-source]]
-: Tor's re-read of Way of kings, Book 1 in the Stormlight Archive.
+: Tor re-read of Way of kings, Book 1 in the Stormlight Archive.
 
 [Words of Radiance Reread][cosmere] [[source][wor-source]]
 : Tor re-read of Words of Radiance, Book 2 in the Stormlight Archive.
@@ -27,9 +33,6 @@ Here's a list of the interesting books I've covered:
 
 [Edgedancer Reread][cosmere] [[source][edgedancer-source]]
 : Tor re-read of Edgedancer, a novella between Books 2 & 3 in the Stormlight Archive.
-
-[Way of Kings Prime][cosmere] [[source][wokprime-source]]
-: Brandaon Sanderson published a few chapters from the earliest draft of Way of Kings (2002, while the book was published almost a decade later).
 
 [Hoshruba][hoshruba] (Translated by Musharraf Ali Farooqi) [[source][hoshruba-source]]
 : Tor's serialized publication of Hoshruba-The Land and the Tilism. This is just Vol 1 of the planned translation of the famous persian epic, [Hamzanama](https://en.wikipedia.org/wiki/Hamzanama).
@@ -96,7 +99,8 @@ As a side-effect, I often get into the rabbit hole of generating the perfect EPU
 [mm]: http://github.com/captn3m0/magicmuggle
 [contact]: /contact/
 [se3]: https://github.com/captn3m0/security-engineering-ebook
-
+[row-source]: https://www.tor.com/series/rhythm-of-war-brandon-sanderson/
+[mythwalker-source]: https://www.brandonsanderson.com/warbreaker-prime-mythwalker-prologue/
 [oathbringer-source]: https://www.tor.com/series/oathbringer/
 [wok-source]: https://www.tor.com/features/series/the-way-of-kings-reread-on-torcom/
 [wor-source]: https://www.tor.com/series/words-of-radiance-reread-on-torcom/
