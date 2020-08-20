@@ -96,7 +96,7 @@ All the projects below are under a FOSS license (mostly MIT). This page does not
 [DNS-over-HTTPS][doh]
 : **2019** Running a [DNS over HTTPS](https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/) server.
 
-[prometheus-act-export][pae]
+[prometheus-act-exporter][pae]
 : **July 2018** A simple prometheus exporter for ACT Fibernet customers that generatetes Internet Usage metrics by scraping the ACT Self-care portal. Uses Google Puppeteer. Also available as a NPM package.
 
 [Kayak][kayak]
