@@ -108,11 +108,14 @@ All the projects below are under a FOSS license (mostly MIT). This page does not
 [Sushi Go][sushigo]
 : **Summer 2017** This is a work-in-progress conversion of Sushi Go (original), the popular card game by Gamewright into Ruby.
 
+<!--
+This still doesn't work yet
 [youtube-ripper][ytripper]
 : **June 2017** Downloads music-compilations from YouTube and rips them into multiple tagged MP3 files. Still WIP.
+-->
 
 [cosmere-books][cosmere]
-: **September 2017** Wrote a EPUB generator for multiple books in the Cosmere. Currently covers 4 different serializations at Tor.com. Also created a project page on all of my ebooks projects at [/ebooks/](/ebooks/)
+: **September 2017** Wrote a EPUB generator for multiple books in the Cosmere. Currently covers 10 different books or serializations of some sort, mostly at Tor.com. See a list of all my ebooks projects at [/ebooks/](/ebooks/)
 
 [ideas][ideas]
 : **Ongoing** I maintain a CC0 licensed list of personal ideas. Feel free to use.
