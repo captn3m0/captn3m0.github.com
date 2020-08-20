@@ -51,6 +51,15 @@ projects:
 
 All the projects below are under a FOSS license (mostly MIT). This page does not include contributions to other projects.
 
+[boardgame-research](https://github.com/captn3m0/boardgame-research)
+: **July 2020** A list of research content on modern boardgames - such as Catan, Risk, Uno, Mafia, Hanabi, and more.
+
+[modernart](https://github.com/captn3m0/modernart)
+: **June 2020** A MiniZinc (constraint programming language) based attempt to solve the Modern Art: Masters Gallery game. Partial implementation - not all game rules are implemented.
+
+[ickabog-ebook](https://github.com/captn3m0/ickabog-ebook)
+: **May 2019** Generates ebooks for The Ickabog by J.K Rowling. Uses original text from <https://www.theickabog.com/>, falling back to the Web Archive where needed. Supports all 9 languages.
+
 [okiya](https://github.com/captn3m0/okiya)
 : **April 2020** A simple [`boardgame.io`](https://boardgame.io) based implementation of the Okiya boardgame. It's a perfect information 2-player game that plays like Tic-Tac-Toe with Tile-matching. I plan to submit this to [freeboardgames.org](https://freeboardgames.org) soon.
 
@@ -60,6 +69,9 @@ All the projects below are under a FOSS license (mostly MIT). This page does not
 [epub-metadata-generator][emg]
 : **Feb 2020** Generates a metadata.xml file for an EPUB from various online sources, can be used with pandoc.
 
+[security-engineering-ebook](https://github.com/captn3m0/security-engineering-ebook)
+: **Feb 2020** A script to generate a combined PDF of the Security Engineering Book (Ross Anderson) using the chapters available for review.
+
 [pincode-validator][pincode]
 : **Feb 2020** A regex based validator for Postal Index Numbers in India. Packages available for JS/PHP/Python/Ruby
 
@@ -68,6 +80,9 @@ All the projects below are under a FOSS license (mostly MIT). This page does not
 
 [sarkar.icu][sarkar.icu]
 : **Dec 2019** Communications guide for network shutdowns. [@prtksxna](https://twitter.com/prtksxna) did most of the work.
+
+[terraform-data-looker-ips](https://github.com/captn3m0/terraform-data-looker-ips)
+: **Oct 2019** A terraform package that keeps track of various IP addresses used by Looker. Can be used to easily create firewall configurations.
 
 [outliner][outliner]
 : **August 2019** A simple Ruby Client for the [Outline](https://www.getoutline.com/) knowledge base with easy-to-use export and import functionality.
