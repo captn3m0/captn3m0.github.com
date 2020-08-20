@@ -150,13 +150,15 @@ All the projects below are under a FOSS license (mostly MIT). This page does not
 [ifttt-webhook][ifttt]
 : **2014-** A webhook middleware for the ifttt.com service. Still used by some people.
 
+[WoNA Archives](/wona/)
+: **2011-** A download page for all issues of Watch Out News Agency. ([source](https://github.com/captn3m0/wona/)) (A college magazine at my Alma-mater).
+
 ## Older Projects
 
-You might wanna take a look at my [github account](https://github.com/captn3m0) for more of my work. Most of the following projects are no longer under active development
+You might wanna take a look at my [github account](https://github.com/captn3m0) for more of my work. Most of the following projects are no longer under active development. Ther's also a lot of work missing here that I did while at [SDSLabs](https://sdslabs.co/).
 
 - [Sympathy Editor](/sympathy) - Local File Editor Extension For Chrome (using NPAPI) ([source](https://github.com/captn3m0/sympathy), [blog post](http://captnemo.in/blog/2012/05/20/sympathy-editor/)). Now DEPRECATED.
 - Geo_Rss Demo for multiple layers on a Google Map - [Geo RSS](./geo_rss/)
-- [WoNA Archives](/wona/) - A download page for all issues of Watch Out News Agency ([source](https://github.com/captn3m0/wona/)) #sass
 - [CodeChef Repo Browser](/codechef/) - An offline practice problem viewer for [Codechef](http://codechef.com). ([source](https://github.com/captn3m0/codechef/)) #javascript #pushstate
 - [Akira](http://captnemo.in/blog/2012/05/23/phonegap-blog-post/) - Winning entry to the Adobe Express Apps Contest @ Cognizance 2012. ([source](https://github.com/captn3m0/akira)) #mobile #phonegap
 - [CNEditor](https://github.com/captn3m0/cneditor) - A single file browser/editor for PHP. #php #security #pen-testing
