@@ -5,10 +5,10 @@ projects:
   hackertray:
     desc: A system-tray Hacker News app for Linux
     color: "#FF851B"
-  joy of software development:
-    desc: A book on Software Development
+  endoflife.date:
+    desc: A website to track EoL of projects
     color: "#DB8D17"
-    url: https://josd.captnemo.in/
+    url: https://endoflife.date/
   hackercouch:
     desc: CouchSurfing for Hackers
     color: "#B10DC9"
