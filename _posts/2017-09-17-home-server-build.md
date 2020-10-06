@@ -8,7 +8,7 @@ tags:
 image: home-server.jpg
 ---
 
-I'd been planning to run my own home server for a while, and this culminated in a mini-ITX build recently. The current build configuration is available at </setup/homeserver/>.
+I'd been planning to run my own home server for a while, and this culminated in a mini-ITX build recently. The current build configuration is available at [/setup/homeserver/](/setup/homeserver/).
 
 In no particular order, here were the constraints:
 
