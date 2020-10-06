@@ -8,7 +8,7 @@ tags:
 image: home-server.jpg
 ---
 
-I'd been planning to run my own home server for a while, and this culminated in a mini-ITX build recently. The exact part list is up at <https://in.pcpartpicker.com/list/krc8Gf>. (_Update_: [This is the current](https://in.pcpartpicker.com/list/fZfp6s) edition of the build, with some new hardware, as of April 2019).
+I'd been planning to run my own home server for a while, and this culminated in a mini-ITX build recently. The current build configuration is available at </setup/homeserver/>.
 
 In no particular order, here were the constraints:
 
@@ -43,36 +43,7 @@ I had a lot of spare HDDs that I was going to re-use for this build:
 3.  Seagate Expansion 3TB (external, shelled)
 4.  Samsung EVO 128GB SSD
 
-The 2x3TB disks are setup with RAID1 over `btrsfs`. Important data is snapshotted to the other 1TB disk using btrfs snapshots and subvolumes. In total giving me \~4TB of storage
-
-## Hardware Updates
-
-### Mar 2018
-
--   Switched from the 1TB Expansion to a 3TB Seagate Expansion that I got cheap on Amazon. The disk setup is now btrfs RAID1 over 3x3TB disks.
--   I added a UPS. [Twitter Thread](https://twitter.com/captn3m0/status/973264624752603136) with some details.
-
-### Sep 2018
-
-I added a new 8GB RAM (Kingston HyperX Fury DDR4), and a NVidia Graphics Card (1050 Ti 4GB OC)
-
-### Jan 2019
-
-A friend was leaving Bangalore and offered me her UPS, so now I have a 2xUPS(600VA) setup now.
-
-### Feb 2019
-
-The WD 3TB MyBook HDD was dying, so I replaced it with a 3TB Seagate Barracuda Internal HDD.
-
-The current version of the build is at https://in.pcpartpicker.com/list/fZfp6s
-
-## Mar 2020
-
-Added a 8TBx2 RAID setup. The disks are identical [8TB Amazon SE Seagate Expansions](https://www.amazon.co.uk/d/B07DQBFQ2D/), which I got for cheap, and the RAID enclosure is a pre-used ORICO. First time I'm running a hardware RAID setup, lets see how it goes.
-
-## Apr 2020
-
-One of the RAM sticks died, so I'm down to 8GB again.
+The 2x3TB disks are setup with RAID1 over `btrsfs`. Important data is snapshotted to the other 1TB disk using btrfs snapshots and subvolumes. In total giving me \~4TB of storage.
 
 ## Software
 

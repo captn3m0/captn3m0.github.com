@@ -23,7 +23,7 @@ Most of my work is done on my [Intel NUC (7th Gen, i7)][nuc]. My work laptop is 
 
 My primary phone is a [iPhone SE][se]. I use an old Moto Z Play as my secondary phone for my work. I backup all of my media to my home server (NextCloud). Other than this, I own a [Kindle Paperwhite][pw3]. For my music, I have a pair of [Jaybird X3][jaybird], alongside the noise-cancelling [Sennheiser HD 4.50][btnc].
 
-I own a [Leopold FC660C][fc660c] keyboard (Topre switches) which I use at work (quieter). My keyboard at home is a [Cooler Master QuickFire Rapid-i][quickfire] mechanical keyboard (Cherry MX Brown). I have a [dual][curved]-[monitor][lguw] setup at home and a Dell Ultrasharp at work. I am an ocassional gamer and use the [Logitech G300s][g300s] at both work and office (its [heavily customizable][ratslap]). I also have a [Steam Controller][steamcontroller] and a few more [fancy][airmouse] [keyboards][logitechbt] for my HTPC.
+I own a [Leopold FC660C][fc660c] keyboard (Topre switches) which I use at work (quieter). My keyboard at home is a [Cooler Master QuickFire Rapid-i][quickfire] mechanical keyboard (Cherry MX Brown). I have a [dual][curved]-[monitor][lguw] setup at home ~~and a Dell Ultrasharp at work~~. I am an ocassional gamer and use the [Logitech G300s][g300s] at both work and office (its [heavily customizable][ratslap]). I also have a [Steam Controller][steamcontroller] and a few more [fancy][airmouse] [keyboards][riitech] for my HTPC.
 
 At home, I have a Raspberry Pi 4 and a PC/HomeServer, which runs lots of tiny services, which are proxied over to the internet with a Digital Ocean droplet in the `BLR1` region. I wrote about it in [detail][homeserver]. The Pi is used for few Kubernetes experiments.
 
@@ -31,7 +31,7 @@ I am also a speedcuber; my primary cube is a stickerless Gans 356 R (Magnetic). 
 
 ## Homeserver
 
-I self-host a lot of things, and my homeserver runs Arch with a separate RAID1 setup in a Orico enclosure. Total usable space is currently around 12TB, and I use it for all sort of things. The server runs [steamos-compositor-plus](https://aur.archlinux.org/packages/steamos-compositor-plus/) as the session manager, and I run Kodi from within Steam. With [SteamPlay/Proton](https://store.steampowered.com/steamplay), almost everything in my library is playable on Linux, and it makes for a great console. The homeserver build is detailed [here][homeserver].
+I self-host a lot of things, and my homeserver runs Arch with lots of disks on RAID1. Total usable space is currently around 12TB, and I use it for all sort of things. The server runs [steamos-compositor-plus](https://aur.archlinux.org/packages/steamos-compositor-plus/) and Kodi as the session manager. With [SteamPlay/Proton](https://store.steampowered.com/steamplay), almost everything in my library is playable on Linux, and it makes for a great console. Hardware details are at </setup/homeserver/>.
 
 ## And what software?
 
@@ -47,7 +47,7 @@ class = "center-content"
 
 > </video>
 
-My distro for the last 4 years is [Arch Linux][arch] with [i3][i3] as the window manager. My most used tools include: [Neovim][neovim], [Sublime Text 3][sublime], Firefox Beta, and Git. I game using Steam, and purchase DRM free games via Humble Bundle whenever possible. The above animated wallpaper runs via [spectrumyzer][wallpaper-blog].
+My distro for the last 4 years is [Arch Linux][arch] with [i3][i3] as the window manager. My most used tools include: [Neovim][neovim], [Sublime Text 3][sublime], Firefox, and Git. I game using Steam, and purchase DRM free games via Humble Bundle whenever possible. The above animated wallpaper runs via [spectrumyzer][wallpaper-blog].
 
 Most of my work is done in editors, command line, and the browser. A few essential extensions on my browser include: [dotjs][.js] (with apache support), [Privacy Badger][privacybadger], [uBlock Origin][ublock], HTTPS Everywhere, and Markdown Here. I manage my passwords using [pass][pass].
 
@@ -95,7 +95,6 @@ If we're talking super-crazy, I'd love to have a thought-dictation feature. That
 [playsub]: https://itunes.apple.com/us/app/play-sub-music-streamer/id955329386 '‎play:Sub Music Streamer on the App Store'
 [pass]: https://www.passwordstore.org/ 'The unix password manager'
 [riitech]: http://www.riitek.com/product/i8.html 'Mini Wireless Keyboard / Touchpad'
-[logitechbt]: https://www.logitech.com/en-us/product/wireless-touch-keyboard-k400r 'Wireless Touch Keyboard K400'
 [lguw]: https://www.amazon.in/dp/B01BV1XB2K/ 'LG 25UM58'
 [pw3]: https://en.wikipedia.org/wiki/Amazon_Kindle#Kindle_Paperwhite_(3rd_generation) 'Paperwhite 3rd Generation'
 [se]: https://support.apple.com/kb/SP738?locale=en_US 'iPhone SE - The Best Phone Apple ever made'
