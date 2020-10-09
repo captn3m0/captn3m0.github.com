@@ -51,6 +51,12 @@ projects:
 
 All the projects below are under a FOSS license (mostly MIT). This page does not include contributions to other projects.
 
+[EBook: Never say you can't survive](https://github.com/captn3m0/never-say-you-cant-survive)
+: **Oct 2020**  Script to generate an ebook for "Never Say You Can't Survive" - upcoming book by Charlie Jane Anders.
+
+[sanskari-proxy](https://github.com/captn3m0/sanskari-proxy)
+: **Sep 2020** A proxy for security researchers outside India to access Indian government websites without resorting to shady VPNs.
+
 [boardgame-research](https://github.com/captn3m0/boardgame-research)
 : **July 2020** A list of research content on modern boardgames - such as Catan, Risk, Uno, Mafia, Hanabi, and more.
 
@@ -155,6 +161,19 @@ This still doesn't work yet
 
 [WoNA Archives](/wona/)
 : **2011-** A download page for all issues of Watch Out News Agency. ([source](https://github.com/captn3m0/wona/)) (A college magazine at my Alma-mater).
+
+## Packages
+
+I maintain a few packages on the ArchLinux user repository.
+
+Package|Upstream|Votes
+-------|-----|------
+[`signal-desktop-beta-bin`](https://aur.archlinux.org/packages/signal-desktop-beta-bin/)|https://github.com/WhisperSystems/Signal-Desktop|15
+[`koreader-appimage`](https://aur.archlinux.org/packages/koreader-appimage/)|<http://koreader.rocks/>|7
+[`screen-desktop-bin`](https://aur.archlinux.org/packages/screen-desktop-bin/)|https://screen.so/|3
+[`karn`](https://aur.archlinux.org/packages/karn/)|<https://github.com/prydonius/karn>|2
+[`shubhcron`](https://aur.archlinux.org/packages/shubhcron/)|<https://razorpay.com/shubhcron/>|
+[`elibsrv`](https://aur.archlinux.org/packages/elibsrv/)|<http://elibsrv.sourceforge.net/>|
 
 ## Older Projects
 
