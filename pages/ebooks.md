@@ -4,17 +4,40 @@ title: EBooks
 permalink: /ebooks/
 ---
 
-A fun side-project that I often pick up is generation of semantically correct EPUB/MOBI/PDF files from various online books and content.
+A fun side-project that I often pick up is generation of semantically correct ebooks from various online books and content.
 
 ## Books
 
 Here's a list of the interesting books I've covered:
 
+## Non Fiction
+
 [Never Say You Can’t Survive][nsycs] [[source][nsycs-source]]
 : Ebook generated from Never Say You Can’t Survive, by Charlie Jane Anders. Being serialized at tor.com, currently in progress.
 
+[Site Reliability Engineering][sre] [[source][sre-source]]
+: Google's book on Site Reliability Engineering. Published by Google as a online read under CC BY-NC-ND 4.0
+
+[The Site Reliability Workbook][sre] [[source][swe-source]]
+: The Site Reliability Workbook is the hands-on companion to the bestselling Site Reliability Engineering book and uses concrete examples to show how to put SRE principles and practices to work. Published by Google as a online read under CC BY-NC-ND 4.0.
+
+[Security Engineering — Third Edition][se3] by Ross Anderson [[source][se3-source]]
+: Comprised of the third-edition, currently under review PDFs. Only available till it goes to press.
+
+## Fiction
+
 [The Ickabog][ickabog] [[source][ickabog-source]]
 : EBook generated from The Ickabog, written by J.K Rowling, and published online in seralized format.
+
+[Hoshruba][hoshruba] (Translated by Musharraf Ali Farooqi) [[source][hoshruba-source]]
+: Tor's serialized publication of Hoshruba-The Land and the Tilism. This is just Vol 1 of the planned translation of the famous persian epic, [Hamzanama](https://en.wikipedia.org/wiki/Hamzanama).
+
+[Magic Muggle][mm] [[source][mm-source]]
+: Harry Potter fan-fiction about a muggle going to Hogwarts. (3rd book ~~ongoing~~ abandoned)
+
+I also went around converting [all of the original fiction published on Tor.com][tor-original-fiction] using [url-to-epub].
+
+### Brandon Sanderson
 
 [Rhythm of War][cosmere] [[source][row-source]]
 : (In Progress). Initial chapters from Rhythm of War, Book 4 in the Stormlight Archive, being published by Tor in serialized format.
@@ -37,28 +60,11 @@ Here's a list of the interesting books I've covered:
 [Edgedancer Reread][cosmere] [[source][edgedancer-source]]
 : Tor re-read of Edgedancer, a novella between Books 2 & 3 in the Stormlight Archive.
 
-[Hoshruba][hoshruba] (Translated by Musharraf Ali Farooqi) [[source][hoshruba-source]]
-: Tor's serialized publication of Hoshruba-The Land and the Tilism. This is just Vol 1 of the planned translation of the famous persian epic, [Hamzanama](https://en.wikipedia.org/wiki/Hamzanama).
-
-[Magic Muggle][mm] [[source][mm-source]]
-: Harry Potter fan-fiction about a muggle going to Hogwarts. (3rd book ~~ongoing~~ abandoned)
-
-[Site Reliability Engineering][sre] [[source][sre-source]]
-: Google's book on Site Reliability Engineering. Published by Google as a online read under CC BY-NC-ND 4.0
-
-[The Site Reliability Workbook][sre] [[source][swe-source]]
-: The Site Reliability Workbook is the hands-on companion to the bestselling Site Reliability Engineering book and uses concrete examples to show how to put SRE principles and practices to work. Published by Google as a online read under CC BY-NC-ND 4.0.
-
-[Security Engineering — Third Edition][se3] by Ross Anderson [[source][se3-source]]
-: Comprised of the third-edition, currently under review PDFs. Only available till it goes to press.
-
 [Defending Elysium][cosmere] by Brandon Sanderson [[source][de-source]]
 : Brandon Sanderson's short story, part of the Skyward universe. Published on his website.
 
 [Skyward][cosmere] by Brandon Sanderson [[source][skyward-source]]
 : Chapters 1-15 of the book. Published at getunderlined.com.
-
-I also went around converting [all of the original fiction published on Tor.com][tor-original-fiction] using [url-to-epub].
 
 Things next on my list:
 
