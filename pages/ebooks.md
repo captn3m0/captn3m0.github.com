@@ -10,6 +10,9 @@ A fun side-project that I often pick up is generation of semantically correct EP
 
 Here's a list of the interesting books I've covered:
 
+[Never Say You Can’t Survive][nsycs] [[source][nsycs-source]]
+: Ebook generated from Never Say You Can’t Survive, by Charlie Jane Anders. Being serialized at tor.com, currently in progress.
+
 [The Ickabog][ickabog] [[source][ickabog-source]]
 : EBook generated from The Ickabog, written by J.K Rowling, and published online in seralized format.
 
@@ -121,3 +124,6 @@ As a side-effect, I often get into the rabbit hole of generating the perfect EPU
 [emg]: https://github.com/captn3m0/epub-metadata-generator
 [ickabog]: https://github.com/captn3m0/ickabog-ebook
 [ickabog-source]: https://www.theickabog.com/home/
+
+[nsycs]: https://github.com/captn3m0/never-say-you-cant-survive
+[nsycs-source]: https://www.tor.com/series/never-say-you-cant-survive-by-charlie-jane-anders/
