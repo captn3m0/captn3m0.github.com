@@ -46,7 +46,7 @@ The WD 3TB MyBook HDD was dying, so I replaced it with a 3TB Seagate Barracuda I
 
 ## Mar 2020
 
-Added a 8TBx2 RAID setup. The disks are identical [8TB Amazon SE Seagate Expansions](https://www.amazon.co.uk/d/B07DQBFQ2D/), which I got for cheap, and the RAID enclosure is a pre-used ORICO. First time I'm running a hardware RAID setup, lets see how it goes. Moved the second UPS to my PC setup.
+Added a 8TBx2 RAID setup. The disks are identical [8TB Amazon SE Seagate Expansions](https://www.amazon.co.uk/d/B07DQBFQ2D/), which I got for cheap, and the RAID enclosure is a pre-used ORICO. First time I'm running a hardware RAID setup, lets see how it goes. Moved the second UPS to my PC setup and got a sound bar for audio.
 
 ## Apr 2020
 
@@ -65,6 +65,6 @@ Total devices 5 FS bytes used 3.26TiB
   devid    6 size 7.28TiB used 3.28TiB path /dev/sdf
 ```
 
-Last Updated: 6th October 2020.
+Last Updated: 16th October 2020.
 
 {% include selfhosted.md %}
