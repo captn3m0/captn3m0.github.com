@@ -18,8 +18,9 @@ The first 3 disks here were (3x3TB) were all connected over internal SATA connec
 
 Since I was facing many issues with the enclosure, and none of my internal disks were getting used, I decided to move the disks from the external enclosure to inside my case. I did this alongside a RAM upgrade, and the disks started showing up correctly (as `/dev/sdb` and `/dev/sdc`). However, the RAID1 configuration broke, since 3/5 disks were missing - quite expected.
 
-<details><summary><aside>How my RAID1 setup boots</summary>
+<aside><details><summary>How my RAID1 setup boots</summary>
 `btrfs` RAID is nicely supported on ArchLinux. You need to make sure that your mkinitcpio hooks include btrfs. Then, I have a custom systemd service that runs a btrfs ready check before the mounts happen. The mount itself happens as a normal fstab mount, which gets delegated to systemd-mount.
+</details>
 </aside>
 
 Note that the 3 disks I'd removed - all had zero usage at this point. The next step here would be to run `btrfs device delete` which removes a disk from a btrfs RAID filesystem. However, to run this command, your filesystem must be mounted in RW mode. The normal way to do that after disk changes is to use the recovery mode:
