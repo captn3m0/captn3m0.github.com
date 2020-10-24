@@ -4,14 +4,14 @@ title: Homeserver Configuration
 permalink: /setup/homeserver/
 ---
 
-This is the latest hardware configuration of my homeserver.
+This is the latest hardware configuration of my homeserver (Some links affiliate).
 
 Category|Details
 ----|-------
 CPU|[Intel Core i5-7600 3.5 GHz Quad-Core](https://ark.intel.com/content/www/us/en/ark/products/97150/intel-core-i5-7600-processor-6m-cache-up-to-4-10-ghz.html)
 Motherboard|[MSI B250I GAMING PRO AC Mini ITX LGA1151](https://www.msi.com/Motherboard/B250I-GAMING-PRO-AC.html)
 Memory|Kingston HyperX Fury Black 8 GB DDR4-2133 CL14
-Memory|[Corsair Vengeance LPX 16GB](https://www.corsair.com/uk/en/Categories/Products/Memory/VENGEANCE-LPX/p/CMK16GX4M1A2400C16) DDR4 2400MHz
+Memory|[Corsair Vengeance LPX 16GB](https://amzn.to/35w4GFA) DDR4 2400MHz
 Primary Storage|[WD Green PC SSD 120GB][wdm2] 2.5" Solid State Drive
 Internal Storage|[Seagate Desktop 8 TB](https://www.amazon.de/gp/product/B07DQBFQ2D) 3.5" 5400RPM Internal Hard Drive
 Internal Storage|[Seagate Desktop 8 TB](https://www.amazon.de/gp/product/B07DQBFQ2D) 3.5" 5400RPM Internal Hard Drive
@@ -42,19 +42,19 @@ The original part list from when I did the build is at <https://in.pcpartpicker.
 
 - The WD 3TB MyBook HDD was dying, so I replaced it with a 3TB Seagate Barracuda Internal HDD. Switching the disks was a challenge due to some btrfs issues. I wrote about it [here](https://captnemo.in/blog/2019/02/24/btrfs-raid-device-replacement-story/).
 
-# Apr 2019
+### Apr 2019
 
 - Moved from [the Samsung EVO 850 SSD](https://amzn.to/2I0QyfA) to a [WD M.2 SSD](https://shop.westerndigital.com/en-ie/products/internal-drives/wd-green-sata-ssd).
 
-## Mar 2020
+### Mar 2020
 
-Added a 8TBx2 RAID setup. The disks are identical [8TB Amazon SE Seagate Expansions](https://www.amazon.co.uk/d/B07DQBFQ2D/), which I got for cheap, and the RAID enclosure is a pre-used [ORICO 3529RUS3-V1-SV][orico]. First time I'm running a hardware RAID setup, lets see how it goes. Moved the second UPS to my PC setup and got a sound bar for audio.
+Added a 2x8TB RAID setup. The disks are identical [8TB Amazon SE Seagate Expansions](https://www.amazon.co.uk/d/B07DQBFQ2D/), which I got for cheap, and the RAID enclosure is a pre-used [ORICO 3529RUS3-V1-SV][orico]. First time I'm running a hardware RAID setup, lets see how it goes. Moved the second UPS to my PC setup and got a sound bar for audio.
 
-## Apr 2020
+### Apr 2020
 
 One of the RAM sticks died, so I'm down to 8GB again. The hardware RAID setup isn't working well, so I turned it off.
 
-## Sep 2020
+### Sep 2020
 
 Attempted to revive the 2xTB setup. Moved to btrfs RAID and added both the disks individually to my normal RAID configuration. Works much better than the hardware RAID. Both the disks are still connected over the HDD enclosure, but the enclosure presents them as 2 individual disks now. Here's how it shows up:
 
@@ -67,7 +67,7 @@ Total devices 5 FS bytes used 3.26TiB
   devid    6 size 7.28TiB used 3.28TiB path /dev/sdf
 ```
 
-## Oct 2020
+### Oct 2020
 
 - Since RAM prices are low, I got a 16GB RAM, bringing the total available memory to 24GB
 - The ORICO enclosure was giving too much pain on every reboot. Since the 3 internal HDDs were at zero usage, I took them out, and moved the 2x8TB inside the case. Removed the extra disks from RAID and all is well.
