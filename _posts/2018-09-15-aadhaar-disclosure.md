@@ -79,7 +79,7 @@ The vulnerability is still not fixed. Here is a complete timeline:
 | 19 Feb 2018 | Reminder sent to `ceo@uidai.gov.in` and `info@cert-in.org.in`                                      |
 | 19 Feb 2018 | Acknowledgement from CERT                                                                          |
 | 15 Mar 2018 | Reminder sent. No response                                                                         |
-| 17 Mar 2018 | Notified [NCIIPC](rvdp@nciipc.gov.in)                                                              |
+| 17 Mar 2018 | Notified [NCIIPC](mailto:rvdp@nciipc.gov.in)                                                              |
 | 18 Mar 2018 | Confirmation from NCIIPC asking for more details. I replied back with a quote of previous exchange |
 | 19 Mar 2018 | Confirmation from NCIIPC thanking me for the report.                                               |
 | 19 Apr 2018 | Reminder sent to UIDAI asking for acknowledgement                                                  |

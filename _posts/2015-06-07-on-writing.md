@@ -49,7 +49,7 @@ So, I'm announcing the next thing I'm working on: a book called [The Joy of Soft
 - Who the [target audience][josd-audience] for the book is.
 - You can [file an issue][josd-issue] for critique on GitHub
 
-As expected, all the development, writing, and discussion on the book will be in the public, mostly on GitHub. I am writing this book, because I feel it needs to be written. I don't expect it to be published, but that won't stop me from writing it. 
+As expected, all the development, writing, and discussion on the book will be in the public, mostly on GitHub. I am writing this book, because I feel it needs to be written. I don't expect it to be published, but that won't stop me from writing it.
 
 [Artur Siekielski][artur] recently came across it, and wrote the following:
 
@@ -81,7 +81,7 @@ Asking for Donations might sound weird to some. I don't really need the money, b
 [josd-issue]: https://github.com/captn3m0/the-joy-of-software-development/issues/new "File a new issue for the book"
 [artur]: https://hackerusesthis.com/u/artur "He's made hackerusesthis"
 [twitter]: https://twitter.com/captn3m0 "@captn3m0"
-[email]: me@captnemo.in "me@captnemo.in"
+[email]: /contact/
 [josd]: https://josd.captnemo.in/ "The Joy of Software Development"
 [gratipay]: http://gratipay.com/captn3m0/ "My Gratipay Profile"
 [eff]: https://www.eff.org/ "Electronic Frontier Foundation"

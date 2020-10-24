@@ -41,7 +41,7 @@ projects:
     url: https://github.com/captn3m0/terraform-docker-kayak
   ideas:
     desc: Ideas for everyone under a CC licence. Feel free to use.
-    url: /projects/ideas/
+    url: https://github.com/captn3m0/ideas/
   nebula:
     desc: Terraform + Docker scripts that power my homeserver.
     url: https://github.com/captn3m0/nebula

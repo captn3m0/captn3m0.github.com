@@ -85,7 +85,7 @@ If we're talking super-crazy, I'd love to have a thought-dictation feature. That
 [libreelec]: https://libreelec.tv
 [hackertray]: https://github.captnemo.in/hackertray 'HackerTray is a app-indicator based status menu app for Hacker News (linux)'
 [koreader]: https://github.com/koreader/koreader 'Document reader for Kindles that has EPUB and PDF Reflow support'
-[wallpaper-blog]: "/blog/2017/05/01/spectrumyzer-visualization/" 'I wrote a blog post about how I made my animated wallpaper'
+[wallpaper-blog]: /blog/2017/05/01/spectrumyzer-visualization/ 'I wrote a blog post about how I made my animated wallpaper'
 [fc660c]: https://deskthority.net/wiki/Leopold_FC660C "I haven't typed enough on it yet to have an opinion"
 [ug]: https://lineage.microg.org/ 'Access all the Google services without proprietary closed software'
 [homeserver]: https://captnemo.in/blog/2017/09/17/home-server-build/

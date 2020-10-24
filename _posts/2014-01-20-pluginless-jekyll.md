@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Using Jekyll optimally without plugins
-tags: 
- - jekyll 
+tags:
+ - jekyll
  - github
  - programming
 ---
@@ -16,7 +16,7 @@ blog post](/blog/2011/09/19/jekyll/) if you don't know about Static Site Generat
 Using Jekyll means that it is far more easier for me to host my blog on GitHub
 Pages by just writing down posts in plain markdown. Markdown, for those of you
 don't know is a simple markup language that uses an email-like syntax that is
-then compiled to HTML. 
+then compiled to HTML.
 
 A lot of power in Jekyll comes from its various plugins, but I've always been
 vary of using them as the default host for Jekyll (GitHub Pages) disables
@@ -137,7 +137,7 @@ setting that allows you to customize the post url for any particular post.
 In the rare case that you want to use liquid-like syntax somewhere, say you are
 using Handlebars (which uses {%raw%}{{{variable}}}{%endraw%} to echo variables).
 You can use the following syntax:
-	
+
 	{% assign openTag = '{%' %}
 	{% raw %}{% raw %}
 	Here is some {{mustache}}
@@ -145,7 +145,7 @@ You can use the following syntax:
 	{% endraw %}
 
 In fact, I've used the raw tags a lot in this blog post to escape all the liquid
-portions. You can see the [liquid documentation][ld] for more help. 
+portions. You can see the [liquid documentation][ld] for more help.
 
 Side Note: Writing the endraw tag in liquid is [really, really hard][endraw].
 
@@ -175,4 +175,4 @@ Anything inside a `<div>` tag is untouched by Markdown, and is rendered as it is
 [data-files]: http://jekyllrb.com/docs/datafiles/
 [team]: http://team.sdslabs.co/
 [portfolio]: http://sdslabs.co/
-[liquid-filters]: docs.shopify.com/themes/liquid-basics/output
+[liquid-filters]: https://docs.shopify.com/themes/liquid-basics/output

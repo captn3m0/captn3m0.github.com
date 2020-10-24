@@ -6,13 +6,13 @@ tags:
 - nodejs
 ---
 
-After my attempts at [python](http://captnemo.in/blog/2011/05/16/learning-python), [Ruby on Rails](https://rubyonrails.org), this was the time for node.js. You ask me what is node.js ? Remember when Google Chrome came out and went [blazing past the rest of the browsers](http://stackoverflow.com/questions/40994/is-google-chromes-v8-engine-really-that-good) in Javascript benchmarks. That was because of its internal Javascript Engine, called [V8](http://code.google.com/p/v8/). 
+After my attempts at [python](http://captnemo.in/blog/2011/05/16/learning-python), [Ruby on Rails](https://rubyonrails.org), this was the time for node.js. You ask me what is node.js ? Remember when Google Chrome came out and went [blazing past the rest of the browsers](http://stackoverflow.com/questions/40994/is-google-chromes-v8-engine-really-that-good) in Javascript benchmarks. That was because of its internal Javascript Engine, called [V8](http://code.google.com/p/v8/).
 
-Soon, V8 was developed as a backend to an evented IO library, that is now known as [node.js](http://nodejs.org). Initially, it was named just node, but to prevent confusion, and explain its javascript inheritance, it was renamed node.js. This is the water-cooler moment of the language. If you know node, you're the cool guy on the block. So what is so special in node ? 
+Soon, V8 was developed as a backend to an evented IO library, that is now known as [node.js](http://nodejs.org). Initially, it was named just node, but to prevent confusion, and explain its javascript inheritance, it was renamed node.js. This is the water-cooler moment of the language. If you know node, you're the cool guy on the block. So what is so special in node ?
 
 ## Evented IO
 
-Basically node allows you bring home the same good anonymous functions from [JQuery](http://jquery.org) on your server. In advanced terms, node allows evented input/output, meaning all the IO calls are non-blocking and evented, or scheduled in parallel. 
+Basically node allows you bring home the same good anonymous functions from [JQuery](http://jquery.org) on your server. In advanced terms, node allows evented input/output, meaning all the IO calls are non-blocking and evented, or scheduled in parallel.
 
 ### Traditional I/O:
 <pre class="prettyprint">
@@ -45,14 +45,14 @@ Run the corresponding command for your distro (yum etc).
 
 #### Installing nvm
 
-1. Clone nvm:  
+1. Clone nvm:
 `git clone https://github.com/creationix/nvm.git ~/.nvm`
-2. Include nvm:  
+2. Include nvm:
 `. ~/.nvm/nvm.sh` //The dot is important
 3. Source it to your bash file. Basically copy the above command(2) inside your ~/.bashrc.
 
 #### Fetching node
-Node is under heavy development at the moment. Development of node is carried across a stable & a testing branch. The stable branch is the one that you should prefer. As of now, `stable` is `v0.4.11` and testing has reached `v0.5.6`. 
+Node is under heavy development at the moment. Development of node is carried across a stable & a testing branch. The stable branch is the one that you should prefer. As of now, `stable` is `v0.4.11` and testing has reached `v0.5.6`.
 
 Now run the following commands:
 `nvm install v0.4.11` to install v0.4.11
@@ -64,8 +64,8 @@ You can type `which node` to see the actual node binaries being used.
 #### Package Methods
 I would strongly advice against using your distro versions of node, unless you are on a rolling release distro, such as Arch. Please do not run `sudo apt-get install node` to install node. This would only cause much anguish and pain later on.
 
-As of now, even the beta of Ubuntu 11.10 holds `v0.4.9` and is likely to do so for the next 6 months. 
- 
+As of now, even the beta of Ubuntu 11.10 holds `v0.4.9` and is likely to do so for the next 6 months.
+
 ### Windows
 As I've stopped using Windows for quite some time, here are instructions from the official node installation guide.
 
@@ -75,7 +75,7 @@ I would again recommend to install <http://nodejs.org/dist/v0.4.11/node.exe> for
 Self-contained binaries are available at <http://node-js.prcn.co.cc>
 
 ### Node Package Manager
-All cool programming languages come with their own package managers. Ruby has [rubygems](htp://rubygems.org), Python has pip, PHP has PECL, perl has CPAN, and `node` has [npm](https://github.com/isaacs/npm).
+All cool programming languages come with their own package managers. Ruby has [rubygems](https://rubygems.org), Python has pip, PHP has PECL, perl has CPAN, and `node` has [npm](https://github.com/isaacs/npm).
 
 `npm` holds a large collection of packages that are the extra batteries that don't come included in node. If you need to parse documents, or do some other fancy stuff in node, don't look farther than npm. If you need it, chances are, it already has a package in npm. See [list of packages](http://search.npmjs.org/) on the npm site.
 
@@ -103,7 +103,7 @@ http.createServer(function(request, response) {
   response.finish();
 }).listen(8000);
 </pre>
-As you can see, the createServer function takes a callback function as its argument. The callback function is called for each of the requests. All events are handled easily and instead of a server handling threads, memory etc, node just handles requests. In essence, a request generates an *event*, which is then handled by the callback function provided. 
+As you can see, the createServer function takes a callback function as its argument. The callback function is called for each of the requests. All events are handled easily and instead of a server handling threads, memory etc, node just handles requests. In essence, a request generates an *event*, which is then handled by the callback function provided.
 
 This is quite similar to the way we program event loops in javascript on the browser.
 

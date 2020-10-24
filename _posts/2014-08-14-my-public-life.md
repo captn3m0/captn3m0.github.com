@@ -22,7 +22,7 @@ Other services where I follow the same advice include:
 Along with all this, most of the writing I do these days is for public consumption, either via my Blog, or some platform like [Quora][quora], StackExchange, or Medium.
 
 ## Why
-My reasoning behind keeping all of my online life public is twofold: 
+My reasoning behind keeping all of my online life public is twofold:
 
 1. This creates a public archive of my life, accessible to everyone.
 2. It doesn't give me an illusion of privacy when there is none.
@@ -33,7 +33,7 @@ In reference to (1) above, I recently setup Google Inactive Accounts, and have t
 This lifestyle choice is not without its comebacks. Stalking me, for example, is very easy. So is probably impersonating me as well. However, these are risks I'm willing to take in order to lead a public life.
 
 ## Exceptions
-By now you might be thinking of me as a pro-facebook share-everything kind of guy. But that's not completely true. I do have clear limits on what counts as public and what does not. I value my privacy (and that of those close to me) very dearly. 
+By now you might be thinking of me as a pro-facebook share-everything kind of guy. But that's not completely true. I do have clear limits on what counts as public and what does not. I value my privacy (and that of those close to me) very dearly.
 
 For instance, I count my photographs as something very private. I almost never post public updates anywhere with my picture in it. Perhaps its because I never had any phone with decent camera. Whatever the reason, I try really hard to keep my pictures off the internet.
 
@@ -48,4 +48,4 @@ My simple rule of thumb is to ask for permission, rather than beg for forgivenes
 [blog]: https://captnemo.in/archive.html "My blog archive page"
 [quora]: https://www.quora.com/Abhay-Rana "My Quora profile"
 [bookmarks]: http://share.xmarks.com/folder/bookmarks/Jy4cCyZzZR "My Shared public bookmarks"
-[fb]: "https://facebook.com/capt.n3m0" "My facebook profile"
+[fb]: https://facebook.com/capt.n3m0 "My facebook profile"

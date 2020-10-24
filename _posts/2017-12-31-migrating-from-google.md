@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Migrating from Google (and more)
-tags: 
+tags:
     - selfhosted
     - migration
     - google
@@ -24,7 +24,7 @@ tags:
 - [GitHub](#github)
 </div>
 
-As part of working on my home-server setup, I wanted to move off few online services to ones that I manage. This is a list of what all services I used and what I've migrated to . 
+As part of working on my home-server setup, I wanted to move off few online services to ones that I manage. This is a list of what all services I used and what I've migrated to .
 
 _Why_: I got frustrated with [Google Play Music][gpm] a few times. Synced songs would not show up across all clients immediately (I had to refresh,uninstall,reinstall), and I hated the client limits it would impose. Decided to try [microG][mg] on my phone at the same time, and it slowly came together.
 
@@ -139,7 +139,7 @@ _Why Gitea_: The other alternatives were `gogs`, and GitLab. There have been con
 [gpm]: https://music.google.com "Google Play Music"
 [mg]: https://microg.org/ "MicroG is a free-as-in-freedom re-implementation of Google’s proprietary Android user space apps and libraries."
 [migadu]: http://www.migadu.com/ "Migadu is email hosting built and operated by humans"
-[radicale]: Radicale "A Free and Open-Source CalDAV and CardDAV Server, runs on Python"
+[radicale]: https://radicale.org "A Free and Open-Source CalDAV and CardDAV Server, runs on Python"
 [git]: https://git.captnemo.in "Hosted by gitea, uptime not guaranteed"
 [gitea]: https://gitea.io/en-US/
 [gogs]: https://gogs.io/

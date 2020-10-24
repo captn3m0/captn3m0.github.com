@@ -6,7 +6,7 @@ tags:
 - experiences
 ---
 
-A little while back, I came across [HillHacks](hh), a conference in Dharamshala about "hacking and making in the Himalayas". I was instantly hooked. It took a lot of scheduling troubles, but I decided to stay for the entire unconference, which started at 23rd May.
+A little while back, I came across [HillHacks][hh], a conference in Dharamshala about "hacking and making in the Himalayas". I was instantly hooked. It took a lot of scheduling troubles, but I decided to stay for the entire unconference, which started at 23rd May.
 
 Its hard to describe the HillHacks experience in a single blog post. I met so many amazing people from all over the world. Learned a lot of different things. I Had a lot of fun teaching some other things. I helped organize some of the stuff, and managed to stay awake an entire night while participating in an CTF. And on top of that, got to eat delicious food.
 
@@ -47,3 +47,4 @@ If this blog post interests you, be sure to check out [hackbeach][hb] as well. W
 [sva]: https://twitter.com/sva "sva on twitter"
 [cooking-blog-post]: https://medium.com/@zainabbawa/on-community-and-the-art-of-various-cookings-511c31c33498 "On community, and the art of various cookings"
 [hb]: http://hillhacks.in/hackbeach "HackBeach wiki page"
+[hh]: https://hillhacks.in "hacking and making in the Himalayas"

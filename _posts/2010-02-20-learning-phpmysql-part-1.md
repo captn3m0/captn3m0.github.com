@@ -13,9 +13,9 @@ meta:
 ---
 Over the past 2 months, I’ve been learning PHP/mySQL as a great language. After helping out a lot of people, I’ve decided to write a tutorial on using PHP/mySQL to create a cool website. For the entire duration of this tutorial, this is the list of softwares we will be working with:
 
-><a href="http://www.google.com/search?btnI=I'm Feeling Lucky&amp;q=XAMPP Server Lite version">XAMPP Server Lite version</a> (to get apache &amp; mySQL)  
-><a href="www.mediafire.com/?4eemynbynjw" target="_blank">Dreamweaver CS4</a> (For Template Support). Alternatively use <a href="http://www.google.com/search?btnI=I'm Feeling Lucky&amp;q=Microsoft Expression Web 3">Microsoft Expression Web 3</a>.  
-><a href="http://www.google.com/search?btnI=I'm Feeling Lucky&amp;q=Notepad++">Notepad++</a> (Its a cool editor)  
+><a href="http://www.google.com/search?btnI=I'm Feeling Lucky&amp;q=XAMPP Server Lite version">XAMPP Server Lite version</a> (to get apache &amp; mySQL)
+><a href="http://www.mediafire.com/?4eemynbynjw" target="_blank">Dreamweaver CS4</a> (For Template Support). Alternatively use <a href="http://www.google.com/search?btnI=I'm Feeling Lucky&amp;q=Microsoft Expression Web 3">Microsoft Expression Web 3</a>.
+><a href="http://www.google.com/search?btnI=I'm Feeling Lucky&amp;q=Notepad++">Notepad++</a> (Its a cool editor)
 ><a href="http://www.google.com/search?btnI=I'm Feeling Lucky&amp;q=PHP Manual">PHP Manual</a> (download the full html version)
 
 The website we will be developing is called Artemis Fowl Files (AFF for short). It is a small website with several features that we shall develop over the length of the tutorial.

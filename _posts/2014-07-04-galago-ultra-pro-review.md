@@ -1,12 +1,12 @@
 ---
 layout: post
 title: A month with the System76 Galago Ultra Pro
-tags: 
+tags:
  - system76
  - laptop
  - review
 ---
-With my recent [CCTC Winnings](/blog/cctc-wave-3/), I decided to purchase a new laptop as my old Dell Inspiron was not performing up to the mark. Being of a time before the Intel i-series launch, it was also severely lacking in several features, most notably virtualization support, which is badly needed these days.
+With my recent [CCTC Winnings](/blog/2014/06/03/cctc-wave-3/), I decided to purchase a new laptop as my old Dell Inspiron was not performing up to the mark. Being of a time before the Intel i-series launch, it was also severely lacking in several features, most notably virtualization support, which is badly needed these days.
 
 After taking a thorough look at the various offerings in the market (and being disappointed by most of them), I decided to go with the [System Galago Ultra Pro][galago] for the following reasons:
 
@@ -42,7 +42,7 @@ Despite being built for Linux, I've still faced a few software issues on Linux. 
 - Another minor issue I face is that the brightness key on the keyboard (Fn+F8/F9) allows you to take the brightness level all the way down to *zero*. So you could make your screen pitch-black, with absolutely no idea how to get it back to normal. This happens only on ubuntu, though.
 
 ## Overall
-Despite its few quirks, I'm liking my new laptop. I'm enjoying gaming on it (on both Linux and Windows), and it has more than enough power to run whatever combination of VMs I want to. 
+Despite its few quirks, I'm liking my new laptop. I'm enjoying gaming on it (on both Linux and Windows), and it has more than enough power to run whatever combination of VMs I want to.
 
 ## Gaming
 All the Linux games from my various Humble Bundle purchases are finally being put to good use. The only game that I haven't been able to run is Oilrush, which doesn't support Intel Graphic cards on Linux for some reason. Some of the games that I've tried and enjoy on Linux include:

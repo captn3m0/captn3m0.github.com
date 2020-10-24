@@ -6,7 +6,7 @@ tags:
 - mobile
 ---
 
-This is the obligatory blog post that comes along with winning the Adobe Express Apps Contest. 
+This is the obligatory blog post that comes along with winning the Adobe Express Apps Contest.
 
 # Contest Rules
 The contest rules asked you to develop a mobile application, using Adobe Phonegap and related technologies(read Dreamweaver) in a time frame of hardly 18 hours. This duration was assuming that one does no sleep, which I did not.
@@ -18,7 +18,7 @@ We started with the problem statement as the complete guide for our application 
 
 We started off with a few wireframes, and features thrown around. At the end of the one hour mark, we had our feature list down to :
 
-1. Owners can share pics of their cars. We wanted the application to be for the owners of the cars, which brings in a lot of additional data. Pic sharing was the most logical thing to do. We were thinking something like an Instagram Community where everybody posts pics about where they have been, their rigs and so on. 
+1. Owners can share pics of their cars. We wanted the application to be for the owners of the cars, which brings in a lot of additional data. Pic sharing was the most logical thing to do. We were thinking something like an Instagram Community where everybody posts pics about where they have been, their rigs and so on.
 2. A mileage meter. This was a slight gamification of the GPS data that we get. At the start of every journey/trip, you could mark it as such in the app, and we would record your position every 5 minutes. At the end of the trip, you could mark your ending point and see how much you travelled. Also important was the fact that we decided to show a number corresponding to every application user, showing how many miles he/she has travelled so far. Seeing that the next guy has travelled only so and so more miles than you may lead you to travel more.
 3. Maps, obviously. A map for all the previous journeys that you have taken.
 
@@ -35,7 +35,7 @@ The steps, which took me a lot of time to find on the internet, include :
 
 1. Download and install the XCode and the Adobe Phonegap toolkit. I downloaded the latest version, 4.2 for xcode, which makes the process a bit easier.
 2. Follow the instructions on [this youtube video](http://www.youtube.com/watch?v=n1ZDMmwYHdE) to allow xcode to compile your application without Code Signing.
-3. Create a corvora application in xcode and follow [these instructions](http://wiki.phonegap.com/w/page/52010495/Getting%20Started%20with%20PhoneGap-Cordova%20and%20Xcode%204) to add the www folder to the application. 
+3. Create a corvora application in xcode and follow [these instructions](http://wiki.phonegap.com/w/page/52010495/Getting%20Started%20with%20PhoneGap-Cordova%20and%20Xcode%204) to add the www folder to the application.
 4. Compile. If you have an iDevice connected, you should be able to compile and install your application in a single step.
 
 You may need to change your application configuration to "Do not code sign" for this to work.
@@ -70,8 +70,8 @@ This is all just theory, as you'd have to install the complete Android and ios s
 The presentation was made as a string of screenshots developing the application, so its not really much help. But here it is anyway. [View Original](https://speakerdeck.com/u/captn3m0/p/akira-presentation).
 
 <script async class="speakerdeck-embed" data-id="4f6effee933f08002201ea60" data-ratio="1.3333333333333333" src="//speakerdeck.com/assets/embed.js"></script>
- 
+
 # Prize
 I won a PS3. Yay!
 
-If you have any problems with the code, or the process, you can contact me at my [about page](/about)
+If you have any problems with the code, or the process, feel free to [reach out](/contact).
