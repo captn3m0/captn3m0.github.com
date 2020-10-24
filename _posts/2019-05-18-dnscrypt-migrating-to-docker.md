@@ -91,7 +91,7 @@ Once the server was up, I verified connectivity with `dnscrypt-proxy` and it wor
 
 Right now, I have a single container that does 2 things:
 
-1. [Certificate Rotation](https://github.com/DNSCrypt/dnscrypt-server-docker/blob/master/key-rotation.sh#L3) via a service that checks it every 30 minutes.
+1. [Certificate Rotation](https://github.com/DNSCrypt/dnscrypt-server-docker/blob/1f42134a69ade6026f07c463f6a497ae12cff3f4/key-rotation.sh#L3) via a service that checks it every 30 minutes.
 2. DNSCrypt Service, which is accessible over the internet.
 
 For (1) to work, it needs access to the Private Keys that are used to sign the temporary certificates that last 24 hours. Since both things are managed within the same container, the container ends up with both network _and_ long-term keys access. This means, any RCE on the service can result in the long-term keys being compromised.

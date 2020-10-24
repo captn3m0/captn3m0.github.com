@@ -53,9 +53,9 @@ If I've missed any, please let me know, and I'll add them here.
 - Had a pre-order campaign in 2014.
 - Raised $5M from Khosla Ventures in 2017.
 - Tried to pivot in 2017, failed.
-- Offered customers a [debit card with an app called Hoot](http://blog.swypcard.com/blog/swyp-card-july-update) in 2017 as an alternative to refunds. I don't think the Hoot card ever materialized.
+- Offered customers a [debit card with an app called Hoot](https://web.archive.org/web/20200225225658/http://blog.swypcard.com/blog/swyp-card-july-update) in 2017 as an alternative to refunds. I don't think the Hoot card ever materialized.
 - Tilt (Swyp's payment processor) also ceased operations in 2017, due to unrelated reasons.
-- Swyp [finally shut down in December 2017](http://blog.swypcard.com/blog/swyp-card-update).
+- Swyp [finally shut down in December 2017](https://web.archive.org/web/20200224230053/http://blog.swypcard.com/blog/swyp-card-update).
 
 ## [Final](https://www.getfinal.com/) (YC W15) (2014-2017)
 

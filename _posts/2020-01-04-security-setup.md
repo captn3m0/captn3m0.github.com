@@ -152,7 +152,7 @@ A password vault protected by a hardware key protects against some attacks:
 - A malicious extension can't sniff my vault passphrase, since I don't have one
 - The key can't be exfiltrated from hardware.
 
-However, a malware can connect to my authenticated GPG socket, and start decrypting things. To prevent against that, I run my Yubikey in "touch-only" mode, so it requires a "physical touch" before it actually does anything, even if the PIN is cached. Customizability is [dependent on your Yubikey model](https://support.yubico.com/support/solutions/articles/15000012643-yubikey-manager-cli-ykman-user-manual#ykman_openpgp_set-touchlkn6xj). But remember the xkcd warning - if I have a malware running on my device, it is pretty much game over anyway. `pass` doesn't prevent against memory scraping attacks, and actually uses `/dev/shm` to store the temporary plain-text files containing passwords. Ultimately, your identity is as secure as the device you trust it with.
+However, a malware can connect to my authenticated GPG socket, and start decrypting things. To prevent against that, I run my Yubikey in "touch-only" mode, so it requires a "physical touch" before it actually does anything, even if the PIN is cached. Customizability is [dependent on your Yubikey model](https://support.yubico.com/hc/en-us/articles/360016614940-YubiKey-Manager-CLI-ykman-User-Manual). But remember the xkcd warning - if I have a malware running on my device, it is pretty much game over anyway. `pass` doesn't prevent against memory scraping attacks, and actually uses `/dev/shm` to store the temporary plain-text files containing passwords. Ultimately, your identity is as secure as the device you trust it with.
 
 ## Improvements
 
@@ -233,7 +233,7 @@ I work in infosec. Breaking things comes naturally to me, and I plan for defense
 
 ### Why not recommend open source keys instead?
 
-Availability is a pain point, especially if you aren't in the US. Even getting my hands on a SoloKey was hard, despite backing it on KickStarter. 
+Availability is a pain point, especially if you aren't in the US. Even getting my hands on a SoloKey was hard, despite backing it on KickStarter.
 
 - [OnlyKey](https://onlykey.io) also makes some claims regarding open source, but I can't find their schematics anywhere.
 - [SoloKey](https://solokeys.com/) is great, and what I'd recommend, but [it doesn't support OpenPGP yet](https://github.com/solokeys/solo/issues/16).

@@ -189,20 +189,20 @@ You might wanna take a look at my [github account](https://github.com/captn3m0) 
 
 - [Hacker](https://github.com/captn3m0/hacker) - Hacking Game Simulator in written in 8th grade #turbocpp
 
-[cosmere]: https://github.captnemo.in/cosmere-books
+[cosmere]: https://github.com/captn3m0/cosmere-books
 [hackercouch]: https://hackercouch.com
 [lightsaber]: https://lightsaber.captnemo.in
-[kerala-it]: https://github.captnemo.in/kerala-it
-[magicmuggle]: https://github.captnemo.in/magicmuggle
-[hackertray]: https://github.captnemo.in/hackertray
-[hoshruba]: https://github.captnemo.in/hoshruba
-[codechef]: https://github.captnemo.in/codechef
-[sre]: https://github.captnemo.in/google-sre-ebook
+[kerala-it]: https://github.com/captn3m0/kerala-it-policy-draft
+[magicmuggle]: https://github.com/captn3m0/magicmuggle
+[hackertray]: https://github.com/captn3m0/hackertray
+[hoshruba]: https://github.com/captn3m0/hoshruba
+[codechef]: https://github.com/captn3m0/codechef
+[sre]: https://github.com/captn3m0/google-sre-ebook
 [shauryaa]: /projects/shauryaa/
 [spectrumyzer]: /blog/2017/05/01/spectrumyzer-visualization/
-[ideas]: https://github.captnemo.in/ideas
-[sushigo]: https://github.captnemo.in/sushigo
-[ytripper]: https://github.captnemo.in/youtube-ripper
+[ideas]: https://github.com/captn3m0/ideas
+[sushigo]: https://github.com/captn3m0/sushigo
+[ytripper]: https://github.com/captn3m0/youtube-ripper
 [kayak]: https://github.com/captn3m0/terraform-docker-kayak
 [doh]: https://captnemo.in/doh/
 [eoldate]: https://endoflife.date/

@@ -19,4 +19,4 @@ It now reads, "No Pings" instead of "No Managers".
 
 Not nitpicking, just paying attention.
 
-If you haven't seen the talk (or just saw the slideshow), you should go and watch the talk (31 mins) [Right Now](http://confreaks.com/videos/706-rubyconf2011-how-github-uses-github-to-build-github)
+If you haven't seen the talk (or just saw the slideshow), you should go and watch the talk (31 mins) [Right Now](https://confreaks.tv/videos/rubymidwest2011-how-github-uses-github-to-build-github)
