@@ -19,7 +19,7 @@ This release includes multiple known vulnerabilities, including:
 1.  A XSS issue, for which a PoC can be found at [resident.uidai.gov.in](https://resident.uidai.gov.in/?cdn_host=https://scan.bb8.fun) (Picture Credits: [@sanitarypanels](https://twitter.com/sanitarypanels))
 2.  Multiple RCEs: See [issue-62](https://dev.liferay.com/web/community-security-team/known-vulnerabilities/liferay-portal-62) for eg.
 
-In fact the release is so old it does not even appear on the ["Known Vulnerabilities"](https://dev.liferay.com/web/community-security-team/known-vulnerabilities) page on the LifeRay website; you have to go look at their [Archived Vulnerabilities](https://dev.liferay.com/web/community-security-team/known-vulnerabilities/liferay-portal-62).
+In fact the release is so old it does not even appear on the ["Known Vulnerabilities"](https://portal.liferay.dev/learn/security/known-vulnerabilities) page on the LifeRay website; you have to go look at their [Archived Vulnerabilities](https://dev.liferay.com/web/community-security-team/known-vulnerabilities/liferay-portal-62).
 
 # The PoC
 

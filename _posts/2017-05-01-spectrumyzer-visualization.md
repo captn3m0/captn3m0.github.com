@@ -9,7 +9,7 @@ tags:
 
 I made this as my animated wallpaper recently (Click to play/pause):
 
-<video 
+<video
     src = "/videos/spectrum_320.webm"
     width = "320"
     poster = "/img/spectrum/poster.jpg"
@@ -75,7 +75,7 @@ Here is one showing the actual positioning (set using the offsets):
 
 With the padding set to zero, it already looked great. I ended up using this
 as my wallpaper for the next one week. Vikalp wanted to make the bars
-non-rectangular, and I spent some time figuring out how to make waveforms using 
+non-rectangular, and I spent some time figuring out how to make waveforms using
 bezier curves[^1]. The basic learning from my experiments were:
 
 - Cairo has methods for drawing cubic bezier curves.
@@ -147,7 +147,7 @@ I also [filed a PR][PR] (now merged!) to the spectrumyzer project adding support
 [vikalp]: http://vikalpgupta.com/
 [milkdrop]: http://projectm.sourceforge.net/ "MilkDrop was the hardware-accelerated music visualization plugin for Winamp. ProjectM is the port that doesn't need Winamp and works on linux"
 [spectrumyzer]: https://github.com/HaCk3Dq/spectrumyzer/
-[img.cava]: https://cdn.rawgit.com/karlstav/cava/gh-pages/cava_gradient.gif
+[img.cava]: https://rawcdn.githack.com/karlstav/cava/80d465ff2537abf030fa766bda281150c60ac162/example_files/cava.gif
 [img.projectm]: /img/milkdrop.jpg
 [config]: https://github.com/captn3m0/dotfiles/blob/master/files/audio/.config/spectrum.conf "Just ensure you have the latest spectrumyzer code before using this"
 [PR]: https://github.com/HaCk3Dq/spectrumyzer/pull/22 "Configurable renderers"

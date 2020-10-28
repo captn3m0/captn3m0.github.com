@@ -29,7 +29,7 @@ As part of the School Outreach program (organized by the brilliant [Tink][tink])
 
 I learned a lot of different things: how to start with Kernel Programming, DNSSEC, Retro Gaming. Thanks to a few dedicated volunteers, we even made a 8-inch Telescope that made staring at the night sky so much fun. We had a session on Typography, a story telling session in Malayalam (translated to English on the fly). I even learnt a bit of Emacs.
 
-The list is so long, I don't think I can do it justice in this single blog post. You can see the entire schedule for the event [here](http://hillhacks.in/calendar) and check what all you missed on.
+The list is so long, I don't think I can do it justice in this single blog post.
 
 The most amazing part was not the technical things, but the community itself. [sva][sva] would often say that everyone of us has "sudo access on the conference" (geekspeak for full authority). Each of us helped organize it, any way we could. The community got together to setup the stage, tents, network and the entire infrastructure at HillHacks. Zainab even has a blog post on [social cooking at Hillhacks][cooking-blog-post].
 
@@ -46,5 +46,5 @@ If this blog post interests you, be sure to check out [hackbeach][hb] as well. W
 [tink]: https://twitter.com/mediatinker "Her twitter profile"
 [sva]: https://twitter.com/sva "sva on twitter"
 [cooking-blog-post]: https://medium.com/@zainabbawa/on-community-and-the-art-of-various-cookings-511c31c33498 "On community, and the art of various cookings"
-[hb]: http://hillhacks.in/hackbeach "HackBeach wiki page"
+[hb]: http://hackbeach.in "HackBeach wiki page"
 [hh]: https://hillhacks.in "hacking and making in the Himalayas"

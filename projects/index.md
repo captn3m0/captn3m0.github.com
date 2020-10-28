@@ -20,7 +20,7 @@ projects:
   muzi:
     desc: Browser-based music player by SDSLabs
     color: "#001F3F"
-    url: http://sdslabs.co/
+    url: https://sdslabs.co/
   rss:
     desc: A list of various RSS-related projects
     color: "#3498db"

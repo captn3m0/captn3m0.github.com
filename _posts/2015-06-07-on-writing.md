@@ -62,7 +62,6 @@ If you wanna support its development, you can do one of the following:
 - Poke me on [twitter][twitter] or [email][email] and let me know you want to read it
 - [Subscribe][josd] to the mailing list (I'll send out updates there)
 - Watch or Star the repo on [GitHub][josd-gh].
-- [Donate on Gratipay][gratipay]
 - See the [CONTRIBUTING][contributing] file on github for contributing to the text.
 
 Asking for Donations might sound weird to some. I don't really need the money, but I think I'd get an additional sense of responsibility towards finishing it if people start giving me money. I will be donating the entire proceedings to [EFF][eff].
@@ -73,17 +72,16 @@ Asking for Donations might sound weird to some. I don't really need the money, b
 [je]: http://www.prufrock451.com/ "Official website for James Erwin"
 [ama]: https://www.reddit.com/r/IAmA/comments/2w72o7/so_i_sold_a_reddit_reply_to_warner_brothers_a_few/coo5gys "permalink to quote in his reddit ama thread"
 [sm]: http://shashankmehta.in "Shashank's personal website"
-[ishan]: http://kumarishan.in/ "Kumar Ishan"
+[ishan]: https://twitter.com/kumar_ishan "Kumar Ishan"
 [josd-gh]: https://github.com/captn3m0/the-joy-of-software-development "GitHub source for the book"
 [license]: https://creativecommons.org/licenses/by-sa/4.0/
 [gb]: http://gitbook.com/ "GitBook"
 [josd-audience]: https://josd.captnemo.in/content/hn.html "A few words to the HN community"
 [josd-issue]: https://github.com/captn3m0/the-joy-of-software-development/issues/new "File a new issue for the book"
-[artur]: https://hackerusesthis.com/u/artur "He's made hackerusesthis"
+[artur]: https://github.com/aartur "He's made hackerusesthis"
 [twitter]: https://twitter.com/captn3m0 "@captn3m0"
 [email]: /contact/
 [josd]: https://josd.captnemo.in/ "The Joy of Software Development"
-[gratipay]: http://gratipay.com/captn3m0/ "My Gratipay Profile"
 [eff]: https://www.eff.org/ "Electronic Frontier Foundation"
 [jos]: http://www.joelonsoftware.com/ "Joel on Software"
 [pg]: http://paulgraham.com/articles.html "Essays by Paul Graham"

@@ -7,7 +7,7 @@ title: Medium abuses nofollow
 layout: post
 ---
 
-**Update**: Since I published this post, I have changed my opinion somewhat on the matter. This post is [quite confrontational](https://news.ycombinator.com/item?id=9328384) and I didn't mean it to be that way. Medium is not wrong in this matter, but I still think we need to look for better solutions. I have since been working on a [proposal/idea](https://github.com/captn3m0/ideas/blob/master/nofollow.md) that would use machine learning to "solve" this problem, instead of side-stepping it.
+**Update**: Since I published this post, I have changed my opinion somewhat on the matter. This post is [quite confrontational](https://news.ycombinator.com/item?id=9328384) and I didn't mean it to be that way. Medium is not wrong in this matter, but I still think we need to look for better solutions. I have since been working on a [proposal/idea](https://github.com/captn3m0/ideas/blob/master/BADIDEAS.md#-nofollow-enforcer) that would use machine learning to "solve" this problem, instead of side-stepping it.
 
 I call <a href="https://medium.com" rel="nofollow" title="This is a nofollow link">medium</a> a "_mostly good_" platform for lazy writers. A lot of people have written about its excellent typography, or it being the next "big publishing platform". I've used medium in the past, and while it does have its benefits, I have stopped using it.
 

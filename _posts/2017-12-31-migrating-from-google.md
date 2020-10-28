@@ -32,13 +32,13 @@ _Why_: I got frustrated with [Google Play Music][gpm] a few times. Synced songs 
 
 I've been using email on my own domain for quite some time (`captnemo.in`), but it was managed by a Outlook+Google combination that I didn't like very much.
 
-I switched to [Migadu][migadu] sometime last year, and have been quite happy with the service. Their [Privacy Policy](https://www.migadu.com/en/privacy.html), and [Benefits](https://www.migadu.com/en/benefits.html) section on the website is a pleasure to read.
+I switched to [Migadu][migadu] sometime last year, and have been quite happy with the service. Their [Privacy Policy](https://www.migadu.com/privacy/), and [pro/cons](https://www.migadu.com/procon/) section on the website is a pleasure to read.
 
 _Why_: Email is the central-point of your online digital identity. Use your own-domain, at the very least. That way, you're atleast protected if Google decides to suspend your account. Self-hosting email is a big responsibility that requires critical uptime, and I didn't want to manage that, so went with migadu.
 
 _Why Migadu_: You should read their [HN thread](https://news.ycombinator.com/item?id=13048334).
 
-_Caviats_: They don't yet offer 2FA, but hopefully that should be fixed soon. Their spam filters aren't the best either. Migadu even has a [Drawbacks](https://www.migadu.com/en/drawbacks.html) section on their website that you _must read_ before signing up.
+_Caviats_: They don't yet offer 2FA, but hopefully that should be fixed soon. Their spam filters aren't the best either. Migadu even has a [Drawbacks](https://www.migadu.com/procon/#the-drawbacks-list) section on their website that you _must read_ before signing up.
 
 _Alternatives_: RiseUp, FastMail.
 
@@ -122,7 +122,7 @@ I've switched to `pass` along with a sync to keybase.
 
 _Why_: [LastPass has had multiple breaches](https://en.wikipedia.org/wiki/LastPass#Security_issues), and a plethora of security issues (including 2 RCE vulnerabilities). Their fingerprint authentication on Android could be bypassed til recently. _I just can't trust them any more_
 
-_Why pass_: It is built on strong crypto primitives, is open-source, and has good integration with both [`i3`](https://github.com/cdown/passmenu) and [firefox](http://www.invicem.pro/pages/passff.html). There is also a [LastPass migration script](https://git.zx2c4.com/password-store/tree/contrib/importers/lastpass2pass.rb) that I used.
+_Why pass_: It is built on strong crypto primitives, is open-source, and has good integration with both [`i3`](https://github.com/cdown/passmenu) and [firefox](https://github.com/browserpass/browserpass-extension). There is also a [LastPass migration script](https://git.zx2c4.com/password-store/tree/contrib/importers/lastpass2pass.rb) that I used.
 
 _Caviats_: Website names are used as filenames in pass, so even though passwords are encrypted, you don't want to push it to a public Git server (since that would expose the list of services you are using). I'm using my [own git server][git], along with keybase git(which keeps it end-to-end encrypted, even branch names). You also need to be careful about your GPG keys, instead of a single master password.
 
