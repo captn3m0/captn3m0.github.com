@@ -6,12 +6,12 @@ tags:
 - writeup
 ---
 
-We recently participated in [ECTF-14](http://ectf.in/) and it was a great experience. Here's a writeup to the web400 challenge:
+We recently participated in [ECTF-14](https://github.com/ctfs/write-ups-2014/tree/master/ectf-2014) and it was a great experience. Here's a writeup to the web400 challenge:
 
 ### Problem Statement
 
 >The chat feature was added to Facelook website and to test it, founder of the company had sent a message in chat to the admin. Admin reads all the chat messages, but does not reply to anyone. Try to get that chat message and earn the bounty.
->[Annoying Admin](http://212.71.235.214:4050/)
+>[Annoying Admin]
 
 The challenge consisted of a simple signup and a chat message sending feature, where anyone could send a chat message to anyone. However, on the loading side, the chat message was loaded using Javascript. The code for loading the messages looked like this:
 
@@ -35,7 +35,7 @@ The url above responded as the following:
 $('#chat_234').html('');$('#chat_234').append('dream<br />');
 ```
 
-Where `dream` was the message I sent. My first attempt was to break out of the append function, and execute my own javascript, by trivially using a single quote. Unfortunately, the single quote was escaped and removed by the backend. 
+Where `dream` was the message I sent. My first attempt was to break out of the append function, and execute my own javascript, by trivially using a single quote. Unfortunately, the single quote was escaped and removed by the backend.
 
 Next, I tried using `&#x27;` instead of a single quote, and it worked:
 
@@ -59,7 +59,7 @@ The only issue was that Admin had to visit our site, with proper cookies, and we
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"> 
+  <meta charset="utf-8">
   <title>ECTF14 web400 exploit</title>
 </head>
 <body>
@@ -82,6 +82,6 @@ The only issue was that Admin had to visit our site, with proper cookies, and we
 
 Unfortunately, the exploit did not work on Chrome because Chrome refused to run the script as javascript, because it was being served with a mime-type of `text/html`. It worked in firefox, and I crossed my fingers as I sent out the link to the above page to admin in a chat message. I knew admin user was using PhantomJS to run my javascript (because of the user-agent in numerous GET requests I got earlier). So, I was hopeful that this would work.
 
-I was listening at the url, and sure enough as soon as I sent a link out to this page, admin ran my javascript and I got the flag in a POST request. 
+I was listening at the url, and sure enough as soon as I sent a link out to this page, admin ran my javascript and I got the flag in a POST request.
 
 The flag was `bad_js_is_vulnerable`.

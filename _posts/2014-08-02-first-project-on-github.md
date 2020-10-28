@@ -2,13 +2,13 @@
 layout: post
 title: What was the first project on GitHub?
 ---
-**Note**: This is cross-posted from [Quora](http://qr.ae/CW76f) where I wrote this answer initially.
+**Note**: This is cross-posted from [Quora](https://qr.ae/CW76f) where I wrote this answer initially.
 
 The first project on GitHub was **grit**. How do I know this? Just some clever use of the search and API.
 
 [Here's a GitHub search](https://github.com/search?q=created%3A%3C2008-01-15&amp;type=Repositories&amp;ref=searchresults) to see the first 10 projects that were created on GitHub. The search uses the `created` keyword, and searches for projects created before 15 Jan 2008.
 
-They are (in order of creation) (numeric id of repo in brackets): 
+They are (in order of creation) (numeric id of repo in brackets):
 
 1.  [mojombo/grit](https://github.com/mojombo/grit) (1)
 > Grit gives you object oriented read/write access to Git repositories via Ruby.
@@ -31,7 +31,7 @@ They are (in order of creation) (numeric id of repo in brackets):
 > No longer maintained
 7.  [defunkt/exception_logger](https://github.com/defunkt/exception_logger) (35)
 > The Exception Logger logs your Rails exceptions in the database and provides a funky web interface to manage them.
-> No longer maintained> 
+> No longer maintained>
 8.  [defunkt/ambition](https://github.com/defunkt/ambition) (36)
 9.  [technoweenie/restful-authentication](https://github.com/technoweenie/restful-authentication) (42)
 > Generates common user authentication code for Rails/Merb, with a full test/unit and rspec suite and optional Acts as State Machine support built-in.Maintained till Aug 2011

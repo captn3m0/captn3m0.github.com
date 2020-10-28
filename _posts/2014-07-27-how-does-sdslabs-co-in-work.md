@@ -1,20 +1,20 @@
 ---
 layout: post
 title: How does the sdslabs.co.in domain name work?
-excerpt: A very common asked question is about our domain name and how does it work locally. 
+excerpt: A very common asked question is about our domain name and how does it work locally.
 ---
 
-A very common asked question is about our domain name and how does it work locally. When we launched [filepanda, and our preliminary homepage](http://blog.sdslabs.co.in/2010/11/hello-world/) a long time ago, we had been using the easy to remember IP address <http://192.168.208.208>.
+A very common asked question is about our domain name and how does it work locally. When we launched [filepanda, and our preliminary homepage](https://blog.sdslabs.co/2010/11/hello-world/) a long time ago, we had been using the easy to remember IP address <http://192.168.208.208>.
 
-Now, however we are using the domain name sdslabs.co.in for all our services, including [DC](http://dc.sdslabs.co.in). To understand how this works, you will have to understand how the name resolution of a domain name takes place. 
+Now, however we are using the domain name sdslabs.co.in for all our services, including [DC](http://dc.sdslabs.co.in). To understand how this works, you will have to understand how the name resolution of a domain name takes place.
 
 >The Domain Name System (DNS) is a hierarchical distributed naming system for computers, services, or any resource connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities.
 >
 >\- [Wikipedia](http://en.wikipedia.org/wiki/Domain_Name_System)
 
-DNS is basically a service which resolves domain names to IP addresses. If you own a domain name, you can point it to wherever you want. This is usually done in the administration panel of your hosting services. We have setup multiple domains on our nameserver ([mitsu.in](http://mitsu.in) as of the moment) to point to the IP address 192.168.208.x. 
+DNS is basically a service which resolves domain names to IP addresses. If you own a domain name, you can point it to wherever you want. This is usually done in the administration panel of your hosting services. We have setup multiple domains on our nameserver ([mitsu.in](http://mitsu.in) as of the moment) to point to the IP address 192.168.208.x.
 
-For instance [sdslabs.co.in](http://sdslabs.co.in) points to `192.168.208.208`, [echo.sdslabs.co.in](http://echo.sdslabs.co.in) points to `192.168.208.204` and so on. This is done via updating something called `A records` (this is the part of resolution which transaltes to IPv4 addresses). 
+For instance [sdslabs.co.in](http://sdslabs.co.in) points to `192.168.208.208`, [echo.sdslabs.co.in](http://echo.sdslabs.co.in) points to `192.168.208.204` and so on. This is done via updating something called `A records` (this is the part of resolution which transaltes to IPv4 addresses).
 
 The benifits of having such a system in place are enormous:
 

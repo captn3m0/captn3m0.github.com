@@ -12,8 +12,8 @@ To start with, here's a piece of art that _is meant to offend you_:
 
 The above is an artwork by MF Hussain. Its was sold as an untitled work by Hussain to a private collector, but was named _Bharat Mata_ later when it was sold in an auction.
 
-Were you offended by looking at it? Maybe.  
-Does it look vulgar and offensive to you? Perhaps.  
+Were you offended by looking at it? Maybe.
+Does it look vulgar and offensive to you? Perhaps.
 What should you do as a result?
 
 CLOSE THE TAB!
@@ -30,7 +30,7 @@ However, I found a curious piece of irony while researching this:
 
 One of the prime opponents to the First Amendment restrictions was [Syama Prasad Mookerjee](http://www.wikiwand.com/en/Syama_Prasad_Mukherjee), a long time RSS activist, founder of the Bharatiya Jana Sangh and widely regarded as the [godfather of Hindu Nationalism](http://www.shyamaprasad.org/home.html).
 
-And now today, 64 years later, these restrictions are getting enacted into even more draconian laws. One such law is Section 66A of the Information Technology Act. 
+And now today, 64 years later, these restrictions are getting enacted into even more draconian laws. One such law is Section 66A of the Information Technology Act.
 
 Kapil Sibal, former union minister [writes about it](http://indiatoday.intoday.in/story/freedom-internet-online-charlie-hebdo-kapil-sibal/1/416011.html):
 
@@ -54,7 +54,7 @@ You see, the internet is a resilient beast. You can't control it, or bend it to 
 
 A nation where I am afraid to post critical views of the government or discuss events that might offend someone is not a nation worth living in.
 
-The internet cannot be regulated. You might certainly think of it as possible, but [we](https://www.eff.org/ "Electronic Frontier Foundation") [will](https://wikileaks.org/ "Wikileaks") [always](https://www.torproject.org/ "The Tor Project") [find](https://thepiratebay.se/ "The Pirate Bay") a way.
+The internet cannot be regulated. You might certainly think of it as possible, but [we](https://www.eff.org/ "Electronic Frontier Foundation") [will](https://wikileaks.org/ "Wikileaks") [always](https://www.torproject.org/ "The Tor Project") [find](https://thepiratebay.org/ "The Pirate Bay") a way.
 
 >If you are offended it is your problem, and frankly lots of things offend lots of people. - [Salman Rushdie](http://www.goodreads.com/quotes/739464-nobody-has-the-right-to-not-be-offended-that-right)
 

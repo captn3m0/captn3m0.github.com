@@ -21,8 +21,8 @@ was pretty well received (even though I sweated a lot onstage), and a lot
 of attendees came up to me to discuss it further after the talk.
 
 The paper behind the talk, and the related source code can be found on [GitHub][gh].
-Create a new issue or send me an email in case you have any queries. The tool demo
-I gave during the talk can be found at <http://nullcon.captnemo.in>. Note, however
+Create a new issue or send me an email in case you have any queries. ~The tool demo
+I gave during the talk can be found at http://nullcon.captnemo.in~ (Not available anymore). Note, however
 that it currently uses cached data to check for permissions, and is not a LIVE tool.
 
 nullcon was my first conference, and I'm glad to say I enjoyed it very much. From
