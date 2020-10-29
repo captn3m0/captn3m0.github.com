@@ -8,7 +8,8 @@ If you're interested in my [self-hosting setup](/setup/homeserver/), I'm using T
 4.  [Part 4, Migrating from Google (and more)](/blog/2017/12/31/migrating-from-google/)
 5.  [Part 5, Home Server Networking](/blog/2018/04/22/home-server-networking/)
 6.  [Part 6, btrfs RAID device replacement](/blog/2019/02/24/btrfs-raid-device-replacement-story/)
+7.  [Part 7, Adventures with systemd, btrfs, and RAID](/blog/2020/10/29/systemd-adventures/)
 
-If you have any comments, [reach out to me](/contact/)
+If you have any questions, [reach out to me](/contact/)
 
 [nebula]: https://git.captnemo.in/nemo/nebula/
