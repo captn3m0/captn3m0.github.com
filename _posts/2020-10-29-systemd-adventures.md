@@ -1,9 +1,13 @@
 ---
 layout: post
 title: Adventures with systemd, btrfs, and RAID
+tags:
+- systemd
+- btrfs
+- raid
 ---
 
-After facing lots of challenges with a hard disk enclosure I'd recently acquired, I decided to drop it and move the disks inside the case instead. As my homeserver has gotten upgrades over time, some of the older disks have become redundant. This was my RAID setup until a few days ago:
+After facing lots of challenges with a [hard disk enclosure I'd recently acquired][orico], I decided to drop it and move the disks inside the case instead. As my homeserver has gotten upgrades over time, some of the older disks have become redundant. This was my RAID setup until a few days ago:
 
 ```
 Total devices 5 FS bytes used 3.26TiB
@@ -107,3 +111,5 @@ At this point, systemd claims complete authority over that mountpoint - any atte
 [irc]: irc://irc.freenode.net:6667/btrfs
 [^2]: This was a very surprising revelation for me.
 [^3]: systemd services let you run code, and targets are a way to keep track of dependencies, usually by setting all the services as dependencies of a target. So when you try to run a target, it runs all the services marked as dependencies recursively.
+
+[orico]: https://www.orico.me/product/orico-aluminum-3-5-inch-sata-usb3-0-esata-external-multi-bay-hdd-enclosure-on-the-desktop-3529rus3/
