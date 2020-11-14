@@ -4,7 +4,7 @@ title: How does the sdslabs.co.in domain name work?
 excerpt: A very common asked question is about our domain name and how does it work locally.
 ---
 
-A very common asked question is about our domain name and how does it work locally. When we launched [filepanda, and our preliminary homepage](https://blog.sdslabs.co/2010/11/hello-world/) a long time ago, we had been using the easy to remember IP address <http://192.168.208.208>.
+A very common asked question is about our domain name and how does it work locally. When we launched [filepanda, and our preliminary homepage](https://blog.sdslabs.co/2010/11/hello-world) a long time ago, we had been using the easy to remember IP address <http://192.168.208.208>.
 
 Now, however we are using the domain name sdslabs.co.in for all our services, including [DC](http://dc.sdslabs.co.in). To understand how this works, you will have to understand how the name resolution of a domain name takes place.
 

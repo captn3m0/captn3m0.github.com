@@ -8,8 +8,8 @@ tags:
 - hacker news
 ---
 
-A few days back, I found the excellent [HackerBarApp][hb] via Hacker News. Hacker News, 
-for those of you who don't know, is  tech news website run by [YCombinator][yc]. 
+A few days back, I found the excellent [HackerBarApp][hb] via Hacker News. Hacker News,
+for those of you who don't know, is  tech news website run by [YCombinator][yc].
 Hacker Bar was the simplest way of accessing HN stories that I'd ever seen. Unfortunately,
 it was only for Mac (made using [rubymotion][rm]) and even though the source was available,
 it was of no use to me as a Linux User.
@@ -27,7 +27,7 @@ with PyGtk, just toys and small scripts. I found a [basic skeleton app](http://w
 that was written for AppIndicator and modified it somewhat to form the base of HackerTray.
 
 The next challenge I faced was keeping the check boxes always checked despite of any number
-of clicks after the first. That is, we don't want any menu item to be "un-checked" at 
+of clicks after the first. That is, we don't want any menu item to be "un-checked" at
 any moment. A basic idea is to do this (partial code):
 
 {% highlight python %}
@@ -44,7 +44,7 @@ def addItem(self, item):
 However, this does not work as expected, because the `widget.set_active()` call also results
 in the `activate` event being fired, which ultimately calls `open`. This means on a click to
 an unchecked menuItem, the open function is called twice. This results in the browser opening
-the link twice. 
+the link twice.
 
 As a workaround, I disabled the event handler in case it is a checked menuItem:
 
@@ -62,14 +62,14 @@ def addItem(self, item):
 	i.signal_id = i.connect('activate', self.open)
 {% endhighlight %}
 
-The next thing I worked on was a persistent memory for the app. In a nutshell, I needed to 
+The next thing I worked on was a persistent memory for the app. In a nutshell, I needed to
 make sure that the tick on an item remained there, even if the app was restarted. This meant
 writing a list of all the "viewed" items into a file. After looking at [shelve][shelve] for a
 bit, I just [rolled my own implementation](https://github.com/captn3m0/hackertray/commit/167397e51f665847400617935653027ebba0b396)
 , based on storing the data into `~/.hackertray.json` file.
 
 After that I worked on packaging the app into a python package, so that it could be easily installed.
-The [python packaging tutorial](http://www.scotttorborg.com/python-packaging/) was an easy to use guide
+The [python packaging tutorial](https://python-packaging.readthedocs.io/en/latest/) was an easy to use guide
 that let me [create the package](https://github.com/captn3m0/hackertray/commit/6ca735ea089d9189f152612ed016d31d72f9c36b)
 easily and push it to the [Python Package Index](https://pypi.python.org/pypi/hackertray/). A few issues in the package
 were found, and were fixed quickly thanks to [the pull request](https://github.com/captn3m0/hackertray/pull/7) by [@brunal][brunal].

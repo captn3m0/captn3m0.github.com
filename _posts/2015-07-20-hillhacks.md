@@ -46,5 +46,5 @@ If this blog post interests you, be sure to check out [hackbeach][hb] as well. W
 [tink]: https://twitter.com/mediatinker "Her twitter profile"
 [sva]: https://twitter.com/sva "sva on twitter"
 [cooking-blog-post]: https://medium.com/@zainabbawa/on-community-and-the-art-of-various-cookings-511c31c33498 "On community, and the art of various cookings"
-[hb]: http://hackbeach.in "HackBeach wiki page"
+[hb]: https://hackbeach.in "HackBeach wiki page"
 [hh]: https://hillhacks.in "hacking and making in the Himalayas"

@@ -77,7 +77,7 @@ Self-contained binaries are available at <http://node-js.prcn.co.cc>
 ### Node Package Manager
 All cool programming languages come with their own package managers. Ruby has [rubygems](https://rubygems.org), Python has pip, PHP has PECL, perl has CPAN, and `node` has [npm](https://github.com/isaacs/npm).
 
-`npm` holds a large collection of packages that are the extra batteries that don't come included in node. If you need to parse documents, or do some other fancy stuff in node, don't look farther than npm. If you need it, chances are, it already has a package in npm. See [list of packages](http://search.npmjs.org/) on the npm site.
+`npm` holds a large collection of packages that are the extra batteries that don't come included in node. If you need to parse documents, or do some other fancy stuff in node, don't look farther than npm. If you need it, chances are, it already has a package in npm. See [list of packages](https://www.npmjs.com/) on the npm site.
 
 #### Unix
 
@@ -117,7 +117,7 @@ I'd recommend starting out with [Connect](https://github.com/senchalabs/Connect)
 * [Nodejs.org](http://nodejs.org/)
 
 ## Blogs & Other resources
-* [NodeJitsu](http://blog.nodejitsu.com/), a company working completely on node.
+* [NodeJitsu](http://blog.nodejitsu.com/), a company working completely on node. ![][dead]
 * [Getting Started with Node.JS, Express and CouchDB](http://www.bytemuse.com/2011/06/getting-started-with-node-js-express-and-couchdb/)
 * [6 Must Have Node.js Modules](http://blog.nodejitsu.com/6-must-have-nodejs-modules)
 * [Some cool node projects](http://addyosmani.com/blog/spotlight-issue1/)
@@ -131,4 +131,4 @@ I'd recommend starting out with [Connect](https://github.com/senchalabs/Connect)
 * [What is node.js](http://stackoverflow.com/questions/1884724/what-is-node-js)
 * [Where to host node.js applications](http://stackoverflow.com/questions/3648993/where-can-i-host-a-node-js-app)
 
-Tags : [WeBlog-iFest2011](http://www.facebook.com/WeBlog2011), Web Development, node.js
+[dead]: https://img.shields.io/badge/status-dead-red.svg?style=flat-square

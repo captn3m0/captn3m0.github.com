@@ -9,11 +9,11 @@ published: true
 
 A slide from GitHub's famous "How Github uses Github to build Github talk":
 
-<script src="http://speakerdeck.com/embed/4e79b461c9bdcb003f00331d.js?slide=10"></script>
+<script async class="speakerdeck-embed" data-id="4e79b461c9bdcb003f00331d" data-ratio="1.33333333333333" data-slide="10" src="//speakerdeck.com/assets/embed.js"></script>
 
 In their recent version of the talk at RubyConf 2011, they changed the slide slightly:
 
-![No pings](http://dl.dropbox.com/u/1766113/vlcsnap-2012-02-01-16h24m32s103.png)
+![No pings](/img/rubyconf-github.png)
 
 It now reads, "No Pings" instead of "No Managers".
 

@@ -110,7 +110,7 @@ Switch to [FDroid](https://f-droid.org/) - It has some apps that [Google doesn't
 
 _Why_: Play Store is tightly linked to Google Play Services, and doesn't play nice with [microG][mg].
 
-_Why FDroid_: FDroid has [publicly verifiable builds](https://f-droid.org/wiki/page/Deterministic,_Reproducible_Builds), and tons of open-source applications.
+_Why FDroid_: FDroid has [publicly verifiable builds](https://f-droid.org/docs/Reproducible_Builds/?title=Deterministic,_Reproducible_Builds), and tons of open-source applications.
 
 _Why Yalp_: Was easy enough to setup.
 

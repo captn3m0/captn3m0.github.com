@@ -91,7 +91,7 @@ I was working on the Google +1 Listing API (undocumented). So here's a list of m
       </td>
   </tr>
   <tr>
-      <td><a href="http://blackberry.github.com/Alice/demos.html" title="http://blackberry.github.com/Alice/demos.html">Alice.js Demos</a>
+      <td><a href="https://blackberry.github.io/Alice/demos/index.html" title="https://blackberry.github.io/Alice/demos/index.html">Alice.js Demos</a>
           </td><td><p>Alice.js Demos. Alice.js (A Lightweight Independent CSS Engine) is a micro JavaScript library focused on using hardware-accelerated capabili</p>
       </td>
   </tr>
@@ -181,8 +181,8 @@ I was working on the Google +1 Listing API (undocumented). So here's a list of m
       </td>
   </tr>
   <tr>
-      <td><a href="https://github.com/timcameronryan/cross-browser-selection" title="https://github.com/timcameronryan/cross-browser-selection">timcameronryan/cross-browser-selection</a>
-          </td><td><p>cross-browser-selection - A tiny JavaScript DOM selection library for modern browsers and IE5-8.</p>
+      <td><a href="https://github.com/tcr/selection.js" title="https://github.com/tcr/selection.js"> tcr/selection.js</a>
+          </td><td><p>selection.js - A tiny JavaScript DOM selection library for modern browsers and IE5-8.</p>
       </td>
   </tr>
   <tr>
@@ -191,7 +191,7 @@ I was working on the Google +1 Listing API (undocumented). So here's a list of m
       </td>
   </tr>
   <tr>
-      <td><a href="http://coreh.github.com/nide/" title="http://coreh.github.com/nide/">nide - Beautiful IDE for Node.JS</a>
+      <td><a href="https://github.com/coreh-deprecated/nide" title="https://github.com/coreh-deprecated/nide">nide - Beautiful IDE for Node.JS</a>
           </td><td><p>nide. Beautiful IDE for Node.JS. nide is a web-based IDE for Node.js, designed with simplicity and ease-of-use in mind. The current version </p>
       </td>
   </tr>
@@ -212,7 +212,3 @@ I was working on the Google +1 Listing API (undocumented). So here's a list of m
   </tr>
   </tbody>
 </table>
-
-### List Of Watched Repositories from Github
-
-<iframe src="http://www.clipboard.com/embed/LQztbTSJvWyI3zAaERcC6FnMUlAdDH56h8He?widthAdjust=0&heightAdjust=0&showBorder=0" scrolling="no" frameborder="0" width="520" height="1561"></iframe>

@@ -1,7 +1,7 @@
 ---
 title: "Things I expect in a Chrome/iOS update"
 layout: post
-tags: 
+tags:
 - chrome
 - ios
 ---
@@ -28,7 +28,7 @@ Chrome is already my primary browser on my primary machine, and after it came ou
 - **Find in Page**. This is a no-brainer. **Edit**: This is available via [Chrome Customizer](http://www.addictivetips.com/ios/great-cydia-tweaks-for-chrome-iphone-ipad/) in Cydia for a jailbroken device.
 - Ability to **turn off images/javascript**) (Content Settings). I'm not sure if it will be possible w/o proxying like how Opera does, but this would be nice to have (since people might want to save bandwidth on 3g).
 - Support for emailing an entire page (rendered).
-- **UserScript support**. I don't know if apple would allow it at all, but I think the Apple ToS disallows code to be downloaded. What if there were some sort of linking support to allow me to insert some external script tag? 
+- **UserScript support**. I don't know if apple would allow it at all, but I think the Apple ToS disallows code to be downloaded. What if there were some sort of linking support to allow me to insert some external script tag?
 - **Readability/iReader** like support. The safari readability link does work wonders. This could be simulated with a bookmarklet, but once again calling them is hard. **Update**: ChromeCustomizer can do this via settings menu (see below).
 - **Better access to bookmarks/bookmarklets**. At least show me the mobile bookmarks so I can keep them separate.
 - Wait a bit more before taking the page snapshot for the speed-dial. The GMail snapshot has always been blank for me. At least check if the snapshot is completely blank, and wait a bit more if that is the case.
@@ -41,12 +41,12 @@ Chrome is already my primary browser on my primary machine, and after it came ou
 - **CloudPrint** support. I don't use this, but I am assuming there are people who do.
 - **FullScreen** support of some sort. Safari in iOS 6 is bringing this much asked for feature, so there are people who would love to have this. Chrome's faster tab switching should help it out with some of the Full Screen issues. (**Edit**: This is available via a three finger tap if you install [Chromizer](http://www.idownloadblog.com/2012/07/01/chromizer/) from Cydia's ModMyi repo). Chromizer also forces the iPhone style tab switching on the iPad as a side-effect.
 
-There is also a [ChromeURL](http://www.idownloadblog.com/2012/07/01/chromeurl/) tweak available for Jailbroken devices that changes the keyboard layout to the the one used for address bar in Safari (So called tld keyboard). 
+There is also a [ChromeURL](http://www.idownloadblog.com/2012/07/01/chromeurl/) tweak available for Jailbroken devices that changes the keyboard layout to the the one used for address bar in Safari (So called tld keyboard).
 
 Another one called [ChromeCustomizer](http://modmyi.com/content/8108-chromecustomization-adds-some-new-stuff-google-chrome.html) offers the following:
 
 - Add one bookmarklet to the settings menu. I'm using [Readable](http://readable.tastefulwords.com/) at present.
-- Adds a [broken](https://github.com/rpetrich/ChromeCustomizer/issues/1) fullscreen implementation (maybe it is clashing with Chromizer) via the Menu. I prefer Chromizer's 3 finger tap for fullscreen.
+- Adds a broken fullscreen implementation (maybe it is clashing with Chromizer) via the Menu. I prefer Chromizer's 3 finger tap for fullscreen.
 - Adds a Find in Page feature. **Update**: This is now available
 - Adds some filtering for ads/tracking websites.
 - Adds an option to change Chrome tab switching mode (iPhone vs iPad).

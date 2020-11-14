@@ -49,7 +49,7 @@ down my amazing reaction to the awesome people that had joined the lab.
 It is difficult to distil into words the awesome learning experience I had with all these people. Going to chapos, thinking
 about how we could expand. What else awesome stuff we could do? One night hackathons, where we coded awesome stuff.
 
-And I started to work on [muzi](https://sdslabs.co.in/muzi/), which was to be _my application_. It stands at 811 commits today, with over
+And I started to work on Muzi, which was to be _my application_. It stands at 811 commits today, with over
 200 issues in our project management system.
  I went into the development knowing PHP and bits of AJAX, and came out a JQuery fanboy. Muzi has been my primary music player
   for almost an year now. It feels awesome to listen to music on a music player you coded. The initial version was
