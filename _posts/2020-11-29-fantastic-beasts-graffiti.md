@@ -7,7 +7,7 @@ tags:
 
 "Fantastic Beasts and Where to Find Them" is a curious book:
 
-- The in-universe book is written in Newt Scamander and was published in 1927.
+- The in-universe book is written by Newt Scamander and was published in 1927.
 - The first edition of the companion book was published in 2001. This is apparently the 52nd in-universe edition with a foreword from Dumbledore and was released to the muggle world for charity.
 - The 2001 edition pretends to be Harry's copy of the book as of the end of Harry's 4th year at Hogwarts. As such it includes hand-written comments from the trio. (Yes, Hermione writes on books!)
 
