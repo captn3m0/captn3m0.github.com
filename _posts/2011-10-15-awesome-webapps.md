@@ -82,7 +82,7 @@ The previously mentioned [workflowy](http://workflowy.com) keeps your lists in s
 
 Also, mention goes out to [pastehtml](http://pastehtml.com), which does an excellent job. Its neither collaborative nor has sharing, but it had me hooked at _editable markdown_. You can type in markdown, publish in html, and come back and edit your documents, as per your your heart's wish.
 
-## Grooveshark ![][dead]
+## Grooveshark [![][dead]][grooveshark]
 
 I rarely listen to music online, but when I do, its either on Youtube or Grooveshark.
 
@@ -101,3 +101,4 @@ I'll probably add some Chrome Extensions later as well.
 
 [dead]: https://img.shields.io/badge/status-dead-red.svg?style=flat-square
 [mostlydead]: https://img.shields.io/badge/status-mostly-dead-orange.svg?style=flat-square
+[grooveshark]: https://www.cinchsolution.com/what-happened-to-grooveshark-com/
