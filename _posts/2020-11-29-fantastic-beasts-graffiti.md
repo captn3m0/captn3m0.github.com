@@ -13,7 +13,13 @@ tags:
 
 However, with the release of the film of the same name in 2016 - a new edition was released with lots of changes:
 
-1. 6 new beasts were either added straight from the film.
+1. 6 new beasts that made an appearance in the film were added to the book[^1]:
+- Hidebehind
+- Hodag
+- Horned Serpent
+- Snallygaster
+- Thunderbird
+- Wampus cat
 2. The hand-lettering was removed.
 3. Dumbledore's foreword is removed from the book, in favor of a in-universe foreword from Newt Scamander.
 4. "About the Author" section changes Newt's background. He [no longer graduates from Hogwarts][newt], just "leaves" it, as portrayed in the film.
@@ -71,3 +77,5 @@ Thanks to [Bhavya][bhavya] for helping with the troll illustration.
 [newt]: https://old.reddit.com/r/harrypotter/comments/5z8ozu/new_edition_of_fantastic_beasts_removes_part/
 [boxset]: https://amzn.to/39ni3vh
 [bhavya]: https://instagram.com/avyadraws/
+
+[^1]: I didn't like the new editions, they sound less like a textbook and more like a transcript of what happened in the film.
