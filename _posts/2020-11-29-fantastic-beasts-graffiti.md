@@ -8,19 +8,19 @@ tags:
 "Fantastic Beasts and Where to Find Them" is a curious book:
 
 - The in-universe book is written in Newt Scamander and was published in 1927.
-- The first edition of the companion book was published in 2001. This is apparently the 52nd in-universe edition with a foreword from Dumbledore and was released to the muggle word for charity.
+- The first edition of the companion book was published in 2001. This is apparently the 52nd in-universe edition with a foreword from Dumbledore and was released to the muggle world for charity.
 - The 2001 edition pretends to be Harry's copy of the book as of the end of Harry's 4th year at Hogwarts. As such it includes hand-written comments from the trio. (Yes, Hermione writes on books!)
 
 However, with the release of the film of the same name in 2016 - a new edition was released with lots of changes:
 
-1. New beasts that were either added straight from the film , or written into the books post 2001.
+1. 6 new beasts were either added straight from the film.
 2. The hand-lettering was removed.
 3. Dumbledore's foreword is removed from the book, in favor of a in-universe foreword from Newt Scamander.
 4. "About the Author" section changes Newt's background. He [no longer graduates from Hogwarts][newt], just "leaves" it, as portrayed in the film.
 
 All of these changes are meant to fix the inconsistencies in the book with the canon, however that also makes the book much less charming. I got myself a copy of the [Hogwarts Library boxset][boxset] a few years ago, which includes the newer edition of the book (Bloomsbury) - that means no witty comments from Ron.
 
-Since it didn't have the hand-lettering, I took it upon myself to fix that mistake. Thankfully, we have a list of [all the comments in 2001 edition](https://harrypotter.fandom.com/wiki/Fantastic_Beasts_and_Where_to_Find_Them_(companion_book)#Comments_in_the_2001_edition) are available [on the internet](https://imgur.com/a/C2a1g). The trickiest part was the "this book belongs to" page, which is missing from the newer edition. I ended up creating a faux-library card for that instead.
+Since it didn't have the hand-lettering, I took it upon myself to fix that mistake. Thankfully, a list of [all the comments in 2001 edition](https://harrypotter.fandom.com/wiki/Fantastic_Beasts_and_Where_to_Find_Them_(companion_book)#Comments_in_the_2001_edition) are available [on the internet](https://imgur.com/a/C2a1g). The trickiest part was the "this book belongs to" page, which is missing from the newer edition. I ended up creating a faux-library card for that instead.
 
 Here is what it looks like:
 
