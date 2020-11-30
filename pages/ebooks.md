@@ -89,6 +89,14 @@ To help me in these various projects, I've ended up some tooling:
 [url-to-epub][url-to-epub]
 : A simple zero-config script that generates a standards-compliant EPUB from a webpage. Zero config. Requires pandoc
 
+## Apps
+
+[what-to-read][what-to-read] ![][dead]
+: Peppers your goodreads to-read list with amazon links. Sadly dead now, because Amazon broke its API.
+
+[Minerva][minerva] ![][dead]
+: Minerva is a simple ebook scanning system, which uses amazon's Product Search API along with google book search to generate metadata for each book. No longer maintained, but might be useful for someone wanting to do full-text indexing in PHP.
+
 ## References
 
 Here are links to other similar tools that you might like:
@@ -133,3 +141,6 @@ As a side-effect, I often get into the rabbit hole of generating the perfect EPU
 
 [nsycs]: https://github.com/captn3m0/never-say-you-cant-survive
 [nsycs-source]: https://www.tor.com/series/never-say-you-cant-survive-by-charlie-jane-anders/
+
+[minerva]: https://github.com/captn3m0/Minerva
+[what-to-read]: https://github.com/captn3m0/what-to-read/
