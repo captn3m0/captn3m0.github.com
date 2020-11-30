@@ -35,18 +35,18 @@ Here's a list of the interesting books I've covered:
 [Magic Muggle][mm] [[source][mm-source]]
 : Harry Potter fan-fiction about a muggle going to Hogwarts. (3rd book ~~ongoing~~ abandoned)
 
-I also went around converting [all of the original fiction published on Tor.com][tor-original-fiction] using [url-to-epub].
+I also went around converting [all of the original fiction published on Tor.com][tor-original-fiction] using [url-to-epub]. If you'd like a copy, [reach out](/contact/).
 
 ### Brandon Sanderson
 
 [Rhythm of War][cosmere] [[source][row-source]]
-: (In Progress). Initial chapters from Rhythm of War, Book 4 in the Stormlight Archive, being published by Tor in serialized format.
+: Initial chapters (1-19) from Rhythm of War, Book 4 in the Stormlight Archive, being published by Tor in serialized format.
 
 [Oathbringer][cosmere] [[source][oathbringer-source]]
 : Chapters 0-32 from Oathbringer, Book 3 in the Stormlight Archive, being published by Tor in serialized format.
 
 [Warbreaker Prime: Mythwalker][cosmere] [[source][mythwalker-source]]
-: Initial draft of the Warbreaker by Brandon Sanderson, before various parts of it were incorporated into Mistborn.
+: Initial draft of Warbreaker by Brandon Sanderson, before various parts of it were incorporated into Mistborn.
 
 [Way of Kings Reread][cosmere] [[source][wok-source]]
 : Tor re-read of Way of kings, Book 1 in the Stormlight Archive.
