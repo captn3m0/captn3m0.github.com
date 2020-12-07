@@ -26,7 +26,7 @@ However, with the release of the film of the same name in 2016 - a new edition w
 
 All of these changes are meant to fix the inconsistencies in the book with the canon, however that also makes the book much less charming. I got myself a copy of the [Hogwarts Library boxset][boxset] a few years ago, which includes the newer edition of the book (Bloomsbury) - that means no witty comments from Ron.
 
-Since it didn't have the hand-lettering, I took it upon myself to fix that mistake. Thankfully, a list of [all the comments in 2001 edition](https://harrypotter.fandom.com/wiki/Fantastic_Beasts_and_Where_to_Find_Them_(companion_book)#Comments_in_the_2001_edition) are available [on the internet](https://imgur.com/a/C2a1g). The trickiest part was the "this book belongs to" page, which is missing from the newer edition. I ended up creating a faux-library card for that instead.
+Since it didn't have the hand-lettering, I took it upon myself to fix that mistake. Thankfully, lists of [all the comments in 2001 edition](https://harrypotter.fandom.com/wiki/Fantastic_Beasts_and_Where_to_Find_Them_(companion_book)#Comments_in_the_2001_edition) are available [on the internet](https://imgur.com/a/C2a1g). The trickiest part was the "this book belongs to" page, which is missing from the newer edition. I ended up creating a faux-library card for that instead.
 
 Here is what it looks like:
 
@@ -78,4 +78,4 @@ Thanks to [Bhavya][bhavya] for helping with the troll illustration.
 [boxset]: https://amzn.to/39ni3vh
 [bhavya]: https://instagram.com/avyadraws/
 
-[^1]: I didn't like the new editions, they sound less like a textbook and more like a transcript of what happened in the film.
+[^1]: I didn't like the new additions, they sound less like a textbook and more like a transcript of what happened in the film.
