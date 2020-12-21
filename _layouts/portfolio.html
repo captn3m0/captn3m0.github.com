@@ -25,7 +25,7 @@ layout: default
 <script src="/js/geopattern.min.js"></script>
 <script>
   var patterns = ['octogons', 'plusSigns', 'xes', 'squares', 'nestedSquares', 'concentricCircles']
-  projects = document.getElementsByClassName('project');
+  projects = [...document.getElementsByClassName('project')];
   for(var i in projects){
     var project = projects[i];
     var pattern = GeoPattern.generate(project.getAttribute('data-title'), {
