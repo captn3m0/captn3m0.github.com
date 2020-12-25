@@ -35,7 +35,6 @@ Games You Should Never Play
 
 Then what is the reason that they are so hyped, and most played MMORPGs? The reason is lack of better games. Lack of games that exist on facebook and is not-another-clone-of-mafia-wars. Lack of games that adhere to strict design ideas. Do not take me wrong. There are some serious game designers who are talented, but the truth is that they are forced to make what sells, and what sells is Mafia Wars. Unfortunately. And these people are forced to work for such games. Wasting their talent on such mindless games. And if all of this wasn't enough read this quote by the CEO of Mafia Wars :
 
-
 >I knew that i wanted to control my destiny, so I knew I needed revenues, right, fucking, now. Like I needed revenues now. So I funded the company myself but I did every horrible thing in the book to, just to get revenues right away. I mean we gave our users poker chips if they downloaded this zwinky toolbar which was like, I dont know, I downloaded it once and couldn't get rid of it. *laughs* We did anything possible just to just get revenues so that we could grow and be a real business...So control your destiny. So that was a big lesson, controlling your business. So by the time we raised money we were profitable.
 
-Read the entire story on facebook gaming scams [here](http://consumerist.com/5400720/mafia-wars-ceo-brags-about-scamming-users-from-day-one). And if you're with me, try picking up some better titles instead of playing these nonsense games on FB
+Read the entire story on facebook gaming scams [here](https://consumerist.com/2009/11/09/mafia-wars-ceo-brags-about-scamming-users-from-day-one/). And if you're with me, try picking up some better titles instead of playing these nonsense games on FB
