@@ -23,7 +23,7 @@ Most of my work is done on my [Intel NUC (7th Gen, i7)][nuc]. My work laptop is 
 
 My primary phone is a [iPhone SE][se]. I use an old Moto Z Play as my secondary phone for my work. I backup all of my media to my home server (NextCloud). Other than this, I own a [Kindle Paperwhite][pw3]. For my music, I have a pair of [Jaybird X3][jaybird], alongside the noise-cancelling [Sennheiser HD 4.50][btnc].
 
-I own a [Leopold FC660C][fc660c] keyboard (Topre switches) which I use at work (quieter). My keyboard at home is a [Cooler Master QuickFire Rapid-i][quickfire] mechanical keyboard (Cherry MX Brown). I have a [dual][curved]-[monitor][lguw] setup at home ~~and a Dell Ultrasharp at work~~. I am an ocassional gamer and use the [Logitech G300s][g300s] at both work and office (its [heavily customizable][ratslap]). I also have a [Steam Controller][steamcontroller] and a few more [fancy][airmouse] [keyboards][riitech] for my HTPC.
+I own a [Leopold FC660C][fc660c] keyboard (Topre switches) which I use at work (quieter). My keyboard at home is a [Cooler Master QuickFire Rapid-i][quickfire] mechanical keyboard (Cherry MX Brown). I have a [dual][curved]-[monitor][lguw] setup at home ~~and a Dell Ultrasharp at work~~. I am an ocassional gamer and use the [Logitech G300s][g300s] at both work and office (its [heavily customizable][piper]). I also have a [Steam Controller][steamcontroller] and a few more [fancy][airmouse] [keyboards][riitech] for my HTPC.
 
 At home, I have a Raspberry Pi 4 and a PC/HomeServer, which runs lots of tiny services, which are proxied over to the internet with a Digital Ocean droplet in the `BLR1` region. I wrote about it in [detail][homeserver]. The Pi is used for few Kubernetes experiments.
 
@@ -99,7 +99,7 @@ If we're talking super-crazy, I'd love to have a thought-dictation feature. That
 [pw3]: https://en.wikipedia.org/wiki/Amazon_Kindle#Kindle_Paperwhite_(3rd_generation) 'Paperwhite 3rd Generation'
 [se]: https://support.apple.com/kb/SP738?locale=en_US 'iPhone SE - The Best Phone Apple ever made'
 [jaybird]: https://www.amazon.com/Jaybird-Wireless-Bluetooth-Sports-Headphones/dp/B01M7NCT5O
-[ratslap]: https://github.com/krayon/ratslap/ 'RatSlap: Linux configuration tool for Logitech G300S'
+[piper]: https://github.com/libratbag/piper 'GTK application to configure gaming devices '
 [curved]: https://www.amazon.in/Samsung-23-5-inch-Curved-Monitor/dp/B01GFPGHSM/ "Samsung's 23.5 Inch Curved Monitor"
 [btnc]: https://en-uk.sennheiser.com/wireless-headphones-bluetooth-noise-cancelling-hd-4-50-btnc "Sennheiser Wireless Headphones Noise Cancelling (HD-4.5BTNC)"
 [nuc]: https://www.intel.in/content/www/in/en/products/boards-kits/nuc/kits/nuc8i7beh.html "Very pricey, but totally worth it"
