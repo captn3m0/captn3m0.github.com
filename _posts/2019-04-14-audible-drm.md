@@ -6,7 +6,7 @@ tags:
     - audible
 ---
 
-Self-Guide for stripping the Audible DRM, in similar vain as my [Kindle Self-Guide](/blog/2019/03/26/kindle-self-guide/).
+Self-Guide for stripping the Audible DRM, in similar vein as my [Kindle Self-Guide](/blog/2019/03/26/kindle-self-guide/).
 
 1. Download the aax file from Audible website.
 2. Run the inAudible-NG Rainbrow crack table against the AAX file.
