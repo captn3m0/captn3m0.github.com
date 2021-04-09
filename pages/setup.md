@@ -53,7 +53,7 @@ Most of my work is done in editors, command line, and the browser. A few essenti
 
 I am a [Hacker News][hn] addict, and have even [written an application][hackertray] for it. Most used webapps would be: Slack, GitHub. I use [Gonic][gonic]/[play:sub][playsub] for listening to music on the go, and Clementine on the desktop. My security setup (passwords/2FA etc) is documented [here][security].
 
-I run lots of tiny services on my homeserver, including [Gitea][gitea], OpenVPN, Emby, and Grafana. I have my Kindle jailbroken and run [KOReader][koreader] that lets me read EPUBs.
+I run lots of tiny services on my homeserver, including [Gitea][gitea], OpenVPN, Emby, and Grafana. I have my Kindle jailbroken and run [KOReader][koreader] that lets me read EPUBs. I also run [Home Assistant](https://www.home-assistant.io/) for some basic privacy-friendly home automation.
 
 ## What would be my dream setup?
 
