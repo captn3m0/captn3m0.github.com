@@ -173,7 +173,6 @@ Package|Upstream|Votes
 -------|-----|------
 [`signal-desktop-beta-bin`](https://aur.archlinux.org/packages/signal-desktop-beta-bin/)|https://github.com/WhisperSystems/Signal-Desktop|15
 [`koreader-appimage`](https://aur.archlinux.org/packages/koreader-appimage/)|<http://koreader.rocks/>|7
-[`screen-desktop-bin`](https://aur.archlinux.org/packages/screen-desktop-bin/)|https://screen.so/|3
 [`karn`](https://aur.archlinux.org/packages/karn/)|<https://github.com/prydonius/karn>|2
 [`shubhcron`](https://aur.archlinux.org/packages/shubhcron/)|<https://razorpay.com/shubhcron/>|
 [`elibsrv`](https://aur.archlinux.org/packages/elibsrv/)|<http://elibsrv.sourceforge.net/>|
