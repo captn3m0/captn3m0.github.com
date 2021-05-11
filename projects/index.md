@@ -54,6 +54,9 @@ All the projects below are under a FOSS license (mostly MIT). This page does not
 [foreteller-dl][foreteller]
 : **Apr 2021** A reverse-engineered implementation of the Foreteller Games application to download media files without running the app.
 
+[Electoral Bond Marketplace][ebm]
+: **Apr 2021** An April fool's joke on India's opaque Electoral Bond instruments and how they can be used for money laundering. I wrote a [twitter thread explaining it all](https://twitter.com/captn3m0/status/1377603135078735877).
+
 [EBook: Never say you can't survive](https://github.com/captn3m0/never-say-you-cant-survive)
 : **Oct 2020**  Script to generate an ebook for "Never Say You Can't Survive" - upcoming book by Charlie Jane Anders.
 
@@ -219,3 +222,4 @@ You might wanna take a look at my [github account](https://github.com/captn3m0) 
 [tld]: https://github.com/captn3m0/tld-a-record
 [muse]: https://github.com/captn3m0/muse-dl
 [foreteller]: https://github.com/captn3m0/foreteller-dl
+[ebm]: https://buy-sell-electoral-bonds.carrd.co/
