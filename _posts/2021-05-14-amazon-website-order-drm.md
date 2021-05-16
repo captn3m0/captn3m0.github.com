@@ -45,4 +45,13 @@ So if you're trying to scrape Amazon and stumped at the missing order history in
 
 Amazon also sets a cookie `csd-key=disabled` but I didn't experiment with that much.
 
+### Request My Data
+
+Another alternative to scraping is to request [Amazon for your data](https://amazon.com/gp/privacycentral/dsar/preview.html). Check the `Retail.OrderHistory` CSV files in the data export. The export from `amazon.com` includes data for other countries as well. The feature is also available on other Amazon sites:
+
+- [Amazon US - Request My Data](https://www.amazon.com/gp/privacycentral/dsar/preview.html)
+- [Amazon India - Request My Data](https://www.amazon.in/gp/privacycentral/dsar/preview.html)
+- [Amazon UK - Request My Data](https://www.amazon.co.uk/gp/privacycentral/dsar/preview.html)
+- [Amazon Germany - Request My Data](https://www.amazon.de/gp/privacycentral/dsar/preview.html)
+
 [^1]: I'm hesitant to call this <a href="https://www.defectivebydesign.org/"><abbr title="Digital Restrictions Management">DRM</abbr></a>, but it might qualify as such.
