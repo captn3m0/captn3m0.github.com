@@ -64,10 +64,13 @@ All the projects below are under a FOSS license (mostly MIT). This page does not
 : **Sep 2020** A proxy for security researchers outside India to access Indian government websites without resorting to shady VPNs.
 
 [boardgame-research](https://github.com/captn3m0/boardgame-research)
-: **July 2020** A list of research content on modern boardgames - such as Catan, Risk, Uno, Mafia, Hanabi, and more.
+: **July 2020-** A list of research content on modern boardgames - such as Catan, Risk, Uno, Mafia, Hanabi, and more.
 
 [modernart](https://github.com/captn3m0/modernart)
 : **June 2020** A MiniZinc (constraint programming language) based attempt to solve the Modern Art: Masters Gallery game. Partial implementation - not all game rules are implemented.
+
+[suntime](https://github.com/captn3m0/suntime)
+: **May 2020** [Crystal](https://crystal-lang.org/) library for calculating sunrise and sunset times for Earth.
 
 [ickabog-ebook](https://github.com/captn3m0/ickabog-ebook)
 : **May 2019** Generates ebooks for The Ickabog by J.K Rowling. Uses original text from <https://www.theickabog.com/>, falling back to the Web Archive where needed. Supports all 9 languages.
@@ -94,7 +97,7 @@ All the projects below are under a FOSS license (mostly MIT). This page does not
 : **Dec 2019** Communications guide for network shutdowns. [@prtksxna](https://twitter.com/prtksxna) did most of the work.
 
 [terraform-data-looker-ips](https://github.com/captn3m0/terraform-data-looker-ips)
-: **Oct 2019** A terraform package that keeps track of various IP addresses used by Looker. Can be used to easily create firewall configurations.
+: **Oct 2019-** A terraform package that keeps track of various IP addresses used by Looker. Can be used to easily create firewall configurations.
 
 [outliner][outliner]
 : **August 2019** A simple Ruby Client for the [Outline](https://www.getoutline.com/) knowledge base with easy-to-use export and import functionality.
