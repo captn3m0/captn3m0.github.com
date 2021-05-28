@@ -80,6 +80,9 @@ I only provide the scripts for the generation on GitHub. If you'd like a copy wi
 
 To help me in these various projects, I've ended up some tooling:
 
+[pystitcher][pystitcher]
+: pystitcher stitches your PDF files together, generating nice customizable bookmarks for you using a declarative markdown file as input.
+
 [muse-dl][muse]
 : Wrote a crystal app to support downloading and stitching of books from [Project MUSE](https://muse.jhu.edu/). Project MUSE is a leading provider of digital humanities and social science content for the scholarly community around the world, run by the Johns Hopkins University. This generates well-polished PDFs with proper metadata.
 
@@ -144,3 +147,4 @@ As a side-effect, I often get into the rabbit hole of generating the perfect EPU
 
 [minerva]: https://github.com/captn3m0/Minerva
 [what-to-read]: https://github.com/captn3m0/what-to-read/
+[pystitcher]: https://github.com/captn3m0/pystitcher
