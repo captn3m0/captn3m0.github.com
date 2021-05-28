@@ -54,6 +54,9 @@ All the projects below are under a FOSS license (mostly MIT). This page does not
 [pystitcher][pystitcher]
 : **May 2021** Sitches your PDF files together, with customizable bookmarks using a markdown file to declare the PDF structure.
 
+[kuvera-docs][kuvera]
+: **May 2021** An unofficial specification for the [Kuvera](https://kuvera.in) API. Kuvera is a YC-funded wealth-management startup in India, and the API provides daily finance data around Mutual Funds, Cryptocurrencies, Fixed Deposit rates, Gold rates and more. Documented using [Stoplight Studio](https://stoplight.io/studio/) and hosted on [Stoplight](https://stoplight.io/documentation/). Uses OpenAPI, so code generation is possible, but not well-tested.
+
 [foreteller-dl][foreteller]
 : **Apr 2021** A reverse-engineered implementation of the Foreteller Games application to download media files without running the app.
 
@@ -230,3 +233,4 @@ You might wanna take a look at my [github account](https://github.com/captn3m0) 
 [foreteller]: https://github.com/captn3m0/foreteller-dl
 [ebm]: https://buy-sell-electoral-bonds.carrd.co/
 [pystitcher]: https://github.com/captn3m0/pystitcher
+[kuvera]: https://stoplight.captnemo.in/docs/kuvera/
