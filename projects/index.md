@@ -51,6 +51,9 @@ projects:
 
 All the projects below are under a FOSS license (mostly MIT). This page does not include contributions to other projects.
 
+[pystitcher][pystitcher]
+: **May 2021** Sitches your PDF files together, with customizable bookmarks using a markdown file to declare the PDF structure.
+
 [foreteller-dl][foreteller]
 : **Apr 2021** A reverse-engineered implementation of the Foreteller Games application to download media files without running the app.
 
@@ -226,3 +229,4 @@ You might wanna take a look at my [github account](https://github.com/captn3m0) 
 [muse]: https://github.com/captn3m0/muse-dl
 [foreteller]: https://github.com/captn3m0/foreteller-dl
 [ebm]: https://buy-sell-electoral-bonds.carrd.co/
+[pystitcher]: https://github.com/captn3m0/pystitcher
