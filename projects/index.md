@@ -51,6 +51,9 @@ projects:
 
 All the projects below are under a FOSS license (mostly MIT). This page does not include contributions to other projects.
 
+[youtube-cue][ytcue]
+: **May 2021** Helps you tag music compilations from youtube by generating a Cue sheet.
+
 [pystitcher][pystitcher]
 : **May 2021** Sitches your PDF files together, with customizable bookmarks using a markdown file to declare the PDF structure.
 
@@ -128,12 +131,6 @@ All the projects below are under a FOSS license (mostly MIT). This page does not
 
 [Sushi Go][sushigo]
 : **Summer 2017** This is a work-in-progress conversion of Sushi Go (original), the popular card game by Gamewright into Ruby.
-
-<!--
-This still doesn't work yet
-[youtube-ripper][ytripper]
-: **June 2017** Downloads music-compilations from YouTube and rips them into multiple tagged MP3 files. Still WIP.
--->
 
 [cosmere-books][cosmere]
 : **September 2017** Wrote a EPUB generator for multiple books in the Cosmere. Currently covers 10 different books or serializations of some sort, mostly at Tor.com. See a list of all my ebooks projects at [/ebooks/](/ebooks/)
@@ -216,7 +213,7 @@ You might wanna take a look at my [github account](https://github.com/captn3m0) 
 [spectrumyzer]: /blog/2017/05/01/spectrumyzer-visualization/
 [ideas]: https://github.com/captn3m0/ideas
 [sushigo]: https://github.com/captn3m0/sushigo
-[ytripper]: https://github.com/captn3m0/youtube-ripper
+[ytcue]: https://github.com/captn3m0/youtube-cue
 [kayak]: https://github.com/captn3m0/terraform-docker-kayak
 [doh]: https://captnemo.in/doh/
 [eoldate]: https://endoflife.date/
