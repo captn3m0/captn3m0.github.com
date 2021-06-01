@@ -58,16 +58,16 @@ All the projects below are under a FOSS license (mostly MIT). This page does not
 : **May 2021** Sitches your PDF files together, with customizable bookmarks using a markdown file to declare the PDF structure.
 
 [kuvera-docs][kuvera]
-: **May 2021** An unofficial specification for the [Kuvera](https://kuvera.in) API. Kuvera is a YC-funded wealth-management startup in India, and the API provides daily finance data around Mutual Funds, Cryptocurrencies, Fixed Deposit rates, Gold rates and more. Documented using [Stoplight Studio](https://stoplight.io/studio/) and hosted on [Stoplight](https://stoplight.io/documentation/). Uses OpenAPI, so code generation is possible, but not well-tested.
+: **May 2021** An unofficial specification for the [Kuvera](https://kuvera.in) API.
 
 [foreteller-dl][foreteller]
-: **Apr 2021** A reverse-engineered implementation of the Foreteller Games application to download media files without running the app.
+: **Apr 2021** A reverse-engineered implementation of the [Foreteller Games mobile app](https://www.foretellergames.com/).
 
 [Electoral Bond Marketplace][ebm]
-: **Apr 2021** An April fool's joke on India's opaque Electoral Bond instruments and how they can be used for money laundering. I wrote a [twitter thread explaining it all](https://twitter.com/captn3m0/status/1377603135078735877).
+: **Apr 2021** An April fool's joke on India's opaque Electoral Bond instruments and [how they can be used for money laundering](https://twitter.com/captn3m0/status/1377603135078735877)
 
 [EBook: Never say you can't survive](https://github.com/captn3m0/never-say-you-cant-survive)
-: **Oct 2020**  Script to generate an ebook for "Never Say You Can't Survive" - upcoming book by Charlie Jane Anders.
+: **Oct 2020**  Script to generate an ebook for ["Never Say You Can't Survive"](https://www.indiebound.org/book/9781250800015 "a nonfiction manual about writing and life…") - upcoming book by Charlie Jane Anders.
 
 [sanskari-proxy](https://github.com/captn3m0/sanskari-proxy)
 : **Sep 2020** A proxy for security researchers outside India to access Indian government websites without resorting to shady VPNs.
@@ -76,7 +76,7 @@ All the projects below are under a FOSS license (mostly MIT). This page does not
 : **July 2020-** A list of research content on modern boardgames - such as Catan, Risk, Uno, Mafia, Hanabi, and more.
 
 [modernart](https://github.com/captn3m0/modernart)
-: **June 2020** A MiniZinc (constraint programming language) based attempt to solve the Modern Art: Masters Gallery game. Partial implementation - not all game rules are implemented.
+: **June 2020** A [MiniZinc](https://www.minizinc.org/ "free and open-source constraint modeling language") based attempt to solve the Modern Art: Masters Gallery game.
 
 [suntime](https://github.com/captn3m0/suntime)
 : **May 2020** [Crystal](https://crystal-lang.org/) library for calculating sunrise and sunset times for Earth.
@@ -85,22 +85,22 @@ All the projects below are under a FOSS license (mostly MIT). This page does not
 : **May 2019** Generates ebooks for The Ickabog by J.K Rowling. Uses original text from <https://www.theickabog.com/>, falling back to the Web Archive where needed. Supports all 9 languages.
 
 [okiya](https://github.com/captn3m0/okiya)
-: **April 2020** A simple [`boardgame.io`](https://boardgame.io) based implementation of the Okiya boardgame. It's a perfect information 2-player game that plays like Tic-Tac-Toe with Tile-matching. I plan to submit this to [freeboardgames.org](https://freeboardgames.org) soon.
+: **April 2020** A [`boardgame.io`](https://boardgame.io) implementation of the [Okiya boardgame](https://blueorangegames.eu/en/games/okiya/).
 
 [muse-dl][muse]
-: **March 2020** Wrote a crystal app to support downloading and stitching of books from [Project MUSE](https://muse.jhu.edu/). Project MUSE is a leading provider of digital humanities and social science content for the scholarly community around the world, run by the Johns Hopkins University. This generates well-polished PDFs with proper metadata.
+: **March 2020** A crystal command line application to support downloading and stitching of books from [Project MUSE](https://muse.jhu.edu/ "Project MUSE is a leading provider of digital humanities and social science content for the scholarly community around the world.")
 
 [epub-metadata-generator][emg]
-: **Feb 2020** Generates a metadata.xml file for an EPUB from various online sources, can be used with pandoc.
+: **Feb 2020** Generates a `metadata.xml` file for an EPUB from various online sources, can be used with [pandoc](https://pandoc.org/ "a universal document converter").
 
 [security-engineering-ebook](https://github.com/captn3m0/security-engineering-ebook)
 : **Feb 2020** A script to generate a combined PDF of the Security Engineering Book (Ross Anderson) using the chapters available for review.
 
 [pincode-validator][pincode]
-: **Feb 2020** A regex based validator for Postal Index Numbers in India. Packages available for JS/PHP/Python/Ruby
+: **Feb 2020** A regex based validator for Postal Index Numbers in India in various languages.
 
 [url-to-epub][url-to-epub]
-: **Jan 2020** A simple zero-config script that generates a standards-compliant EPUB from a webpage. Zero config. Requires pandoc
+: **Jan 2020** A simple zero-config script that generates a standards-compliant EPUB from a webpage.
 
 [sarkar.icu][sarkar.icu]
 : **Dec 2019** Communications guide for network shutdowns. [@prtksxna](https://twitter.com/prtksxna) did most of the work.
