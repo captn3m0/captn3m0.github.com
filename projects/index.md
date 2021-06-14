@@ -51,6 +51,15 @@ projects:
 
 All the projects below are under a FOSS license (mostly MIT). This page does not include contributions to other projects.
 
+[isin-data][isin]
+: **June 2021** International Securities Identification Numbers for various Indian Securities 
+
+[simpl-docs][simpl]
+: **June 2021** An unofficial specification for the [simpl](https://getsimpl.com) API.
+
+[plaintext-everything][plaintext]
+: **June 2021 - Ongoing** A list of tools and articles helpful for keeping everything under plaintext. 
+
 [youtube-cue][ytcue]
 : **May 2021** Helps you tag music compilations from youtube by generating a Cue sheet.
 
@@ -231,3 +240,5 @@ You might wanna take a look at my [github account](https://github.com/captn3m0) 
 [ebm]: https://buy-sell-electoral-bonds.carrd.co/
 [pystitcher]: https://github.com/captn3m0/pystitcher
 [kuvera]: https://stoplight.captnemo.in/docs/kuvera/
+[simpl]: https://stoplight.captnemo.in/docs/simpl/
+[isin]: https://github.com/captn3m0/india-isin-data
