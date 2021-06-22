@@ -13,7 +13,7 @@ Here's a list of the interesting books I've covered:
 ## Non Fiction
 
 [Never Say You Can’t Survive][nsycs] [[source][nsycs-source]]
-: Ebook generated from Never Say You Can’t Survive, by Charlie Jane Anders. Being serialized at tor.com, currently in progress.
+: Ebook generated from Never Say You Can’t Survive, by Charlie Jane Anders. Originally serialized at Tor.com.
 
 [Site Reliability Engineering][sre] [[source][sre-source]]
 : Google's book on Site Reliability Engineering. Published by Google as a online read under CC BY-NC-ND 4.0
