@@ -170,7 +170,7 @@ All the projects below are under a FOSS license (mostly MIT). This page does not
 
 ## Packages
 
-I maintain a few packages on the ArchLinux user repository.
+I maintain a few packages on the [ArchLinux User Repository](https://aur.archlinux.org/packages/?SeB=m&K=captn3m0 "List to packages maintained by me on AUR").
 
 Package|Upstream|Votes
 -------|-----|------

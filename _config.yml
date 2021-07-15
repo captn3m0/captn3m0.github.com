@@ -1,12 +1,12 @@
 encoding: utf-8
-# Workaround for permalinks becoming global in jekyll 3
 collections:
   posts:
     output: true
     permalink: /blog/:year/:month/:day/:title/
 author:
   name: Abhay Rana
-  url: https://about.me/n3m0
+  url: https://github.com/captn3m0
+# This exists because SEO
 title: Abhay Rana
 tagline: aka Nemo
 description: |
@@ -20,7 +20,6 @@ paginate_path: "/page/:num/"
 plugins:
   - jekyll-paginate
   - jemoji
-# Sass settings
 sass:
     sass_dir: _scss
     style: :compressed
