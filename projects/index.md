@@ -36,6 +36,9 @@ projects:
 
 All the projects below are under a FOSS license (mostly MIT). This page does not include contributions to other projects. Most projects are still maintained, unless stated otherwise. 
 
+[electron-fingerprints][efp] <small>#nodejs #php</small>
+: **July 2021** Fingerprints of electron releases that can be used to guess electron version of applications.
+
 [simpl-docs][simpl] <small>#openapi #reverse-engineering</small>
 : **June 2021** An unofficial specification for the [simpl](https://getsimpl.com) API.
 
@@ -228,3 +231,4 @@ You might wanna take a look at my [github](https://github.com/captn3m0), [NPM](h
 [simpl]: https://stoplight.captnemo.in/docs/simpl/
 [isin]: https://github.com/captn3m0/india-isin-data
 [plaintext]: https://github.com/captn3m0/plaintext-everything
+[efp]: https://github.com/captn3m0/electron-fingerprints
